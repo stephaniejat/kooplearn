@@ -1,14 +1,17 @@
 <p align="center">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="logo-dark.png">
-      <source media="(prefers-color-scheme: light)" srcset="logo-light.png">
-      <img alt="kooplearn logo" width="60%" src="logo-light.png">
+      <source media="(prefers-color-scheme: dark)" srcset="docs/_static/logo-dark.png">
+      <source media="(prefers-color-scheme: light)" srcset="docs/_static/logo-light.png">
+      <img alt="kooplearn logo" width="60%" src="docs/_static/logo-light.png">
     </picture>
 </p>
 
-<a href="https://kooplearn.readthedocs.io/latest/"><img alt="Static Badge" src="https://img.shields.io/badge/Documentation-informational"></a>
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/Machine-Learning-Dynamical-Systems/kooplearn/CI.yml)
-![GitHub License](https://img.shields.io/github/license/Machine-Learning-Dynamical-Systems/kooplearn)
+[![Docs](https://readthedocs.org/projects/kooplearn/badge/?version=latest)](https://kooplearn.readthedocs.io/latest/)
+[![CI](https://github.com/Machine-Learning-Dynamical-Systems/kooplearn/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/Machine-Learning-Dynamical-Systems/kooplearn/actions/workflows/CI.yml)
+[![codecov](https://codecov.io/gh/Machine-Learning-Dynamical-Systems/kooplearn/graph/badge.svg?branch=main)](https://codecov.io/gh/Machine-Learning-Dynamical-Systems/kooplearn)
+[![PyPI version](https://img.shields.io/pypi/v/kooplearn.svg)](https://pypi.org/project/kooplearn/)
+[![Python versions](https://img.shields.io/pypi/pyversions/kooplearn.svg)](https://pypi.org/project/kooplearn/)
+[![License](https://img.shields.io/github/license/Machine-Learning-Dynamical-Systems/kooplearn)](LICENSE)
 
 
 `kooplearn` is a Python library to learn evolution operators —  also known as _Koopman_ or _Transfer_ operators — from data. `kooplearn` models can:
@@ -64,19 +67,40 @@ uv add "kooplearn[torch]"
 uv add "kooplearn[jax]"
 ```
 
+### From source
+
+For development, clone the repository and install the package with all optional extras and dependency groups:
+
+```bash
+git clone https://github.com/Machine-Learning-Dynamical-Systems/kooplearn.git
+cd kooplearn
+uv sync --all-extras --all-groups
+```
+
+With `pip>=25.1`, the equivalent editable install is:
+
+```bash
+python -m pip install -U pip
+python -m pip install -e ".[torch,jax]" --group dev --group docs --group examples
+```
+
+## Testing
+
+Run the default test suite from the repository root with:
+
+```bash
+uv run pytest
+```
+
+After installing with `pip`, use:
+
+```bash
+python -m pytest
+```
+
 ## Contributing
 
-We welcome contributions from the community! If you're interested in contributing to `kooplearn`, please follow these steps:
-
-1. Fork the repository on GitHub.
-2. Clone your forked repository to your local machine.
-3. Create a new branch for your feature or bug fix: `git checkout -b feature/your-feature-name` or `git checkout -b bugfix/issue-number`.
-4. Make your changes and commit them with descriptive commit messages.
-5. Push your changes to your forked repository.
-6. Create a pull request from your branch to the `main` branch of the original repository.
-7. Provide a clear title and description for your pull request, including any relevant information about the changes you've made.
-
-We appreciate your contributions and will review your pull request as soon as possible. Thank you for helping improve `kooplearn`!
+We welcome contributions from the community. See [CONTRIBUTING.md](CONTRIBUTING.md) for development setup, testing, issue reports, and pull request guidance.
 
 ## License
 
@@ -90,7 +114,7 @@ This project is licensed under the [MIT License](LICENSE).
    - Giacomo Meanti
    - Erfan Mirzaei
    - Pietro Novelli
-   - Daniel Ordonez
+   - Daniel Ordoñez-Apraez
    - Grégoire Pacreau
    - Massimiliano Pontil
    - Giacomo Turri
@@ -101,8 +125,8 @@ The mantainer of this repo is Pietro Novelli.
 
 ```bibtex
 @article{kooplearn,
-title={kooplearn: A Scikit-Learn Compatible Library of Algorithms for Evolution Operator Learning}, 
-author={Giacomo Turri and Grégoire Pacreau and Giacomo Meanti and Timothée Devergne and Daniel Ordonez and Erfan Mirzaei and Bruno Belucci and Karim Lounici and Vladimir R. Kostic and Massimiliano Pontil and Pietro Novelli},
+title={kooplearn: A scikit-learn compatible library of algorithms for evolution operator learning},
+author={Giacomo Turri and Grégoire Pacreau and Giacomo Meanti and Timothée Devergne and Daniel Ordoñez-Apraez and Erfan Mirzaei and Bruno Belucci and Karim Lounici and Vladimir R. Kostic and Massimiliano Pontil and Pietro Novelli},
 year={2026},
 eprint={2512.21409},
 archivePrefix={arXiv},
@@ -114,4 +138,3 @@ url={https://arxiv.org/abs/2512.21409},
 ---
 
 We hope you find `kooplearn` useful for your dynamical systems analysis. If you encounter any issues or have suggestions for improvements, please don't hesitate to [raise an issue](https://github.com/Machine-Learning-Dynamical-Systems/kooplearn/issues). Happy coding!
-
