@@ -44,18 +44,25 @@ authors:
 affiliations:
  - name: Computational Statistics and Machine Learning, Italian Institute of Technology, Genoa, Italy
    index: 1
+   ror: "042t93s57"
  - name: Centre de Mathématiques Appliquées, École Polytechnique, Palaiseau, France
    index: 2
+   ror: "05hy3tk52 "
  - name: Centre Inria de l’Université Grenoble Alpes, Montbonnot, France
    index: 3
+   ror: "00n8d6z93"
  - name: Atomistic Simulations, Italian Institute of Technology, Genoa, Italy
    index: 4
+   ror: "042t93s57"
  - name: Paris Dauphine University, Paris, France
    index: 5
+   ror: "052bz7812"
  - name: Department of Mathematics and Informatics, Faculty of Science, University of Novi Sad, Novi Sad, Serbia
    index: 6
+   ror: "00xa57a59"
  - name: AI Centre, Department of Computer Science, University College London, London, UK
    index: 7
+   ror: "02jx3x895"
 date: 9 January 2026
 bibliography: paper.bib
 ---
