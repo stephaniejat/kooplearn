@@ -79,7 +79,7 @@ Notice that $\mathsf{E}$ is an operator because it maps any function $f$ to anot
 
 Evolution operator learning is best understood from the perspective of *latent linear dynamical models*, as schematically depicted in \autoref{fig:evop_scheme}. In this framework, the dynamical state $x_t$ is first mapped into a latent space defined by a (fixed or learned) representation $\varphi$. Then, a *linear evolution* map $E$ is learned to approximate the dynamics of the latents. The pair $(\varphi, E)$ provides an approximation of $\mathsf{E}$ restricted to the $d$-dimensional subspace spanned by the components of $\varphi$, given the data. `kooplearn` implements methods to learn $\varphi$, $E$, and the associated spectral decomposition of $\mathsf{E}$. 
 
-![Sketch of the action of an evolution operator on a protein folding trajectory. The dynamics of the protein are linearized by means of a nonlinear representation $\varphi$ and subsequently evolved by means of the linear map $E$.\label{fig:evop_scheme}](Fig1.png){ width=90% }
+![Sketch of the action of an evolution operator on a protein folding trajectory. The dynamics of the protein are linearized by means of a nonlinear representation $\varphi$ and subsequently evolved by means of the linear map $E$.\label{fig:evop_scheme}](Fig1.pdf){ width=90% }
 
 # State of the Field
 
@@ -89,9 +89,9 @@ The ecosystem of Python libraries that support operator-based modeling has grown
 
 `kooplearn` implements algorithms for learning evolution operators when the representation $\varphi$ is fixed. The library offers estimators in both their linear and kernel formulations (see the `Ridge` and `KernelRidge` classes), which bridge the gap between recent theoretical advances [@kostic2022; @kostic2023; @kostic2024consistent; @kostic2024learning] and practical code implementations. A key model in `kooplearn` is the kernel-based *Reduced Rank Regression* [@kostic2022]. This estimator provably outperforms traditional methods [@williams2015_kdmd] in approximating the operator's spectrum [@kostic2023], as illustrated in \autoref{fig:eigfns_approximation}. To our knowledge, `kooplearn` provides the only open-source implementation of this algorithm. To handle large datasets, `kooplearn` also includes randomized [@turri2025randomized] and Nyström-based [@meanti2023] kernel estimators, which significantly speed up the fitting process, making it one of the fastest libraries for kernel-based operator learning, as shown in \autoref{fig:fast_kernel}.
 
-![Comparison between kernel DMD (kDMD) and Reduced Rank estimators. The Reduced Rank estimator provides a more accurate approximation of the leading eigenfunctions of the transfer operator for the overdamped Langevin dynamics.\label{fig:eigfns_approximation}](Fig2.png){ width=90% }
+![Comparison between kernel DMD (kDMD) and Reduced Rank estimators. The Reduced Rank estimator provides a more accurate approximation of the leading eigenfunctions of the transfer operator for the overdamped Langevin dynamics.\label{fig:eigfns_approximation}](Fig2.pdf){ width=90% }
 
-![Fit time of a kernel model (Gaussian kernel) on a dataset of 5000 observations from the Lorenz-63 dynamical system. The results are the median of three independent runs on a system equipped with an Intel Core i9-9900X CPU (3.50\ GHz) and 48\ GB of RAM.\label{fig:fast_kernel}](Fig3.png){ width=100% }
+![Fit time of a kernel model (Gaussian kernel) on a dataset of 5000 observations from the Lorenz-63 dynamical system. The results are the median of three independent runs on a system equipped with an Intel Core i9-9900X CPU (3.50\ GHz) and 48\ GB of RAM.\label{fig:fast_kernel}](Fig3.pdf){ width=100% }
 
 ## Learning the Representation $\varphi$
 
@@ -105,7 +105,7 @@ In continuous-time dynamics, the system's evolution operator can be expressed as
 
 To foster reproducibility and rigorous benchmarking, `kooplearn` includes a `kooplearn.datasets` module, containing utilities to easily generate trajectories for systems that range from deterministic chaos (e.g., *Lorenz-63*, *Duffing oscillator*, *Logistic Map*) to stochastic and metastable dynamics (e.g., *stochastic linear systems*, *regime-switching models*, *Langevin dynamics*). A distinguishing feature of the library is the inclusion of benchmarks with accessible ground-truth spectral decompositions—such as the *Noisy Logistic Map* [@ostruszka2000dynamical] and *Overdamped Langevin Dynamics* in a quadruple-well potential [@Prinz2011]. These allow users to quantify the accuracy of learned eigenvalues and eigenfunctions directly (as demonstrated in \autoref{fig:eigfns_approximation}). Finally, the suite includes the *Ordered MNIST* from @kostic2022 to evaluate performance on high-dimensional structured data. Examples of trajectories generated using the `kooplearn.datasets` module are illustrated in \autoref{fig:datasets}.
 
-![Samples from the datasets included in `kooplearn`.\label{fig:datasets}](Fig4.png){ width=100% }
+![Samples from the datasets included in `kooplearn`.\label{fig:datasets}](Fig4.pdf){ width=100% }
 
 # Software Design
 
