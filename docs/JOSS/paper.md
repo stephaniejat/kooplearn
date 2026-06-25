@@ -125,7 +125,7 @@ To further support the scientific community, `kooplearn` includes a `datasets` m
 
 # AI Usage Disclosure
 
-Generative AI tools were used only for minor auxiliary tasks, such as code refactoring and formatting, assistance with documentation and unit tests, and proofreading for typographical or grammatical errors in this manuscript. All scientific ideas, software design decisions, experiments, and interpretations were developed entirely by the authors, who verified all AI-generated content for accuracy.
+OpenAI Codex and ChatGPT (GPT-5 models) were used only for minor auxiliary tasks during the preparation of the software repository and manuscript, including code refactoring and formatting, assistance with documentation and unit tests, and proofreading for typographical or grammatical errors. All scientific ideas, software design decisions, experiments, analyses, and interpretations were developed by the authors. The authors reviewed and verified all AI-assisted changes and text before submission.
 
 # Acknowledgements
 
