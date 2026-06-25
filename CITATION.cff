@@ -1,0 +1,84 @@
+cff-version: "1.2.0"
+authors:
+- family-names: Turri
+  given-names: Giacomo
+  orcid: "https://orcid.org/0000-0002-3405-9292"
+- family-names: Pacreau
+  given-names: Grégoire
+- family-names: Meanti
+  given-names: Giacomo
+  orcid: "https://orcid.org/0000-0002-4633-2954"
+- family-names: Devergne
+  given-names: Timothée
+  orcid: "https://orcid.org/0000-0001-8369-237X"
+- family-names: Ordoñez-Apraez
+  given-names: Daniel
+  orcid: "https://orcid.org/0000-0002-9793-2482"
+- family-names: Mirzaei
+  given-names: Erfan
+  orcid: "https://orcid.org/0000-0001-8720-1558"
+- family-names: Belucci
+  given-names: Bruno
+- family-names: Lounici
+  given-names: Karim
+  orcid: "https://orcid.org/0000-0001-6806-6303"
+- family-names: Kostic
+  given-names: Vladimir R.
+  orcid: "https://orcid.org/0000-0002-2876-8834"
+- family-names: Pontil
+  given-names: Massimiliano
+  orcid: "https://orcid.org/0000-0001-9415-098X"
+- family-names: Novelli
+  given-names: Pietro
+  orcid: "https://orcid.org/0000-0003-1623-5659"
+doi: 10.5281/zenodo.20139775
+message: If you use this software, please cite our article in the
+  Journal of Open Source Software.
+preferred-citation:
+  authors:
+  - family-names: Turri
+    given-names: Giacomo
+    orcid: "https://orcid.org/0000-0002-3405-9292"
+  - family-names: Pacreau
+    given-names: Grégoire
+  - family-names: Meanti
+    given-names: Giacomo
+    orcid: "https://orcid.org/0000-0002-4633-2954"
+  - family-names: Devergne
+    given-names: Timothée
+    orcid: "https://orcid.org/0000-0001-8369-237X"
+  - family-names: Ordoñez-Apraez
+    given-names: Daniel
+    orcid: "https://orcid.org/0000-0002-9793-2482"
+  - family-names: Mirzaei
+    given-names: Erfan
+    orcid: "https://orcid.org/0000-0001-8720-1558"
+  - family-names: Belucci
+    given-names: Bruno
+  - family-names: Lounici
+    given-names: Karim
+    orcid: "https://orcid.org/0000-0001-6806-6303"
+  - family-names: Kostic
+    given-names: Vladimir R.
+    orcid: "https://orcid.org/0000-0002-2876-8834"
+  - family-names: Pontil
+    given-names: Massimiliano
+    orcid: "https://orcid.org/0000-0001-9415-098X"
+  - family-names: Novelli
+    given-names: Pietro
+    orcid: "https://orcid.org/0000-0003-1623-5659"
+  date-published: 2026-06-25
+  doi: 10.21105/joss.10342
+  issn: 2475-9066
+  issue: 122
+  journal: Journal of Open Source Software
+  publisher:
+    name: Open Journals
+  start: 10342
+  title: "kooplearn: A scikit-learn compatible library of algorithms for
+    evolution operator learning"
+  type: article
+  url: "https://joss.theoj.org/papers/10.21105/joss.10342"
+  volume: 11
+title: "kooplearn: A scikit-learn compatible library of algorithms for
+  evolution operator learning"

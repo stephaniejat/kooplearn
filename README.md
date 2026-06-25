@@ -126,12 +126,15 @@ The mantainer of this repo is Pietro Novelli.
 ```bibtex
 @article{kooplearn,
 title={kooplearn: A scikit-learn compatible library of algorithms for evolution operator learning},
-author={Giacomo Turri and Grégoire Pacreau and Giacomo Meanti and Timothée Devergne and Daniel Ordoñez-Apraez and Erfan Mirzaei and Bruno Belucci and Karim Lounici and Vladimir R. Kostic and Massimiliano Pontil and Pietro Novelli},
+author={Turri, Giacomo and Pacreau, Grégoire and Meanti, Giacomo and Devergne, Timothée and Ordoñez-Apraez, Daniel and Mirzaei, Erfan and Belucci, Bruno and Lounici, Karim and Kostic, Vladimir R. and Pontil, Massimiliano and Novelli, Pietro},
+doi={10.21105/joss.10342},
+url={https://doi.org/10.21105/joss.10342},
 year={2026},
-eprint={2512.21409},
-archivePrefix={arXiv},
-primaryClass={cs.LG},
-url={https://arxiv.org/abs/2512.21409}, 
+publisher={The Open Journal},
+volume={11},
+number={122},
+pages={10342},
+journal={Journal of Open Source Software},
 }
 ```
 
