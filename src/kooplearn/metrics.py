@@ -144,6 +144,7 @@ def operator_norm_error(true_operator: np.ndarray, estimated_operator: np.ndarra
 # 2.  Metric distortion
 # ──────────────────────────────────────────────────────────────────
 
+
 def metric_distortion(eigenfunction: np.ndarray, covariance: np.ndarray):
     r"""Metric distortion of a vector under the observation map.
 
@@ -227,6 +228,7 @@ def metric_distortion(eigenfunction: np.ndarray, covariance: np.ndarray):
 # ──────────────────────────────────────────────────────────────────
 # 3.  Spectral bias
 # ──────────────────────────────────────────────────────────────────
+
 
 def spectral_bias(metric_distortion: float, truncation: float):
     r"""Empirical spectral bias for a Koopman estimator.
