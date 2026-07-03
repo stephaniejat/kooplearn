@@ -233,10 +233,11 @@ def metric_distortion(eigenfunction: np.ndarray, covariance: np.ndarray):
 def spectral_bias(metric_distortion: float, truncation: float):
     r"""Empirical spectral bias for a Koopman estimator.
 
-    Computes the empirical spectral bias
+    Computes the empirical spectral bias s-hat-i from eq 18:
+    (generalised form here)
 
     .. math::
-        \mathrm{bs}_i(\widehat{G}_{r,\gamma})
+        \hat{s}_i(\widehat{G}_{r,\gamma})
         := \widehat{\eta}_i \, \rho_{r+1}(\widehat{G}_{r,\gamma}),
 
     where :math:`\widehat{\eta}_i` is the metric distortion and
@@ -255,7 +256,7 @@ def spectral_bias(metric_distortion: float, truncation: float):
     -------
     float
         The empirical spectral bias
-        :math:`\mathrm{bs}_i(\widehat{G}_{r,\gamma})`.
+        :math:`\hat{s}_i(\widehat{G}_{r,\gamma})`.
 
     Raises
     ------
@@ -270,7 +271,8 @@ def spectral_bias(metric_distortion: float, truncation: float):
     formulas of Kostic et al. (2023), one may take
 
     - :math:`\rho_{r+1}(\widehat{G}^{\mathrm{PCR}}_{r,\gamma})
-      = \sigma_{r+1}(\widehat{C})`,
+      = \sigma_{r+1}(\widehat{C})`, (i.e., truncation term is the (r+1)-st singular 
+      value of the empirical covariance,)
     - :math:`\rho_{r+1}(\widehat{G}^{\mathrm{RRR}}_{r,\gamma})
       = \sigma_{r+1}(\widehat{C}^{-1/2}\widehat{T})`.
 
