@@ -228,9 +228,46 @@ def metric_distortion(eigenfunction: np.ndarray, covariance: np.ndarray):
 # ──────────────────────────────────────────────────────────────────
 # 3.  Spectral bias
 # ──────────────────────────────────────────────────────────────────
+# Helpers for truncation term
+# ===========================
+def center_matrix(K):
+    n = K.shape[0]
+    H = np.eye(n) - np.ones((n, n)) / n
+    return H @ K @ H
 
 
-def spectral_bias(metric_distortion: float, truncation: float):
+# Get single values from Gram
+def gram_sv(model, X):
+    K = model.kernel(X, X) if callable(model.kernel) else None
+    if K is None:
+        raise ValueError("Need a callable kernel or precomputed Gram matrix.")
+    return np.linalg.svd(K, compute_uv=False)
+
+
+def pcr_truncation(K, r):
+    svals = np.linalg.svd(K, compute_uv=False)
+    return float(svals[r])
+
+
+def kdmd_truncation(K, r):
+    Kc = center_matrix(K)
+    svals = np.linalg.svd(Kc, compute_uv=False)
+    return float(svals[r])
+
+
+# from snapshot grams
+def rrr_truncation(Kx, Ky, Kxy, ridge=1e-10, r=0):
+    Kx = 0.5 * (Kx + Kx.T)
+    Ky = 0.5 * (Ky + Ky.T)
+    evals_x, Ux = np.linalg.eigh(Kx)
+    evals_x = np.clip(evals_x, ridge, None)
+    Kx_inv_sqrt = Ux @ np.diag(evals_x**-0.5) @ Ux.T
+    M = Kx_inv_sqrt @ Kxy
+    svals = np.linalg.svd(M, compute_uv=False)
+    return float(svals[r])
+
+
+def spectral_bias(eigenfunctions, covariance, truncation):
     r"""Empirical spectral bias for a Koopman estimator.
 
     Computes the empirical spectral bias s-hat-i from eq 18:
@@ -246,8 +283,10 @@ def spectral_bias(metric_distortion: float, truncation: float):
 
     Parameters
     ----------
-    metric_distortion : float
-        Empirical metric distortion :math:`\widehat{\eta}_i`.
+    eigenfunction : numpy.ndarray, shape (n_features,)
+        Empirical eigenfunction :math:`\widehat{\psi}_i`.
+    covariance : numpy.ndarray, shape (n_features, n_features)
+        Empirical covariance operator :math:`\widehat{C}` represented as a matrix.
     truncation : float
         Estimator-specific quantity
         :math:`\rho_{r+1}(\widehat{G}_{r,\gamma})`.
@@ -258,12 +297,6 @@ def spectral_bias(metric_distortion: float, truncation: float):
         The empirical spectral bias
         :math:`\hat{s}_i(\widehat{G}_{r,\gamma})`.
 
-    Raises
-    ------
-    ValueError
-        If ``metric_distortion`` is negative.
-    ValueError
-        If ``truncation`` is negative.
 
     Notes
     -----
@@ -271,7 +304,7 @@ def spectral_bias(metric_distortion: float, truncation: float):
     formulas of Kostic et al. (2023), one may take
 
     - :math:`\rho_{r+1}(\widehat{G}^{\mathrm{PCR}}_{r,\gamma})
-      = \sigma_{r+1}(\widehat{C})`, (i.e., truncation term is the (r+1)-st singular 
+      = \sigma_{r+1}(\widehat{C})`, (i.e., truncation term is the (r+1)-st singular
       value of the empirical covariance,)
     - :math:`\rho_{r+1}(\widehat{G}^{\mathrm{RRR}}_{r,\gamma})
       = \sigma_{r+1}(\widehat{C}^{-1/2}\widehat{T})`.
@@ -281,18 +314,20 @@ def spectral_bias(metric_distortion: float, truncation: float):
 
     .. code-block:: python
 
-        from kooplearn.metrics import spectral_bias
+        from kooplearn.metrics import spectral_bias, pcr_truncation, kdmd_truncation
 
-        eta_hat = 2.5
-        rho_hat = 0.1
-        spectral_bias(eta_hat, rho_hat)
+        values, functions = model.eig(eval_right_on=x)
+
+        K = model.kernel(X_train, X_train)   # if callable kernel
+        trunc_pcr = pcr_truncation(K, r)
+        trunc_kdmd = kdmd_truncation(K, r)
+
+        # For each eigenfunction:
+        bias_pcr = spectral_bias(functions, covariance=K, truncation=trunc_pcr)
+        bias_kdmd = spectral_bias(functions, covariance=K, truncation=trunc_kdmd)
     """
-    if metric_distortion < 0.0:
-        raise ValueError(f"metric_distortion must be non-negative, got {metric_distortion}.")
-    if truncation < 0.0:
-        raise ValueError(f"truncation must be non-negative, got {truncation}.")
-
-    return float(metric_distortion * truncation)
+    eta = metric_distortion(eigenfunctions, covariance)
+    return eta * truncation
 
 
 # ──────────────────────────────────────────────────────────────────
