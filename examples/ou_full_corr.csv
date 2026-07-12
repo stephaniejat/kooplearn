@@ -1,0 +1,7 @@
+kernel,kind,method,bias_gap_corr
+hermite,bad,PCR,1.931487166528668e-17
+hermite,bad,Reduced Rank,8.844221531404359e-18
+hermite,good,PCR,5.892250363473156e-18
+hermite,good,Reduced Rank,-3.5016640582599604e-18
+hermite,ugly,PCR,
+hermite,ugly,Reduced Rank,-5.137462288849056e-16
