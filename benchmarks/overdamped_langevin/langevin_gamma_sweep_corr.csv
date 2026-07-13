@@ -1,0 +1,15 @@
+kernel,kind,method,bias_gap_corr
+rbf(gamma=0.5),N/A,Principal Components (kDMD),-6.630588631396597e-08
+rbf(gamma=0.5),N/A,Reduced Rank,-1.7150654330400318e-07
+rbf(gamma=1),N/A,Principal Components (kDMD),4.0514080432407533e-07
+rbf(gamma=1),N/A,Reduced Rank,7.795783946486406e-07
+rbf(gamma=12.5),N/A,Principal Components (kDMD),-2.4447336286019407e-06
+rbf(gamma=12.5),N/A,Reduced Rank,-4.453709214082411e-08
+rbf(gamma=2.5),N/A,Principal Components (kDMD),-6.831694024477765e-07
+rbf(gamma=2.5),N/A,Reduced Rank,2.2237616174850627e-07
+rbf(gamma=25),N/A,Principal Components (kDMD),-6.140412808610539e-07
+rbf(gamma=25),N/A,Reduced Rank,3.525477835259029e-08
+rbf(gamma=5),N/A,Principal Components (kDMD),-5.028721579137007e-08
+rbf(gamma=5),N/A,Reduced Rank,4.79201617004255e-08
+rbf(gamma=50),N/A,Principal Components (kDMD),1.0462158714618619e-05
+rbf(gamma=50),N/A,Reduced Rank,-7.686860043744735e-08

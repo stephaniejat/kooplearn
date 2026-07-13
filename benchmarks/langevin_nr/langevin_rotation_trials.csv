@@ -1,0 +1,561 @@
+kernel,kind,omega,method,trial,spurious_ref_count,spurious_residual_count,spectral_gap,rank
+rbf(gamma=0.5),omega=0.0,0.0,Principal Components (kDMD),0,,5,0.009582731243737208,5
+rbf(gamma=0.5),omega=0.0,0.0,Principal Components (kDMD),1,,5,0.007620559243884606,5
+rbf(gamma=0.5),omega=0.0,0.0,Principal Components (kDMD),2,,5,0.007759493300821263,5
+rbf(gamma=0.5),omega=0.0,0.0,Principal Components (kDMD),3,,5,0.008652513641562831,5
+rbf(gamma=0.5),omega=0.0,0.0,Principal Components (kDMD),4,,5,0.010573271032724874,5
+rbf(gamma=0.5),omega=0.0,0.0,Principal Components (kDMD),5,,5,0.007782384719011937,5
+rbf(gamma=0.5),omega=0.0,0.0,Principal Components (kDMD),6,,5,0.00561634346684492,5
+rbf(gamma=0.5),omega=0.0,0.0,Principal Components (kDMD),7,,5,0.006162046926672882,5
+rbf(gamma=0.5),omega=0.0,0.0,Principal Components (kDMD),8,,5,0.005753365705210678,5
+rbf(gamma=0.5),omega=0.0,0.0,Principal Components (kDMD),9,,5,0.009905764854427068,5
+rbf(gamma=1.0),omega=0.0,0.0,Principal Components (kDMD),0,,5,0.008384262315923485,5
+rbf(gamma=1.0),omega=0.0,0.0,Principal Components (kDMD),1,,5,0.008751826545160712,5
+rbf(gamma=1.0),omega=0.0,0.0,Principal Components (kDMD),2,,5,0.009950665055434738,5
+rbf(gamma=1.0),omega=0.0,0.0,Principal Components (kDMD),3,,5,0.009619181439279423,5
+rbf(gamma=1.0),omega=0.0,0.0,Principal Components (kDMD),4,,5,0.013939566717524388,5
+rbf(gamma=1.0),omega=0.0,0.0,Principal Components (kDMD),5,,5,0.009869919383613701,5
+rbf(gamma=1.0),omega=0.0,0.0,Principal Components (kDMD),6,,5,0.006587142067639773,5
+rbf(gamma=1.0),omega=0.0,0.0,Principal Components (kDMD),7,,5,0.007208468418539948,5
+rbf(gamma=1.0),omega=0.0,0.0,Principal Components (kDMD),8,,5,0.005890942425201384,5
+rbf(gamma=1.0),omega=0.0,0.0,Principal Components (kDMD),9,,5,0.01050605308070418,5
+rbf(gamma=2.5),omega=0.0,0.0,Principal Components (kDMD),0,,5,0.00548402717922325,5
+rbf(gamma=2.5),omega=0.0,0.0,Principal Components (kDMD),1,,5,0.00769938458809627,5
+rbf(gamma=2.5),omega=0.0,0.0,Principal Components (kDMD),2,,5,0.012691293471850051,5
+rbf(gamma=2.5),omega=0.0,0.0,Principal Components (kDMD),3,,5,0.011973861172723699,5
+rbf(gamma=2.5),omega=0.0,0.0,Principal Components (kDMD),4,,5,0.016703110319891912,5
+rbf(gamma=2.5),omega=0.0,0.0,Principal Components (kDMD),5,,5,0.011294250502464132,5
+rbf(gamma=2.5),omega=0.0,0.0,Principal Components (kDMD),6,,5,0.0056349321539507224,5
+rbf(gamma=2.5),omega=0.0,0.0,Principal Components (kDMD),7,,5,0.0068318127404737305,5
+rbf(gamma=2.5),omega=0.0,0.0,Principal Components (kDMD),8,,5,0.006260378056456739,5
+rbf(gamma=2.5),omega=0.0,0.0,Principal Components (kDMD),9,,5,0.007285050550700833,5
+rbf(gamma=5.0),omega=0.0,0.0,Principal Components (kDMD),0,,5,0.006648015329749124,5
+rbf(gamma=5.0),omega=0.0,0.0,Principal Components (kDMD),1,,5,0.00575151350261216,5
+rbf(gamma=5.0),omega=0.0,0.0,Principal Components (kDMD),2,,5,0.01279986517188858,5
+rbf(gamma=5.0),omega=0.0,0.0,Principal Components (kDMD),3,,5,0.011326626447449417,5
+rbf(gamma=5.0),omega=0.0,0.0,Principal Components (kDMD),4,,5,0.01710491846394746,5
+rbf(gamma=5.0),omega=0.0,0.0,Principal Components (kDMD),5,,5,0.012533698301886886,5
+rbf(gamma=5.0),omega=0.0,0.0,Principal Components (kDMD),6,,5,0.006101138520779981,5
+rbf(gamma=5.0),omega=0.0,0.0,Principal Components (kDMD),7,,5,0.009223761940213016,5
+rbf(gamma=5.0),omega=0.0,0.0,Principal Components (kDMD),8,,5,0.011890850549046261,5
+rbf(gamma=5.0),omega=0.0,0.0,Principal Components (kDMD),9,,5,0.006388971342533911,5
+rbf(gamma=12.5),omega=0.0,0.0,Principal Components (kDMD),0,,5,0.01012172158421143,5
+rbf(gamma=12.5),omega=0.0,0.0,Principal Components (kDMD),1,,5,0.0005816847132679159,5
+rbf(gamma=12.5),omega=0.0,0.0,Principal Components (kDMD),2,,5,0.02723148151967658,5
+rbf(gamma=12.5),omega=0.0,0.0,Principal Components (kDMD),3,,5,0.0044331389602981774,5
+rbf(gamma=12.5),omega=0.0,0.0,Principal Components (kDMD),4,,5,0.017957991928849615,5
+rbf(gamma=12.5),omega=0.0,0.0,Principal Components (kDMD),5,,5,0.02516467562521285,5
+rbf(gamma=12.5),omega=0.0,0.0,Principal Components (kDMD),6,,5,0.010223333639981291,5
+rbf(gamma=12.5),omega=0.0,0.0,Principal Components (kDMD),7,,5,0.021499130382636178,5
+rbf(gamma=12.5),omega=0.0,0.0,Principal Components (kDMD),8,,5,0.03125023053586251,5
+rbf(gamma=12.5),omega=0.0,0.0,Principal Components (kDMD),9,,5,0.013694622895443098,5
+rbf(gamma=25.0),omega=0.0,0.0,Principal Components (kDMD),0,,5,0.02997860958612497,5
+rbf(gamma=25.0),omega=0.0,0.0,Principal Components (kDMD),1,,5,0.019724825287867898,5
+rbf(gamma=25.0),omega=0.0,0.0,Principal Components (kDMD),2,,5,0.043768123525788294,5
+rbf(gamma=25.0),omega=0.0,0.0,Principal Components (kDMD),3,,5,0.010741201704212444,5
+rbf(gamma=25.0),omega=0.0,0.0,Principal Components (kDMD),4,,5,0.015624545346300533,5
+rbf(gamma=25.0),omega=0.0,0.0,Principal Components (kDMD),5,,5,0.03979485109125236,5
+rbf(gamma=25.0),omega=0.0,0.0,Principal Components (kDMD),6,,5,0.04444436630456716,5
+rbf(gamma=25.0),omega=0.0,0.0,Principal Components (kDMD),7,,5,0.03423826166386734,5
+rbf(gamma=25.0),omega=0.0,0.0,Principal Components (kDMD),8,,5,0.05157557466131946,5
+rbf(gamma=25.0),omega=0.0,0.0,Principal Components (kDMD),9,,5,0.02581297186499787,5
+rbf(gamma=50.0),omega=0.0,0.0,Principal Components (kDMD),0,,5,0.06262420373247735,5
+rbf(gamma=50.0),omega=0.0,0.0,Principal Components (kDMD),1,,5,0.054073725843548304,5
+rbf(gamma=50.0),omega=0.0,0.0,Principal Components (kDMD),2,,5,0.0737745354278071,5
+rbf(gamma=50.0),omega=0.0,0.0,Principal Components (kDMD),3,,5,0.010559679579182135,5
+rbf(gamma=50.0),omega=0.0,0.0,Principal Components (kDMD),4,,5,0.11632925481953238,5
+rbf(gamma=50.0),omega=0.0,0.0,Principal Components (kDMD),5,,5,0.046544896834354144,5
+rbf(gamma=50.0),omega=0.0,0.0,Principal Components (kDMD),6,,5,0.08279391646736711,5
+rbf(gamma=50.0),omega=0.0,0.0,Principal Components (kDMD),7,,5,0.07535596110263587,5
+rbf(gamma=50.0),omega=0.0,0.0,Principal Components (kDMD),8,,5,0.04512660768171195,5
+rbf(gamma=50.0),omega=0.0,0.0,Principal Components (kDMD),9,,5,0.004763154288077165,5
+rbf(gamma=0.5),omega=0.0,0.0,Reduced Rank,0,,5,0.009264907219431073,5
+rbf(gamma=0.5),omega=0.0,0.0,Reduced Rank,1,,5,0.007187422893569995,5
+rbf(gamma=0.5),omega=0.0,0.0,Reduced Rank,2,,5,0.0074378450036989285,5
+rbf(gamma=0.5),omega=0.0,0.0,Reduced Rank,3,,5,0.008212737478881071,5
+rbf(gamma=0.5),omega=0.0,0.0,Reduced Rank,4,,5,0.010412913227269116,5
+rbf(gamma=0.5),omega=0.0,0.0,Reduced Rank,5,,5,0.0075314613825535615,5
+rbf(gamma=0.5),omega=0.0,0.0,Reduced Rank,6,,5,0.005525583573247395,5
+rbf(gamma=0.5),omega=0.0,0.0,Reduced Rank,7,,5,0.005957455657715216,5
+rbf(gamma=0.5),omega=0.0,0.0,Reduced Rank,8,,5,0.00566426857916702,5
+rbf(gamma=0.5),omega=0.0,0.0,Reduced Rank,9,,5,0.01047970731140424,5
+rbf(gamma=1.0),omega=0.0,0.0,Reduced Rank,0,,5,0.007678896729649165,5
+rbf(gamma=1.0),omega=0.0,0.0,Reduced Rank,1,,5,0.00787811728977017,5
+rbf(gamma=1.0),omega=0.0,0.0,Reduced Rank,2,,5,0.008952032150348566,5
+rbf(gamma=1.0),omega=0.0,0.0,Reduced Rank,3,,5,0.00907416822883711,5
+rbf(gamma=1.0),omega=0.0,0.0,Reduced Rank,4,,5,0.013094372207537286,5
+rbf(gamma=1.0),omega=0.0,0.0,Reduced Rank,5,,5,0.009413385377369132,5
+rbf(gamma=1.0),omega=0.0,0.0,Reduced Rank,6,,5,0.0062952215737872574,5
+rbf(gamma=1.0),omega=0.0,0.0,Reduced Rank,7,,5,0.006827185418026294,5
+rbf(gamma=1.0),omega=0.0,0.0,Reduced Rank,8,,5,0.005582585067739232,5
+rbf(gamma=1.0),omega=0.0,0.0,Reduced Rank,9,,5,0.009070023775273994,5
+rbf(gamma=2.5),omega=0.0,0.0,Reduced Rank,0,,5,0.003754148469262475,5
+rbf(gamma=2.5),omega=0.0,0.0,Reduced Rank,1,,5,0.006573403532074806,5
+rbf(gamma=2.5),omega=0.0,0.0,Reduced Rank,2,,5,0.010101560603334558,5
+rbf(gamma=2.5),omega=0.0,0.0,Reduced Rank,3,,5,0.01109869907971972,5
+rbf(gamma=2.5),omega=0.0,0.0,Reduced Rank,4,,5,0.014847091067632157,5
+rbf(gamma=2.5),omega=0.0,0.0,Reduced Rank,5,,5,0.010040519970481498,5
+rbf(gamma=2.5),omega=0.0,0.0,Reduced Rank,6,,5,0.0049822639714171,5
+rbf(gamma=2.5),omega=0.0,0.0,Reduced Rank,7,,5,0.0057133521339916005,5
+rbf(gamma=2.5),omega=0.0,0.0,Reduced Rank,8,,5,0.0057104888823874544,5
+rbf(gamma=2.5),omega=0.0,0.0,Reduced Rank,9,,5,0.006725680274118573,5
+rbf(gamma=5.0),omega=0.0,0.0,Reduced Rank,0,,5,0.005434422772995773,5
+rbf(gamma=5.0),omega=0.0,0.0,Reduced Rank,1,,5,0.004394822201392978,5
+rbf(gamma=5.0),omega=0.0,0.0,Reduced Rank,2,,5,0.008484574588830562,5
+rbf(gamma=5.0),omega=0.0,0.0,Reduced Rank,3,,5,0.008330440414865192,5
+rbf(gamma=5.0),omega=0.0,0.0,Reduced Rank,4,,5,0.013779693176810603,5
+rbf(gamma=5.0),omega=0.0,0.0,Reduced Rank,5,,5,0.010825351734174982,5
+rbf(gamma=5.0),omega=0.0,0.0,Reduced Rank,6,,5,0.003554062986545592,5
+rbf(gamma=5.0),omega=0.0,0.0,Reduced Rank,7,,5,0.006058205273497985,5
+rbf(gamma=5.0),omega=0.0,0.0,Reduced Rank,8,,5,0.005677819105565751,5
+rbf(gamma=5.0),omega=0.0,0.0,Reduced Rank,9,,5,0.0056954205650604495,5
+rbf(gamma=12.5),omega=0.0,0.0,Reduced Rank,0,,5,0.004049639689248763,5
+rbf(gamma=12.5),omega=0.0,0.0,Reduced Rank,1,,5,0.006929382774738868,5
+rbf(gamma=12.5),omega=0.0,0.0,Reduced Rank,2,,5,0.0198496906552319,5
+rbf(gamma=12.5),omega=0.0,0.0,Reduced Rank,3,,5,0.00939781919864291,5
+rbf(gamma=12.5),omega=0.0,0.0,Reduced Rank,4,,5,0.009969995076752225,5
+rbf(gamma=12.5),omega=0.0,0.0,Reduced Rank,5,,5,0.010468612186908532,5
+rbf(gamma=12.5),omega=0.0,0.0,Reduced Rank,6,,5,0.003488147031779798,5
+rbf(gamma=12.5),omega=0.0,0.0,Reduced Rank,7,,5,0.010224686988683507,5
+rbf(gamma=12.5),omega=0.0,0.0,Reduced Rank,8,,5,0.012360759637115915,5
+rbf(gamma=12.5),omega=0.0,0.0,Reduced Rank,9,,5,0.004902603693728191,5
+rbf(gamma=25.0),omega=0.0,0.0,Reduced Rank,0,,5,0.0033534102366536978,5
+rbf(gamma=25.0),omega=0.0,0.0,Reduced Rank,1,,5,0.009293187275051018,5
+rbf(gamma=25.0),omega=0.0,0.0,Reduced Rank,2,,5,0.025960811769213388,5
+rbf(gamma=25.0),omega=0.0,0.0,Reduced Rank,3,,5,0.012226729138010595,5
+rbf(gamma=25.0),omega=0.0,0.0,Reduced Rank,4,,5,0.0066582569858808505,5
+rbf(gamma=25.0),omega=0.0,0.0,Reduced Rank,5,,5,0.011550542393796936,5
+rbf(gamma=25.0),omega=0.0,0.0,Reduced Rank,6,,5,0.01667509783272869,5
+rbf(gamma=25.0),omega=0.0,0.0,Reduced Rank,7,,5,0.0194496562618941,5
+rbf(gamma=25.0),omega=0.0,0.0,Reduced Rank,8,,5,0.0188956819717917,5
+rbf(gamma=25.0),omega=0.0,0.0,Reduced Rank,9,,5,0.016363053967995866,5
+rbf(gamma=50.0),omega=0.0,0.0,Reduced Rank,0,,5,0.008200330654560273,5
+rbf(gamma=50.0),omega=0.0,0.0,Reduced Rank,1,,5,0.004026616241104675,5
+rbf(gamma=50.0),omega=0.0,0.0,Reduced Rank,2,,5,0.04008186787077295,5
+rbf(gamma=50.0),omega=0.0,0.0,Reduced Rank,3,,5,0.012674764630098756,5
+rbf(gamma=50.0),omega=0.0,0.0,Reduced Rank,4,,5,0.005946705684890752,5
+rbf(gamma=50.0),omega=0.0,0.0,Reduced Rank,5,,5,0.016871823766957506,5
+rbf(gamma=50.0),omega=0.0,0.0,Reduced Rank,6,,5,0.056039948147083685,5
+rbf(gamma=50.0),omega=0.0,0.0,Reduced Rank,7,,5,0.028895766093721464,5
+rbf(gamma=50.0),omega=0.0,0.0,Reduced Rank,8,,5,0.03314210065432033,5
+rbf(gamma=50.0),omega=0.0,0.0,Reduced Rank,9,,5,0.015814008661359402,5
+rbf(gamma=0.5),omega=0.5,0.5,Principal Components (kDMD),0,,5,0.007531159055568226,5
+rbf(gamma=0.5),omega=0.5,0.5,Principal Components (kDMD),1,,5,0.014482492737721175,5
+rbf(gamma=0.5),omega=0.5,0.5,Principal Components (kDMD),2,,5,0.013928251715575324,5
+rbf(gamma=0.5),omega=0.5,0.5,Principal Components (kDMD),3,,5,0.010062162713372791,5
+rbf(gamma=0.5),omega=0.5,0.5,Principal Components (kDMD),4,,5,0.010539266542040737,5
+rbf(gamma=0.5),omega=0.5,0.5,Principal Components (kDMD),5,,5,0.0057794432229620885,5
+rbf(gamma=0.5),omega=0.5,0.5,Principal Components (kDMD),6,,5,0.007225919693402694,5
+rbf(gamma=0.5),omega=0.5,0.5,Principal Components (kDMD),7,,5,0.0031227912597877605,5
+rbf(gamma=0.5),omega=0.5,0.5,Principal Components (kDMD),8,,5,0.01227976901548744,5
+rbf(gamma=0.5),omega=0.5,0.5,Principal Components (kDMD),9,,5,0.010177416735826395,5
+rbf(gamma=1.0),omega=0.5,0.5,Principal Components (kDMD),0,,5,0.006946648221032858,5
+rbf(gamma=1.0),omega=0.5,0.5,Principal Components (kDMD),1,,5,0.016041777282157277,5
+rbf(gamma=1.0),omega=0.5,0.5,Principal Components (kDMD),2,,5,0.016812852351688834,5
+rbf(gamma=1.0),omega=0.5,0.5,Principal Components (kDMD),3,,5,0.011265450151361711,5
+rbf(gamma=1.0),omega=0.5,0.5,Principal Components (kDMD),4,,5,0.009729220856046661,5
+rbf(gamma=1.0),omega=0.5,0.5,Principal Components (kDMD),5,,5,0.006956731614823908,5
+rbf(gamma=1.0),omega=0.5,0.5,Principal Components (kDMD),6,,5,0.00818682620608946,5
+rbf(gamma=1.0),omega=0.5,0.5,Principal Components (kDMD),7,,5,0.0027981220730017853,5
+rbf(gamma=1.0),omega=0.5,0.5,Principal Components (kDMD),8,,5,0.014076396596476415,5
+rbf(gamma=1.0),omega=0.5,0.5,Principal Components (kDMD),9,,5,0.00907883180433855,5
+rbf(gamma=2.5),omega=0.5,0.5,Principal Components (kDMD),0,,5,0.0084176166797022,5
+rbf(gamma=2.5),omega=0.5,0.5,Principal Components (kDMD),1,,5,0.02194023985775373,5
+rbf(gamma=2.5),omega=0.5,0.5,Principal Components (kDMD),2,,5,0.024609290729666,5
+rbf(gamma=2.5),omega=0.5,0.5,Principal Components (kDMD),3,,5,0.010545063086504602,5
+rbf(gamma=2.5),omega=0.5,0.5,Principal Components (kDMD),4,,5,0.011238018653069282,5
+rbf(gamma=2.5),omega=0.5,0.5,Principal Components (kDMD),5,,5,0.0057809778487442065,5
+rbf(gamma=2.5),omega=0.5,0.5,Principal Components (kDMD),6,,5,0.009662048309919236,5
+rbf(gamma=2.5),omega=0.5,0.5,Principal Components (kDMD),7,,5,0.00042850852805453865,5
+rbf(gamma=2.5),omega=0.5,0.5,Principal Components (kDMD),8,,5,0.010752430536817625,5
+rbf(gamma=2.5),omega=0.5,0.5,Principal Components (kDMD),9,,5,0.006702576286686912,5
+rbf(gamma=5.0),omega=0.5,0.5,Principal Components (kDMD),0,,5,0.00629382392301614,5
+rbf(gamma=5.0),omega=0.5,0.5,Principal Components (kDMD),1,,5,0.02659116852242638,5
+rbf(gamma=5.0),omega=0.5,0.5,Principal Components (kDMD),2,,5,0.020195206975797686,5
+rbf(gamma=5.0),omega=0.5,0.5,Principal Components (kDMD),3,,5,0.011175872538227494,5
+rbf(gamma=5.0),omega=0.5,0.5,Principal Components (kDMD),4,,5,0.018109688924785927,5
+rbf(gamma=5.0),omega=0.5,0.5,Principal Components (kDMD),5,,5,0.004354884199873399,5
+rbf(gamma=5.0),omega=0.5,0.5,Principal Components (kDMD),6,,5,0.00813433633554772,5
+rbf(gamma=5.0),omega=0.5,0.5,Principal Components (kDMD),7,,5,0.005845017622158055,5
+rbf(gamma=5.0),omega=0.5,0.5,Principal Components (kDMD),8,,5,0.011442026392090021,5
+rbf(gamma=5.0),omega=0.5,0.5,Principal Components (kDMD),9,,5,0.012271117524334851,5
+rbf(gamma=12.5),omega=0.5,0.5,Principal Components (kDMD),0,,5,0.01460987989902518,5
+rbf(gamma=12.5),omega=0.5,0.5,Principal Components (kDMD),1,,5,0.02832222530545203,5
+rbf(gamma=12.5),omega=0.5,0.5,Principal Components (kDMD),2,,5,0.02288009044864958,5
+rbf(gamma=12.5),omega=0.5,0.5,Principal Components (kDMD),3,,5,0.013146286193117307,5
+rbf(gamma=12.5),omega=0.5,0.5,Principal Components (kDMD),4,,5,0.021218921272708857,5
+rbf(gamma=12.5),omega=0.5,0.5,Principal Components (kDMD),5,,5,0.012417743867139008,5
+rbf(gamma=12.5),omega=0.5,0.5,Principal Components (kDMD),6,,5,0.009677113424362616,5
+rbf(gamma=12.5),omega=0.5,0.5,Principal Components (kDMD),7,,5,0.02844658101471087,5
+rbf(gamma=12.5),omega=0.5,0.5,Principal Components (kDMD),8,,5,0.015779224342167386,5
+rbf(gamma=12.5),omega=0.5,0.5,Principal Components (kDMD),9,,5,0.018177903047758126,5
+rbf(gamma=25.0),omega=0.5,0.5,Principal Components (kDMD),0,,5,0.010060015350138007,5
+rbf(gamma=25.0),omega=0.5,0.5,Principal Components (kDMD),1,,5,0.015174493821459745,5
+rbf(gamma=25.0),omega=0.5,0.5,Principal Components (kDMD),2,,5,0.04036447801639287,5
+rbf(gamma=25.0),omega=0.5,0.5,Principal Components (kDMD),3,,5,0.03954833148889769,5
+rbf(gamma=25.0),omega=0.5,0.5,Principal Components (kDMD),4,,5,0.03977225085451741,5
+rbf(gamma=25.0),omega=0.5,0.5,Principal Components (kDMD),5,,5,0.022140845134239306,5
+rbf(gamma=25.0),omega=0.5,0.5,Principal Components (kDMD),6,,5,0.014997153803524621,5
+rbf(gamma=25.0),omega=0.5,0.5,Principal Components (kDMD),7,,5,0.045904896679857865,5
+rbf(gamma=25.0),omega=0.5,0.5,Principal Components (kDMD),8,,5,0.022390893900752884,5
+rbf(gamma=25.0),omega=0.5,0.5,Principal Components (kDMD),9,,5,0.007965100246089096,5
+rbf(gamma=50.0),omega=0.5,0.5,Principal Components (kDMD),0,,5,0.05935216068652682,5
+rbf(gamma=50.0),omega=0.5,0.5,Principal Components (kDMD),1,,5,0.0,5
+rbf(gamma=50.0),omega=0.5,0.5,Principal Components (kDMD),2,,5,0.04419123972856642,5
+rbf(gamma=50.0),omega=0.5,0.5,Principal Components (kDMD),3,,5,0.0914038792389209,5
+rbf(gamma=50.0),omega=0.5,0.5,Principal Components (kDMD),4,,5,0.04444948609169852,5
+rbf(gamma=50.0),omega=0.5,0.5,Principal Components (kDMD),5,,5,0.013711257972354396,5
+rbf(gamma=50.0),omega=0.5,0.5,Principal Components (kDMD),6,,5,0.0131324411367707,5
+rbf(gamma=50.0),omega=0.5,0.5,Principal Components (kDMD),7,,5,0.05769209655004248,5
+rbf(gamma=50.0),omega=0.5,0.5,Principal Components (kDMD),8,,5,0.05026015938178585,5
+rbf(gamma=50.0),omega=0.5,0.5,Principal Components (kDMD),9,,5,0.03598952502960251,5
+rbf(gamma=0.5),omega=0.5,0.5,Reduced Rank,0,,5,0.007323946839772222,5
+rbf(gamma=0.5),omega=0.5,0.5,Reduced Rank,1,,5,0.014246977263479566,5
+rbf(gamma=0.5),omega=0.5,0.5,Reduced Rank,2,,5,0.013465750465379678,5
+rbf(gamma=0.5),omega=0.5,0.5,Reduced Rank,3,,5,0.009917944258497569,5
+rbf(gamma=0.5),omega=0.5,0.5,Reduced Rank,4,,5,0.009899969683265453,5
+rbf(gamma=0.5),omega=0.5,0.5,Reduced Rank,5,,5,0.00555511519303431,5
+rbf(gamma=0.5),omega=0.5,0.5,Reduced Rank,6,,5,0.007034600884968989,5
+rbf(gamma=0.5),omega=0.5,0.5,Reduced Rank,7,,5,0.002903853115268751,5
+rbf(gamma=0.5),omega=0.5,0.5,Reduced Rank,8,,5,0.011829890624485806,5
+rbf(gamma=0.5),omega=0.5,0.5,Reduced Rank,9,,5,0.009786959752662527,5
+rbf(gamma=1.0),omega=0.5,0.5,Reduced Rank,0,,5,0.006688338461778853,5
+rbf(gamma=1.0),omega=0.5,0.5,Reduced Rank,1,,5,0.015418892024635422,5
+rbf(gamma=1.0),omega=0.5,0.5,Reduced Rank,2,,5,0.015652048485812586,5
+rbf(gamma=1.0),omega=0.5,0.5,Reduced Rank,3,,5,0.010686412920776545,5
+rbf(gamma=1.0),omega=0.5,0.5,Reduced Rank,4,,5,0.008403775835957528,5
+rbf(gamma=1.0),omega=0.5,0.5,Reduced Rank,5,,5,0.006459877989758556,5
+rbf(gamma=1.0),omega=0.5,0.5,Reduced Rank,6,,5,0.007682679803803216,5
+rbf(gamma=1.0),omega=0.5,0.5,Reduced Rank,7,,5,0.002564189339064993,5
+rbf(gamma=1.0),omega=0.5,0.5,Reduced Rank,8,,5,0.013023863980524797,5
+rbf(gamma=1.0),omega=0.5,0.5,Reduced Rank,9,,5,0.009915165997742226,5
+rbf(gamma=2.5),omega=0.5,0.5,Reduced Rank,0,,5,0.007422000999488643,5
+rbf(gamma=2.5),omega=0.5,0.5,Reduced Rank,1,,5,0.019519370641908673,5
+rbf(gamma=2.5),omega=0.5,0.5,Reduced Rank,2,,5,0.020449419637018074,5
+rbf(gamma=2.5),omega=0.5,0.5,Reduced Rank,3,,5,0.009845173222374437,5
+rbf(gamma=2.5),omega=0.5,0.5,Reduced Rank,4,,5,0.008269508406061776,5
+rbf(gamma=2.5),omega=0.5,0.5,Reduced Rank,5,,5,0.005242976648494935,5
+rbf(gamma=2.5),omega=0.5,0.5,Reduced Rank,6,,5,0.008480107131609405,5
+rbf(gamma=2.5),omega=0.5,0.5,Reduced Rank,7,,5,0.0011574541343044586,5
+rbf(gamma=2.5),omega=0.5,0.5,Reduced Rank,8,,5,0.013427177017108494,5
+rbf(gamma=2.5),omega=0.5,0.5,Reduced Rank,9,,5,0.005456243845709308,5
+rbf(gamma=5.0),omega=0.5,0.5,Reduced Rank,0,,5,0.006257291247260155,5
+rbf(gamma=5.0),omega=0.5,0.5,Reduced Rank,1,,5,0.0230804988798764,5
+rbf(gamma=5.0),omega=0.5,0.5,Reduced Rank,2,,5,0.020467213169107268,5
+rbf(gamma=5.0),omega=0.5,0.5,Reduced Rank,3,,5,0.009370463840273291,5
+rbf(gamma=5.0),omega=0.5,0.5,Reduced Rank,4,,5,0.011411914286919012,5
+rbf(gamma=5.0),omega=0.5,0.5,Reduced Rank,5,,5,0.005436539126663531,5
+rbf(gamma=5.0),omega=0.5,0.5,Reduced Rank,6,,5,0.00848288778274675,5
+rbf(gamma=5.0),omega=0.5,0.5,Reduced Rank,7,,5,0.001041019316152192,5
+rbf(gamma=5.0),omega=0.5,0.5,Reduced Rank,8,,5,0.01118634343253777,5
+rbf(gamma=5.0),omega=0.5,0.5,Reduced Rank,9,,5,0.0077163082554699836,5
+rbf(gamma=12.5),omega=0.5,0.5,Reduced Rank,0,,5,0.00616175625825377,5
+rbf(gamma=12.5),omega=0.5,0.5,Reduced Rank,1,,5,0.024948331459980322,5
+rbf(gamma=12.5),omega=0.5,0.5,Reduced Rank,2,,5,0.020764984390240215,5
+rbf(gamma=12.5),omega=0.5,0.5,Reduced Rank,3,,5,0.012597819898259366,5
+rbf(gamma=12.5),omega=0.5,0.5,Reduced Rank,4,,5,0.016419892835105254,5
+rbf(gamma=12.5),omega=0.5,0.5,Reduced Rank,5,,5,0.005484344016461584,5
+rbf(gamma=12.5),omega=0.5,0.5,Reduced Rank,6,,5,0.0070130415573045335,5
+rbf(gamma=12.5),omega=0.5,0.5,Reduced Rank,7,,5,0.009525811695237807,5
+rbf(gamma=12.5),omega=0.5,0.5,Reduced Rank,8,,5,0.012544097096051199,5
+rbf(gamma=12.5),omega=0.5,0.5,Reduced Rank,9,,5,0.010527271072046318,5
+rbf(gamma=25.0),omega=0.5,0.5,Reduced Rank,0,,5,0.008008421489709927,5
+rbf(gamma=25.0),omega=0.5,0.5,Reduced Rank,1,,5,0.020088697196427252,5
+rbf(gamma=25.0),omega=0.5,0.5,Reduced Rank,2,,5,0.020025370426291822,5
+rbf(gamma=25.0),omega=0.5,0.5,Reduced Rank,3,,5,0.014721986718824631,5
+rbf(gamma=25.0),omega=0.5,0.5,Reduced Rank,4,,5,0.017524868143408368,5
+rbf(gamma=25.0),omega=0.5,0.5,Reduced Rank,5,,5,0.011266423926767022,5
+rbf(gamma=25.0),omega=0.5,0.5,Reduced Rank,6,,5,0.008977577537452541,5
+rbf(gamma=25.0),omega=0.5,0.5,Reduced Rank,7,,5,0.019124238657193038,5
+rbf(gamma=25.0),omega=0.5,0.5,Reduced Rank,8,,5,0.014823882154570311,5
+rbf(gamma=25.0),omega=0.5,0.5,Reduced Rank,9,,5,0.008869772797313935,5
+rbf(gamma=50.0),omega=0.5,0.5,Reduced Rank,0,,5,0.011410607315219368,5
+rbf(gamma=50.0),omega=0.5,0.5,Reduced Rank,1,,5,0.0174611281186704,5
+rbf(gamma=50.0),omega=0.5,0.5,Reduced Rank,2,,5,0.022355164576484676,5
+rbf(gamma=50.0),omega=0.5,0.5,Reduced Rank,3,,5,0.035200082960445855,5
+rbf(gamma=50.0),omega=0.5,0.5,Reduced Rank,4,,5,0.02239780561818716,5
+rbf(gamma=50.0),omega=0.5,0.5,Reduced Rank,5,,5,0.009945882885918356,5
+rbf(gamma=50.0),omega=0.5,0.5,Reduced Rank,6,,5,0.012901959696718923,5
+rbf(gamma=50.0),omega=0.5,0.5,Reduced Rank,7,,5,0.0330317645468976,5
+rbf(gamma=50.0),omega=0.5,0.5,Reduced Rank,8,,5,0.017809003229440235,5
+rbf(gamma=50.0),omega=0.5,0.5,Reduced Rank,9,,5,0.0038780261253760218,5
+rbf(gamma=0.5),omega=1.0,1.0,Principal Components (kDMD),0,,5,0.009245764062148165,5
+rbf(gamma=0.5),omega=1.0,1.0,Principal Components (kDMD),1,,5,0.008297819461852707,5
+rbf(gamma=0.5),omega=1.0,1.0,Principal Components (kDMD),2,,5,0.013282693827515568,5
+rbf(gamma=0.5),omega=1.0,1.0,Principal Components (kDMD),3,,5,0.004095190892577705,5
+rbf(gamma=0.5),omega=1.0,1.0,Principal Components (kDMD),4,,5,0.012555259094558013,5
+rbf(gamma=0.5),omega=1.0,1.0,Principal Components (kDMD),5,,5,0.010465503506663532,5
+rbf(gamma=0.5),omega=1.0,1.0,Principal Components (kDMD),6,,5,0.009971292356149464,5
+rbf(gamma=0.5),omega=1.0,1.0,Principal Components (kDMD),7,,5,0.009011649558000712,5
+rbf(gamma=0.5),omega=1.0,1.0,Principal Components (kDMD),8,,5,0.010592163380494735,5
+rbf(gamma=0.5),omega=1.0,1.0,Principal Components (kDMD),9,,5,0.007650285071501339,5
+rbf(gamma=1.0),omega=1.0,1.0,Principal Components (kDMD),0,,5,0.01055174284184035,5
+rbf(gamma=1.0),omega=1.0,1.0,Principal Components (kDMD),1,,5,0.007826371745447314,5
+rbf(gamma=1.0),omega=1.0,1.0,Principal Components (kDMD),2,,5,0.015256979638196833,5
+rbf(gamma=1.0),omega=1.0,1.0,Principal Components (kDMD),3,,5,0.0033580316009821365,5
+rbf(gamma=1.0),omega=1.0,1.0,Principal Components (kDMD),4,,5,0.008119572460508762,5
+rbf(gamma=1.0),omega=1.0,1.0,Principal Components (kDMD),5,,5,0.011835179582663558,5
+rbf(gamma=1.0),omega=1.0,1.0,Principal Components (kDMD),6,,5,0.011735455205268863,5
+rbf(gamma=1.0),omega=1.0,1.0,Principal Components (kDMD),7,,5,0.009404017830408673,5
+rbf(gamma=1.0),omega=1.0,1.0,Principal Components (kDMD),8,,5,0.014455508680920381,5
+rbf(gamma=1.0),omega=1.0,1.0,Principal Components (kDMD),9,,5,0.011117193540538195,5
+rbf(gamma=2.5),omega=1.0,1.0,Principal Components (kDMD),0,,5,0.01594514956250115,5
+rbf(gamma=2.5),omega=1.0,1.0,Principal Components (kDMD),1,,5,0.007126547946220363,5
+rbf(gamma=2.5),omega=1.0,1.0,Principal Components (kDMD),2,,5,0.01848473897843428,5
+rbf(gamma=2.5),omega=1.0,1.0,Principal Components (kDMD),3,,5,0.001200347319509465,5
+rbf(gamma=2.5),omega=1.0,1.0,Principal Components (kDMD),4,,5,0.007203839661032996,5
+rbf(gamma=2.5),omega=1.0,1.0,Principal Components (kDMD),5,,5,0.017287699275175594,5
+rbf(gamma=2.5),omega=1.0,1.0,Principal Components (kDMD),6,,5,0.012806385868709413,5
+rbf(gamma=2.5),omega=1.0,1.0,Principal Components (kDMD),7,,5,0.009353529327266963,5
+rbf(gamma=2.5),omega=1.0,1.0,Principal Components (kDMD),8,,5,0.01949606557234662,5
+rbf(gamma=2.5),omega=1.0,1.0,Principal Components (kDMD),9,,5,0.0,5
+rbf(gamma=5.0),omega=1.0,1.0,Principal Components (kDMD),0,,5,0.016508746910144256,5
+rbf(gamma=5.0),omega=1.0,1.0,Principal Components (kDMD),1,,5,0.006343672013322643,5
+rbf(gamma=5.0),omega=1.0,1.0,Principal Components (kDMD),2,,5,0.022425295647484855,5
+rbf(gamma=5.0),omega=1.0,1.0,Principal Components (kDMD),3,,5,0.002323284701840733,5
+rbf(gamma=5.0),omega=1.0,1.0,Principal Components (kDMD),4,,5,0.008735348064304205,5
+rbf(gamma=5.0),omega=1.0,1.0,Principal Components (kDMD),5,,5,0.01886904135643297,5
+rbf(gamma=5.0),omega=1.0,1.0,Principal Components (kDMD),6,,5,0.007990279392160016,5
+rbf(gamma=5.0),omega=1.0,1.0,Principal Components (kDMD),7,,5,0.00727881956081633,5
+rbf(gamma=5.0),omega=1.0,1.0,Principal Components (kDMD),8,,5,0.01627399830518117,5
+rbf(gamma=5.0),omega=1.0,1.0,Principal Components (kDMD),9,,5,0.00718954871916333,5
+rbf(gamma=12.5),omega=1.0,1.0,Principal Components (kDMD),0,,5,0.018084560696023266,5
+rbf(gamma=12.5),omega=1.0,1.0,Principal Components (kDMD),1,,5,0.025238790451010518,5
+rbf(gamma=12.5),omega=1.0,1.0,Principal Components (kDMD),2,,5,0.015495698268974234,5
+rbf(gamma=12.5),omega=1.0,1.0,Principal Components (kDMD),3,,5,0.023530965111305258,5
+rbf(gamma=12.5),omega=1.0,1.0,Principal Components (kDMD),4,,5,0.00712736126950031,5
+rbf(gamma=12.5),omega=1.0,1.0,Principal Components (kDMD),5,,5,0.018710527127074217,5
+rbf(gamma=12.5),omega=1.0,1.0,Principal Components (kDMD),6,,5,0.01299336551737329,5
+rbf(gamma=12.5),omega=1.0,1.0,Principal Components (kDMD),7,,5,0.017824431902102256,5
+rbf(gamma=12.5),omega=1.0,1.0,Principal Components (kDMD),8,,5,0.013485052691137756,5
+rbf(gamma=12.5),omega=1.0,1.0,Principal Components (kDMD),9,,5,0.010674212810284689,5
+rbf(gamma=25.0),omega=1.0,1.0,Principal Components (kDMD),0,,5,0.02708577616221952,5
+rbf(gamma=25.0),omega=1.0,1.0,Principal Components (kDMD),1,,5,0.03696371585046132,5
+rbf(gamma=25.0),omega=1.0,1.0,Principal Components (kDMD),2,,5,0.02550785020363522,5
+rbf(gamma=25.0),omega=1.0,1.0,Principal Components (kDMD),3,,5,0.027074690042924288,5
+rbf(gamma=25.0),omega=1.0,1.0,Principal Components (kDMD),4,,5,0.0015895729144873583,5
+rbf(gamma=25.0),omega=1.0,1.0,Principal Components (kDMD),5,,5,0.020324942209133834,5
+rbf(gamma=25.0),omega=1.0,1.0,Principal Components (kDMD),6,,5,0.021399209567933286,5
+rbf(gamma=25.0),omega=1.0,1.0,Principal Components (kDMD),7,,5,0.026696749124047736,5
+rbf(gamma=25.0),omega=1.0,1.0,Principal Components (kDMD),8,,5,0.004197047264837495,5
+rbf(gamma=25.0),omega=1.0,1.0,Principal Components (kDMD),9,,5,0.042924258558628914,5
+rbf(gamma=50.0),omega=1.0,1.0,Principal Components (kDMD),0,,5,0.060366564047750204,5
+rbf(gamma=50.0),omega=1.0,1.0,Principal Components (kDMD),1,,5,0.047521454500853766,5
+rbf(gamma=50.0),omega=1.0,1.0,Principal Components (kDMD),2,,5,0.06353022839309774,5
+rbf(gamma=50.0),omega=1.0,1.0,Principal Components (kDMD),3,,5,0.08905074337590213,5
+rbf(gamma=50.0),omega=1.0,1.0,Principal Components (kDMD),4,,5,0.007158800411578681,5
+rbf(gamma=50.0),omega=1.0,1.0,Principal Components (kDMD),5,,5,0.05720454603865344,5
+rbf(gamma=50.0),omega=1.0,1.0,Principal Components (kDMD),6,,5,0.03355091148705369,5
+rbf(gamma=50.0),omega=1.0,1.0,Principal Components (kDMD),7,,5,0.07375864058240778,5
+rbf(gamma=50.0),omega=1.0,1.0,Principal Components (kDMD),8,,5,0.0058251095966145305,5
+rbf(gamma=50.0),omega=1.0,1.0,Principal Components (kDMD),9,,5,0.07872387559363436,5
+rbf(gamma=0.5),omega=1.0,1.0,Reduced Rank,0,,5,0.00910959984806814,5
+rbf(gamma=0.5),omega=1.0,1.0,Reduced Rank,1,,5,0.00801197604242787,5
+rbf(gamma=0.5),omega=1.0,1.0,Reduced Rank,2,,5,0.012955663667469475,5
+rbf(gamma=0.5),omega=1.0,1.0,Reduced Rank,3,,5,0.004022430942056454,5
+rbf(gamma=0.5),omega=1.0,1.0,Reduced Rank,4,,5,0.011815636834717425,5
+rbf(gamma=0.5),omega=1.0,1.0,Reduced Rank,5,,5,0.01004290004553754,5
+rbf(gamma=0.5),omega=1.0,1.0,Reduced Rank,6,,5,0.009635358352735435,5
+rbf(gamma=0.5),omega=1.0,1.0,Reduced Rank,7,,5,0.008897305991791171,5
+rbf(gamma=0.5),omega=1.0,1.0,Reduced Rank,8,,5,0.012253212831114468,5
+rbf(gamma=0.5),omega=1.0,1.0,Reduced Rank,9,,5,0.007414415254987539,5
+rbf(gamma=1.0),omega=1.0,1.0,Reduced Rank,0,,5,0.010069345595292822,5
+rbf(gamma=1.0),omega=1.0,1.0,Reduced Rank,1,,5,0.007081403971796796,5
+rbf(gamma=1.0),omega=1.0,1.0,Reduced Rank,2,,5,0.014551876037814382,5
+rbf(gamma=1.0),omega=1.0,1.0,Reduced Rank,3,,5,0.00299962559542144,5
+rbf(gamma=1.0),omega=1.0,1.0,Reduced Rank,4,,5,0.0073909855784666245,5
+rbf(gamma=1.0),omega=1.0,1.0,Reduced Rank,5,,5,0.01073461200883763,5
+rbf(gamma=1.0),omega=1.0,1.0,Reduced Rank,6,,5,0.010853441528689833,5
+rbf(gamma=1.0),omega=1.0,1.0,Reduced Rank,7,,5,0.009141158279288186,5
+rbf(gamma=1.0),omega=1.0,1.0,Reduced Rank,8,,5,0.013245832297725246,5
+rbf(gamma=1.0),omega=1.0,1.0,Reduced Rank,9,,5,0.010098158254160716,5
+rbf(gamma=2.5),omega=1.0,1.0,Reduced Rank,0,,5,0.013694266304828173,5
+rbf(gamma=2.5),omega=1.0,1.0,Reduced Rank,1,,5,0.006667180766890102,5
+rbf(gamma=2.5),omega=1.0,1.0,Reduced Rank,2,,5,0.01651482347848432,5
+rbf(gamma=2.5),omega=1.0,1.0,Reduced Rank,3,,5,0.0013583665948114776,5
+rbf(gamma=2.5),omega=1.0,1.0,Reduced Rank,4,,5,0.006305436921272611,5
+rbf(gamma=2.5),omega=1.0,1.0,Reduced Rank,5,,5,0.014472122101614526,5
+rbf(gamma=2.5),omega=1.0,1.0,Reduced Rank,6,,5,0.011742305202699255,5
+rbf(gamma=2.5),omega=1.0,1.0,Reduced Rank,7,,5,0.00859181859764735,5
+rbf(gamma=2.5),omega=1.0,1.0,Reduced Rank,8,,5,0.01486802498393569,5
+rbf(gamma=2.5),omega=1.0,1.0,Reduced Rank,9,,5,0.0,5
+rbf(gamma=5.0),omega=1.0,1.0,Reduced Rank,0,,5,0.016300171801348018,5
+rbf(gamma=5.0),omega=1.0,1.0,Reduced Rank,1,,5,0.005361895299862529,5
+rbf(gamma=5.0),omega=1.0,1.0,Reduced Rank,2,,5,0.017559691022486335,5
+rbf(gamma=5.0),omega=1.0,1.0,Reduced Rank,3,,5,0.0009884126173720365,5
+rbf(gamma=5.0),omega=1.0,1.0,Reduced Rank,4,,5,0.007392488619450188,5
+rbf(gamma=5.0),omega=1.0,1.0,Reduced Rank,5,,5,0.015745566333778993,5
+rbf(gamma=5.0),omega=1.0,1.0,Reduced Rank,6,,5,0.011665495768524159,5
+rbf(gamma=5.0),omega=1.0,1.0,Reduced Rank,7,,5,0.008387885810670181,5
+rbf(gamma=5.0),omega=1.0,1.0,Reduced Rank,8,,5,0.014691689458261603,5
+rbf(gamma=5.0),omega=1.0,1.0,Reduced Rank,9,,5,0.0,5
+rbf(gamma=12.5),omega=1.0,1.0,Reduced Rank,0,,5,0.014454570760424001,5
+rbf(gamma=12.5),omega=1.0,1.0,Reduced Rank,1,,5,0.004619582772213193,5
+rbf(gamma=12.5),omega=1.0,1.0,Reduced Rank,2,,5,0.009971282203994014,5
+rbf(gamma=12.5),omega=1.0,1.0,Reduced Rank,3,,5,0.010520195294919543,5
+rbf(gamma=12.5),omega=1.0,1.0,Reduced Rank,4,,5,0.009157183142611158,5
+rbf(gamma=12.5),omega=1.0,1.0,Reduced Rank,5,,5,0.015914846587166576,5
+rbf(gamma=12.5),omega=1.0,1.0,Reduced Rank,6,,5,0.012057278809143535,5
+rbf(gamma=12.5),omega=1.0,1.0,Reduced Rank,7,,5,0.008503556484506514,5
+rbf(gamma=12.5),omega=1.0,1.0,Reduced Rank,8,,5,0.013336972440758044,5
+rbf(gamma=12.5),omega=1.0,1.0,Reduced Rank,9,,5,0.009572354934042293,5
+rbf(gamma=25.0),omega=1.0,1.0,Reduced Rank,0,,5,0.016097873513996386,5
+rbf(gamma=25.0),omega=1.0,1.0,Reduced Rank,1,,5,0.006391650832146878,5
+rbf(gamma=25.0),omega=1.0,1.0,Reduced Rank,2,,5,0.011566235122741575,5
+rbf(gamma=25.0),omega=1.0,1.0,Reduced Rank,3,,5,0.015881656862717475,5
+rbf(gamma=25.0),omega=1.0,1.0,Reduced Rank,4,,5,0.010968227643401107,5
+rbf(gamma=25.0),omega=1.0,1.0,Reduced Rank,5,,5,0.020152608938523553,5
+rbf(gamma=25.0),omega=1.0,1.0,Reduced Rank,6,,5,0.00961425708799124,5
+rbf(gamma=25.0),omega=1.0,1.0,Reduced Rank,7,,5,0.009969107791562126,5
+rbf(gamma=25.0),omega=1.0,1.0,Reduced Rank,8,,5,0.01084373028040364,5
+rbf(gamma=25.0),omega=1.0,1.0,Reduced Rank,9,,5,0.024218292530309493,5
+rbf(gamma=50.0),omega=1.0,1.0,Reduced Rank,0,,5,0.025817765708339047,5
+rbf(gamma=50.0),omega=1.0,1.0,Reduced Rank,1,,5,0.013677241836639764,5
+rbf(gamma=50.0),omega=1.0,1.0,Reduced Rank,2,,5,0.023865007102616076,5
+rbf(gamma=50.0),omega=1.0,1.0,Reduced Rank,3,,5,0.017220852837339762,5
+rbf(gamma=50.0),omega=1.0,1.0,Reduced Rank,4,,5,0.008972586474782274,5
+rbf(gamma=50.0),omega=1.0,1.0,Reduced Rank,5,,5,0.02156793212080388,5
+rbf(gamma=50.0),omega=1.0,1.0,Reduced Rank,6,,5,0.01989906139762565,5
+rbf(gamma=50.0),omega=1.0,1.0,Reduced Rank,7,,5,0.0312678152882393,5
+rbf(gamma=50.0),omega=1.0,1.0,Reduced Rank,8,,5,0.006837954659855594,5
+rbf(gamma=50.0),omega=1.0,1.0,Reduced Rank,9,,5,0.04944053756174693,5
+rbf(gamma=0.5),omega=2.0,2.0,Principal Components (kDMD),0,,5,0.011102944550048455,5
+rbf(gamma=0.5),omega=2.0,2.0,Principal Components (kDMD),1,,5,0.010596513040850075,5
+rbf(gamma=0.5),omega=2.0,2.0,Principal Components (kDMD),2,,5,0.00943957952551766,5
+rbf(gamma=0.5),omega=2.0,2.0,Principal Components (kDMD),3,,5,0.008605695953049608,5
+rbf(gamma=0.5),omega=2.0,2.0,Principal Components (kDMD),4,,5,0.005947581759746856,5
+rbf(gamma=0.5),omega=2.0,2.0,Principal Components (kDMD),5,,5,0.012532242123176607,5
+rbf(gamma=0.5),omega=2.0,2.0,Principal Components (kDMD),6,,5,0.012941596906377306,5
+rbf(gamma=0.5),omega=2.0,2.0,Principal Components (kDMD),7,,5,0.012260285292228446,5
+rbf(gamma=0.5),omega=2.0,2.0,Principal Components (kDMD),8,,5,0.01061690392286141,5
+rbf(gamma=0.5),omega=2.0,2.0,Principal Components (kDMD),9,,5,0.010167996208382934,5
+rbf(gamma=1.0),omega=2.0,2.0,Principal Components (kDMD),0,,5,0.014029158524529128,5
+rbf(gamma=1.0),omega=2.0,2.0,Principal Components (kDMD),1,,5,0.012101020562260811,5
+rbf(gamma=1.0),omega=2.0,2.0,Principal Components (kDMD),2,,5,0.010417778884247997,5
+rbf(gamma=1.0),omega=2.0,2.0,Principal Components (kDMD),3,,5,0.009576349412336316,5
+rbf(gamma=1.0),omega=2.0,2.0,Principal Components (kDMD),4,,5,0.007532187092211151,5
+rbf(gamma=1.0),omega=2.0,2.0,Principal Components (kDMD),5,,5,0.014802613739833936,5
+rbf(gamma=1.0),omega=2.0,2.0,Principal Components (kDMD),6,,5,0.01562444872535218,5
+rbf(gamma=1.0),omega=2.0,2.0,Principal Components (kDMD),7,,5,0.019353428936025208,5
+rbf(gamma=1.0),omega=2.0,2.0,Principal Components (kDMD),8,,5,0.011775978379845786,5
+rbf(gamma=1.0),omega=2.0,2.0,Principal Components (kDMD),9,,5,0.01094335854922135,5
+rbf(gamma=2.5),omega=2.0,2.0,Principal Components (kDMD),0,,5,0.025093715136547567,5
+rbf(gamma=2.5),omega=2.0,2.0,Principal Components (kDMD),1,,5,0.012515921630760207,5
+rbf(gamma=2.5),omega=2.0,2.0,Principal Components (kDMD),2,,5,0.013216963986396046,5
+rbf(gamma=2.5),omega=2.0,2.0,Principal Components (kDMD),3,,5,0.012915753524988083,5
+rbf(gamma=2.5),omega=2.0,2.0,Principal Components (kDMD),4,,5,0.007502613697292548,5
+rbf(gamma=2.5),omega=2.0,2.0,Principal Components (kDMD),5,,5,0.020859682360720888,5
+rbf(gamma=2.5),omega=2.0,2.0,Principal Components (kDMD),6,,5,0.02142455068359994,5
+rbf(gamma=2.5),omega=2.0,2.0,Principal Components (kDMD),7,,5,0.017865475245589013,5
+rbf(gamma=2.5),omega=2.0,2.0,Principal Components (kDMD),8,,5,0.01429554558432844,5
+rbf(gamma=2.5),omega=2.0,2.0,Principal Components (kDMD),9,,5,0.014732834100594117,5
+rbf(gamma=5.0),omega=2.0,2.0,Principal Components (kDMD),0,,5,0.004782455057999235,5
+rbf(gamma=5.0),omega=2.0,2.0,Principal Components (kDMD),1,,5,0.010346674093497099,5
+rbf(gamma=5.0),omega=2.0,2.0,Principal Components (kDMD),2,,5,0.01520065050649666,5
+rbf(gamma=5.0),omega=2.0,2.0,Principal Components (kDMD),3,,5,0.018757686138727525,5
+rbf(gamma=5.0),omega=2.0,2.0,Principal Components (kDMD),4,,5,0.0,5
+rbf(gamma=5.0),omega=2.0,2.0,Principal Components (kDMD),5,,5,0.026490167716310298,5
+rbf(gamma=5.0),omega=2.0,2.0,Principal Components (kDMD),6,,5,0.03104503475825826,5
+rbf(gamma=5.0),omega=2.0,2.0,Principal Components (kDMD),7,,5,0.009454331226029011,5
+rbf(gamma=5.0),omega=2.0,2.0,Principal Components (kDMD),8,,5,0.011978443075414957,5
+rbf(gamma=5.0),omega=2.0,2.0,Principal Components (kDMD),9,,5,0.019475371764225535,5
+rbf(gamma=12.5),omega=2.0,2.0,Principal Components (kDMD),0,,5,0.017877775138922303,5
+rbf(gamma=12.5),omega=2.0,2.0,Principal Components (kDMD),1,,5,0.016359587174439083,5
+rbf(gamma=12.5),omega=2.0,2.0,Principal Components (kDMD),2,,5,0.007750604414849871,5
+rbf(gamma=12.5),omega=2.0,2.0,Principal Components (kDMD),3,,5,0.01188184303389661,5
+rbf(gamma=12.5),omega=2.0,2.0,Principal Components (kDMD),4,,5,0.0,5
+rbf(gamma=12.5),omega=2.0,2.0,Principal Components (kDMD),5,,5,0.03124907873903804,5
+rbf(gamma=12.5),omega=2.0,2.0,Principal Components (kDMD),6,,5,0.025631871400695894,5
+rbf(gamma=12.5),omega=2.0,2.0,Principal Components (kDMD),7,,5,0.015627983671360313,5
+rbf(gamma=12.5),omega=2.0,2.0,Principal Components (kDMD),8,,5,0.015383437846032022,5
+rbf(gamma=12.5),omega=2.0,2.0,Principal Components (kDMD),9,,5,0.014088358976355964,5
+rbf(gamma=25.0),omega=2.0,2.0,Principal Components (kDMD),0,,5,0.046155522326916776,5
+rbf(gamma=25.0),omega=2.0,2.0,Principal Components (kDMD),1,,5,0.014641459762725462,5
+rbf(gamma=25.0),omega=2.0,2.0,Principal Components (kDMD),2,,5,0.004337128405863755,5
+rbf(gamma=25.0),omega=2.0,2.0,Principal Components (kDMD),3,,5,0.027060846344591383,5
+rbf(gamma=25.0),omega=2.0,2.0,Principal Components (kDMD),4,,5,0.004598245891545116,5
+rbf(gamma=25.0),omega=2.0,2.0,Principal Components (kDMD),5,,5,0.018154105134768117,5
+rbf(gamma=25.0),omega=2.0,2.0,Principal Components (kDMD),6,,5,0.02110325858801909,5
+rbf(gamma=25.0),omega=2.0,2.0,Principal Components (kDMD),7,,5,0.03538336712978041,5
+rbf(gamma=25.0),omega=2.0,2.0,Principal Components (kDMD),8,,5,0.0318294212307324,5
+rbf(gamma=25.0),omega=2.0,2.0,Principal Components (kDMD),9,,5,0.008018212002759095,5
+rbf(gamma=50.0),omega=2.0,2.0,Principal Components (kDMD),0,,5,0.07463879450918132,5
+rbf(gamma=50.0),omega=2.0,2.0,Principal Components (kDMD),1,,5,0.00900707143680246,5
+rbf(gamma=50.0),omega=2.0,2.0,Principal Components (kDMD),2,,5,0.013623299034557057,5
+rbf(gamma=50.0),omega=2.0,2.0,Principal Components (kDMD),3,,5,0.05278539062799947,5
+rbf(gamma=50.0),omega=2.0,2.0,Principal Components (kDMD),4,,5,0.003356461677403555,5
+rbf(gamma=50.0),omega=2.0,2.0,Principal Components (kDMD),5,,5,0.006984334026023387,5
+rbf(gamma=50.0),omega=2.0,2.0,Principal Components (kDMD),6,,5,0.07696873170156804,5
+rbf(gamma=50.0),omega=2.0,2.0,Principal Components (kDMD),7,,5,0.03611733144845242,5
+rbf(gamma=50.0),omega=2.0,2.0,Principal Components (kDMD),8,,5,0.06190466717906207,5
+rbf(gamma=50.0),omega=2.0,2.0,Principal Components (kDMD),9,,5,0.07489040426188076,5
+rbf(gamma=0.5),omega=2.0,2.0,Reduced Rank,0,,5,0.010716503593072302,5
+rbf(gamma=0.5),omega=2.0,2.0,Reduced Rank,1,,5,0.010354318933422535,5
+rbf(gamma=0.5),omega=2.0,2.0,Reduced Rank,2,,5,0.009356383028925719,5
+rbf(gamma=0.5),omega=2.0,2.0,Reduced Rank,3,,5,0.008447496506974739,5
+rbf(gamma=0.5),omega=2.0,2.0,Reduced Rank,4,,5,0.00594945873912589,5
+rbf(gamma=0.5),omega=2.0,2.0,Reduced Rank,5,,5,0.012323960953836144,5
+rbf(gamma=0.5),omega=2.0,2.0,Reduced Rank,6,,5,0.012677191193618986,5
+rbf(gamma=0.5),omega=2.0,2.0,Reduced Rank,7,,5,0.011789071179873822,5
+rbf(gamma=0.5),omega=2.0,2.0,Reduced Rank,8,,5,0.010514109883360656,5
+rbf(gamma=0.5),omega=2.0,2.0,Reduced Rank,9,,5,0.009990901266013208,5
+rbf(gamma=1.0),omega=2.0,2.0,Reduced Rank,0,,5,0.012870451865929833,5
+rbf(gamma=1.0),omega=2.0,2.0,Reduced Rank,1,,5,0.011343437263150569,5
+rbf(gamma=1.0),omega=2.0,2.0,Reduced Rank,2,,5,0.010179244682233302,5
+rbf(gamma=1.0),omega=2.0,2.0,Reduced Rank,3,,5,0.009150429609741328,5
+rbf(gamma=1.0),omega=2.0,2.0,Reduced Rank,4,,5,0.007138972434453494,5
+rbf(gamma=1.0),omega=2.0,2.0,Reduced Rank,5,,5,0.014089896685033465,5
+rbf(gamma=1.0),omega=2.0,2.0,Reduced Rank,6,,5,0.014812448465396755,5
+rbf(gamma=1.0),omega=2.0,2.0,Reduced Rank,7,,5,0.017552715143772213,5
+rbf(gamma=1.0),omega=2.0,2.0,Reduced Rank,8,,5,0.011181698197466616,5
+rbf(gamma=1.0),omega=2.0,2.0,Reduced Rank,9,,5,0.010324244230899726,5
+rbf(gamma=2.5),omega=2.0,2.0,Reduced Rank,0,,5,0.02002114212687589,5
+rbf(gamma=2.5),omega=2.0,2.0,Reduced Rank,1,,5,0.011035971620855123,5
+rbf(gamma=2.5),omega=2.0,2.0,Reduced Rank,2,,5,0.012110251907245018,5
+rbf(gamma=2.5),omega=2.0,2.0,Reduced Rank,3,,5,0.011009080554356676,5
+rbf(gamma=2.5),omega=2.0,2.0,Reduced Rank,4,,5,0.006793155176031407,5
+rbf(gamma=2.5),omega=2.0,2.0,Reduced Rank,5,,5,0.018295666494566487,5
+rbf(gamma=2.5),omega=2.0,2.0,Reduced Rank,6,,5,0.01919029563866137,5
+rbf(gamma=2.5),omega=2.0,2.0,Reduced Rank,7,,5,0.01620356678798962,5
+rbf(gamma=2.5),omega=2.0,2.0,Reduced Rank,8,,5,0.017988812191986447,5
+rbf(gamma=2.5),omega=2.0,2.0,Reduced Rank,9,,5,0.012679837572322827,5
+rbf(gamma=5.0),omega=2.0,2.0,Reduced Rank,0,,5,0.0,5
+rbf(gamma=5.0),omega=2.0,2.0,Reduced Rank,1,,5,0.009021003131662875,5
+rbf(gamma=5.0),omega=2.0,2.0,Reduced Rank,2,,5,0.01304391885789058,5
+rbf(gamma=5.0),omega=2.0,2.0,Reduced Rank,3,,5,0.014070519218064015,5
+rbf(gamma=5.0),omega=2.0,2.0,Reduced Rank,4,,5,0.001568520247536953,5
+rbf(gamma=5.0),omega=2.0,2.0,Reduced Rank,5,,5,0.022074623437816854,5
+rbf(gamma=5.0),omega=2.0,2.0,Reduced Rank,6,,5,0.02404965736123088,5
+rbf(gamma=5.0),omega=2.0,2.0,Reduced Rank,7,,5,0.012042802363523175,5
+rbf(gamma=5.0),omega=2.0,2.0,Reduced Rank,8,,5,0.012067748022757563,5
+rbf(gamma=5.0),omega=2.0,2.0,Reduced Rank,9,,5,0.015558232359215163,5
+rbf(gamma=12.5),omega=2.0,2.0,Reduced Rank,0,,5,0.007838670414994309,5
+rbf(gamma=12.5),omega=2.0,2.0,Reduced Rank,1,,5,0.007836559317382585,5
+rbf(gamma=12.5),omega=2.0,2.0,Reduced Rank,2,,5,0.011111817797066603,5
+rbf(gamma=12.5),omega=2.0,2.0,Reduced Rank,3,,5,0.009533896753288196,5
+rbf(gamma=12.5),omega=2.0,2.0,Reduced Rank,4,,5,0.0,5
+rbf(gamma=12.5),omega=2.0,2.0,Reduced Rank,5,,5,0.02637786993591218,5
+rbf(gamma=12.5),omega=2.0,2.0,Reduced Rank,6,,5,0.03206127628683053,5
+rbf(gamma=12.5),omega=2.0,2.0,Reduced Rank,7,,5,0.0077630975518988565,5
+rbf(gamma=12.5),omega=2.0,2.0,Reduced Rank,8,,5,0.014012114208922566,5
+rbf(gamma=12.5),omega=2.0,2.0,Reduced Rank,9,,5,0.016692178532048962,5
+rbf(gamma=25.0),omega=2.0,2.0,Reduced Rank,0,,5,0.01803906976092784,5
+rbf(gamma=25.0),omega=2.0,2.0,Reduced Rank,1,,5,0.012857950800809315,5
+rbf(gamma=25.0),omega=2.0,2.0,Reduced Rank,2,,5,0.0036175724874736304,5
+rbf(gamma=25.0),omega=2.0,2.0,Reduced Rank,3,,5,0.006051117972106779,5
+rbf(gamma=25.0),omega=2.0,2.0,Reduced Rank,4,,5,0.0,5
+rbf(gamma=25.0),omega=2.0,2.0,Reduced Rank,5,,5,0.022798094688548876,5
+rbf(gamma=25.0),omega=2.0,2.0,Reduced Rank,6,,5,0.023530808716182405,5
+rbf(gamma=25.0),omega=2.0,2.0,Reduced Rank,7,,5,0.008396413848185569,5
+rbf(gamma=25.0),omega=2.0,2.0,Reduced Rank,8,,5,0.022179589353573226,5
+rbf(gamma=25.0),omega=2.0,2.0,Reduced Rank,9,,5,0.00969574571905607,5
+rbf(gamma=50.0),omega=2.0,2.0,Reduced Rank,0,,5,0.023203632916408146,5
+rbf(gamma=50.0),omega=2.0,2.0,Reduced Rank,1,,5,0.018822824627095613,5
+rbf(gamma=50.0),omega=2.0,2.0,Reduced Rank,2,,5,0.009260778394460933,5
+rbf(gamma=50.0),omega=2.0,2.0,Reduced Rank,3,,5,0.00047359278071956723,5
+rbf(gamma=50.0),omega=2.0,2.0,Reduced Rank,4,,5,0.008839769889138038,5
+rbf(gamma=50.0),omega=2.0,2.0,Reduced Rank,5,,5,0.017359821823081156,5
+rbf(gamma=50.0),omega=2.0,2.0,Reduced Rank,6,,5,0.017317177606732903,5
+rbf(gamma=50.0),omega=2.0,2.0,Reduced Rank,7,,5,0.0071323817619349805,5
+rbf(gamma=50.0),omega=2.0,2.0,Reduced Rank,8,,5,0.04157501641448258,5
+rbf(gamma=50.0),omega=2.0,2.0,Reduced Rank,9,,5,0.005843914757402868,5
