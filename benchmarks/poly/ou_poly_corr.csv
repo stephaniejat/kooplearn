@@ -1,0 +1,9 @@
+kernel,kind,method,bias_gap_corr
+poly,p = 1,PCR,
+poly,p = 1,Reduced Rank,0.570579752255021
+poly,p = 2,PCR,
+poly,p = 2,Reduced Rank,-0.2559610058119887
+poly,p = 3,PCR,-0.2802410659509797
+poly,p = 3,Reduced Rank,-0.8731707656070863
+poly,p = 4,PCR,-0.3169312868697551
+poly,p = 4,Reduced Rank,-0.6572145684723248

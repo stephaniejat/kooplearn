@@ -1,0 +1,9 @@
+kernel,kind,method,bias_gap_corr
+poly(p=1),N/A,Principal Components (kDMD),
+poly(p=1),N/A,Reduced Rank,0.1020447977461293
+poly(p=2),N/A,Principal Components (kDMD),
+poly(p=2),N/A,Reduced Rank,-0.35860377299294055
+poly(p=3),N/A,Principal Components (kDMD),
+poly(p=3),N/A,Reduced Rank,-0.009502497914965376
+poly(p=4),N/A,Principal Components (kDMD),
+poly(p=4),N/A,Reduced Rank,0.02712131002788365

@@ -1,0 +1,21 @@
+kind,method,trial,spurious_ref_count,spurious_residual_count,spectral_gap,rank
+N/A,Principal Components (kDMD),0,5,5,0.9379572806098213,5
+N/A,Principal Components (kDMD),1,5,5,0.937957291747717,5
+N/A,Principal Components (kDMD),2,5,5,0.9379572916148101,5
+N/A,Principal Components (kDMD),3,5,3,0.9379572909535291,5
+N/A,Principal Components (kDMD),4,5,4,0.9379572928846108,5
+N/A,Principal Components (kDMD),5,5,5,0.9379572931434965,5
+N/A,Principal Components (kDMD),6,5,3,0.937957293467034,5
+N/A,Principal Components (kDMD),7,5,4,0.9379572911890668,5
+N/A,Principal Components (kDMD),8,5,3,0.9379572908515552,5
+N/A,Principal Components (kDMD),9,5,5,0.937957292870956,5
+N/A,Reduced Rank,0,4,1,0.9380975220376627,4
+N/A,Reduced Rank,1,3,2,0.9380170200762997,3
+N/A,Reduced Rank,2,4,0,0.9379768522918204,4
+N/A,Reduced Rank,3,5,4,0.938058760381907,5
+N/A,Reduced Rank,4,5,1,0.9379722496139328,5
+N/A,Reduced Rank,5,5,0,0.9380126648086071,5
+N/A,Reduced Rank,6,5,4,0.9380256848986382,5
+N/A,Reduced Rank,7,5,0,0.9380000752587231,5
+N/A,Reduced Rank,8,5,3,0.9380033274851048,5
+N/A,Reduced Rank,9,3,1,0.9379710991603966,3
