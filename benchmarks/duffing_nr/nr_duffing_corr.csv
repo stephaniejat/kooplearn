@@ -1,0 +1,99 @@
+kernel,kind,method,bias_gap_corr
+rbf(gamma=0.5),omega=0.5,Principal Components (kDMD),-0.8298542554237885
+rbf(gamma=0.5),omega=0.5,Reduced Rank,-0.48912971553367246
+rbf(gamma=0.5),omega=0.8,Principal Components (kDMD),-0.5601680331668678
+rbf(gamma=0.5),omega=0.8,Reduced Rank,-0.5128011086976639
+rbf(gamma=0.5),omega=1.0,Principal Components (kDMD),-0.014152159465698387
+rbf(gamma=0.5),omega=1.0,Reduced Rank,-0.357563517738796
+rbf(gamma=0.5),omega=1.2,Principal Components (kDMD),-0.03028518625927697
+rbf(gamma=0.5),omega=1.2,Reduced Rank,-0.143894468026898
+rbf(gamma=0.5),omega=1.5,Principal Components (kDMD),-0.7900059087397291
+rbf(gamma=0.5),omega=1.5,Reduced Rank,-0.5422734170204119
+rbf(gamma=0.5),omega=2.0,Principal Components (kDMD),-0.09128390159196681
+rbf(gamma=0.5),omega=2.0,Reduced Rank,0.01666614803986582
+rbf(gamma=0.5),omega=3.0,Principal Components (kDMD),-0.42244556114086357
+rbf(gamma=0.5),omega=3.0,Reduced Rank,-0.4210722648804823
+rbf(gamma=1.0),omega=0.5,Principal Components (kDMD),-0.8741430023466
+rbf(gamma=1.0),omega=0.5,Reduced Rank,-0.6552323966118098
+rbf(gamma=1.0),omega=0.8,Principal Components (kDMD),-0.5081864600114832
+rbf(gamma=1.0),omega=0.8,Reduced Rank,-0.48321168524998115
+rbf(gamma=1.0),omega=1.0,Principal Components (kDMD),-0.18050411270429315
+rbf(gamma=1.0),omega=1.0,Reduced Rank,-0.5807935671587188
+rbf(gamma=1.0),omega=1.2,Principal Components (kDMD),0.03308234357659177
+rbf(gamma=1.0),omega=1.2,Reduced Rank,0.03821240289700562
+rbf(gamma=1.0),omega=1.5,Principal Components (kDMD),-0.8679916357583356
+rbf(gamma=1.0),omega=1.5,Reduced Rank,-0.40183246165671627
+rbf(gamma=1.0),omega=2.0,Principal Components (kDMD),-0.05917940763026404
+rbf(gamma=1.0),omega=2.0,Reduced Rank,-0.07004759855539193
+rbf(gamma=1.0),omega=3.0,Principal Components (kDMD),-0.35231643958502157
+rbf(gamma=1.0),omega=3.0,Reduced Rank,0.08793136529127735
+rbf(gamma=12.5),omega=0.5,Principal Components (kDMD),-0.01013577310678541
+rbf(gamma=12.5),omega=0.5,Reduced Rank,-0.11988674158868166
+rbf(gamma=12.5),omega=0.8,Principal Components (kDMD),-0.09322042911710936
+rbf(gamma=12.5),omega=0.8,Reduced Rank,-0.3133396863346638
+rbf(gamma=12.5),omega=1.0,Principal Components (kDMD),-0.05606836952650029
+rbf(gamma=12.5),omega=1.0,Reduced Rank,0.22837681502270887
+rbf(gamma=12.5),omega=1.2,Principal Components (kDMD),-0.31662607996343334
+rbf(gamma=12.5),omega=1.2,Reduced Rank,-0.4371903080844691
+rbf(gamma=12.5),omega=1.5,Principal Components (kDMD),-0.05794729676593197
+rbf(gamma=12.5),omega=1.5,Reduced Rank,0.3007914610389848
+rbf(gamma=12.5),omega=2.0,Principal Components (kDMD),0.23036108772042993
+rbf(gamma=12.5),omega=2.0,Reduced Rank,0.5585510020462445
+rbf(gamma=12.5),omega=3.0,Principal Components (kDMD),-0.30631499627495506
+rbf(gamma=12.5),omega=3.0,Reduced Rank,-0.14977145446240678
+rbf(gamma=2.5),omega=0.5,Principal Components (kDMD),-0.7538692388767081
+rbf(gamma=2.5),omega=0.5,Reduced Rank,-0.5539521667908054
+rbf(gamma=2.5),omega=0.8,Principal Components (kDMD),-0.24749523301961088
+rbf(gamma=2.5),omega=0.8,Reduced Rank,-0.15343829138443654
+rbf(gamma=2.5),omega=1.0,Principal Components (kDMD),0.5624271315926118
+rbf(gamma=2.5),omega=1.0,Reduced Rank,0.41448452304023
+rbf(gamma=2.5),omega=1.2,Principal Components (kDMD),0.038486350659216996
+rbf(gamma=2.5),omega=1.2,Reduced Rank,0.45077115580423316
+rbf(gamma=2.5),omega=1.5,Principal Components (kDMD),-0.12389821217655304
+rbf(gamma=2.5),omega=1.5,Reduced Rank,0.22652065388639714
+rbf(gamma=2.5),omega=2.0,Principal Components (kDMD),-0.3904091790886457
+rbf(gamma=2.5),omega=2.0,Reduced Rank,-0.4264277074822326
+rbf(gamma=2.5),omega=3.0,Principal Components (kDMD),-0.281826843788259
+rbf(gamma=2.5),omega=3.0,Reduced Rank,-0.21473619919560374
+rbf(gamma=25.0),omega=0.5,Principal Components (kDMD),-0.548320271113543
+rbf(gamma=25.0),omega=0.5,Reduced Rank,0.7265704514369781
+rbf(gamma=25.0),omega=0.8,Principal Components (kDMD),-0.04203444999917349
+rbf(gamma=25.0),omega=0.8,Reduced Rank,0.3586841406916162
+rbf(gamma=25.0),omega=1.0,Principal Components (kDMD),0.4423471391950943
+rbf(gamma=25.0),omega=1.0,Reduced Rank,-0.14055306727065733
+rbf(gamma=25.0),omega=1.2,Principal Components (kDMD),-0.5374859427066007
+rbf(gamma=25.0),omega=1.2,Reduced Rank,-0.2466434645453495
+rbf(gamma=25.0),omega=1.5,Principal Components (kDMD),-0.24747667206966628
+rbf(gamma=25.0),omega=1.5,Reduced Rank,0.7041991715225586
+rbf(gamma=25.0),omega=2.0,Principal Components (kDMD),0.06086011147047592
+rbf(gamma=25.0),omega=2.0,Reduced Rank,0.31595162829529555
+rbf(gamma=25.0),omega=3.0,Principal Components (kDMD),-0.1665096216297499
+rbf(gamma=25.0),omega=3.0,Reduced Rank,0.21852491863800189
+rbf(gamma=5.0),omega=0.5,Principal Components (kDMD),-0.5061574710168563
+rbf(gamma=5.0),omega=0.5,Reduced Rank,-0.621469400564002
+rbf(gamma=5.0),omega=0.8,Principal Components (kDMD),-0.44965672180244987
+rbf(gamma=5.0),omega=0.8,Reduced Rank,-0.46363301664400536
+rbf(gamma=5.0),omega=1.0,Principal Components (kDMD),0.036338672316881426
+rbf(gamma=5.0),omega=1.0,Reduced Rank,0.3255903079503758
+rbf(gamma=5.0),omega=1.2,Principal Components (kDMD),0.014719737238706145
+rbf(gamma=5.0),omega=1.2,Reduced Rank,-0.17073384032249764
+rbf(gamma=5.0),omega=1.5,Principal Components (kDMD),0.22930908973293845
+rbf(gamma=5.0),omega=1.5,Reduced Rank,0.791927217455807
+rbf(gamma=5.0),omega=2.0,Principal Components (kDMD),0.23187478569511077
+rbf(gamma=5.0),omega=2.0,Reduced Rank,0.4636780978090321
+rbf(gamma=5.0),omega=3.0,Principal Components (kDMD),-0.11479898612234878
+rbf(gamma=5.0),omega=3.0,Reduced Rank,0.05514785671148205
+rbf(gamma=50.0),omega=0.5,Principal Components (kDMD),-0.49074730973958314
+rbf(gamma=50.0),omega=0.5,Reduced Rank,0.7271660297961728
+rbf(gamma=50.0),omega=0.8,Principal Components (kDMD),0.16702733548153662
+rbf(gamma=50.0),omega=0.8,Reduced Rank,0.21914100946761836
+rbf(gamma=50.0),omega=1.0,Principal Components (kDMD),-0.42700940050931097
+rbf(gamma=50.0),omega=1.0,Reduced Rank,-0.2029433222197334
+rbf(gamma=50.0),omega=1.2,Principal Components (kDMD),-0.1348105674309366
+rbf(gamma=50.0),omega=1.2,Reduced Rank,-0.12429349695221477
+rbf(gamma=50.0),omega=1.5,Principal Components (kDMD),0.0693180870594775
+rbf(gamma=50.0),omega=1.5,Reduced Rank,0.3154314316155167
+rbf(gamma=50.0),omega=2.0,Principal Components (kDMD),-0.20045510715312584
+rbf(gamma=50.0),omega=2.0,Reduced Rank,-0.074385774410618
+rbf(gamma=50.0),omega=3.0,Principal Components (kDMD),0.062258081913243515
+rbf(gamma=50.0),omega=3.0,Reduced Rank,0.10392363663718908

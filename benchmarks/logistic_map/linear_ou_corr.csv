@@ -1,0 +1,25 @@
+kernel,kind,method,bias_gap_corr
+rbf(gamma=0.5),rev,Principal Components (kDMD),-0.09987436566178359
+rbf(gamma=0.5),rev,Reduced Rank,-0.14544596474957397
+rbf(gamma=0.5),rot,Principal Components (kDMD),0.05880127203575843
+rbf(gamma=0.5),rot,Reduced Rank,0.0670347001210331
+rbf(gamma=1.0),rev,Principal Components (kDMD),0.02715100935606544
+rbf(gamma=1.0),rev,Reduced Rank,0.03125162436721164
+rbf(gamma=1.0),rot,Principal Components (kDMD),-0.10852224020589432
+rbf(gamma=1.0),rot,Reduced Rank,0.20300675714260796
+rbf(gamma=12.5),rev,Principal Components (kDMD),-0.21995712148944743
+rbf(gamma=12.5),rev,Reduced Rank,0.08865590838651677
+rbf(gamma=12.5),rot,Principal Components (kDMD),0.119006023564916
+rbf(gamma=12.5),rot,Reduced Rank,0.07285445770937155
+rbf(gamma=2.5),rev,Principal Components (kDMD),0.10505698615646727
+rbf(gamma=2.5),rev,Reduced Rank,0.04769861390784378
+rbf(gamma=2.5),rot,Principal Components (kDMD),-0.08497377278645993
+rbf(gamma=2.5),rot,Reduced Rank,-0.17580118980217607
+rbf(gamma=25.0),rev,Principal Components (kDMD),-0.29831385803116434
+rbf(gamma=25.0),rev,Reduced Rank,0.06694806411501077
+rbf(gamma=25.0),rot,Principal Components (kDMD),0.3718638427693494
+rbf(gamma=25.0),rot,Reduced Rank,-0.04808170170148376
+rbf(gamma=5.0),rev,Principal Components (kDMD),0.2869180688660273
+rbf(gamma=5.0),rev,Reduced Rank,0.1396704599912978
+rbf(gamma=5.0),rot,Principal Components (kDMD),0.16185553141671463
+rbf(gamma=5.0),rot,Reduced Rank,0.10734687520940067

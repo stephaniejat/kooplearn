@@ -194,7 +194,9 @@ def analyse_spectrum(modes_records, trials_records, out_prefix):
     trials_df = pd.DataFrame(trials_records).copy()
 
     if "spectral_gap" not in modes_df.columns:
-        raise ValueError(f"modes_df is missing 'spectral_gap'. Columns: {modes_df.columns.tolist()}")
+        raise ValueError(
+            f"modes_df is missing 'spectral_gap'. Columns: {modes_df.columns.tolist()}"
+        )
 
     summary = modes_df.groupby(
         ["kernel", "kind", "method", "eigenfunction_id"], as_index=False
@@ -212,12 +214,14 @@ def analyse_spectrum(modes_records, trials_records, out_prefix):
     for (kernel, kind, method), g in modes_df.groupby(["kernel", "kind", "method"]):
         gg = g[["spectral_bias", "spectral_gap"]].dropna()
         corr = gg["spectral_bias"].corr(gg["spectral_gap"]) if len(gg) > 1 else np.nan
-        rows.append({
-            "kernel": kernel,
-            "kind": kind,
-            "method": method,
-            "bias_gap_corr": corr,
-        })
+        rows.append(
+            {
+                "kernel": kernel,
+                "kind": kind,
+                "method": method,
+                "bias_gap_corr": corr,
+            }
+        )
     corr_df = pd.DataFrame(rows)
 
     summary.to_csv(f"{out_prefix}_summary.csv", index=False)
@@ -265,6 +269,7 @@ def analyse_spectrum(modes_records, trials_records, out_prefix):
 # ===========================
 # --- kernel scoring ---
 # ===========================
+
 
 def _normalise_series(s, method="zscore", larger_is_better=False):
     x = pd.to_numeric(s, errors="coerce").astype(float)
@@ -352,16 +357,20 @@ def kernel_spectral_score(
 
     mode_agg_df = (
         summary.groupby(list(group_cols), as_index=False)
-        .apply(lambda g: pd.Series({
-            "n_modes_used": int(g["eigenfunction_id"].nunique()),
-            "weight_sum": float(g["mode_weight"].sum()),
-            "agg_bias_mean": _wavg(g, "bias_mean"),
-            "agg_bias_std": _wavg(g, "bias_std"),
-            "agg_dist_mean": _wavg(g, "dist_mean"),
-            "agg_trunc_mean": _wavg(g, "trunc_mean"),
-            "agg_spurious_mean": _wavg(g, "spurious_mean"),
-            "agg_spurious_std": _wavg(g, "spurious_std"),
-        }))
+        .apply(
+            lambda g: pd.Series(
+                {
+                    "n_modes_used": int(g["eigenfunction_id"].nunique()),
+                    "weight_sum": float(g["mode_weight"].sum()),
+                    "agg_bias_mean": _wavg(g, "bias_mean"),
+                    "agg_bias_std": _wavg(g, "bias_std"),
+                    "agg_dist_mean": _wavg(g, "dist_mean"),
+                    "agg_trunc_mean": _wavg(g, "trunc_mean"),
+                    "agg_spurious_mean": _wavg(g, "spurious_mean"),
+                    "agg_spurious_std": _wavg(g, "spurious_std"),
+                }
+            )
+        )
         .reset_index(drop=True)
     )
 
@@ -369,15 +378,12 @@ def kernel_spectral_score(
         trials_df = trials_df.copy()
         trial_group_cols = [c for c in group_cols if c in trials_df.columns]
 
-        trial_agg = (
-            trials_df.groupby(trial_group_cols, as_index=False)
-            .agg(
-                mean_spurious_ref_count=("spurious_ref_count", "mean"),
-                mean_spurious_residual_count=("spurious_residual_count", "mean"),
-                mean_spectral_gap=("spectral_gap", "mean"),
-                std_spectral_gap=("spectral_gap", "std"),
-                mean_rank=("rank", "mean"),
-            )
+        trial_agg = trials_df.groupby(trial_group_cols, as_index=False).agg(
+            mean_spurious_ref_count=("spurious_ref_count", "mean"),
+            mean_spurious_residual_count=("spurious_residual_count", "mean"),
+            mean_spectral_gap=("spectral_gap", "mean"),
+            std_spectral_gap=("spectral_gap", "std"),
+            mean_rank=("rank", "mean"),
         )
 
         mode_agg_df = mode_agg_df.merge(trial_agg, on=trial_group_cols, how="left")
@@ -434,23 +440,47 @@ def kernel_spectral_score(
                 for i in np.where(mask)[0]:
                     viol[i].append(label)
 
-        if "max_spurious_ref_count" in hard_constraints and "mean_spurious_ref_count" in kernel_scores_df.columns:
-            _mark(kernel_scores_df["mean_spurious_ref_count"] > hard_constraints["max_spurious_ref_count"], "spurious_ref")
+        if (
+            "max_spurious_ref_count" in hard_constraints
+            and "mean_spurious_ref_count" in kernel_scores_df.columns
+        ):
+            _mark(
+                kernel_scores_df["mean_spurious_ref_count"]
+                > hard_constraints["max_spurious_ref_count"],
+                "spurious_ref",
+            )
 
-        if "max_spurious_residual_count" in hard_constraints and "mean_spurious_residual_count" in kernel_scores_df.columns:
-            _mark(kernel_scores_df["mean_spurious_residual_count"] > hard_constraints["max_spurious_residual_count"], "spurious_residual")
+        if (
+            "max_spurious_residual_count" in hard_constraints
+            and "mean_spurious_residual_count" in kernel_scores_df.columns
+        ):
+            _mark(
+                kernel_scores_df["mean_spurious_residual_count"]
+                > hard_constraints["max_spurious_residual_count"],
+                "spurious_residual",
+            )
 
         if "max_dist_mean" in hard_constraints:
-            _mark(kernel_scores_df["agg_dist_mean"] > hard_constraints["max_dist_mean"], "distortion")
+            _mark(
+                kernel_scores_df["agg_dist_mean"] > hard_constraints["max_dist_mean"], "distortion"
+            )
 
         if "max_bias_mean" in hard_constraints:
             _mark(kernel_scores_df["agg_bias_mean"] > hard_constraints["max_bias_mean"], "bias")
 
         if "max_trunc_mean" in hard_constraints:
-            _mark(kernel_scores_df["agg_trunc_mean"] > hard_constraints["max_trunc_mean"], "truncation")
+            _mark(
+                kernel_scores_df["agg_trunc_mean"] > hard_constraints["max_trunc_mean"],
+                "truncation",
+            )
 
-        if "min_spectral_gap" in hard_constraints and "mean_spectral_gap" in kernel_scores_df.columns:
-            _mark(kernel_scores_df["mean_spectral_gap"] < hard_constraints["min_spectral_gap"], "gap")
+        if (
+            "min_spectral_gap" in hard_constraints
+            and "mean_spectral_gap" in kernel_scores_df.columns
+        ):
+            _mark(
+                kernel_scores_df["mean_spectral_gap"] < hard_constraints["min_spectral_gap"], "gap"
+            )
 
         kernel_scores_df["admissible"] = admissible
         kernel_scores_df["constraint_violations"] = [",".join(v) for v in viol]
@@ -463,6 +493,8 @@ def kernel_spectral_score(
     kernel_scores_df["rank"] = np.arange(1, len(kernel_scores_df) + 1)
 
     return mode_agg_df, kernel_scores_df
+
+
 # sensitivity study around baseline weights
 def run_weight_sensitivity(
     summary,
@@ -496,24 +528,28 @@ def run_weight_sensitivity(
                 hard_constraints=hard_constraints,
             )
 
-            scores_sorted = scores.sort_values(["admissible", "rank"], ascending=[False, True]).reset_index(drop=True)
+            scores_sorted = scores.sort_values(
+                ["admissible", "rank"], ascending=[False, True]
+            ).reset_index(drop=True)
             top = scores_sorted.head(top_k).copy()
 
             best_row = top.iloc[0]
-            rows.append({
-                "varied_metric": metric,
-                "scale": scale,
-                "best_kernel": best_row["kernel"],
-                "best_kind": best_row["kind"],
-                "best_method": best_row["method"],
-                "best_score": best_row["composite_score"],
-                "best_rank": best_row["rank"],
-                "best_admissible": best_row["admissible"],
-                "top5_signature": " | ".join(
-                    f"{r['kernel']} / {r['method']} (r{int(r['rank'])})"
-                    for _, r in top.iterrows()
-                ),
-            })
+            rows.append(
+                {
+                    "varied_metric": metric,
+                    "scale": scale,
+                    "best_kernel": best_row["kernel"],
+                    "best_kind": best_row["kind"],
+                    "best_method": best_row["method"],
+                    "best_score": best_row["composite_score"],
+                    "best_rank": best_row["rank"],
+                    "best_admissible": best_row["admissible"],
+                    "top5_signature": " | ".join(
+                        f"{r['kernel']} / {r['method']} (r{int(r['rank'])})"
+                        for _, r in top.iterrows()
+                    ),
+                }
+            )
 
             top["varied_metric"] = metric
             top["scale"] = scale
@@ -522,3 +558,238 @@ def run_weight_sensitivity(
     summary_df = pd.DataFrame(rows).sort_values(["varied_metric", "scale"]).reset_index(drop=True)
     top_df = pd.concat(top_rows, ignore_index=True)
     return summary_df, top_df
+
+
+def plot_kernel_rankings(
+    kernel_scores,
+    trials_df=None,
+    prefix="Kernel ranking",
+    score_col="composite_score",
+    kernel_col="kernel",
+    method_col="method",
+    facet_col="kind",
+    rank_col="rank",
+    gap_col_candidates=("gap_mean", "spectral_gap", "gap"),
+    figsize_scale=(6, 4),
+    annotate_bars=True,
+    annotate_scatter=False,
+    max_label_chars=28,
+    sort_facets=True,
+    sort_methods=True,
+    sort_kernels_by_score=True,
+    color_by_facet=True,
+):
+    """
+    General plotting utility for kernel ranking outputs.
+
+    Parameters
+    ----------
+    kernel_scores : pd.DataFrame
+        Must contain at least kernel_col, method_col, score_col.
+        May also contain facet_col, rank_col, and a gap column.
+    trials_df : pd.DataFrame or None
+        Optional trial-level dataframe used to compute mean spectral gap
+        if kernel_scores does not already contain one.
+    prefix : str
+        Figure title prefix.
+    score_col, kernel_col, method_col, facet_col, rank_col : str
+        Column names to use.
+    gap_col_candidates : tuple[str]
+        Candidate names for gap columns.
+    figsize_scale : tuple[float, float]
+        Base width, height per panel.
+    annotate_bars : bool
+        Add rank labels above bars.
+    annotate_scatter : bool
+        Add kernel labels on scatter points.
+    max_label_chars : int
+        Maximum kernel label length before truncation.
+    sort_facets, sort_methods, sort_kernels_by_score : bool
+        Sorting behavior.
+    color_by_facet : bool
+        In scatter plot, color points by facet values. If False, use one color.
+    """
+
+    plot_df = kernel_scores.copy()
+
+    # ---------- Validation ----------
+    required = [kernel_col, method_col, score_col]
+    missing = [c for c in required if c not in plot_df.columns]
+    if missing:
+        raise ValueError(f"kernel_scores is missing required columns: {missing}")
+
+    # ---------- Ensure facet column exists ----------
+    if facet_col is None or facet_col not in plot_df.columns:
+        facet_col = "_facet"
+        plot_df[facet_col] = "All"
+
+    # ---------- Compute rank if missing ----------
+    if rank_col not in plot_df.columns:
+        group_cols = [c for c in [facet_col, method_col] if c in plot_df.columns]
+        plot_df[rank_col] = (
+            plot_df.groupby(group_cols)[score_col].rank(method="first", ascending=True).astype(int)
+        )
+
+    # ---------- Resolve / attach gap column ----------
+    resolved_gap_col = None
+    for c in gap_col_candidates:
+        if c in plot_df.columns:
+            resolved_gap_col = c
+            break
+
+    if resolved_gap_col is None and trials_df is not None:
+        trial_df = trials_df.copy()
+
+        if facet_col not in trial_df.columns:
+            trial_df[facet_col] = "All"
+
+        trial_gap_col = None
+        for c in gap_col_candidates:
+            if c in trial_df.columns:
+                trial_gap_col = c
+                break
+
+        if trial_gap_col is not None:
+            candidate_group_cols = [kernel_col, facet_col, method_col]
+            group_cols = [c for c in candidate_group_cols if c in trial_df.columns]
+            gap_df = (
+                trial_df.groupby(group_cols, as_index=False)[trial_gap_col]
+                .mean()
+                .rename(columns={trial_gap_col: "gap_mean"})
+            )
+
+            merge_cols = [
+                c for c in candidate_group_cols if c in plot_df.columns and c in gap_df.columns
+            ]
+            plot_df = plot_df.merge(gap_df, on=merge_cols, how="left")
+            resolved_gap_col = "gap_mean"
+
+    # ---------- Label helpers ----------
+    def short_label(x, max_chars=max_label_chars):
+        s = str(x)
+        return s if len(s) <= max_chars else s[: max_chars - 1] + "…"
+
+    plot_df["_kernel_label"] = plot_df[kernel_col].map(short_label)
+
+    # ---------- Ordering ----------
+    facets = list(plot_df[facet_col].dropna().unique())
+    methods = list(plot_df[method_col].dropna().unique())
+
+    if sort_facets:
+        try:
+            facets = sorted(facets)
+        except Exception:
+            pass
+
+    if sort_methods:
+        try:
+            methods = sorted(methods)
+        except Exception:
+            pass
+
+    # ---------- Figure 1: bar rankings ----------
+    fig1, axes = plt.subplots(
+        len(facets),
+        len(methods),
+        figsize=(figsize_scale[0] * len(methods), figsize_scale[1] * len(facets)),
+        squeeze=False,
+    )
+
+    for i, facet_val in enumerate(facets):
+        for j, method in enumerate(methods):
+            ax = axes[i, j]
+            g = plot_df[(plot_df[facet_col] == facet_val) & (plot_df[method_col] == method)].copy()
+
+            if sort_kernels_by_score:
+                g = g.sort_values(score_col, ascending=True)
+            elif rank_col in g.columns:
+                g = g.sort_values(rank_col, ascending=True)
+
+            if g.empty:
+                ax.set_visible(False)
+                continue
+
+            x = np.arange(len(g))
+            ax.bar(x, g[score_col], alpha=0.85)
+            ax.axhline(0, color="black", linewidth=0.8, alpha=0.6)
+            ax.set_xticks(x)
+            ax.set_xticklabels(g["_kernel_label"], rotation=45, ha="right")
+            ax.set_ylabel("Composite score")
+            ax.set_title(f"{prefix}: {facet_col}={facet_val} / {method}")
+            ax.grid(axis="y", alpha=0.25)
+
+            if annotate_bars and rank_col in g.columns:
+                yspan = float(np.nanmax(np.abs(g[score_col]))) if len(g) else 1.0
+                offset = 0.02 * max(1.0, yspan)
+                for xi, (_, row) in zip(x, g.iterrows()):
+                    ax.text(
+                        xi,
+                        row[score_col] + offset,
+                        f"#{int(row[rank_col])}",
+                        ha="center",
+                        va="bottom",
+                        fontsize=8,
+                    )
+
+    fig1.tight_layout()
+    plt.show()
+
+    # ---------- Figure 2: score vs gap ----------
+    if resolved_gap_col is not None and resolved_gap_col in plot_df.columns:
+        fig2, axes = plt.subplots(
+            1,
+            len(methods),
+            figsize=(figsize_scale[0] * len(methods), figsize_scale[1]),
+            squeeze=False,
+        )
+
+        cmap = plt.get_cmap("tab10")
+        facet_to_color = {facet: cmap(k % 10) for k, facet in enumerate(facets)}
+
+        for j, method in enumerate(methods):
+            ax = axes[0, j]
+
+            for facet_val in facets:
+                g = plot_df[
+                    (plot_df[method_col] == method) & (plot_df[facet_col] == facet_val)
+                ].copy()
+
+                if g.empty or resolved_gap_col not in g.columns:
+                    continue
+
+                color = facet_to_color[facet_val] if color_by_facet else None
+
+                ax.scatter(
+                    g[resolved_gap_col],
+                    g[score_col],
+                    s=60,
+                    alpha=0.8,
+                    label=str(facet_val),
+                    color=color,
+                )
+
+                if annotate_scatter:
+                    for _, row in g.iterrows():
+                        ax.annotate(
+                            row["_kernel_label"],
+                            (row[resolved_gap_col], row[score_col]),
+                            xytext=(4, 4),
+                            textcoords="offset points",
+                            fontsize=8,
+                        )
+
+            ax.set_xlabel("Mean spectral gap")
+            ax.set_ylabel("Composite score")
+            ax.set_title(f"{prefix} score vs gap: {method}")
+            ax.grid(alpha=0.25)
+
+            handles, labels = ax.get_legend_handles_labels()
+            if labels:
+                ax.legend(frameon=False, title=facet_col)
+
+        fig2.tight_layout()
+        plt.show()
+    else:
+        print("No spectral gap column found or derivable; skipping score-vs-gap scatter.")
+
+    return plot_df

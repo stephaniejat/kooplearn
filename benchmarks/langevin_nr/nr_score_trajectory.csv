@@ -1,9 +1,0 @@
-kind,method,kernel,composite_score,mean_spectral_gap,mean_spurious_residual_count
-omega=0.0,Principal Components (kDMD),rbf(gamma=0.5),0.0,0.007940847413489827,5.0
-omega=0.5,Principal Components (kDMD),rbf(gamma=0.5),0.0,0.009512867269174463,5.0
-omega=1.0,Principal Components (kDMD),rbf(gamma=0.5),0.0,0.009516762121146194,5.0
-omega=2.0,Principal Components (kDMD),rbf(gamma=0.5),0.0,0.010421133928223936,5.0
-omega=0.0,Reduced Rank,rbf(gamma=0.5),0.0,0.0077674302326937615,5.0
-omega=0.5,Reduced Rank,rbf(gamma=0.5),0.0,0.009196500808081487,5.0
-omega=1.0,Reduced Rank,rbf(gamma=0.5),0.0,0.009415849981090551,5.0
-omega=2.0,Reduced Rank,rbf(gamma=0.5),0.0,0.0102119395278224,5.0
