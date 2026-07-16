@@ -1,0 +1,3 @@
+kernel,method,n_modes_used,weight_sum,agg_bias_mean,agg_bias_std,agg_dist_mean,agg_trunc_mean,agg_spurious_mean,agg_spurious_std,mean_spurious_ref_count,mean_spurious_residual_count,mean_spectral_gap,std_spectral_gap,mean_rank
+linear,PCR,3.0,1.0,0.0,0.0,3.210048598608259,0.0,0.701347036575251,0.028148855220233977,2.0,2.9,0.991712779414291,0.0020577691511490643,3.0
+linear,Reduced Rank,3.0,1.0,2.1359204347923834e-15,2.290892891323246e-15,0.949713460106188,2.4549193300116035e-15,0.7165886677321572,0.02892007149086266,2.0,1.7,0.9918230983144676,0.0021007351321921416,3.0

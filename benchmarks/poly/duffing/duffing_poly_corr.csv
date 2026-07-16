@@ -13,7 +13,7 @@ poly(p=1),omega=2.0,Principal Components (kDMD),
 poly(p=1),omega=2.0,Reduced Rank,-0.32619292827524554
 poly(p=1),omega=3.0,Principal Components (kDMD),
 poly(p=1),omega=3.0,Reduced Rank,0.1354562823600729
-poly(p=2),omega=0.5,Principal Components (kDMD),-0.80324927454236
+poly(p=2),omega=0.5,Principal Components (kDMD),-0.8032492745424534
 poly(p=2),omega=0.5,Reduced Rank,-0.751359578148548
 poly(p=2),omega=0.8,Principal Components (kDMD),-0.4205325172190444
 poly(p=2),omega=0.8,Reduced Rank,-0.4718719939202307

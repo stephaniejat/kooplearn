@@ -1,0 +1,481 @@
+kind,kernel,method,trial,spurious_ref_count,spurious_residual_count,spectral_gap,rank
+damping=0.0,poly(p=1),Principal Components (kDMD),0,2,4,8.440689258648604e-10,5
+damping=0.0,poly(p=1),Principal Components (kDMD),1,2,4,5.35456012862312e-10,5
+damping=0.0,poly(p=1),Principal Components (kDMD),2,2,4,1.4999081976441175e-09,5
+damping=0.0,poly(p=1),Principal Components (kDMD),3,2,3,4.4191328374409977e-10,5
+damping=0.0,poly(p=1),Principal Components (kDMD),4,2,3,1.224431334101439e-09,5
+damping=0.0,poly(p=1),Principal Components (kDMD),5,2,4,1.1182560433198319e-09,5
+damping=0.0,poly(p=1),Principal Components (kDMD),6,2,4,4.5843240314979994e-10,5
+damping=0.0,poly(p=1),Principal Components (kDMD),7,2,4,7.592669604150615e-09,5
+damping=0.0,poly(p=1),Principal Components (kDMD),8,2,4,7.852536398900156e-10,5
+damping=0.0,poly(p=1),Principal Components (kDMD),9,2,4,6.12783712661269e-10,5
+damping=0.0,poly(p=2),Principal Components (kDMD),0,0,4,3.742262055794754e-10,5
+damping=0.0,poly(p=2),Principal Components (kDMD),1,0,4,2.2244550645922345e-10,5
+damping=0.0,poly(p=2),Principal Components (kDMD),2,0,4,7.007295854677409e-10,5
+damping=0.0,poly(p=2),Principal Components (kDMD),3,0,4,1.773358127010738e-10,5
+damping=0.0,poly(p=2),Principal Components (kDMD),4,0,4,5.633401523041925e-10,5
+damping=0.0,poly(p=2),Principal Components (kDMD),5,0,4,5.104564548830126e-10,5
+damping=0.0,poly(p=2),Principal Components (kDMD),6,0,4,1.852406006364049e-10,5
+damping=0.0,poly(p=2),Principal Components (kDMD),7,0,4,3.746373322677243e-09,5
+damping=0.0,poly(p=2),Principal Components (kDMD),8,0,4,3.451179342306432e-10,5
+damping=0.0,poly(p=2),Principal Components (kDMD),9,0,4,2.6018132093241775e-10,5
+damping=0.0,poly(p=3),Principal Components (kDMD),0,0,4,2.2148560763213254e-10,5
+damping=0.0,poly(p=3),Principal Components (kDMD),1,0,4,1.2711331986992036e-10,5
+damping=0.0,poly(p=3),Principal Components (kDMD),2,0,4,4.35106284335518e-10,5
+damping=0.0,poly(p=3),Principal Components (kDMD),3,0,4,1.0112399806416761e-10,5
+damping=0.0,poly(p=3),Principal Components (kDMD),4,0,4,3.4450375885342055e-10,5
+damping=0.0,poly(p=3),Principal Components (kDMD),5,0,4,3.0982838516990796e-10,5
+damping=0.0,poly(p=3),Principal Components (kDMD),6,0,4,1.0555578633386631e-10,5
+damping=0.0,poly(p=3),Principal Components (kDMD),7,0,4,2.463969139832045e-09,5
+damping=0.0,poly(p=3),Principal Components (kDMD),8,0,4,2.028999190883951e-10,5
+damping=0.0,poly(p=3),Principal Components (kDMD),9,0,4,1.498345891803865e-10,5
+damping=0.0,poly(p=4),Principal Components (kDMD),0,0,4,1.5137513464935637e-10,5
+damping=0.0,poly(p=4),Principal Components (kDMD),1,0,4,9.13085163034566e-11,5
+damping=0.0,poly(p=4),Principal Components (kDMD),2,0,4,3.044048346723116e-10,5
+damping=0.0,poly(p=4),Principal Components (kDMD),3,0,4,7.778622190812712e-11,5
+damping=0.0,poly(p=4),Principal Components (kDMD),4,0,4,2.3831114859262925e-10,5
+damping=0.0,poly(p=4),Principal Components (kDMD),5,0,4,2.1335200273142618e-10,5
+damping=0.0,poly(p=4),Principal Components (kDMD),6,0,4,7.990852424200057e-11,5
+damping=0.0,poly(p=4),Principal Components (kDMD),7,0,4,1.8226314901781393e-09,5
+damping=0.0,poly(p=4),Principal Components (kDMD),8,0,4,1.3881285010342026e-10,5
+damping=0.0,poly(p=4),Principal Components (kDMD),9,0,4,1.0466671973574648e-10,5
+damping=0.0,poly(p=1),Reduced Rank,0,1,3,2.2082821044211443e-05,4
+damping=0.0,poly(p=1),Reduced Rank,1,0,2,5.35459121486781e-10,3
+damping=0.0,poly(p=1),Reduced Rank,2,2,3,5.5748140341815855e-06,5
+damping=0.0,poly(p=1),Reduced Rank,3,0,2,4.419119514764702e-10,3
+damping=0.0,poly(p=1),Reduced Rank,4,1,0,0.0,4
+damping=0.0,poly(p=1),Reduced Rank,5,1,0,0.000400456730814458,4
+damping=0.0,poly(p=1),Reduced Rank,6,2,0,6.652709735766038e-06,5
+damping=0.0,poly(p=1),Reduced Rank,7,0,2,7.59267071437364e-09,3
+damping=0.0,poly(p=1),Reduced Rank,8,2,0,8.372466997474959e-07,5
+damping=0.0,poly(p=1),Reduced Rank,9,2,4,0.0,5
+damping=0.0,poly(p=2),Reduced Rank,0,0,4,3.7422775989170987e-10,5
+damping=0.0,poly(p=2),Reduced Rank,1,0,4,2.2244817099448255e-10,5
+damping=0.0,poly(p=2),Reduced Rank,2,0,4,7.007268099101793e-10,5
+damping=0.0,poly(p=2),Reduced Rank,3,0,4,1.7733070567516052e-10,5
+damping=0.0,poly(p=2),Reduced Rank,4,0,4,5.633413735495196e-10,5
+damping=0.0,poly(p=2),Reduced Rank,5,0,4,5.104554556822904e-10,5
+damping=0.0,poly(p=2),Reduced Rank,6,0,4,1.8524637379613296e-10,5
+damping=0.0,poly(p=2),Reduced Rank,7,0,4,3.7463728785880335e-09,5
+damping=0.0,poly(p=2),Reduced Rank,8,0,4,3.451163799184087e-10,5
+damping=0.0,poly(p=2),Reduced Rank,9,0,4,2.6017887844176357e-10,5
+damping=0.0,poly(p=3),Reduced Rank,0,0,4,2.2148327616378083e-10,5
+damping=0.0,poly(p=3),Reduced Rank,1,0,4,1.2710743568788985e-10,5
+damping=0.0,poly(p=3),Reduced Rank,2,0,4,4.3510495206788846e-10,5
+damping=0.0,poly(p=3),Reduced Rank,3,0,4,1.0111700365911247e-10,5
+damping=0.0,poly(p=3),Reduced Rank,4,0,4,3.445033147642107e-10,5
+damping=0.0,poly(p=3),Reduced Rank,5,0,4,3.098339362850311e-10,5
+damping=0.0,poly(p=3),Reduced Rank,6,0,4,1.0555711860149586e-10,5
+damping=0.0,poly(p=3),Reduced Rank,7,0,4,2.4639684736982304e-09,5
+damping=0.0,poly(p=3),Reduced Rank,8,0,4,2.0290302771286406e-10,5
+damping=0.0,poly(p=3),Reduced Rank,9,0,4,1.4982737273072644e-10,5
+damping=0.0,poly(p=4),Reduced Rank,0,0,4,1.5136902842272093e-10,5
+damping=0.0,poly(p=4),Reduced Rank,1,0,4,9.130718403582705e-11,5
+damping=0.0,poly(p=4),Reduced Rank,2,0,4,3.044055008061264e-10,5
+damping=0.0,poly(p=4),Reduced Rank,3,0,4,7.778400146207787e-11,5
+damping=0.0,poly(p=4),Reduced Rank,4,0,4,2.3830726281204306e-10,5
+damping=0.0,poly(p=4),Reduced Rank,5,0,4,2.1335411215517297e-10,5
+damping=0.0,poly(p=4),Reduced Rank,6,0,4,7.990874628660549e-11,5
+damping=0.0,poly(p=4),Reduced Rank,7,0,4,1.8226312681335344e-09,5
+damping=0.0,poly(p=4),Reduced Rank,8,0,4,1.3880929738974146e-10,5
+damping=0.0,poly(p=4),Reduced Rank,9,0,4,1.0466671973574648e-10,5
+damping=0.1,poly(p=1),Principal Components (kDMD),0,2,4,0.0015987585853443065,5
+damping=0.1,poly(p=1),Principal Components (kDMD),1,2,4,0.001598756448080385,5
+damping=0.1,poly(p=1),Principal Components (kDMD),2,2,3,0.0015987619491379945,5
+damping=0.1,poly(p=1),Principal Components (kDMD),3,2,2,0.001598755791204609,5
+damping=0.1,poly(p=1),Principal Components (kDMD),4,2,4,0.0015987619476109938,5
+damping=0.1,poly(p=1),Principal Components (kDMD),5,2,4,0.0015987600136004865,5
+damping=0.1,poly(p=1),Principal Components (kDMD),6,2,4,0.001598755819110953,5
+damping=0.1,poly(p=1),Principal Components (kDMD),7,2,4,0.0015988064924959966,5
+damping=0.1,poly(p=1),Principal Components (kDMD),8,2,4,0.0015987578602012498,5
+damping=0.1,poly(p=1),Principal Components (kDMD),9,2,3,0.0015987570698530185,5
+damping=0.1,poly(p=2),Principal Components (kDMD),0,0,4,0.0016627220151758104,5
+damping=0.1,poly(p=2),Principal Components (kDMD),1,0,2,0.001621274989717869,5
+damping=0.1,poly(p=2),Principal Components (kDMD),2,0,4,0.0016821714093607776,5
+damping=0.1,poly(p=2),Principal Components (kDMD),3,0,4,0.0016329121114481149,5
+damping=0.1,poly(p=2),Principal Components (kDMD),4,0,4,0.001667514901674938,5
+damping=0.1,poly(p=2),Principal Components (kDMD),5,0,2,0.0016111108267170549,5
+damping=0.1,poly(p=2),Principal Components (kDMD),6,0,4,0.001727749073086815,5
+damping=0.1,poly(p=2),Principal Components (kDMD),7,0,4,0.0016127618999686177,5
+damping=0.1,poly(p=2),Principal Components (kDMD),8,0,4,0.001678883613539628,5
+damping=0.1,poly(p=2),Principal Components (kDMD),9,0,4,0.0016796898102243718,5
+damping=0.1,poly(p=3),Principal Components (kDMD),0,0,4,0.0017131749470603586,5
+damping=0.1,poly(p=3),Principal Components (kDMD),1,0,2,0.0016597901311597996,5
+damping=0.1,poly(p=3),Principal Components (kDMD),2,0,4,0.0017345015189010882,5
+damping=0.1,poly(p=3),Principal Components (kDMD),3,0,4,0.0016895271023521508,5
+damping=0.1,poly(p=3),Principal Components (kDMD),4,0,4,0.0017350077079986148,5
+damping=0.1,poly(p=3),Principal Components (kDMD),5,0,2,0.0016278351541001435,5
+damping=0.1,poly(p=3),Principal Components (kDMD),6,0,4,0.001807644931164143,5
+damping=0.1,poly(p=3),Principal Components (kDMD),7,0,4,0.0016266829263757998,5
+damping=0.1,poly(p=3),Principal Components (kDMD),8,0,4,0.0017138486758343507,5
+damping=0.1,poly(p=3),Principal Components (kDMD),9,0,4,0.001737056150834082,5
+damping=0.1,poly(p=4),Principal Components (kDMD),0,0,4,0.0017536456055395888,5
+damping=0.1,poly(p=4),Principal Components (kDMD),1,0,2,0.0017161124550416629,5
+damping=0.1,poly(p=4),Principal Components (kDMD),2,0,4,0.0017737932110737376,5
+damping=0.1,poly(p=4),Principal Components (kDMD),3,0,4,0.0017718267805034715,5
+damping=0.1,poly(p=4),Principal Components (kDMD),4,0,4,0.0018006894091827652,5
+damping=0.1,poly(p=4),Principal Components (kDMD),5,0,2,0.0016492303368540462,5
+damping=0.1,poly(p=4),Principal Components (kDMD),6,0,4,0.0018403685930787894,5
+damping=0.1,poly(p=4),Principal Components (kDMD),7,0,4,0.0016405420308067686,5
+damping=0.1,poly(p=4),Principal Components (kDMD),8,0,4,0.001731975505694705,5
+damping=0.1,poly(p=4),Principal Components (kDMD),9,0,4,0.0017797851109958573,5
+damping=0.1,poly(p=1),Reduced Rank,0,2,0,0.0016039897604928077,5
+damping=0.1,poly(p=1),Reduced Rank,1,2,4,0.0016462104008773126,5
+damping=0.1,poly(p=1),Reduced Rank,2,2,0,0.0022616361332710166,5
+damping=0.1,poly(p=1),Reduced Rank,3,2,4,0.001918210689549782,5
+damping=0.1,poly(p=1),Reduced Rank,4,1,3,0.001646430285965006,4
+damping=0.1,poly(p=1),Reduced Rank,5,2,0,0.0016704044306501409,5
+damping=0.1,poly(p=1),Reduced Rank,6,2,0,0.0015998492002098352,5
+damping=0.1,poly(p=1),Reduced Rank,7,1,0,0.04568432120379984,4
+damping=0.1,poly(p=1),Reduced Rank,8,2,0,0.0016737081994911973,5
+damping=0.1,poly(p=1),Reduced Rank,9,2,3,0.002015918428496688,5
+damping=0.1,poly(p=2),Reduced Rank,0,0,4,0.001662885943755854,5
+damping=0.1,poly(p=2),Reduced Rank,1,0,2,0.001621530468809862,5
+damping=0.1,poly(p=2),Reduced Rank,2,0,4,0.0016990609252721667,5
+damping=0.1,poly(p=2),Reduced Rank,3,0,4,0.0016342100991004749,5
+damping=0.1,poly(p=2),Reduced Rank,4,0,4,0.0016682827368946773,5
+damping=0.1,poly(p=2),Reduced Rank,5,0,2,0.0016112682468780726,5
+damping=0.1,poly(p=2),Reduced Rank,6,0,4,0.0017424381673127876,5
+damping=0.1,poly(p=2),Reduced Rank,7,0,4,0.0016132279625499235,5
+damping=0.1,poly(p=2),Reduced Rank,8,0,4,0.001676532866536351,5
+damping=0.1,poly(p=2),Reduced Rank,9,0,4,0.0016799572002170748,5
+damping=0.1,poly(p=3),Reduced Rank,0,0,4,0.0017139712963734066,5
+damping=0.1,poly(p=3),Reduced Rank,1,0,2,0.0016601780899807572,5
+damping=0.1,poly(p=3),Reduced Rank,2,0,4,0.0017534857512937485,5
+damping=0.1,poly(p=3),Reduced Rank,3,0,4,0.0016917736952409834,5
+damping=0.1,poly(p=3),Reduced Rank,4,0,4,0.0017364288440632203,5
+damping=0.1,poly(p=3),Reduced Rank,5,0,2,0.0016281175368197953,5
+damping=0.1,poly(p=3),Reduced Rank,6,0,4,0.0018198306771660677,5
+damping=0.1,poly(p=3),Reduced Rank,7,0,4,0.0016276028743316129,5
+damping=0.1,poly(p=3),Reduced Rank,8,0,4,0.0017125376106489343,5
+damping=0.1,poly(p=3),Reduced Rank,9,0,4,0.0017383388553495749,5
+damping=0.1,poly(p=4),Reduced Rank,0,0,4,0.0017552874731066037,5
+damping=0.1,poly(p=4),Reduced Rank,1,0,2,0.0017165310802327305,5
+damping=0.1,poly(p=4),Reduced Rank,2,0,4,0.001791718396282338,5
+damping=0.1,poly(p=4),Reduced Rank,3,0,4,0.0017745914313447297,5
+damping=0.1,poly(p=4),Reduced Rank,4,0,4,0.001802618047736737,5
+damping=0.1,poly(p=4),Reduced Rank,5,0,2,0.0016496091382537381,5
+damping=0.1,poly(p=4),Reduced Rank,6,0,4,0.0018250286894563317,5
+damping=0.1,poly(p=4),Reduced Rank,7,0,4,0.0016418994467952697,5
+damping=0.1,poly(p=4),Reduced Rank,8,0,4,0.00173199863349216,5
+damping=0.1,poly(p=4),Reduced Rank,9,0,4,0.0017822849715661837,5
+damping=0.3,poly(p=1),Principal Components (kDMD),0,2,4,0.0015987595270480215,5
+damping=0.3,poly(p=1),Principal Components (kDMD),1,2,3,0.0015987563641678415,5
+damping=0.3,poly(p=1),Principal Components (kDMD),2,2,4,0.0015987612950832952,5
+damping=0.3,poly(p=1),Principal Components (kDMD),3,2,4,0.0015987556031462624,5
+damping=0.3,poly(p=1),Principal Components (kDMD),4,2,4,0.0015987660505613066,5
+damping=0.3,poly(p=1),Principal Components (kDMD),5,2,3,0.0015987598205118303,5
+damping=0.3,poly(p=1),Principal Components (kDMD),6,2,4,0.0015987555777046136,5
+damping=0.3,poly(p=1),Principal Components (kDMD),7,2,4,0.001598826072713111,5
+damping=0.3,poly(p=1),Principal Components (kDMD),8,2,4,0.0015987578309929473,5
+damping=0.3,poly(p=1),Principal Components (kDMD),9,2,4,0.0015987576838999429,5
+damping=0.3,poly(p=2),Principal Components (kDMD),0,0,2,0.0015950854826402017,5
+damping=0.3,poly(p=2),Principal Components (kDMD),1,0,4,0.0016783963591180395,5
+damping=0.3,poly(p=2),Principal Components (kDMD),2,0,2,0.0015991040998092343,5
+damping=0.3,poly(p=2),Principal Components (kDMD),3,0,4,0.0016724112367254573,5
+damping=0.3,poly(p=2),Principal Components (kDMD),4,0,4,0.001621008163038229,5
+damping=0.3,poly(p=2),Principal Components (kDMD),5,0,4,0.0016404334340496263,5
+damping=0.3,poly(p=2),Principal Components (kDMD),6,0,2,0.0016041045557051437,5
+damping=0.3,poly(p=2),Principal Components (kDMD),7,0,4,0.001603074466741683,5
+damping=0.3,poly(p=2),Principal Components (kDMD),8,0,2,0.0015848950956532937,5
+damping=0.3,poly(p=2),Principal Components (kDMD),9,0,2,0.001591963728041823,5
+damping=0.3,poly(p=3),Principal Components (kDMD),0,0,0,0.001592036747162462,5
+damping=0.3,poly(p=3),Principal Components (kDMD),1,0,4,0.0017692714715962232,5
+damping=0.3,poly(p=3),Principal Components (kDMD),2,0,2,0.0016024765101760874,5
+damping=0.3,poly(p=3),Principal Components (kDMD),3,0,4,0.0017669213824244023,5
+damping=0.3,poly(p=3),Principal Components (kDMD),4,0,4,0.0016433844349735827,5
+damping=0.3,poly(p=3),Principal Components (kDMD),5,0,4,0.001685473432311957,5
+damping=0.3,poly(p=3),Principal Components (kDMD),6,0,0,0.0016336719357031848,5
+damping=0.3,poly(p=3),Principal Components (kDMD),7,0,4,0.0016073362166594274,5
+damping=0.3,poly(p=3),Principal Components (kDMD),8,0,0,0.0015762200710843777,5
+damping=0.3,poly(p=3),Principal Components (kDMD),9,0,0,0.001586787243037291,5
+damping=0.3,poly(p=4),Principal Components (kDMD),0,0,0,0.0015899160193806328,5
+damping=0.3,poly(p=4),Principal Components (kDMD),1,0,4,0.0018728810859002243,5
+damping=0.3,poly(p=4),Principal Components (kDMD),2,0,2,0.001609005441694289,5
+damping=0.3,poly(p=4),Principal Components (kDMD),3,0,4,0.0018869423039800104,5
+damping=0.3,poly(p=4),Principal Components (kDMD),4,0,4,0.0016659497302312642,5
+damping=0.3,poly(p=4),Principal Components (kDMD),5,0,4,0.001734152426744573,5
+damping=0.3,poly(p=4),Principal Components (kDMD),6,0,0,0.0016930527461537226,5
+damping=0.3,poly(p=4),Principal Components (kDMD),7,0,4,0.001611617628133999,5
+damping=0.3,poly(p=4),Principal Components (kDMD),8,0,0,0.0015729391907131074,5
+damping=0.3,poly(p=4),Principal Components (kDMD),9,0,0,0.0015838737889444232,5
+damping=0.3,poly(p=1),Reduced Rank,0,2,4,0.001716166499351468,5
+damping=0.3,poly(p=1),Reduced Rank,1,2,0,0.0015926340831335928,5
+damping=0.3,poly(p=1),Reduced Rank,2,2,3,0.001463142341164403,5
+damping=0.3,poly(p=1),Reduced Rank,3,2,3,0.0017786137051413187,5
+damping=0.3,poly(p=1),Reduced Rank,4,2,0,0.0015854831278571124,5
+damping=0.3,poly(p=1),Reduced Rank,5,2,1,0.0026102555850313625,5
+damping=0.3,poly(p=1),Reduced Rank,6,1,3,0.0016136650262175145,4
+damping=0.3,poly(p=1),Reduced Rank,7,2,0,0.0007132287373575741,5
+damping=0.3,poly(p=1),Reduced Rank,8,2,4,0.0016254471059482523,5
+damping=0.3,poly(p=1),Reduced Rank,9,2,0,0.0015989286057839225,5
+damping=0.3,poly(p=2),Reduced Rank,0,0,2,0.0015953166787378015,5
+damping=0.3,poly(p=2),Reduced Rank,1,0,4,0.0016776853783179169,5
+damping=0.3,poly(p=2),Reduced Rank,2,0,2,0.0015987298463611133,5
+damping=0.3,poly(p=2),Reduced Rank,3,0,4,0.0016708417487796279,5
+damping=0.3,poly(p=2),Reduced Rank,4,0,4,0.0016209907675924784,5
+damping=0.3,poly(p=2),Reduced Rank,5,0,4,0.0016400055171384986,5
+damping=0.3,poly(p=2),Reduced Rank,6,0,2,0.001602932301410398,5
+damping=0.3,poly(p=2),Reduced Rank,7,0,4,0.0016030697826201479,5
+damping=0.3,poly(p=2),Reduced Rank,8,0,2,0.0015849372142737739,5
+damping=0.3,poly(p=2),Reduced Rank,9,0,2,0.001592257142328024,5
+damping=0.3,poly(p=3),Reduced Rank,0,0,0,0.0015924512063041352,5
+damping=0.3,poly(p=3),Reduced Rank,1,0,4,0.001767853988465018,5
+damping=0.3,poly(p=3),Reduced Rank,2,0,2,0.001601698844075794,5
+damping=0.3,poly(p=3),Reduced Rank,3,0,4,0.0017637215123774697,5
+damping=0.3,poly(p=3),Reduced Rank,4,0,4,0.0016433558105242163,5
+damping=0.3,poly(p=3),Reduced Rank,5,0,4,0.0016846172057507491,5
+damping=0.3,poly(p=3),Reduced Rank,6,0,0,0.0016310596471582617,5
+damping=0.3,poly(p=3),Reduced Rank,7,0,4,0.0016073277562870247,5
+damping=0.3,poly(p=3),Reduced Rank,8,0,0,0.00157620104162437,5
+damping=0.3,poly(p=3),Reduced Rank,9,0,0,0.0015872873351300276,5
+damping=0.3,poly(p=4),Reduced Rank,0,0,0,0.0015904696340589553,5
+damping=0.3,poly(p=4),Reduced Rank,1,0,4,0.0018707295636418708,5
+damping=0.3,poly(p=4),Reduced Rank,2,0,2,0.0016077865134960234,5
+damping=0.3,poly(p=4),Reduced Rank,3,0,4,0.0018822897525632154,5
+damping=0.3,poly(p=4),Reduced Rank,4,0,4,0.0016659151157424334,5
+damping=0.3,poly(p=4),Reduced Rank,5,0,4,0.0017328682011403806,5
+damping=0.3,poly(p=4),Reduced Rank,6,0,0,0.0016885296088864354,5
+damping=0.3,poly(p=4),Reduced Rank,7,0,4,0.0016116053192307689,5
+damping=0.3,poly(p=4),Reduced Rank,8,0,0,0.0015727526467046449,5
+damping=0.3,poly(p=4),Reduced Rank,9,0,0,0.0015845001704954953,5
+damping=0.5,poly(p=1),Principal Components (kDMD),0,2,0,0.0015987615567500946,5
+damping=0.5,poly(p=1),Principal Components (kDMD),1,2,2,0.0015987565051001074,5
+damping=0.5,poly(p=1),Principal Components (kDMD),2,2,2,0.001598761349625999,5
+damping=0.5,poly(p=1),Principal Components (kDMD),3,2,2,0.0015987556083770782,5
+damping=0.5,poly(p=1),Principal Components (kDMD),4,2,2,0.0015987781504018805,5
+damping=0.5,poly(p=1),Principal Components (kDMD),5,2,2,0.0015987600713497363,5
+damping=0.5,poly(p=1),Principal Components (kDMD),6,2,2,0.0015987555695017308,5
+damping=0.5,poly(p=1),Principal Components (kDMD),7,2,2,0.0015988777259495768,5
+damping=0.5,poly(p=1),Principal Components (kDMD),8,2,2,0.001598758278421042,5
+damping=0.5,poly(p=1),Principal Components (kDMD),9,2,1,0.001598759032553021,5
+damping=0.5,poly(p=2),Principal Components (kDMD),0,0,0,0.0016077429809933097,5
+damping=0.5,poly(p=2),Principal Components (kDMD),1,0,0,0.0016523829615672225,5
+damping=0.5,poly(p=2),Principal Components (kDMD),2,0,0,0.001626679397432329,5
+damping=0.5,poly(p=2),Principal Components (kDMD),3,0,0,0.0016717198312610204,5
+damping=0.5,poly(p=2),Principal Components (kDMD),4,0,0,0.0016042128741693418,5
+damping=0.5,poly(p=2),Principal Components (kDMD),5,0,0,0.0016280167344042695,5
+damping=0.5,poly(p=2),Principal Components (kDMD),6,0,0,0.0016760536016816596,5
+damping=0.5,poly(p=2),Principal Components (kDMD),7,0,0,0.001600132866140802,5
+damping=0.5,poly(p=2),Principal Components (kDMD),8,0,0,0.0016323396601080065,5
+damping=0.5,poly(p=2),Principal Components (kDMD),9,0,0,0.001612868172055526,5
+damping=0.5,poly(p=3),Principal Components (kDMD),0,0,0,0.0016216921795940697,5
+damping=0.5,poly(p=3),Principal Components (kDMD),1,0,0,0.0017156553964315924,5
+damping=0.5,poly(p=3),Principal Components (kDMD),2,0,0,0.001655706233399168,5
+damping=0.5,poly(p=3),Principal Components (kDMD),3,0,0,0.0017569276735305284,5
+damping=0.5,poly(p=3),Principal Components (kDMD),4,0,0,0.00161045136673299,5
+damping=0.5,poly(p=3),Principal Components (kDMD),5,0,0,0.0016599484760998484,5
+damping=0.5,poly(p=3),Principal Components (kDMD),6,0,0,0.001761265394671474,5
+damping=0.5,poly(p=3),Principal Components (kDMD),7,0,0,0.0016013164983764705,5
+damping=0.5,poly(p=3),Principal Components (kDMD),8,0,0,0.0016710781579573064,5
+damping=0.5,poly(p=3),Principal Components (kDMD),9,0,0,0.0016358077990559217,5
+damping=0.5,poly(p=4),Principal Components (kDMD),0,0,0,0.0016410962056329081,5
+damping=0.5,poly(p=4),Principal Components (kDMD),1,0,0,0.00179060607692072,5
+damping=0.5,poly(p=4),Principal Components (kDMD),2,0,0,0.0016858925432140515,5
+damping=0.5,poly(p=4),Principal Components (kDMD),3,0,0,0.001857649107056214,5
+damping=0.5,poly(p=4),Principal Components (kDMD),4,0,0,0.0016174608555321601,5
+damping=0.5,poly(p=4),Principal Components (kDMD),5,0,0,0.0016948782201188228,5
+damping=0.5,poly(p=4),Principal Components (kDMD),6,0,0,0.0018550907475807232,5
+damping=0.5,poly(p=4),Principal Components (kDMD),7,0,0,0.0016025499983237657,5
+damping=0.5,poly(p=4),Principal Components (kDMD),8,0,0,0.0017148465490263165,5
+damping=0.5,poly(p=4),Principal Components (kDMD),9,0,0,0.0016684862645162113,5
+damping=0.5,poly(p=1),Reduced Rank,0,2,0,0.0020525956431121095,5
+damping=0.5,poly(p=1),Reduced Rank,1,2,1,0.001949046028709267,5
+damping=0.5,poly(p=1),Reduced Rank,2,2,1,0.0019332397038053228,5
+damping=0.5,poly(p=1),Reduced Rank,3,2,1,0.001702175297436881,5
+damping=0.5,poly(p=1),Reduced Rank,4,2,0,0.001343733674464942,5
+damping=0.5,poly(p=1),Reduced Rank,5,1,0,0.0015819783938862964,4
+damping=0.5,poly(p=1),Reduced Rank,6,2,1,0.0016339783434808908,5
+damping=0.5,poly(p=1),Reduced Rank,7,2,1,0.0053992065637258335,5
+damping=0.5,poly(p=1),Reduced Rank,8,2,1,0.0016103487162664187,5
+damping=0.5,poly(p=1),Reduced Rank,9,2,2,0.0017140414563403539,5
+damping=0.5,poly(p=2),Reduced Rank,0,0,0,0.001607572859641082,5
+damping=0.5,poly(p=2),Reduced Rank,1,0,0,0.0016523091546090107,5
+damping=0.5,poly(p=2),Reduced Rank,2,0,0,0.0016265422089256631,5
+damping=0.5,poly(p=2),Reduced Rank,3,0,0,0.001671566449327866,5
+damping=0.5,poly(p=2),Reduced Rank,4,0,0,0.0016042127842785803,5
+damping=0.5,poly(p=2),Reduced Rank,5,0,0,0.001627973125624682,5
+damping=0.5,poly(p=2),Reduced Rank,6,0,0,0.0016757087773852097,5
+damping=0.5,poly(p=2),Reduced Rank,7,0,0,0.0016001299986333484,5
+damping=0.5,poly(p=2),Reduced Rank,8,0,0,0.0016320002956331514,5
+damping=0.5,poly(p=2),Reduced Rank,9,0,0,0.001612619340189747,5
+damping=0.5,poly(p=3),Reduced Rank,0,0,0,0.0016213329534415788,5
+damping=0.5,poly(p=3),Reduced Rank,1,0,0,0.0017153989160081373,5
+damping=0.5,poly(p=3),Reduced Rank,2,0,0,0.0016554234924375244,5
+damping=0.5,poly(p=3),Reduced Rank,3,0,0,0.0017564411774535493,5
+damping=0.5,poly(p=3),Reduced Rank,4,0,0,0.00161044211882988,5
+damping=0.5,poly(p=3),Reduced Rank,5,0,0,0.0016598302731144488,5
+damping=0.5,poly(p=3),Reduced Rank,6,0,0,0.001760498761288809,5
+damping=0.5,poly(p=3),Reduced Rank,7,0,0,0.00160131608452041,5
+damping=0.5,poly(p=3),Reduced Rank,8,0,0,0.0016704179945572495,5
+damping=0.5,poly(p=3),Reduced Rank,9,0,0,0.0016352833603180406,5
+damping=0.5,poly(p=4),Reduced Rank,0,0,0,0.0016405324760105922,5
+damping=0.5,poly(p=4),Reduced Rank,1,0,0,0.0017900365272039975,5
+damping=0.5,poly(p=4),Reduced Rank,2,0,0,0.0016854540029545007,5
+damping=0.5,poly(p=4),Reduced Rank,3,0,0,0.0018565813482155358,5
+damping=0.5,poly(p=4),Reduced Rank,4,0,0,0.0016174345119563949,5
+damping=0.5,poly(p=4),Reduced Rank,5,0,0,0.0016946504528353445,5
+damping=0.5,poly(p=4),Reduced Rank,6,0,0,0.0018537782936693947,5
+damping=0.5,poly(p=4),Reduced Rank,7,0,0,0.0016025481792275587,5
+damping=0.5,poly(p=4),Reduced Rank,8,0,0,0.0017138900975273152,5
+damping=0.5,poly(p=4),Reduced Rank,9,0,0,0.0016676708955684072,5
+damping=1.0,poly(p=1),Principal Components (kDMD),0,2,2,0.0015906224436769145,5
+damping=1.0,poly(p=1),Principal Components (kDMD),1,2,2,0.0015987654568374587,5
+damping=1.0,poly(p=1),Principal Components (kDMD),2,2,2,0.0015987711101349555,5
+damping=1.0,poly(p=1),Principal Components (kDMD),3,2,2,0.00159876024249328,5
+damping=1.0,poly(p=1),Principal Components (kDMD),4,2,2,0.0016034818405569196,5
+damping=1.0,poly(p=1),Principal Components (kDMD),5,2,2,0.0015987770144448854,5
+damping=1.0,poly(p=1),Principal Components (kDMD),6,2,2,0.001598758383134724,5
+damping=1.0,poly(p=1),Principal Components (kDMD),7,2,2,0.0016053268041601454,5
+damping=1.0,poly(p=1),Principal Components (kDMD),8,2,2,0.0015948129705920522,5
+damping=1.0,poly(p=1),Principal Components (kDMD),9,2,2,0.0015921296929399809,5
+damping=1.0,poly(p=2),Principal Components (kDMD),0,0,0,0.0014266446824093837,5
+damping=1.0,poly(p=2),Principal Components (kDMD),1,0,0,0.0014633494297094929,5
+damping=1.0,poly(p=2),Principal Components (kDMD),2,0,0,0.0014742386023325338,5
+damping=1.0,poly(p=2),Principal Components (kDMD),3,0,0,0.0014297851743602097,5
+damping=1.0,poly(p=2),Principal Components (kDMD),4,0,1,0.0016152087267969906,5
+damping=1.0,poly(p=2),Principal Components (kDMD),5,0,0,0.0014995548953196103,5
+damping=1.0,poly(p=2),Principal Components (kDMD),6,0,0,0.0014030836238426714,5
+damping=1.0,poly(p=2),Principal Components (kDMD),7,1,1,0.0016092362574202657,5
+damping=1.0,poly(p=2),Principal Components (kDMD),8,0,0,0.0014224622789973385,5
+damping=1.0,poly(p=2),Principal Components (kDMD),9,0,0,0.0014086189214161937,5
+damping=1.0,poly(p=3),Principal Components (kDMD),0,0,0,0.0015858182684254096,5
+damping=1.0,poly(p=3),Principal Components (kDMD),1,0,0,0.0016759599542611747,5
+damping=1.0,poly(p=3),Principal Components (kDMD),2,0,0,0.001457414584867145,5
+damping=1.0,poly(p=3),Principal Components (kDMD),3,0,0,0.0017140954236862793,5
+damping=1.0,poly(p=3),Principal Components (kDMD),4,0,0,0.0016200106425265925,5
+damping=1.0,poly(p=3),Principal Components (kDMD),5,0,0,0.0016322648744344637,5
+damping=1.0,poly(p=3),Principal Components (kDMD),6,0,0,0.0014879450319079668,5
+damping=1.0,poly(p=3),Principal Components (kDMD),7,0,1,0.001607894351841721,5
+damping=1.0,poly(p=3),Principal Components (kDMD),8,0,0,0.0014732064856723959,5
+damping=1.0,poly(p=3),Principal Components (kDMD),9,0,0,0.0016169110159730549,5
+damping=1.0,poly(p=4),Principal Components (kDMD),0,0,0,0.0016019245098704005,5
+damping=1.0,poly(p=4),Principal Components (kDMD),1,0,0,0.0017374633878406431,5
+damping=1.0,poly(p=4),Principal Components (kDMD),2,0,0,0.0014662869435219106,5
+damping=1.0,poly(p=4),Principal Components (kDMD),3,0,0,0.0018158432858185192,5
+damping=1.0,poly(p=4),Principal Components (kDMD),4,0,1,0.0016232069535278004,5
+damping=1.0,poly(p=4),Principal Components (kDMD),5,0,0,0.0016658116607302098,5
+damping=1.0,poly(p=4),Principal Components (kDMD),6,0,0,0.0016136801584327731,5
+damping=1.0,poly(p=4),Principal Components (kDMD),7,0,1,0.0016075946683288267,5
+damping=1.0,poly(p=4),Principal Components (kDMD),8,0,0,0.0016495917373765545,5
+damping=1.0,poly(p=4),Principal Components (kDMD),9,0,0,0.0016078250491643464,5
+damping=1.0,poly(p=1),Reduced Rank,0,2,0,0.0,5
+damping=1.0,poly(p=1),Reduced Rank,1,2,1,0.0007853202994591024,5
+damping=1.0,poly(p=1),Reduced Rank,2,2,1,0.0013581093830660196,5
+damping=1.0,poly(p=1),Reduced Rank,3,2,1,0.0025331634716792006,5
+damping=1.0,poly(p=1),Reduced Rank,4,3,3,1.9950058456586313,5
+damping=1.0,poly(p=1),Reduced Rank,5,2,1,0.0012149343922148725,5
+damping=1.0,poly(p=1),Reduced Rank,6,1,0,0.002011550413026364,4
+damping=1.0,poly(p=1),Reduced Rank,7,3,0,1.995360730155265,5
+damping=1.0,poly(p=1),Reduced Rank,8,2,1,0.0009394691874725636,5
+damping=1.0,poly(p=1),Reduced Rank,9,2,1,0.0014285234488726761,5
+damping=1.0,poly(p=2),Reduced Rank,0,0,0,0.0014267041038338313,5
+damping=1.0,poly(p=2),Reduced Rank,1,0,0,0.0014633995486895701,5
+damping=1.0,poly(p=2),Reduced Rank,2,0,0,0.0014742785053055707,5
+damping=1.0,poly(p=2),Reduced Rank,3,0,0,0.0014298516012820617,5
+damping=1.0,poly(p=2),Reduced Rank,4,0,1,0.002552643664999854,5
+damping=1.0,poly(p=2),Reduced Rank,5,0,0,0.0014995884823472139,5
+damping=1.0,poly(p=2),Reduced Rank,6,0,0,0.0014031613065658144,5
+damping=1.0,poly(p=2),Reduced Rank,7,0,1,0.010495446872941017,5
+damping=1.0,poly(p=2),Reduced Rank,8,0,0,0.0014225278096757776,5
+damping=1.0,poly(p=2),Reduced Rank,9,0,0,0.00140869045635994,5
+damping=1.0,poly(p=3),Reduced Rank,0,0,0,0.001590104930415892,5
+damping=1.0,poly(p=3),Reduced Rank,1,0,0,0.0016756447361362392,5
+damping=1.0,poly(p=3),Reduced Rank,2,0,0,0.0014572639982104452,5
+damping=1.0,poly(p=3),Reduced Rank,3,0,0,0.001713575271338863,5
+damping=1.0,poly(p=3),Reduced Rank,4,0,0,0.0016186947600402846,5
+damping=1.0,poly(p=3),Reduced Rank,5,0,0,0.0016320829344244059,5
+damping=1.0,poly(p=3),Reduced Rank,6,0,0,0.001486640746074186,5
+damping=1.0,poly(p=3),Reduced Rank,7,0,1,0.00016397242637133935,5
+damping=1.0,poly(p=3),Reduced Rank,8,0,0,0.0014735674134573884,5
+damping=1.0,poly(p=3),Reduced Rank,9,0,0,0.0016166893911057079,5
+damping=1.0,poly(p=4),Reduced Rank,0,0,0,0.001601562227549147,5
+damping=1.0,poly(p=4),Reduced Rank,1,0,0,0.001737182601498799,5
+damping=1.0,poly(p=4),Reduced Rank,2,0,0,0.0014658668179990952,5
+damping=1.0,poly(p=4),Reduced Rank,3,0,0,0.0018153303482957295,5
+damping=1.0,poly(p=4),Reduced Rank,4,0,1,0.0016228801592889086,5
+damping=1.0,poly(p=4),Reduced Rank,5,0,0,0.0016655289562949038,5
+damping=1.0,poly(p=4),Reduced Rank,6,0,0,0.0016111919611370151,5
+damping=1.0,poly(p=4),Reduced Rank,7,0,2,0.038845526963492194,5
+damping=1.0,poly(p=4),Reduced Rank,8,0,0,0.0016491529269073713,5
+damping=1.0,poly(p=4),Reduced Rank,9,0,0,0.0016073931550179,5
+damping=1.5,poly(p=1),Principal Components (kDMD),0,2,2,0.00040736416164910416,5
+damping=1.5,poly(p=1),Principal Components (kDMD),1,2,2,0.00040749506683002146,5
+damping=1.5,poly(p=1),Principal Components (kDMD),2,2,2,0.00040746491065990487,5
+damping=1.5,poly(p=1),Principal Components (kDMD),3,2,2,0.00040742545311378553,5
+damping=1.5,poly(p=1),Principal Components (kDMD),4,2,2,0.00041085378628036295,5
+damping=1.5,poly(p=1),Principal Components (kDMD),5,2,2,0.0004076088322974014,5
+damping=1.5,poly(p=1),Principal Components (kDMD),6,2,2,0.0004073915420507168,5
+damping=1.5,poly(p=1),Principal Components (kDMD),7,2,2,0.0004869873136930103,5
+damping=1.5,poly(p=1),Principal Components (kDMD),8,2,1,0.00040738798081929595,5
+damping=1.5,poly(p=1),Principal Components (kDMD),9,2,2,0.00040736353693837657,5
+damping=1.5,poly(p=2),Principal Components (kDMD),0,0,1,0.0004311009707754776,5
+damping=1.5,poly(p=2),Principal Components (kDMD),1,0,1,0.00042442047942259364,5
+damping=1.5,poly(p=2),Principal Components (kDMD),2,0,1,0.0004248822571694122,5
+damping=1.5,poly(p=2),Principal Components (kDMD),3,0,1,0.00043286960854194145,5
+damping=1.5,poly(p=2),Principal Components (kDMD),4,1,2,0.0004144649870078121,5
+damping=1.5,poly(p=2),Principal Components (kDMD),5,0,1,0.00042040840829993265,5
+damping=1.5,poly(p=2),Principal Components (kDMD),6,0,1,0.000442820501392438,5
+damping=1.5,poly(p=2),Principal Components (kDMD),7,1,1,0.0005192435389973493,5
+damping=1.5,poly(p=2),Principal Components (kDMD),8,0,1,0.0004363423156699131,5
+damping=1.5,poly(p=2),Principal Components (kDMD),9,0,1,0.00043750976748990755,5
+damping=1.5,poly(p=3),Principal Components (kDMD),0,0,1,0.00046087248982051854,5
+damping=1.5,poly(p=3),Principal Components (kDMD),1,0,2,0.00048886698556172,5
+damping=1.5,poly(p=3),Principal Components (kDMD),2,0,1,0.0004589313690369634,5
+damping=1.5,poly(p=3),Principal Components (kDMD),3,0,2,0.0005306677152987493,5
+damping=1.5,poly(p=3),Principal Components (kDMD),4,0,1,0.00041884428354987957,5
+damping=1.5,poly(p=3),Principal Components (kDMD),5,0,2,0.00045441432012938154,5
+damping=1.5,poly(p=3),Principal Components (kDMD),6,0,0,0.0005537874573280366,5
+damping=1.5,poly(p=3),Principal Components (kDMD),7,0,1,0.0004912717382294929,5
+damping=1.5,poly(p=3),Principal Components (kDMD),8,0,1,0.0004813890917761965,5
+damping=1.5,poly(p=3),Principal Components (kDMD),9,0,1,0.0004792413753762492,5
+damping=1.5,poly(p=4),Principal Components (kDMD),0,0,0,0.0004964457178354698,5
+damping=1.5,poly(p=4),Principal Components (kDMD),1,0,2,0.0005294419364579861,5
+damping=1.5,poly(p=4),Principal Components (kDMD),2,0,0,0.0004957687518055698,5
+damping=1.5,poly(p=4),Principal Components (kDMD),3,0,2,0.0005906076081039213,5
+damping=1.5,poly(p=4),Principal Components (kDMD),4,0,2,0.0004185336429476383,5
+damping=1.5,poly(p=4),Principal Components (kDMD),5,0,2,0.00047928207011294077,5
+damping=1.5,poly(p=4),Principal Components (kDMD),6,0,2,0.0006318694824943849,5
+damping=1.5,poly(p=4),Principal Components (kDMD),7,0,1,0.00048461200776162006,5
+damping=1.5,poly(p=4),Principal Components (kDMD),8,0,0,0.0005322571398671538,5
+damping=1.5,poly(p=4),Principal Components (kDMD),9,0,0,0.0005278898376483987,5
+damping=1.5,poly(p=1),Reduced Rank,0,2,0,0.0007195741207295381,5
+damping=1.5,poly(p=1),Reduced Rank,1,2,2,0.0036371157878465343,5
+damping=1.5,poly(p=1),Reduced Rank,2,2,0,0.002966283238381884,5
+damping=1.5,poly(p=1),Reduced Rank,3,1,0,0.0015253735776459276,4
+damping=1.5,poly(p=1),Reduced Rank,4,3,3,1.736920689081607,5
+damping=1.5,poly(p=1),Reduced Rank,5,2,1,0.0009658008497350767,5
+damping=1.5,poly(p=1),Reduced Rank,6,2,0,0.0006778337983860405,5
+damping=1.5,poly(p=1),Reduced Rank,7,3,1,1.9975497715830324,5
+damping=1.5,poly(p=1),Reduced Rank,8,2,1,0.004006208444604198,5
+damping=1.5,poly(p=1),Reduced Rank,9,2,3,0.01295934683766431,5
+damping=1.5,poly(p=2),Reduced Rank,0,0,1,0.0004309347152002818,5
+damping=1.5,poly(p=2),Reduced Rank,1,0,1,0.0004243871823191858,5
+damping=1.5,poly(p=2),Reduced Rank,2,0,1,0.000424881413113809,5
+damping=1.5,poly(p=2),Reduced Rank,3,0,1,0.000432848236139205,5
+damping=1.5,poly(p=2),Reduced Rank,4,1,2,0.0004196959816368251,5
+damping=1.5,poly(p=2),Reduced Rank,5,0,1,0.00042036455685789953,5
+damping=1.5,poly(p=2),Reduced Rank,6,0,1,0.00044278697431143765,5
+damping=1.5,poly(p=2),Reduced Rank,7,2,2,0.5408649205115893,5
+damping=1.5,poly(p=2),Reduced Rank,8,0,1,0.0004363144144194919,5
+damping=1.5,poly(p=2),Reduced Rank,9,0,1,0.0004375145055680596,5
+damping=1.5,poly(p=3),Reduced Rank,0,0,1,0.0004607646722438741,5
+damping=1.5,poly(p=3),Reduced Rank,1,0,2,0.0004887411528710084,5
+damping=1.5,poly(p=3),Reduced Rank,2,0,1,0.0004586807773051538,5
+damping=1.5,poly(p=3),Reduced Rank,3,0,2,0.0005304676999390301,5
+damping=1.5,poly(p=3),Reduced Rank,4,0,1,0.05277974321366452,5
+damping=1.5,poly(p=3),Reduced Rank,5,0,2,0.00045431761621006483,5
+damping=1.5,poly(p=3),Reduced Rank,6,0,0,0.000553349957920779,5
+damping=1.5,poly(p=3),Reduced Rank,7,0,0,0.0004934736873387635,4
+damping=1.5,poly(p=3),Reduced Rank,8,0,1,0.00048114256693576607,5
+damping=1.5,poly(p=3),Reduced Rank,9,0,1,0.0004791525652945161,5
+damping=1.5,poly(p=4),Reduced Rank,0,0,0,0.000496355958664596,5
+damping=1.5,poly(p=4),Reduced Rank,1,0,2,0.000529258772244301,5
+damping=1.5,poly(p=4),Reduced Rank,2,0,0,0.0004953906590411394,5
+damping=1.5,poly(p=4),Reduced Rank,3,0,2,0.000590356116390911,5
+damping=1.5,poly(p=4),Reduced Rank,4,0,2,0.0004186704854814982,5
+damping=1.5,poly(p=4),Reduced Rank,5,0,2,0.00047916290244509607,5
+damping=1.5,poly(p=4),Reduced Rank,6,0,2,0.0006313976899405827,5
+damping=1.5,poly(p=4),Reduced Rank,7,2,2,0.4702973376935262,5
+damping=1.5,poly(p=4),Reduced Rank,8,0,0,0.0005318172790380604,5
+damping=1.5,poly(p=4),Reduced Rank,9,0,0,0.0005277540315029583,5

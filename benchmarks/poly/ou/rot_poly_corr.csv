@@ -1,0 +1,33 @@
+kernel,kind,method,bias_gap_corr
+poly(p=1),omega=0.0,Principal Components (kDMD),
+poly(p=1),omega=0.0,Reduced Rank,-0.4508475956318893
+poly(p=1),omega=0.5,Principal Components (kDMD),
+poly(p=1),omega=0.5,Reduced Rank,-0.2422025574943519
+poly(p=1),omega=1.0,Principal Components (kDMD),
+poly(p=1),omega=1.0,Reduced Rank,-0.03828010646715882
+poly(p=1),omega=2.0,Principal Components (kDMD),
+poly(p=1),omega=2.0,Reduced Rank,-0.07278467891063894
+poly(p=2),omega=0.0,Principal Components (kDMD),-0.2912091040971172
+poly(p=2),omega=0.0,Reduced Rank,-0.18226759368483614
+poly(p=2),omega=0.5,Principal Components (kDMD),-0.4074921473853969
+poly(p=2),omega=0.5,Reduced Rank,-0.07401864179253986
+poly(p=2),omega=1.0,Principal Components (kDMD),-0.31668034473142975
+poly(p=2),omega=1.0,Reduced Rank,-0.1530411079237186
+poly(p=2),omega=2.0,Principal Components (kDMD),0.21897638103698477
+poly(p=2),omega=2.0,Reduced Rank,0.1172637751508403
+poly(p=3),omega=0.0,Principal Components (kDMD),-0.4777293539366286
+poly(p=3),omega=0.0,Reduced Rank,0.15824312253241757
+poly(p=3),omega=0.5,Principal Components (kDMD),-0.6796197631067443
+poly(p=3),omega=0.5,Reduced Rank,0.12875904872676758
+poly(p=3),omega=1.0,Principal Components (kDMD),-0.2248512388245536
+poly(p=3),omega=1.0,Reduced Rank,0.03265081214930713
+poly(p=3),omega=2.0,Principal Components (kDMD),0.04312618238424637
+poly(p=3),omega=2.0,Reduced Rank,-0.22336250167154081
+poly(p=4),omega=0.0,Principal Components (kDMD),-0.35869354567880624
+poly(p=4),omega=0.0,Reduced Rank,0.12499357623739364
+poly(p=4),omega=0.5,Principal Components (kDMD),-0.7358596473762816
+poly(p=4),omega=0.5,Reduced Rank,-0.44937100560953486
+poly(p=4),omega=1.0,Principal Components (kDMD),-0.5617923488402499
+poly(p=4),omega=1.0,Reduced Rank,-0.027773620603135058
+poly(p=4),omega=2.0,Principal Components (kDMD),-0.16888482206723782
+poly(p=4),omega=2.0,Reduced Rank,-0.04834692889048434
