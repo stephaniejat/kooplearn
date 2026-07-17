@@ -1,0 +1,49 @@
+kernel,kind,method,bias_gap_corr
+poly(p=1),damping=0.0,Principal Components (kDMD),
+poly(p=1),damping=0.0,Reduced Rank,-0.4317217400062788
+poly(p=1),damping=0.1,Principal Components (kDMD),
+poly(p=1),damping=0.1,Reduced Rank,-0.22899586091307841
+poly(p=1),damping=0.3,Principal Components (kDMD),
+poly(p=1),damping=0.3,Reduced Rank,-0.2664749491289788
+poly(p=1),damping=0.5,Principal Components (kDMD),
+poly(p=1),damping=0.5,Reduced Rank,0.40085750368892786
+poly(p=1),damping=1.0,Principal Components (kDMD),
+poly(p=1),damping=1.0,Reduced Rank,0.700100611678876
+poly(p=1),damping=1.5,Principal Components (kDMD),
+poly(p=1),damping=1.5,Reduced Rank,0.39456952307135285
+poly(p=2),damping=0.0,Principal Components (kDMD),
+poly(p=2),damping=0.0,Reduced Rank,0.576922807956281
+poly(p=2),damping=0.1,Principal Components (kDMD),0.07939576312260743
+poly(p=2),damping=0.1,Reduced Rank,0.028343118909131344
+poly(p=2),damping=0.3,Principal Components (kDMD),0.476290217128015
+poly(p=2),damping=0.3,Reduced Rank,0.38150350972275154
+poly(p=2),damping=0.5,Principal Components (kDMD),0.7291830967462338
+poly(p=2),damping=0.5,Reduced Rank,0.5526892456209648
+poly(p=2),damping=1.0,Principal Components (kDMD),-0.7383140538566791
+poly(p=2),damping=1.0,Reduced Rank,-0.5286124657858202
+poly(p=2),damping=1.5,Principal Components (kDMD),-0.14140042395081434
+poly(p=2),damping=1.5,Reduced Rank,-0.20351380908746927
+poly(p=3),damping=0.0,Principal Components (kDMD),-0.4555250999171288
+poly(p=3),damping=0.0,Reduced Rank,-0.5938516076511566
+poly(p=3),damping=0.1,Principal Components (kDMD),0.22570947711337946
+poly(p=3),damping=0.1,Reduced Rank,0.1621674118430468
+poly(p=3),damping=0.3,Principal Components (kDMD),0.548823366657147
+poly(p=3),damping=0.3,Reduced Rank,0.45212244449591793
+poly(p=3),damping=0.5,Principal Components (kDMD),0.7812785143476424
+poly(p=3),damping=0.5,Reduced Rank,0.6137732834381694
+poly(p=3),damping=1.0,Principal Components (kDMD),0.343859496817518
+poly(p=3),damping=1.0,Reduced Rank,0.34654565332589754
+poly(p=3),damping=1.5,Principal Components (kDMD),0.7838427253323278
+poly(p=3),damping=1.5,Reduced Rank,-0.1392128375345677
+poly(p=4),damping=0.0,Principal Components (kDMD),-0.4561615989251407
+poly(p=4),damping=0.0,Reduced Rank,-0.618303334512644
+poly(p=4),damping=0.1,Principal Components (kDMD),0.38983193702806046
+poly(p=4),damping=0.1,Reduced Rank,0.30157734985056983
+poly(p=4),damping=0.3,Principal Components (kDMD),0.6098570958540903
+poly(p=4),damping=0.3,Reduced Rank,0.5093539513555208
+poly(p=4),damping=0.5,Principal Components (kDMD),0.8218775344249744
+poly(p=4),damping=0.5,Reduced Rank,0.6644959984900124
+poly(p=4),damping=1.0,Principal Components (kDMD),0.6418304976556363
+poly(p=4),damping=1.0,Reduced Rank,-0.30737966797485694
+poly(p=4),damping=1.5,Principal Components (kDMD),0.8104984957625627
+poly(p=4),damping=1.5,Reduced Rank,-0.3163772517138756

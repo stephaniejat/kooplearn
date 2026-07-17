@@ -1,0 +1,481 @@
+kernel,kind,method,trial,spurious_ref_count,spurious_residual_count,spectral_gap,rank
+poly(p=1),r=0.0,Principal Components (kDMD),0,0,3,0.9540019791876716,5
+poly(p=1),r=0.0,Principal Components (kDMD),1,0,4,0.9707195621936159,5
+poly(p=1),r=0.0,Principal Components (kDMD),2,0,3,0.9829314879368515,5
+poly(p=1),r=0.0,Principal Components (kDMD),3,0,3,0.9557896204994664,5
+poly(p=1),r=0.0,Principal Components (kDMD),4,0,3,0.973171864756086,5
+poly(p=1),r=0.0,Principal Components (kDMD),5,0,3,0.9444583005134608,5
+poly(p=1),r=0.0,Principal Components (kDMD),6,0,4,0.9400566547744924,5
+poly(p=1),r=0.0,Principal Components (kDMD),7,0,3,0.962069676703658,5
+poly(p=1),r=0.0,Principal Components (kDMD),8,1,3,0.947584072173212,5
+poly(p=1),r=0.0,Principal Components (kDMD),9,1,4,0.9379264522671209,5
+poly(p=2),r=0.0,Principal Components (kDMD),0,0,3,0.9540019791876716,5
+poly(p=2),r=0.0,Principal Components (kDMD),1,0,4,0.9707195621936159,5
+poly(p=2),r=0.0,Principal Components (kDMD),2,0,3,0.9829314879368515,5
+poly(p=2),r=0.0,Principal Components (kDMD),3,0,3,0.9557896204994664,5
+poly(p=2),r=0.0,Principal Components (kDMD),4,0,3,0.973171864756086,5
+poly(p=2),r=0.0,Principal Components (kDMD),5,0,3,0.9444583005134608,5
+poly(p=2),r=0.0,Principal Components (kDMD),6,0,4,0.9400566547744924,5
+poly(p=2),r=0.0,Principal Components (kDMD),7,0,3,0.962069676703658,5
+poly(p=2),r=0.0,Principal Components (kDMD),8,1,3,0.947584072173212,5
+poly(p=2),r=0.0,Principal Components (kDMD),9,1,4,0.9379264522671209,5
+poly(p=3),r=0.0,Principal Components (kDMD),0,0,3,0.9540019791876716,5
+poly(p=3),r=0.0,Principal Components (kDMD),1,0,4,0.9707195621936159,5
+poly(p=3),r=0.0,Principal Components (kDMD),2,0,3,0.9829314879368515,5
+poly(p=3),r=0.0,Principal Components (kDMD),3,0,3,0.9557896204994664,5
+poly(p=3),r=0.0,Principal Components (kDMD),4,0,3,0.973171864756086,5
+poly(p=3),r=0.0,Principal Components (kDMD),5,0,3,0.9444583005134608,5
+poly(p=3),r=0.0,Principal Components (kDMD),6,0,4,0.9400566547744924,5
+poly(p=3),r=0.0,Principal Components (kDMD),7,0,3,0.962069676703658,5
+poly(p=3),r=0.0,Principal Components (kDMD),8,1,3,0.947584072173212,5
+poly(p=3),r=0.0,Principal Components (kDMD),9,1,4,0.9379264522671209,5
+poly(p=4),r=0.0,Principal Components (kDMD),0,0,3,0.9540019791876716,5
+poly(p=4),r=0.0,Principal Components (kDMD),1,0,4,0.9707195621936159,5
+poly(p=4),r=0.0,Principal Components (kDMD),2,0,3,0.9829314879368515,5
+poly(p=4),r=0.0,Principal Components (kDMD),3,0,3,0.9557896204994664,5
+poly(p=4),r=0.0,Principal Components (kDMD),4,0,3,0.973171864756086,5
+poly(p=4),r=0.0,Principal Components (kDMD),5,0,3,0.9444583005134608,5
+poly(p=4),r=0.0,Principal Components (kDMD),6,0,4,0.9400566547744924,5
+poly(p=4),r=0.0,Principal Components (kDMD),7,0,3,0.962069676703658,5
+poly(p=4),r=0.0,Principal Components (kDMD),8,1,3,0.947584072173212,5
+poly(p=4),r=0.0,Principal Components (kDMD),9,1,4,0.9379264522671209,5
+poly(p=1),r=0.0,Reduced Rank,0,0,3,0.956219635595087,5
+poly(p=1),r=0.0,Reduced Rank,1,0,4,0.9274519659822902,5
+poly(p=1),r=0.0,Reduced Rank,2,0,2,0.9858990012669232,4
+poly(p=1),r=0.0,Reduced Rank,3,0,3,0.9576739705189463,5
+poly(p=1),r=0.0,Reduced Rank,4,0,2,0.987943617091514,4
+poly(p=1),r=0.0,Reduced Rank,5,1,3,0.9006386512074473,5
+poly(p=1),r=0.0,Reduced Rank,6,0,2,0.9519280634884469,4
+poly(p=1),r=0.0,Reduced Rank,7,1,3,0.8876428507723788,5
+poly(p=1),r=0.0,Reduced Rank,8,1,3,0.8960410098538018,5
+poly(p=1),r=0.0,Reduced Rank,9,1,3,0.9319091092727595,5
+poly(p=2),r=0.0,Reduced Rank,0,0,3,0.956219635595087,5
+poly(p=2),r=0.0,Reduced Rank,1,0,4,0.9274519659822902,5
+poly(p=2),r=0.0,Reduced Rank,2,0,2,0.9858990012669232,4
+poly(p=2),r=0.0,Reduced Rank,3,0,3,0.9576739705189463,5
+poly(p=2),r=0.0,Reduced Rank,4,0,2,0.987943617091514,4
+poly(p=2),r=0.0,Reduced Rank,5,1,3,0.9006386512074473,5
+poly(p=2),r=0.0,Reduced Rank,6,0,2,0.9519280634884469,4
+poly(p=2),r=0.0,Reduced Rank,7,1,3,0.8876428507723788,5
+poly(p=2),r=0.0,Reduced Rank,8,1,3,0.8960410098538018,5
+poly(p=2),r=0.0,Reduced Rank,9,1,3,0.9319091092727595,5
+poly(p=3),r=0.0,Reduced Rank,0,0,3,0.956219635595087,5
+poly(p=3),r=0.0,Reduced Rank,1,0,4,0.9274519659822902,5
+poly(p=3),r=0.0,Reduced Rank,2,0,2,0.9858990012669232,4
+poly(p=3),r=0.0,Reduced Rank,3,0,3,0.9576739705189463,5
+poly(p=3),r=0.0,Reduced Rank,4,0,2,0.987943617091514,4
+poly(p=3),r=0.0,Reduced Rank,5,1,3,0.9006386512074473,5
+poly(p=3),r=0.0,Reduced Rank,6,0,2,0.9519280634884469,4
+poly(p=3),r=0.0,Reduced Rank,7,1,3,0.8876428507723788,5
+poly(p=3),r=0.0,Reduced Rank,8,1,3,0.8960410098538018,5
+poly(p=3),r=0.0,Reduced Rank,9,1,3,0.9319091092727595,5
+poly(p=4),r=0.0,Reduced Rank,0,0,3,0.956219635595087,5
+poly(p=4),r=0.0,Reduced Rank,1,0,4,0.9274519659822902,5
+poly(p=4),r=0.0,Reduced Rank,2,0,2,0.9858990012669232,4
+poly(p=4),r=0.0,Reduced Rank,3,0,3,0.9576739705189463,5
+poly(p=4),r=0.0,Reduced Rank,4,0,2,0.987943617091514,4
+poly(p=4),r=0.0,Reduced Rank,5,1,3,0.9006386512074473,5
+poly(p=4),r=0.0,Reduced Rank,6,0,2,0.9519280634884469,4
+poly(p=4),r=0.0,Reduced Rank,7,1,3,0.8876428507723788,5
+poly(p=4),r=0.0,Reduced Rank,8,1,3,0.8960410098538018,5
+poly(p=4),r=0.0,Reduced Rank,9,1,3,0.9319091092727595,5
+poly(p=1),r=0.5,Principal Components (kDMD),0,0,3,0.9609655247999049,5
+poly(p=1),r=0.5,Principal Components (kDMD),1,0,4,0.9701051081562803,5
+poly(p=1),r=0.5,Principal Components (kDMD),2,0,3,0.9662047438558343,5
+poly(p=1),r=0.5,Principal Components (kDMD),3,0,4,0.93697146994684,5
+poly(p=1),r=0.5,Principal Components (kDMD),4,0,3,0.9742864415825772,5
+poly(p=1),r=0.5,Principal Components (kDMD),5,0,4,0.9342711420606233,5
+poly(p=1),r=0.5,Principal Components (kDMD),6,0,4,0.9844564654890401,5
+poly(p=1),r=0.5,Principal Components (kDMD),7,0,4,0.9719947440911388,5
+poly(p=1),r=0.5,Principal Components (kDMD),8,0,3,0.92591329140615,5
+poly(p=1),r=0.5,Principal Components (kDMD),9,1,4,0.9447430442472379,5
+poly(p=2),r=0.5,Principal Components (kDMD),0,0,3,0.9609655247999049,5
+poly(p=2),r=0.5,Principal Components (kDMD),1,0,4,0.9701051081562803,5
+poly(p=2),r=0.5,Principal Components (kDMD),2,0,3,0.9662047438558343,5
+poly(p=2),r=0.5,Principal Components (kDMD),3,0,4,0.93697146994684,5
+poly(p=2),r=0.5,Principal Components (kDMD),4,0,3,0.9742864415825772,5
+poly(p=2),r=0.5,Principal Components (kDMD),5,0,4,0.9342711420606233,5
+poly(p=2),r=0.5,Principal Components (kDMD),6,0,4,0.9844564654890401,5
+poly(p=2),r=0.5,Principal Components (kDMD),7,0,4,0.9719947440911388,5
+poly(p=2),r=0.5,Principal Components (kDMD),8,0,3,0.92591329140615,5
+poly(p=2),r=0.5,Principal Components (kDMD),9,1,4,0.9447430442472379,5
+poly(p=3),r=0.5,Principal Components (kDMD),0,0,3,0.9609655247999049,5
+poly(p=3),r=0.5,Principal Components (kDMD),1,0,4,0.9701051081562803,5
+poly(p=3),r=0.5,Principal Components (kDMD),2,0,3,0.9662047438558343,5
+poly(p=3),r=0.5,Principal Components (kDMD),3,0,4,0.93697146994684,5
+poly(p=3),r=0.5,Principal Components (kDMD),4,0,3,0.9742864415825772,5
+poly(p=3),r=0.5,Principal Components (kDMD),5,0,4,0.9342711420606233,5
+poly(p=3),r=0.5,Principal Components (kDMD),6,0,4,0.9844564654890401,5
+poly(p=3),r=0.5,Principal Components (kDMD),7,0,4,0.9719947440911388,5
+poly(p=3),r=0.5,Principal Components (kDMD),8,0,3,0.92591329140615,5
+poly(p=3),r=0.5,Principal Components (kDMD),9,1,4,0.9447430442472379,5
+poly(p=4),r=0.5,Principal Components (kDMD),0,0,3,0.9609655247999049,5
+poly(p=4),r=0.5,Principal Components (kDMD),1,0,4,0.9701051081562803,5
+poly(p=4),r=0.5,Principal Components (kDMD),2,0,3,0.9662047438558343,5
+poly(p=4),r=0.5,Principal Components (kDMD),3,0,4,0.93697146994684,5
+poly(p=4),r=0.5,Principal Components (kDMD),4,0,3,0.9742864415825772,5
+poly(p=4),r=0.5,Principal Components (kDMD),5,0,4,0.9342711420606233,5
+poly(p=4),r=0.5,Principal Components (kDMD),6,0,4,0.9844564654890401,5
+poly(p=4),r=0.5,Principal Components (kDMD),7,0,4,0.9719947440911388,5
+poly(p=4),r=0.5,Principal Components (kDMD),8,0,3,0.92591329140615,5
+poly(p=4),r=0.5,Principal Components (kDMD),9,1,4,0.9447430442472379,5
+poly(p=1),r=0.5,Reduced Rank,0,0,3,0.9738080213709288,5
+poly(p=1),r=0.5,Reduced Rank,1,0,4,0.9561653293286354,5
+poly(p=1),r=0.5,Reduced Rank,2,1,3,0.9331174232738001,5
+poly(p=1),r=0.5,Reduced Rank,3,0,3,0.9299187344814969,5
+poly(p=1),r=0.5,Reduced Rank,4,0,3,0.9537955914036309,5
+poly(p=1),r=0.5,Reduced Rank,5,0,3,0.9406698261362414,5
+poly(p=1),r=0.5,Reduced Rank,6,0,2,0.9772709822767316,4
+poly(p=1),r=0.5,Reduced Rank,7,0,3,0.9436984685340469,5
+poly(p=1),r=0.5,Reduced Rank,8,1,2,0.8882576807726064,5
+poly(p=1),r=0.5,Reduced Rank,9,1,3,0.9409088765172591,5
+poly(p=2),r=0.5,Reduced Rank,0,0,3,0.9738080213709288,5
+poly(p=2),r=0.5,Reduced Rank,1,0,4,0.9561653293286354,5
+poly(p=2),r=0.5,Reduced Rank,2,1,3,0.9331174232738001,5
+poly(p=2),r=0.5,Reduced Rank,3,0,3,0.9299187344814969,5
+poly(p=2),r=0.5,Reduced Rank,4,0,3,0.9537955914036309,5
+poly(p=2),r=0.5,Reduced Rank,5,0,3,0.9406698261362414,5
+poly(p=2),r=0.5,Reduced Rank,6,0,2,0.9772709822767316,4
+poly(p=2),r=0.5,Reduced Rank,7,0,3,0.9436984685340469,5
+poly(p=2),r=0.5,Reduced Rank,8,1,2,0.8882576807726064,5
+poly(p=2),r=0.5,Reduced Rank,9,1,3,0.9409088765172591,5
+poly(p=3),r=0.5,Reduced Rank,0,0,3,0.9738080213709288,5
+poly(p=3),r=0.5,Reduced Rank,1,0,4,0.9561653293286354,5
+poly(p=3),r=0.5,Reduced Rank,2,1,3,0.9331174232738001,5
+poly(p=3),r=0.5,Reduced Rank,3,0,3,0.9299187344814969,5
+poly(p=3),r=0.5,Reduced Rank,4,0,3,0.9537955914036309,5
+poly(p=3),r=0.5,Reduced Rank,5,0,3,0.9406698261362414,5
+poly(p=3),r=0.5,Reduced Rank,6,0,2,0.9772709822767316,4
+poly(p=3),r=0.5,Reduced Rank,7,0,3,0.9436984685340469,5
+poly(p=3),r=0.5,Reduced Rank,8,1,2,0.8882576807726064,5
+poly(p=3),r=0.5,Reduced Rank,9,1,3,0.9409088765172591,5
+poly(p=4),r=0.5,Reduced Rank,0,0,3,0.9738080213709288,5
+poly(p=4),r=0.5,Reduced Rank,1,0,4,0.9561653293286354,5
+poly(p=4),r=0.5,Reduced Rank,2,1,3,0.9331174232738001,5
+poly(p=4),r=0.5,Reduced Rank,3,0,3,0.9299187344814969,5
+poly(p=4),r=0.5,Reduced Rank,4,0,3,0.9537955914036309,5
+poly(p=4),r=0.5,Reduced Rank,5,0,3,0.9406698261362414,5
+poly(p=4),r=0.5,Reduced Rank,6,0,2,0.9772709822767316,4
+poly(p=4),r=0.5,Reduced Rank,7,0,3,0.9436984685340469,5
+poly(p=4),r=0.5,Reduced Rank,8,1,2,0.8882576807726064,5
+poly(p=4),r=0.5,Reduced Rank,9,1,3,0.9409088765172591,5
+poly(p=1),r=1.2,Principal Components (kDMD),0,0,4,0.9663086841766612,5
+poly(p=1),r=1.2,Principal Components (kDMD),1,0,4,0.9524205862092275,5
+poly(p=1),r=1.2,Principal Components (kDMD),2,0,4,0.9680293239493303,5
+poly(p=1),r=1.2,Principal Components (kDMD),3,0,4,0.9519521267475056,5
+poly(p=1),r=1.2,Principal Components (kDMD),4,0,4,0.9520274651558633,5
+poly(p=1),r=1.2,Principal Components (kDMD),5,1,4,0.9206005598052975,5
+poly(p=1),r=1.2,Principal Components (kDMD),6,0,4,0.9532097860794874,5
+poly(p=1),r=1.2,Principal Components (kDMD),7,1,4,0.915430539458086,5
+poly(p=1),r=1.2,Principal Components (kDMD),8,0,4,0.9617639873352073,5
+poly(p=1),r=1.2,Principal Components (kDMD),9,0,4,0.9712116593485358,5
+poly(p=2),r=1.2,Principal Components (kDMD),0,0,4,0.9663086841766612,5
+poly(p=2),r=1.2,Principal Components (kDMD),1,0,4,0.9524205862092275,5
+poly(p=2),r=1.2,Principal Components (kDMD),2,0,4,0.9680293239493303,5
+poly(p=2),r=1.2,Principal Components (kDMD),3,0,4,0.9519521267475056,5
+poly(p=2),r=1.2,Principal Components (kDMD),4,0,4,0.9520274651558633,5
+poly(p=2),r=1.2,Principal Components (kDMD),5,1,4,0.9206005598052975,5
+poly(p=2),r=1.2,Principal Components (kDMD),6,0,4,0.9532097860794874,5
+poly(p=2),r=1.2,Principal Components (kDMD),7,1,4,0.915430539458086,5
+poly(p=2),r=1.2,Principal Components (kDMD),8,0,4,0.9617639873352073,5
+poly(p=2),r=1.2,Principal Components (kDMD),9,0,4,0.9712116593485358,5
+poly(p=3),r=1.2,Principal Components (kDMD),0,0,4,0.9663086841766612,5
+poly(p=3),r=1.2,Principal Components (kDMD),1,0,4,0.9524205862092275,5
+poly(p=3),r=1.2,Principal Components (kDMD),2,0,4,0.9680293239493303,5
+poly(p=3),r=1.2,Principal Components (kDMD),3,0,4,0.9519521267475056,5
+poly(p=3),r=1.2,Principal Components (kDMD),4,0,4,0.9520274651558633,5
+poly(p=3),r=1.2,Principal Components (kDMD),5,1,4,0.9206005598052975,5
+poly(p=3),r=1.2,Principal Components (kDMD),6,0,4,0.9532097860794874,5
+poly(p=3),r=1.2,Principal Components (kDMD),7,1,4,0.915430539458086,5
+poly(p=3),r=1.2,Principal Components (kDMD),8,0,4,0.9617639873352073,5
+poly(p=3),r=1.2,Principal Components (kDMD),9,0,4,0.9712116593485358,5
+poly(p=4),r=1.2,Principal Components (kDMD),0,0,4,0.9663086841766612,5
+poly(p=4),r=1.2,Principal Components (kDMD),1,0,4,0.9524205862092275,5
+poly(p=4),r=1.2,Principal Components (kDMD),2,0,4,0.9680293239493303,5
+poly(p=4),r=1.2,Principal Components (kDMD),3,0,4,0.9519521267475056,5
+poly(p=4),r=1.2,Principal Components (kDMD),4,0,4,0.9520274651558633,5
+poly(p=4),r=1.2,Principal Components (kDMD),5,1,4,0.9206005598052975,5
+poly(p=4),r=1.2,Principal Components (kDMD),6,0,4,0.9532097860794874,5
+poly(p=4),r=1.2,Principal Components (kDMD),7,1,4,0.915430539458086,5
+poly(p=4),r=1.2,Principal Components (kDMD),8,0,4,0.9617639873352073,5
+poly(p=4),r=1.2,Principal Components (kDMD),9,0,4,0.9712116593485358,5
+poly(p=1),r=1.2,Reduced Rank,0,0,3,0.9586688057901599,5
+poly(p=1),r=1.2,Reduced Rank,1,2,4,0.91615979517535,5
+poly(p=1),r=1.2,Reduced Rank,2,0,3,0.9743995900331767,5
+poly(p=1),r=1.2,Reduced Rank,3,0,3,0.9509744800482468,5
+poly(p=1),r=1.2,Reduced Rank,4,0,3,0.9605376572786594,5
+poly(p=1),r=1.2,Reduced Rank,5,1,3,0.857459173516184,5
+poly(p=1),r=1.2,Reduced Rank,6,0,3,0.9676571688095579,5
+poly(p=1),r=1.2,Reduced Rank,7,1,3,0.9143364184130712,5
+poly(p=1),r=1.2,Reduced Rank,8,0,4,0.9521312742217063,5
+poly(p=1),r=1.2,Reduced Rank,9,0,3,0.9644627928792657,5
+poly(p=2),r=1.2,Reduced Rank,0,0,3,0.9586688057901599,5
+poly(p=2),r=1.2,Reduced Rank,1,2,4,0.91615979517535,5
+poly(p=2),r=1.2,Reduced Rank,2,0,3,0.9743995900331767,5
+poly(p=2),r=1.2,Reduced Rank,3,0,3,0.9509744800482468,5
+poly(p=2),r=1.2,Reduced Rank,4,0,3,0.9605376572786594,5
+poly(p=2),r=1.2,Reduced Rank,5,1,3,0.857459173516184,5
+poly(p=2),r=1.2,Reduced Rank,6,0,3,0.9676571688095579,5
+poly(p=2),r=1.2,Reduced Rank,7,1,3,0.9143364184130712,5
+poly(p=2),r=1.2,Reduced Rank,8,0,4,0.9521312742217063,5
+poly(p=2),r=1.2,Reduced Rank,9,0,3,0.9644627928792657,5
+poly(p=3),r=1.2,Reduced Rank,0,0,3,0.9586688057901599,5
+poly(p=3),r=1.2,Reduced Rank,1,2,4,0.91615979517535,5
+poly(p=3),r=1.2,Reduced Rank,2,0,3,0.9743995900331767,5
+poly(p=3),r=1.2,Reduced Rank,3,0,3,0.9509744800482468,5
+poly(p=3),r=1.2,Reduced Rank,4,0,3,0.9605376572786594,5
+poly(p=3),r=1.2,Reduced Rank,5,1,3,0.857459173516184,5
+poly(p=3),r=1.2,Reduced Rank,6,0,3,0.9676571688095579,5
+poly(p=3),r=1.2,Reduced Rank,7,1,3,0.9143364184130712,5
+poly(p=3),r=1.2,Reduced Rank,8,0,4,0.9521312742217063,5
+poly(p=3),r=1.2,Reduced Rank,9,0,3,0.9644627928792657,5
+poly(p=4),r=1.2,Reduced Rank,0,0,3,0.9586688057901599,5
+poly(p=4),r=1.2,Reduced Rank,1,2,4,0.91615979517535,5
+poly(p=4),r=1.2,Reduced Rank,2,0,3,0.9743995900331767,5
+poly(p=4),r=1.2,Reduced Rank,3,0,3,0.9509744800482468,5
+poly(p=4),r=1.2,Reduced Rank,4,0,3,0.9605376572786594,5
+poly(p=4),r=1.2,Reduced Rank,5,1,3,0.857459173516184,5
+poly(p=4),r=1.2,Reduced Rank,6,0,3,0.9676571688095579,5
+poly(p=4),r=1.2,Reduced Rank,7,1,3,0.9143364184130712,5
+poly(p=4),r=1.2,Reduced Rank,8,0,4,0.9521312742217063,5
+poly(p=4),r=1.2,Reduced Rank,9,0,3,0.9644627928792657,5
+poly(p=1),r=2.5,Principal Components (kDMD),0,1,4,0.9324671688145236,5
+poly(p=1),r=2.5,Principal Components (kDMD),1,0,4,0.9644222203069643,5
+poly(p=1),r=2.5,Principal Components (kDMD),2,0,4,0.9544716357164376,5
+poly(p=1),r=2.5,Principal Components (kDMD),3,0,4,0.9513525942906129,5
+poly(p=1),r=2.5,Principal Components (kDMD),4,0,4,0.9310100433636201,5
+poly(p=1),r=2.5,Principal Components (kDMD),5,0,4,0.9850789928358386,5
+poly(p=1),r=2.5,Principal Components (kDMD),6,1,4,0.9168603155027968,5
+poly(p=1),r=2.5,Principal Components (kDMD),7,0,4,0.9669753025999457,5
+poly(p=1),r=2.5,Principal Components (kDMD),8,0,4,0.9657435452929071,5
+poly(p=1),r=2.5,Principal Components (kDMD),9,0,4,0.9484052219912678,5
+poly(p=2),r=2.5,Principal Components (kDMD),0,1,4,0.9324671688145236,5
+poly(p=2),r=2.5,Principal Components (kDMD),1,0,4,0.9644222203069643,5
+poly(p=2),r=2.5,Principal Components (kDMD),2,0,4,0.9544716357164376,5
+poly(p=2),r=2.5,Principal Components (kDMD),3,0,4,0.9513525942906129,5
+poly(p=2),r=2.5,Principal Components (kDMD),4,0,4,0.9310100433636201,5
+poly(p=2),r=2.5,Principal Components (kDMD),5,0,4,0.9850789928358386,5
+poly(p=2),r=2.5,Principal Components (kDMD),6,1,4,0.9168603155027968,5
+poly(p=2),r=2.5,Principal Components (kDMD),7,0,4,0.9669753025999457,5
+poly(p=2),r=2.5,Principal Components (kDMD),8,0,4,0.9657435452929071,5
+poly(p=2),r=2.5,Principal Components (kDMD),9,0,4,0.9484052219912678,5
+poly(p=3),r=2.5,Principal Components (kDMD),0,1,4,0.9324671688145236,5
+poly(p=3),r=2.5,Principal Components (kDMD),1,0,4,0.9644222203069643,5
+poly(p=3),r=2.5,Principal Components (kDMD),2,0,4,0.9544716357164376,5
+poly(p=3),r=2.5,Principal Components (kDMD),3,0,4,0.9513525942906129,5
+poly(p=3),r=2.5,Principal Components (kDMD),4,0,4,0.9310100433636201,5
+poly(p=3),r=2.5,Principal Components (kDMD),5,0,4,0.9850789928358386,5
+poly(p=3),r=2.5,Principal Components (kDMD),6,1,4,0.9168603155027968,5
+poly(p=3),r=2.5,Principal Components (kDMD),7,0,4,0.9669753025999457,5
+poly(p=3),r=2.5,Principal Components (kDMD),8,0,4,0.9657435452929071,5
+poly(p=3),r=2.5,Principal Components (kDMD),9,0,4,0.9484052219912678,5
+poly(p=4),r=2.5,Principal Components (kDMD),0,1,4,0.9324671688145236,5
+poly(p=4),r=2.5,Principal Components (kDMD),1,0,4,0.9644222203069643,5
+poly(p=4),r=2.5,Principal Components (kDMD),2,0,4,0.9544716357164376,5
+poly(p=4),r=2.5,Principal Components (kDMD),3,0,4,0.9513525942906129,5
+poly(p=4),r=2.5,Principal Components (kDMD),4,0,4,0.9310100433636201,5
+poly(p=4),r=2.5,Principal Components (kDMD),5,0,4,0.9850789928358386,5
+poly(p=4),r=2.5,Principal Components (kDMD),6,1,4,0.9168603155027968,5
+poly(p=4),r=2.5,Principal Components (kDMD),7,0,4,0.9669753025999457,5
+poly(p=4),r=2.5,Principal Components (kDMD),8,0,4,0.9657435452929071,5
+poly(p=4),r=2.5,Principal Components (kDMD),9,0,4,0.9484052219912678,5
+poly(p=1),r=2.5,Reduced Rank,0,1,2,0.9366792156585675,4
+poly(p=1),r=2.5,Reduced Rank,1,1,3,0.9194680614867399,5
+poly(p=1),r=2.5,Reduced Rank,2,0,3,0.9605260298032011,5
+poly(p=1),r=2.5,Reduced Rank,3,1,3,0.9462129349584197,5
+poly(p=1),r=2.5,Reduced Rank,4,1,3,0.907637444903595,5
+poly(p=1),r=2.5,Reduced Rank,5,0,3,0.9392888374491117,5
+poly(p=1),r=2.5,Reduced Rank,6,0,3,0.97362482455082,5
+poly(p=1),r=2.5,Reduced Rank,7,0,4,0.9457385943199428,5
+poly(p=1),r=2.5,Reduced Rank,8,0,3,0.9701808899514517,5
+poly(p=1),r=2.5,Reduced Rank,9,1,3,0.929944986327786,5
+poly(p=2),r=2.5,Reduced Rank,0,1,2,0.9366792156585675,4
+poly(p=2),r=2.5,Reduced Rank,1,1,3,0.9194680614867399,5
+poly(p=2),r=2.5,Reduced Rank,2,0,3,0.9605260298032011,5
+poly(p=2),r=2.5,Reduced Rank,3,1,3,0.9462129349584197,5
+poly(p=2),r=2.5,Reduced Rank,4,1,3,0.907637444903595,5
+poly(p=2),r=2.5,Reduced Rank,5,0,3,0.9392888374491117,5
+poly(p=2),r=2.5,Reduced Rank,6,0,3,0.97362482455082,5
+poly(p=2),r=2.5,Reduced Rank,7,0,4,0.9457385943199428,5
+poly(p=2),r=2.5,Reduced Rank,8,0,3,0.9701808899514517,5
+poly(p=2),r=2.5,Reduced Rank,9,1,3,0.929944986327786,5
+poly(p=3),r=2.5,Reduced Rank,0,1,2,0.9366792156585675,4
+poly(p=3),r=2.5,Reduced Rank,1,1,3,0.9194680614867399,5
+poly(p=3),r=2.5,Reduced Rank,2,0,3,0.9605260298032011,5
+poly(p=3),r=2.5,Reduced Rank,3,1,3,0.9462129349584197,5
+poly(p=3),r=2.5,Reduced Rank,4,1,3,0.907637444903595,5
+poly(p=3),r=2.5,Reduced Rank,5,0,3,0.9392888374491117,5
+poly(p=3),r=2.5,Reduced Rank,6,0,3,0.97362482455082,5
+poly(p=3),r=2.5,Reduced Rank,7,0,4,0.9457385943199428,5
+poly(p=3),r=2.5,Reduced Rank,8,0,3,0.9701808899514517,5
+poly(p=3),r=2.5,Reduced Rank,9,1,3,0.929944986327786,5
+poly(p=4),r=2.5,Reduced Rank,0,1,2,0.9366792156585675,4
+poly(p=4),r=2.5,Reduced Rank,1,1,3,0.9194680614867399,5
+poly(p=4),r=2.5,Reduced Rank,2,0,3,0.9605260298032011,5
+poly(p=4),r=2.5,Reduced Rank,3,1,3,0.9462129349584197,5
+poly(p=4),r=2.5,Reduced Rank,4,1,3,0.907637444903595,5
+poly(p=4),r=2.5,Reduced Rank,5,0,3,0.9392888374491117,5
+poly(p=4),r=2.5,Reduced Rank,6,0,3,0.97362482455082,5
+poly(p=4),r=2.5,Reduced Rank,7,0,4,0.9457385943199428,5
+poly(p=4),r=2.5,Reduced Rank,8,0,3,0.9701808899514517,5
+poly(p=4),r=2.5,Reduced Rank,9,1,3,0.929944986327786,5
+poly(p=1),r=3.2,Principal Components (kDMD),0,1,4,0.9071539003745496,5
+poly(p=1),r=3.2,Principal Components (kDMD),1,2,4,0.9195366404123592,5
+poly(p=1),r=3.2,Principal Components (kDMD),2,1,4,0.9159168069895539,5
+poly(p=1),r=3.2,Principal Components (kDMD),3,0,4,0.9588687193199046,5
+poly(p=1),r=3.2,Principal Components (kDMD),4,1,4,0.9031039775352555,5
+poly(p=1),r=3.2,Principal Components (kDMD),5,0,4,0.9461407939708331,5
+poly(p=1),r=3.2,Principal Components (kDMD),6,0,4,0.9320399729007456,5
+poly(p=1),r=3.2,Principal Components (kDMD),7,1,4,0.9115868006193764,5
+poly(p=1),r=3.2,Principal Components (kDMD),8,0,4,0.9300131329781194,5
+poly(p=1),r=3.2,Principal Components (kDMD),9,0,4,0.934849351187211,5
+poly(p=2),r=3.2,Principal Components (kDMD),0,1,4,0.9071539003745496,5
+poly(p=2),r=3.2,Principal Components (kDMD),1,2,4,0.9195366404123592,5
+poly(p=2),r=3.2,Principal Components (kDMD),2,1,4,0.9159168069895539,5
+poly(p=2),r=3.2,Principal Components (kDMD),3,0,4,0.9588687193199046,5
+poly(p=2),r=3.2,Principal Components (kDMD),4,1,4,0.9031039775352555,5
+poly(p=2),r=3.2,Principal Components (kDMD),5,0,4,0.9461407939708331,5
+poly(p=2),r=3.2,Principal Components (kDMD),6,0,4,0.9320399729007456,5
+poly(p=2),r=3.2,Principal Components (kDMD),7,1,4,0.9115868006193764,5
+poly(p=2),r=3.2,Principal Components (kDMD),8,0,4,0.9300131329781194,5
+poly(p=2),r=3.2,Principal Components (kDMD),9,0,4,0.934849351187211,5
+poly(p=3),r=3.2,Principal Components (kDMD),0,1,4,0.9071539003745496,5
+poly(p=3),r=3.2,Principal Components (kDMD),1,2,4,0.9195366404123592,5
+poly(p=3),r=3.2,Principal Components (kDMD),2,1,4,0.9159168069895539,5
+poly(p=3),r=3.2,Principal Components (kDMD),3,0,4,0.9588687193199046,5
+poly(p=3),r=3.2,Principal Components (kDMD),4,1,4,0.9031039775352555,5
+poly(p=3),r=3.2,Principal Components (kDMD),5,0,4,0.9461407939708331,5
+poly(p=3),r=3.2,Principal Components (kDMD),6,0,4,0.9320399729007456,5
+poly(p=3),r=3.2,Principal Components (kDMD),7,1,4,0.9115868006193764,5
+poly(p=3),r=3.2,Principal Components (kDMD),8,0,4,0.9300131329781194,5
+poly(p=3),r=3.2,Principal Components (kDMD),9,0,4,0.934849351187211,5
+poly(p=4),r=3.2,Principal Components (kDMD),0,1,4,0.9071539003745496,5
+poly(p=4),r=3.2,Principal Components (kDMD),1,2,4,0.9195366404123592,5
+poly(p=4),r=3.2,Principal Components (kDMD),2,1,4,0.9159168069895539,5
+poly(p=4),r=3.2,Principal Components (kDMD),3,0,4,0.9588687193199046,5
+poly(p=4),r=3.2,Principal Components (kDMD),4,1,4,0.9031039775352555,5
+poly(p=4),r=3.2,Principal Components (kDMD),5,0,4,0.9461407939708331,5
+poly(p=4),r=3.2,Principal Components (kDMD),6,0,4,0.9320399729007456,5
+poly(p=4),r=3.2,Principal Components (kDMD),7,1,4,0.9115868006193764,5
+poly(p=4),r=3.2,Principal Components (kDMD),8,0,4,0.9300131329781194,5
+poly(p=4),r=3.2,Principal Components (kDMD),9,0,4,0.934849351187211,5
+poly(p=1),r=3.2,Reduced Rank,0,2,3,0.9107772639843993,5
+poly(p=1),r=3.2,Reduced Rank,1,2,4,0.9273260366662777,5
+poly(p=1),r=3.2,Reduced Rank,2,1,4,0.9212466084694446,5
+poly(p=1),r=3.2,Reduced Rank,3,0,4,0.9534599184914408,5
+poly(p=1),r=3.2,Reduced Rank,4,1,4,0.9139859441194969,5
+poly(p=1),r=3.2,Reduced Rank,5,0,4,0.9461087707502149,5
+poly(p=1),r=3.2,Reduced Rank,6,1,3,0.9037073005493204,5
+poly(p=1),r=3.2,Reduced Rank,7,1,4,0.8841240105071352,5
+poly(p=1),r=3.2,Reduced Rank,8,0,4,0.9341189950548178,5
+poly(p=1),r=3.2,Reduced Rank,9,2,4,0.9146958984667424,5
+poly(p=2),r=3.2,Reduced Rank,0,2,3,0.9107772639843993,5
+poly(p=2),r=3.2,Reduced Rank,1,2,4,0.9273260366662777,5
+poly(p=2),r=3.2,Reduced Rank,2,1,4,0.9212466084694446,5
+poly(p=2),r=3.2,Reduced Rank,3,0,4,0.9534599184914408,5
+poly(p=2),r=3.2,Reduced Rank,4,1,4,0.9139859441194969,5
+poly(p=2),r=3.2,Reduced Rank,5,0,4,0.9461087707502149,5
+poly(p=2),r=3.2,Reduced Rank,6,1,3,0.9037073005493204,5
+poly(p=2),r=3.2,Reduced Rank,7,1,4,0.8841240105071352,5
+poly(p=2),r=3.2,Reduced Rank,8,0,4,0.9341189950548178,5
+poly(p=2),r=3.2,Reduced Rank,9,2,4,0.9146958984667424,5
+poly(p=3),r=3.2,Reduced Rank,0,2,3,0.9107772639843993,5
+poly(p=3),r=3.2,Reduced Rank,1,2,4,0.9273260366662777,5
+poly(p=3),r=3.2,Reduced Rank,2,1,4,0.9212466084694446,5
+poly(p=3),r=3.2,Reduced Rank,3,0,4,0.9534599184914408,5
+poly(p=3),r=3.2,Reduced Rank,4,1,4,0.9139859441194969,5
+poly(p=3),r=3.2,Reduced Rank,5,0,4,0.9461087707502149,5
+poly(p=3),r=3.2,Reduced Rank,6,1,3,0.9037073005493204,5
+poly(p=3),r=3.2,Reduced Rank,7,1,4,0.8841240105071352,5
+poly(p=3),r=3.2,Reduced Rank,8,0,4,0.9341189950548178,5
+poly(p=3),r=3.2,Reduced Rank,9,2,4,0.9146958984667424,5
+poly(p=4),r=3.2,Reduced Rank,0,2,3,0.9107772639843993,5
+poly(p=4),r=3.2,Reduced Rank,1,2,4,0.9273260366662777,5
+poly(p=4),r=3.2,Reduced Rank,2,1,4,0.9212466084694446,5
+poly(p=4),r=3.2,Reduced Rank,3,0,4,0.9534599184914408,5
+poly(p=4),r=3.2,Reduced Rank,4,1,4,0.9139859441194969,5
+poly(p=4),r=3.2,Reduced Rank,5,0,4,0.9461087707502149,5
+poly(p=4),r=3.2,Reduced Rank,6,1,3,0.9037073005493204,5
+poly(p=4),r=3.2,Reduced Rank,7,1,4,0.8841240105071352,5
+poly(p=4),r=3.2,Reduced Rank,8,0,4,0.9341189950548178,5
+poly(p=4),r=3.2,Reduced Rank,9,2,4,0.9146958984667424,5
+poly(p=1),r=4.0,Principal Components (kDMD),0,0,4,0.9505286641346737,5
+poly(p=1),r=4.0,Principal Components (kDMD),1,0,4,0.9762131983084648,5
+poly(p=1),r=4.0,Principal Components (kDMD),2,0,4,0.9757334175473238,5
+poly(p=1),r=4.0,Principal Components (kDMD),3,0,4,0.966998893414895,5
+poly(p=1),r=4.0,Principal Components (kDMD),4,0,4,0.9573032442411779,5
+poly(p=1),r=4.0,Principal Components (kDMD),5,0,4,0.9516591087292144,5
+poly(p=1),r=4.0,Principal Components (kDMD),6,0,4,0.9694199151803482,5
+poly(p=1),r=4.0,Principal Components (kDMD),7,0,4,0.9682263115535159,5
+poly(p=1),r=4.0,Principal Components (kDMD),8,1,4,0.9223363071649961,5
+poly(p=1),r=4.0,Principal Components (kDMD),9,0,4,0.9556503338431217,5
+poly(p=2),r=4.0,Principal Components (kDMD),0,0,4,0.9505286641346737,5
+poly(p=2),r=4.0,Principal Components (kDMD),1,0,4,0.9762131983084648,5
+poly(p=2),r=4.0,Principal Components (kDMD),2,0,4,0.9757334175473238,5
+poly(p=2),r=4.0,Principal Components (kDMD),3,0,4,0.966998893414895,5
+poly(p=2),r=4.0,Principal Components (kDMD),4,0,4,0.9573032442411779,5
+poly(p=2),r=4.0,Principal Components (kDMD),5,0,4,0.9516591087292144,5
+poly(p=2),r=4.0,Principal Components (kDMD),6,0,4,0.9694199151803482,5
+poly(p=2),r=4.0,Principal Components (kDMD),7,0,4,0.9682263115535159,5
+poly(p=2),r=4.0,Principal Components (kDMD),8,1,4,0.9223363071649961,5
+poly(p=2),r=4.0,Principal Components (kDMD),9,0,4,0.9556503338431217,5
+poly(p=3),r=4.0,Principal Components (kDMD),0,0,4,0.9505286641346737,5
+poly(p=3),r=4.0,Principal Components (kDMD),1,0,4,0.9762131983084648,5
+poly(p=3),r=4.0,Principal Components (kDMD),2,0,4,0.9757334175473238,5
+poly(p=3),r=4.0,Principal Components (kDMD),3,0,4,0.966998893414895,5
+poly(p=3),r=4.0,Principal Components (kDMD),4,0,4,0.9573032442411779,5
+poly(p=3),r=4.0,Principal Components (kDMD),5,0,4,0.9516591087292144,5
+poly(p=3),r=4.0,Principal Components (kDMD),6,0,4,0.9694199151803482,5
+poly(p=3),r=4.0,Principal Components (kDMD),7,0,4,0.9682263115535159,5
+poly(p=3),r=4.0,Principal Components (kDMD),8,1,4,0.9223363071649961,5
+poly(p=3),r=4.0,Principal Components (kDMD),9,0,4,0.9556503338431217,5
+poly(p=4),r=4.0,Principal Components (kDMD),0,0,4,0.9505286641346737,5
+poly(p=4),r=4.0,Principal Components (kDMD),1,0,4,0.9762131983084648,5
+poly(p=4),r=4.0,Principal Components (kDMD),2,0,4,0.9757334175473238,5
+poly(p=4),r=4.0,Principal Components (kDMD),3,0,4,0.966998893414895,5
+poly(p=4),r=4.0,Principal Components (kDMD),4,0,4,0.9573032442411779,5
+poly(p=4),r=4.0,Principal Components (kDMD),5,0,4,0.9516591087292144,5
+poly(p=4),r=4.0,Principal Components (kDMD),6,0,4,0.9694199151803482,5
+poly(p=4),r=4.0,Principal Components (kDMD),7,0,4,0.9682263115535159,5
+poly(p=4),r=4.0,Principal Components (kDMD),8,1,4,0.9223363071649961,5
+poly(p=4),r=4.0,Principal Components (kDMD),9,0,4,0.9556503338431217,5
+poly(p=1),r=4.0,Reduced Rank,0,0,4,0.9492834805036473,5
+poly(p=1),r=4.0,Reduced Rank,1,0,4,0.9527364766493644,5
+poly(p=1),r=4.0,Reduced Rank,2,0,4,0.9514803156169078,5
+poly(p=1),r=4.0,Reduced Rank,3,0,4,0.9590173775428361,5
+poly(p=1),r=4.0,Reduced Rank,4,0,3,0.9574258200618949,5
+poly(p=1),r=4.0,Reduced Rank,5,0,4,0.9545818533176259,5
+poly(p=1),r=4.0,Reduced Rank,6,0,4,0.9331714244224376,5
+poly(p=1),r=4.0,Reduced Rank,7,0,4,0.9417272724132253,5
+poly(p=1),r=4.0,Reduced Rank,8,0,4,0.9271760037046144,5
+poly(p=1),r=4.0,Reduced Rank,9,0,4,0.9514228245021945,5
+poly(p=2),r=4.0,Reduced Rank,0,0,4,0.9492834805036473,5
+poly(p=2),r=4.0,Reduced Rank,1,0,4,0.9527364766493644,5
+poly(p=2),r=4.0,Reduced Rank,2,0,4,0.9514803156169078,5
+poly(p=2),r=4.0,Reduced Rank,3,0,4,0.9590173775428361,5
+poly(p=2),r=4.0,Reduced Rank,4,0,3,0.9574258200618949,5
+poly(p=2),r=4.0,Reduced Rank,5,0,4,0.9545818533176259,5
+poly(p=2),r=4.0,Reduced Rank,6,0,4,0.9331714244224376,5
+poly(p=2),r=4.0,Reduced Rank,7,0,4,0.9417272724132253,5
+poly(p=2),r=4.0,Reduced Rank,8,0,4,0.9271760037046144,5
+poly(p=2),r=4.0,Reduced Rank,9,0,4,0.9514228245021945,5
+poly(p=3),r=4.0,Reduced Rank,0,0,4,0.9492834805036473,5
+poly(p=3),r=4.0,Reduced Rank,1,0,4,0.9527364766493644,5
+poly(p=3),r=4.0,Reduced Rank,2,0,4,0.9514803156169078,5
+poly(p=3),r=4.0,Reduced Rank,3,0,4,0.9590173775428361,5
+poly(p=3),r=4.0,Reduced Rank,4,0,3,0.9574258200618949,5
+poly(p=3),r=4.0,Reduced Rank,5,0,4,0.9545818533176259,5
+poly(p=3),r=4.0,Reduced Rank,6,0,4,0.9331714244224376,5
+poly(p=3),r=4.0,Reduced Rank,7,0,4,0.9417272724132253,5
+poly(p=3),r=4.0,Reduced Rank,8,0,4,0.9271760037046144,5
+poly(p=3),r=4.0,Reduced Rank,9,0,4,0.9514228245021945,5
+poly(p=4),r=4.0,Reduced Rank,0,0,4,0.9492834805036473,5
+poly(p=4),r=4.0,Reduced Rank,1,0,4,0.9527364766493644,5
+poly(p=4),r=4.0,Reduced Rank,2,0,4,0.9514803156169078,5
+poly(p=4),r=4.0,Reduced Rank,3,0,4,0.9590173775428361,5
+poly(p=4),r=4.0,Reduced Rank,4,0,3,0.9574258200618949,5
+poly(p=4),r=4.0,Reduced Rank,5,0,4,0.9545818533176259,5
+poly(p=4),r=4.0,Reduced Rank,6,0,4,0.9331714244224376,5
+poly(p=4),r=4.0,Reduced Rank,7,0,4,0.9417272724132253,5
+poly(p=4),r=4.0,Reduced Rank,8,0,4,0.9271760037046144,5
+poly(p=4),r=4.0,Reduced Rank,9,0,4,0.9514228245021945,5

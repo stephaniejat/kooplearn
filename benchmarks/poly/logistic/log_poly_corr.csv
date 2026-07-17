@@ -1,0 +1,49 @@
+kernel,kind,method,bias_gap_corr
+poly(p=1),r=0.0,Principal Components (kDMD),
+poly(p=1),r=0.0,Reduced Rank,0.4544720158375889
+poly(p=1),r=0.5,Principal Components (kDMD),
+poly(p=1),r=0.5,Reduced Rank,0.1836688668690727
+poly(p=1),r=1.2,Principal Components (kDMD),0.046057407994433607
+poly(p=1),r=1.2,Reduced Rank,0.0636156304633068
+poly(p=1),r=2.5,Principal Components (kDMD),-0.30227983846830975
+poly(p=1),r=2.5,Reduced Rank,-0.06678259581679634
+poly(p=1),r=3.2,Principal Components (kDMD),0.21226428699775698
+poly(p=1),r=3.2,Reduced Rank,0.005930138813249295
+poly(p=1),r=4.0,Principal Components (kDMD),0.0011407413074161139
+poly(p=1),r=4.0,Reduced Rank,0.17730174462753537
+poly(p=2),r=0.0,Principal Components (kDMD),
+poly(p=2),r=0.0,Reduced Rank,0.4544720158375889
+poly(p=2),r=0.5,Principal Components (kDMD),
+poly(p=2),r=0.5,Reduced Rank,0.1836688668690727
+poly(p=2),r=1.2,Principal Components (kDMD),0.046057407994433607
+poly(p=2),r=1.2,Reduced Rank,0.0636156304633068
+poly(p=2),r=2.5,Principal Components (kDMD),-0.30227983846830975
+poly(p=2),r=2.5,Reduced Rank,-0.06678259581679634
+poly(p=2),r=3.2,Principal Components (kDMD),0.21226428699775698
+poly(p=2),r=3.2,Reduced Rank,0.005930138813249295
+poly(p=2),r=4.0,Principal Components (kDMD),0.0011407413074161139
+poly(p=2),r=4.0,Reduced Rank,0.17730174462753537
+poly(p=3),r=0.0,Principal Components (kDMD),
+poly(p=3),r=0.0,Reduced Rank,0.4544720158375889
+poly(p=3),r=0.5,Principal Components (kDMD),
+poly(p=3),r=0.5,Reduced Rank,0.1836688668690727
+poly(p=3),r=1.2,Principal Components (kDMD),0.046057407994433607
+poly(p=3),r=1.2,Reduced Rank,0.0636156304633068
+poly(p=3),r=2.5,Principal Components (kDMD),-0.30227983846830975
+poly(p=3),r=2.5,Reduced Rank,-0.06678259581679634
+poly(p=3),r=3.2,Principal Components (kDMD),0.21226428699775698
+poly(p=3),r=3.2,Reduced Rank,0.005930138813249295
+poly(p=3),r=4.0,Principal Components (kDMD),0.0011407413074161139
+poly(p=3),r=4.0,Reduced Rank,0.17730174462753537
+poly(p=4),r=0.0,Principal Components (kDMD),
+poly(p=4),r=0.0,Reduced Rank,0.4544720158375889
+poly(p=4),r=0.5,Principal Components (kDMD),
+poly(p=4),r=0.5,Reduced Rank,0.1836688668690727
+poly(p=4),r=1.2,Principal Components (kDMD),0.046057407994433607
+poly(p=4),r=1.2,Reduced Rank,0.0636156304633068
+poly(p=4),r=2.5,Principal Components (kDMD),-0.30227983846830975
+poly(p=4),r=2.5,Reduced Rank,-0.06678259581679634
+poly(p=4),r=3.2,Principal Components (kDMD),0.21226428699775698
+poly(p=4),r=3.2,Reduced Rank,0.005930138813249295
+poly(p=4),r=4.0,Principal Components (kDMD),0.0011407413074161139
+poly(p=4),r=4.0,Reduced Rank,0.17730174462753537
