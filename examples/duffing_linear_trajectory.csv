@@ -1,0 +1,15 @@
+kind,method,kernel,composite_score,spectral_gap_mean,spurious_residual_count_mean
+omega=0.5,Principal Components (kDMD),linear,0.6097604727420262,0.0,0.30417722469550207
+omega=0.5,Reduced Rank,linear,-2.693787328739851,0.0,0.3045482089585969
+omega=0.8,Principal Components (kDMD),linear,0.3996596900068877,0.0,0.3031638943688998
+omega=0.8,Reduced Rank,linear,0.677945912971002,0.0,0.30386950941556845
+omega=1.0,Principal Components (kDMD),linear,-0.7663085055781454,0.0,0.2972571965956243
+omega=1.0,Reduced Rank,linear,-3.3749999146316405,0.0,0.29707917234467063
+omega=1.2,Principal Components (kDMD),linear,-0.10278156034897626,0.0,0.30347122200008636
+omega=1.2,Reduced Rank,linear,1.109205771145986,0.0,0.30521105430400475
+omega=1.5,Principal Components (kDMD),linear,0.1624562294113616,0.0,0.3053869214812359
+omega=1.5,Reduced Rank,linear,-1.1320617081075257,0.0,0.31380118414525415
+omega=2.0,Principal Components (kDMD),linear,1.3259577518509882,0.0,0.3132952990493991
+omega=2.0,Reduced Rank,linear,-2.5150265097087394,0.02371603933679125,0.31201759517700395
+omega=3.0,Principal Components (kDMD),linear,2.8924092539327946,0.0,0.3268664640591107
+omega=3.0,Reduced Rank,linear,3.4075704450537767,0.0,0.328268918182807

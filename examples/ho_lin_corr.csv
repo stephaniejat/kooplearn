@@ -1,0 +1,13 @@
+kernel,kind,method,bias_gap_corr
+linear,damping=0.0,Principal Components (kDMD),
+linear,damping=0.0,Reduced Rank,
+linear,damping=0.1,Principal Components (kDMD),
+linear,damping=0.1,Reduced Rank,
+linear,damping=0.3,Principal Components (kDMD),
+linear,damping=0.3,Reduced Rank,
+linear,damping=0.5,Principal Components (kDMD),
+linear,damping=0.5,Reduced Rank,
+linear,damping=1.0,Principal Components (kDMD),
+linear,damping=1.0,Reduced Rank,-0.21506581556771964
+linear,damping=1.5,Principal Components (kDMD),
+linear,damping=1.5,Reduced Rank,-0.05835930573052337

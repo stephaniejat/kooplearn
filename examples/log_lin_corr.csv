@@ -1,0 +1,13 @@
+kernel,kind,method,bias_gap_corr
+linear,r=0.0,Principal Components (kDMD),
+linear,r=0.0,Reduced Rank,-0.320806165073737
+linear,r=0.5,Principal Components (kDMD),
+linear,r=0.5,Reduced Rank,0.19419390171897102
+linear,r=1.2,Principal Components (kDMD),
+linear,r=1.2,Reduced Rank,0.109065666012328
+linear,r=2.5,Principal Components (kDMD),
+linear,r=2.5,Reduced Rank,0.048325211398303654
+linear,r=3.2,Principal Components (kDMD),
+linear,r=3.2,Reduced Rank,0.305069956139239
+linear,r=4.0,Principal Components (kDMD),
+linear,r=4.0,Reduced Rank,0.011059040151755349
