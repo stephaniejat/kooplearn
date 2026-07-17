@@ -1,0 +1,13 @@
+kernel,kind,method,bias_gap_corr
+hermite(bad),A=rev,Principal Components (kDMD),-0.7665591402128515
+hermite(bad),A=rev,Reduced Rank,0.025204382468048733
+hermite(bad),A=rot,Principal Components (kDMD),-0.7236845527528082
+hermite(bad),A=rot,Reduced Rank,0.10577599847311021
+hermite(good),A=rev,Principal Components (kDMD),-0.5819633554117616
+hermite(good),A=rev,Reduced Rank,-0.10005484535539587
+hermite(good),A=rot,Principal Components (kDMD),-0.40243532414598604
+hermite(good),A=rot,Reduced Rank,-0.025621517948605812
+hermite(ugly),A=rev,Principal Components (kDMD),
+hermite(ugly),A=rev,Reduced Rank,0.062444850387234435
+hermite(ugly),A=rot,Principal Components (kDMD),
+hermite(ugly),A=rot,Reduced Rank,0.14355895111268285
