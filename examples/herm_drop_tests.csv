@@ -1,0 +1,3 @@
+dropped_metric,best_kernel,best_method,best_score,best_rank
+agg_spurious_mean,hermite(ugly),Principal Components (kDMD),-1.1509171734502521,1
+mean_spurious_residual_count,hermite(bad),Principal Components (kDMD),-2.287092250721793,1

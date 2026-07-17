@@ -1,3 +1,0 @@
-kernel,method,n_modes_used,weight_sum,agg_bias_mean,agg_bias_std,agg_dist_mean,agg_trunc_mean,agg_spurious_mean,agg_spurious_std,mean_spurious_ref_count,mean_spurious_residual_count,mean_spectral_gap,std_spectral_gap,mean_rank
-linear,Principal Components (kDMD),3.0,1.0,0.0,0.0,4.474457838123597,0.0,0.789361697522848,0.009994461027972025,4.0,4.0,0.945771103021041,0.0024923270366774353,5.0
-linear,Reduced Rank,3.0,1.0,9.78406964969709e-16,9.31318325281928e-16,0.7932414301972467,1.2009268509100283e-15,0.7893613388848573,0.007170831707620756,3.0,1.9,0.9458155041273553,0.0025007211383867916,4.0

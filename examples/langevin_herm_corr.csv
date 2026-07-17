@@ -1,0 +1,7 @@
+kernel,kind,method,bias_gap_corr
+hermite(bad),N/A,Principal Components (kDMD),-0.13982907940161662
+hermite(bad),N/A,Reduced Rank,-0.01974311437321797
+hermite(good),N/A,Principal Components (kDMD),-0.06494906578742242
+hermite(good),N/A,Reduced Rank,-0.06524540302845167
+hermite(ugly),N/A,Principal Components (kDMD),
+hermite(ugly),N/A,Reduced Rank,0.5675916608453146

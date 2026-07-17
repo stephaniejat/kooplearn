@@ -1,9 +1,0 @@
-varied_metric,scale,best_kernel,best_kind,best_method,best_score,best_rank,best_admissible,top5_signature
-agg_spurious_mean,0.8,linear,[],Reduced Rank,-2.3000000002476533,1,True,linear / Reduced Rank (r1) | linear / Principal Components (kDMD) (r2)
-agg_spurious_mean,1.0,linear,[],Reduced Rank,-2.5000000003095666,1,True,linear / Reduced Rank (r1) | linear / Principal Components (kDMD) (r2)
-agg_spurious_mean,1.2,linear,[],Reduced Rank,-2.70000000037148,1,True,linear / Reduced Rank (r1) | linear / Principal Components (kDMD) (r2)
-agg_spurious_mean,1.4,linear,[],Reduced Rank,-2.9000000004333932,1,True,linear / Reduced Rank (r1) | linear / Principal Components (kDMD) (r2)
-mean_spurious_residual_count,0.8,linear,[],Reduced Rank,-2.3000000003095664,1,True,linear / Reduced Rank (r1) | linear / Principal Components (kDMD) (r2)
-mean_spurious_residual_count,1.0,linear,[],Reduced Rank,-2.5000000003095666,1,True,linear / Reduced Rank (r1) | linear / Principal Components (kDMD) (r2)
-mean_spurious_residual_count,1.2,linear,[],Reduced Rank,-2.7000000003095668,1,True,linear / Reduced Rank (r1) | linear / Principal Components (kDMD) (r2)
-mean_spurious_residual_count,1.4,linear,[],Reduced Rank,-2.9000000003095665,1,True,linear / Reduced Rank (r1) | linear / Principal Components (kDMD) (r2)
