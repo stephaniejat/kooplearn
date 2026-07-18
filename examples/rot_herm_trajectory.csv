@@ -1,0 +1,9 @@
+kind,method,kernel,composite_score,mean_spectral_gap,mean_spurious_residual_count
+omega=0.0,Principal Components (kDMD),hermite(ugly),-1.602029397045506,0.917077108422433,3.2
+omega=0.0,Reduced Rank,hermite(ugly),-3.355467319875241,0.9170904079162417,2.0
+omega=0.5,Principal Components (kDMD),hermite(ugly),-1.5221316917015584,0.9153118770329328,3.3
+omega=0.5,Reduced Rank,hermite(ugly),-3.7886718983314753,0.9153341569501009,1.7
+omega=1.0,Principal Components (kDMD),hermite(ugly),-1.3178542807853233,0.9211055764147822,3.5
+omega=1.0,Reduced Rank,hermite(ugly),-3.3246347411131794,0.9211473486007667,2.1
+omega=2.0,Principal Components (kDMD),hermite(ugly),-1.292733857337102,0.9172216382650203,3.5
+omega=2.0,Reduced Rank,hermite(ugly),-3.2230350614036496,0.9180730399123755,2.1

@@ -1,0 +1,25 @@
+kernel,kind,method,bias_gap_corr
+hermite(bad),omega=0.0,Principal Components (kDMD),-0.8575979473355346
+hermite(bad),omega=0.0,Reduced Rank,0.348520405793723
+hermite(bad),omega=0.5,Principal Components (kDMD),-0.8491696488133395
+hermite(bad),omega=0.5,Reduced Rank,-0.05847855849358823
+hermite(bad),omega=1.0,Principal Components (kDMD),-0.1915922114726476
+hermite(bad),omega=1.0,Reduced Rank,-0.3568229535662635
+hermite(bad),omega=2.0,Principal Components (kDMD),-0.33268641300647467
+hermite(bad),omega=2.0,Reduced Rank,-0.0365790750187576
+hermite(good),omega=0.0,Principal Components (kDMD),-0.4436093413525133
+hermite(good),omega=0.0,Reduced Rank,-0.33461822004015845
+hermite(good),omega=0.5,Principal Components (kDMD),-0.47060897597533397
+hermite(good),omega=0.5,Reduced Rank,-0.2295404390492841
+hermite(good),omega=1.0,Principal Components (kDMD),-0.07122117764066323
+hermite(good),omega=1.0,Reduced Rank,-0.026521342049911228
+hermite(good),omega=2.0,Principal Components (kDMD),-0.2440785749390194
+hermite(good),omega=2.0,Reduced Rank,-0.2283354473864609
+hermite(ugly),omega=0.0,Principal Components (kDMD),
+hermite(ugly),omega=0.0,Reduced Rank,-0.012114505282513488
+hermite(ugly),omega=0.5,Principal Components (kDMD),
+hermite(ugly),omega=0.5,Reduced Rank,0.05136847178641852
+hermite(ugly),omega=1.0,Principal Components (kDMD),
+hermite(ugly),omega=1.0,Reduced Rank,-0.23115588980674648
+hermite(ugly),omega=2.0,Principal Components (kDMD),
+hermite(ugly),omega=2.0,Reduced Rank,-0.05991323221638297

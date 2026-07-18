@@ -1,0 +1,841 @@
+kernel,kind,method,trial,spurious_ref_count,spurious_residual_count,spectral_gap,rank
+rbf(gamma=0.5),r=0.0,Principal Components (kDMD),0,0,3,0.9578737704610991,5
+rbf(gamma=0.5),r=0.0,Principal Components (kDMD),1,0,4,0.9717014034425498,5
+rbf(gamma=0.5),r=0.0,Principal Components (kDMD),2,0,3,0.9850862340585738,5
+rbf(gamma=0.5),r=0.0,Principal Components (kDMD),3,0,3,0.9541378363790864,5
+rbf(gamma=0.5),r=0.0,Principal Components (kDMD),4,0,3,0.9732992375926592,5
+rbf(gamma=0.5),r=0.0,Principal Components (kDMD),5,0,4,0.9510689651285055,5
+rbf(gamma=0.5),r=0.0,Principal Components (kDMD),6,0,4,0.9415414200333334,5
+rbf(gamma=0.5),r=0.0,Principal Components (kDMD),7,0,3,0.9695154283349063,5
+rbf(gamma=0.5),r=0.0,Principal Components (kDMD),8,0,3,0.9523491442859181,5
+rbf(gamma=0.5),r=0.0,Principal Components (kDMD),9,1,4,0.938393750725628,5
+rbf(gamma=1.0),r=0.0,Principal Components (kDMD),0,0,3,0.9540019789386578,5
+rbf(gamma=1.0),r=0.0,Principal Components (kDMD),1,0,4,0.9707195608632395,5
+rbf(gamma=1.0),r=0.0,Principal Components (kDMD),2,0,3,0.9829314876217818,5
+rbf(gamma=1.0),r=0.0,Principal Components (kDMD),3,0,3,0.9557896204532003,5
+rbf(gamma=1.0),r=0.0,Principal Components (kDMD),4,0,3,0.9731718645913979,5
+rbf(gamma=1.0),r=0.0,Principal Components (kDMD),5,0,3,0.9444582951234682,5
+rbf(gamma=1.0),r=0.0,Principal Components (kDMD),6,0,4,0.9400566587595345,5
+rbf(gamma=1.0),r=0.0,Principal Components (kDMD),7,0,3,0.9620696767441358,5
+rbf(gamma=1.0),r=0.0,Principal Components (kDMD),8,1,3,0.9475840726380526,5
+rbf(gamma=1.0),r=0.0,Principal Components (kDMD),9,1,4,0.9379264523452097,5
+rbf(gamma=2.5),r=0.0,Principal Components (kDMD),0,0,3,0.9520071619112527,5
+rbf(gamma=2.5),r=0.0,Principal Components (kDMD),1,0,4,0.9698843715110779,5
+rbf(gamma=2.5),r=0.0,Principal Components (kDMD),2,0,3,0.9765354856894913,5
+rbf(gamma=2.5),r=0.0,Principal Components (kDMD),3,0,3,0.9545066238408988,5
+rbf(gamma=2.5),r=0.0,Principal Components (kDMD),4,0,3,0.972325572850706,5
+rbf(gamma=2.5),r=0.0,Principal Components (kDMD),5,1,3,0.9088950195479092,5
+rbf(gamma=2.5),r=0.0,Principal Components (kDMD),6,0,4,0.938744398431409,5
+rbf(gamma=2.5),r=0.0,Principal Components (kDMD),7,0,3,0.9601281629624995,5
+rbf(gamma=2.5),r=0.0,Principal Components (kDMD),8,1,3,0.9467197816561654,5
+rbf(gamma=2.5),r=0.0,Principal Components (kDMD),9,1,4,0.9378075969379084,5
+rbf(gamma=5.0),r=0.0,Principal Components (kDMD),0,0,3,0.951906611882883,5
+rbf(gamma=5.0),r=0.0,Principal Components (kDMD),1,0,4,0.9695150423776677,5
+rbf(gamma=5.0),r=0.0,Principal Components (kDMD),2,0,3,0.9762007030049127,5
+rbf(gamma=5.0),r=0.0,Principal Components (kDMD),3,0,3,0.9544401269949836,5
+rbf(gamma=5.0),r=0.0,Principal Components (kDMD),4,0,3,0.9718668699860671,5
+rbf(gamma=5.0),r=0.0,Principal Components (kDMD),5,1,4,0.9034352898402971,5
+rbf(gamma=5.0),r=0.0,Principal Components (kDMD),6,0,4,0.937964758861379,5
+rbf(gamma=5.0),r=0.0,Principal Components (kDMD),7,0,3,0.9602237077620964,5
+rbf(gamma=5.0),r=0.0,Principal Components (kDMD),8,1,4,0.9466209135357878,5
+rbf(gamma=5.0),r=0.0,Principal Components (kDMD),9,1,4,0.9378887443381813,5
+rbf(gamma=12.5),r=0.0,Principal Components (kDMD),0,0,3,0.9518522632894438,5
+rbf(gamma=12.5),r=0.0,Principal Components (kDMD),1,0,4,0.9694320408409505,5
+rbf(gamma=12.5),r=0.0,Principal Components (kDMD),2,0,4,0.9756452464802086,5
+rbf(gamma=12.5),r=0.0,Principal Components (kDMD),3,0,3,0.9542659346795923,5
+rbf(gamma=12.5),r=0.0,Principal Components (kDMD),4,0,3,0.9717937648662299,5
+rbf(gamma=12.5),r=0.0,Principal Components (kDMD),5,1,4,0.903233619380506,5
+rbf(gamma=12.5),r=0.0,Principal Components (kDMD),6,0,4,0.9377842453676657,5
+rbf(gamma=12.5),r=0.0,Principal Components (kDMD),7,0,3,0.9603513428892216,5
+rbf(gamma=12.5),r=0.0,Principal Components (kDMD),8,1,5,0.9463990991322505,5
+rbf(gamma=12.5),r=0.0,Principal Components (kDMD),9,1,4,0.9380926617600864,5
+rbf(gamma=25.0),r=0.0,Principal Components (kDMD),0,0,3,0.9517896921925748,5
+rbf(gamma=25.0),r=0.0,Principal Components (kDMD),1,0,4,0.9702296294642476,5
+rbf(gamma=25.0),r=0.0,Principal Components (kDMD),2,0,4,0.97432911406278,5
+rbf(gamma=25.0),r=0.0,Principal Components (kDMD),3,0,4,0.9535309107133316,5
+rbf(gamma=25.0),r=0.0,Principal Components (kDMD),4,0,4,0.972116590016176,5
+rbf(gamma=25.0),r=0.0,Principal Components (kDMD),5,1,5,0.9035470330691088,5
+rbf(gamma=25.0),r=0.0,Principal Components (kDMD),6,0,4,0.9374209745453846,5
+rbf(gamma=25.0),r=0.0,Principal Components (kDMD),7,0,3,0.9604816733358771,5
+rbf(gamma=25.0),r=0.0,Principal Components (kDMD),8,1,5,0.945984057555831,5
+rbf(gamma=25.0),r=0.0,Principal Components (kDMD),9,1,4,0.9383021051164883,5
+rbf(gamma=50.0),r=0.0,Principal Components (kDMD),0,0,3,0.9516937449020436,5
+rbf(gamma=50.0),r=0.0,Principal Components (kDMD),1,0,4,0.9716502099803314,5
+rbf(gamma=50.0),r=0.0,Principal Components (kDMD),2,0,4,0.97244547076931,5
+rbf(gamma=50.0),r=0.0,Principal Components (kDMD),3,0,4,0.9524852564279322,5
+rbf(gamma=50.0),r=0.0,Principal Components (kDMD),4,0,4,0.9728544307345044,5
+rbf(gamma=50.0),r=0.0,Principal Components (kDMD),5,1,5,0.9043049155800168,5
+rbf(gamma=50.0),r=0.0,Principal Components (kDMD),6,0,4,0.9360292278663498,5
+rbf(gamma=50.0),r=0.0,Principal Components (kDMD),7,0,3,0.9611432313828494,5
+rbf(gamma=50.0),r=0.0,Principal Components (kDMD),8,1,5,0.9452847470065179,5
+rbf(gamma=50.0),r=0.0,Principal Components (kDMD),9,1,5,0.9386318998277385,5
+rbf(gamma=0.5),r=0.0,Reduced Rank,0,0,4,0.9557759467353918,5
+rbf(gamma=0.5),r=0.0,Reduced Rank,1,1,4,0.9309613276000339,5
+rbf(gamma=0.5),r=0.0,Reduced Rank,2,0,3,0.9895017655920693,5
+rbf(gamma=0.5),r=0.0,Reduced Rank,3,1,3,0.9454223509923275,5
+rbf(gamma=0.5),r=0.0,Reduced Rank,4,1,4,0.90962964468331,5
+rbf(gamma=0.5),r=0.0,Reduced Rank,5,1,2,0.8623152526841742,5
+rbf(gamma=0.5),r=0.0,Reduced Rank,6,1,4,0.9108695160254292,5
+rbf(gamma=0.5),r=0.0,Reduced Rank,7,0,3,0.9630665094327027,5
+rbf(gamma=0.5),r=0.0,Reduced Rank,8,1,2,0.9172021660511555,5
+rbf(gamma=0.5),r=0.0,Reduced Rank,9,1,4,0.9332550466867576,5
+rbf(gamma=1.0),r=0.0,Reduced Rank,0,0,3,0.9565959705957494,5
+rbf(gamma=1.0),r=0.0,Reduced Rank,1,0,4,0.9763947140229844,5
+rbf(gamma=1.0),r=0.0,Reduced Rank,2,0,3,0.9820480957483337,5
+rbf(gamma=1.0),r=0.0,Reduced Rank,3,1,3,0.8682717965819557,5
+rbf(gamma=1.0),r=0.0,Reduced Rank,4,0,3,0.9512338091811186,5
+rbf(gamma=1.0),r=0.0,Reduced Rank,5,1,4,0.8971680956168264,5
+rbf(gamma=1.0),r=0.0,Reduced Rank,6,2,3,0.9201372691710501,5
+rbf(gamma=1.0),r=0.0,Reduced Rank,7,1,4,0.915336098178127,5
+rbf(gamma=1.0),r=0.0,Reduced Rank,8,1,2,0.8610177045898855,5
+rbf(gamma=1.0),r=0.0,Reduced Rank,9,1,3,0.9421067243717871,5
+rbf(gamma=2.5),r=0.0,Reduced Rank,0,1,4,0.9425553580426381,5
+rbf(gamma=2.5),r=0.0,Reduced Rank,1,1,3,0.9327290083007502,5
+rbf(gamma=2.5),r=0.0,Reduced Rank,2,1,3,0.9307472480687206,5
+rbf(gamma=2.5),r=0.0,Reduced Rank,3,1,4,0.9039323202756173,5
+rbf(gamma=2.5),r=0.0,Reduced Rank,4,1,2,0.9037718430356863,5
+rbf(gamma=2.5),r=0.0,Reduced Rank,5,1,2,0.8916472656954599,4
+rbf(gamma=2.5),r=0.0,Reduced Rank,6,1,4,0.9077281871635465,5
+rbf(gamma=2.5),r=0.0,Reduced Rank,7,1,3,0.8934956241847651,5
+rbf(gamma=2.5),r=0.0,Reduced Rank,8,1,4,0.8770917202344587,5
+rbf(gamma=2.5),r=0.0,Reduced Rank,9,1,3,0.9415647068639275,5
+rbf(gamma=5.0),r=0.0,Reduced Rank,0,0,4,0.9598540924410967,5
+rbf(gamma=5.0),r=0.0,Reduced Rank,1,1,3,0.9104596968644345,5
+rbf(gamma=5.0),r=0.0,Reduced Rank,2,0,3,0.9752313941845739,5
+rbf(gamma=5.0),r=0.0,Reduced Rank,3,1,4,0.9028169430310924,5
+rbf(gamma=5.0),r=0.0,Reduced Rank,4,1,3,0.9109399164057292,4
+rbf(gamma=5.0),r=0.0,Reduced Rank,5,1,3,0.9005360107184233,5
+rbf(gamma=5.0),r=0.0,Reduced Rank,6,1,4,0.8103371001303447,5
+rbf(gamma=5.0),r=0.0,Reduced Rank,7,1,3,0.9410021474134908,5
+rbf(gamma=5.0),r=0.0,Reduced Rank,8,1,4,0.764633919758358,5
+rbf(gamma=5.0),r=0.0,Reduced Rank,9,1,3,0.9391815787387843,5
+rbf(gamma=12.5),r=0.0,Reduced Rank,0,0,4,0.9532455360818478,5
+rbf(gamma=12.5),r=0.0,Reduced Rank,1,0,4,0.9481148925363055,5
+rbf(gamma=12.5),r=0.0,Reduced Rank,2,1,3,0.9400440176843714,5
+rbf(gamma=12.5),r=0.0,Reduced Rank,3,0,4,0.943769748415207,5
+rbf(gamma=12.5),r=0.0,Reduced Rank,4,0,4,0.9672085776952746,5
+rbf(gamma=12.5),r=0.0,Reduced Rank,5,1,4,0.8948553667591341,5
+rbf(gamma=12.5),r=0.0,Reduced Rank,6,1,4,0.8961448805010113,5
+rbf(gamma=12.5),r=0.0,Reduced Rank,7,0,4,0.9591481067951135,5
+rbf(gamma=12.5),r=0.0,Reduced Rank,8,0,4,0.9594613965118801,5
+rbf(gamma=12.5),r=0.0,Reduced Rank,9,1,4,0.9398630128866049,5
+rbf(gamma=25.0),r=0.0,Reduced Rank,0,0,4,0.9565095159921855,5
+rbf(gamma=25.0),r=0.0,Reduced Rank,1,0,4,0.9522471336228743,5
+rbf(gamma=25.0),r=0.0,Reduced Rank,2,1,4,0.9343808238806107,5
+rbf(gamma=25.0),r=0.0,Reduced Rank,3,1,5,0.9271508890737832,5
+rbf(gamma=25.0),r=0.0,Reduced Rank,4,0,5,0.9640529339640085,5
+rbf(gamma=25.0),r=0.0,Reduced Rank,5,1,5,0.8946067420502478,5
+rbf(gamma=25.0),r=0.0,Reduced Rank,6,1,4,0.8892059640470308,5
+rbf(gamma=25.0),r=0.0,Reduced Rank,7,1,4,0.9301067894998479,5
+rbf(gamma=25.0),r=0.0,Reduced Rank,8,0,4,0.9499997456430245,5
+rbf(gamma=25.0),r=0.0,Reduced Rank,9,1,3,0.9390905473945261,5
+rbf(gamma=50.0),r=0.0,Reduced Rank,0,0,4,0.9551711048708096,5
+rbf(gamma=50.0),r=0.0,Reduced Rank,1,0,3,0.9458088418841777,5
+rbf(gamma=50.0),r=0.0,Reduced Rank,2,1,5,0.927935187178339,5
+rbf(gamma=50.0),r=0.0,Reduced Rank,3,1,5,0.9320793661556451,5
+rbf(gamma=50.0),r=0.0,Reduced Rank,4,0,5,0.941588691139438,5
+rbf(gamma=50.0),r=0.0,Reduced Rank,5,1,5,0.8995037496322673,5
+rbf(gamma=50.0),r=0.0,Reduced Rank,6,1,3,0.8925021770114046,5
+rbf(gamma=50.0),r=0.0,Reduced Rank,7,1,4,0.9417737601818279,5
+rbf(gamma=50.0),r=0.0,Reduced Rank,8,0,5,0.9562567472301674,5
+rbf(gamma=50.0),r=0.0,Reduced Rank,9,2,3,0.9306777802663079,5
+rbf(gamma=0.5),r=0.5,Principal Components (kDMD),0,0,3,0.9555249999554668,5
+rbf(gamma=0.5),r=0.5,Principal Components (kDMD),1,0,4,0.9752425022491826,5
+rbf(gamma=0.5),r=0.5,Principal Components (kDMD),2,0,3,0.9631498341483693,5
+rbf(gamma=0.5),r=0.5,Principal Components (kDMD),3,0,4,0.93802753383708,5
+rbf(gamma=0.5),r=0.5,Principal Components (kDMD),4,0,3,0.974275579232688,5
+rbf(gamma=0.5),r=0.5,Principal Components (kDMD),5,0,4,0.9400135234744476,5
+rbf(gamma=0.5),r=0.5,Principal Components (kDMD),6,0,4,0.9841470077993206,5
+rbf(gamma=0.5),r=0.5,Principal Components (kDMD),7,0,4,0.9776712518861489,5
+rbf(gamma=0.5),r=0.5,Principal Components (kDMD),8,0,3,0.9285551664933702,5
+rbf(gamma=0.5),r=0.5,Principal Components (kDMD),9,1,4,0.9443740977859876,5
+rbf(gamma=1.0),r=0.5,Principal Components (kDMD),0,0,3,0.9609655251577492,5
+rbf(gamma=1.0),r=0.5,Principal Components (kDMD),1,0,4,0.9701051081021768,5
+rbf(gamma=1.0),r=0.5,Principal Components (kDMD),2,0,3,0.9662047435510653,5
+rbf(gamma=1.0),r=0.5,Principal Components (kDMD),3,0,4,0.9369714699236263,5
+rbf(gamma=1.0),r=0.5,Principal Components (kDMD),4,0,3,0.9742864413575092,5
+rbf(gamma=1.0),r=0.5,Principal Components (kDMD),5,0,4,0.9342711434898698,5
+rbf(gamma=1.0),r=0.5,Principal Components (kDMD),6,0,4,0.9844564642513424,5
+rbf(gamma=1.0),r=0.5,Principal Components (kDMD),7,0,4,0.9719947437332013,5
+rbf(gamma=1.0),r=0.5,Principal Components (kDMD),8,0,3,0.9259132913483009,5
+rbf(gamma=1.0),r=0.5,Principal Components (kDMD),9,1,4,0.9447430440409108,5
+rbf(gamma=2.5),r=0.5,Principal Components (kDMD),0,0,3,0.9622536278668684,5
+rbf(gamma=2.5),r=0.5,Principal Components (kDMD),1,0,4,0.9693516237373245,5
+rbf(gamma=2.5),r=0.5,Principal Components (kDMD),2,0,4,0.96728218494046,5
+rbf(gamma=2.5),r=0.5,Principal Components (kDMD),3,0,4,0.9370367074988399,5
+rbf(gamma=2.5),r=0.5,Principal Components (kDMD),4,0,3,0.97434823350159,5
+rbf(gamma=2.5),r=0.5,Principal Components (kDMD),5,1,4,0.9203768295643115,5
+rbf(gamma=2.5),r=0.5,Principal Components (kDMD),6,0,4,0.9666615353418003,5
+rbf(gamma=2.5),r=0.5,Principal Components (kDMD),7,0,4,0.9715128181560383,5
+rbf(gamma=2.5),r=0.5,Principal Components (kDMD),8,0,3,0.9249971059069331,5
+rbf(gamma=2.5),r=0.5,Principal Components (kDMD),9,1,4,0.944880151301714,5
+rbf(gamma=5.0),r=0.5,Principal Components (kDMD),0,0,3,0.961835825821366,5
+rbf(gamma=5.0),r=0.5,Principal Components (kDMD),1,0,4,0.9696091154765111,5
+rbf(gamma=5.0),r=0.5,Principal Components (kDMD),2,0,4,0.9677614086229296,5
+rbf(gamma=5.0),r=0.5,Principal Components (kDMD),3,0,4,0.9372906306641637,5
+rbf(gamma=5.0),r=0.5,Principal Components (kDMD),4,0,3,0.9744107049715687,5
+rbf(gamma=5.0),r=0.5,Principal Components (kDMD),5,1,4,0.9195247235027242,5
+rbf(gamma=5.0),r=0.5,Principal Components (kDMD),6,0,4,0.9620867661249125,5
+rbf(gamma=5.0),r=0.5,Principal Components (kDMD),7,0,4,0.9716269102101907,5
+rbf(gamma=5.0),r=0.5,Principal Components (kDMD),8,1,4,0.9247947280482186,5
+rbf(gamma=5.0),r=0.5,Principal Components (kDMD),9,1,4,0.9449258038055883,5
+rbf(gamma=12.5),r=0.5,Principal Components (kDMD),0,0,4,0.9604000152327263,5
+rbf(gamma=12.5),r=0.5,Principal Components (kDMD),1,0,4,0.9697935747065077,5
+rbf(gamma=12.5),r=0.5,Principal Components (kDMD),2,0,5,0.9680363385378183,5
+rbf(gamma=12.5),r=0.5,Principal Components (kDMD),3,0,4,0.9376754750927886,5
+rbf(gamma=12.5),r=0.5,Principal Components (kDMD),4,0,3,0.9743096283955343,5
+rbf(gamma=12.5),r=0.5,Principal Components (kDMD),5,1,4,0.9204338983773315,5
+rbf(gamma=12.5),r=0.5,Principal Components (kDMD),6,0,4,0.9616547761289707,5
+rbf(gamma=12.5),r=0.5,Principal Components (kDMD),7,0,4,0.9720256711400608,5
+rbf(gamma=12.5),r=0.5,Principal Components (kDMD),8,1,5,0.9243844275509234,5
+rbf(gamma=12.5),r=0.5,Principal Components (kDMD),9,1,4,0.9450289868749334,5
+rbf(gamma=25.0),r=0.5,Principal Components (kDMD),0,0,4,0.958165542733524,5
+rbf(gamma=25.0),r=0.5,Principal Components (kDMD),1,0,4,0.9705503001315697,5
+rbf(gamma=25.0),r=0.5,Principal Components (kDMD),2,0,5,0.9663861681440162,5
+rbf(gamma=25.0),r=0.5,Principal Components (kDMD),3,0,5,0.9377803759424518,5
+rbf(gamma=25.0),r=0.5,Principal Components (kDMD),4,0,4,0.9740381741503933,5
+rbf(gamma=25.0),r=0.5,Principal Components (kDMD),5,1,5,0.9215883687096558,5
+rbf(gamma=25.0),r=0.5,Principal Components (kDMD),6,0,4,0.9615517820377578,5
+rbf(gamma=25.0),r=0.5,Principal Components (kDMD),7,0,3,0.9728122508868068,5
+rbf(gamma=25.0),r=0.5,Principal Components (kDMD),8,1,5,0.9239914935386541,5
+rbf(gamma=25.0),r=0.5,Principal Components (kDMD),9,1,4,0.9451635582491332,5
+rbf(gamma=50.0),r=0.5,Principal Components (kDMD),0,0,3,0.9546210339181187,5
+rbf(gamma=50.0),r=0.5,Principal Components (kDMD),1,0,4,0.9714094649752827,5
+rbf(gamma=50.0),r=0.5,Principal Components (kDMD),2,0,4,0.9636494032688379,5
+rbf(gamma=50.0),r=0.5,Principal Components (kDMD),3,0,4,0.9380418702292241,5
+rbf(gamma=50.0),r=0.5,Principal Components (kDMD),4,0,4,0.9736367054700299,5
+rbf(gamma=50.0),r=0.5,Principal Components (kDMD),5,1,5,0.9218613775821294,5
+rbf(gamma=50.0),r=0.5,Principal Components (kDMD),6,0,4,0.9612624804886355,5
+rbf(gamma=50.0),r=0.5,Principal Components (kDMD),7,0,3,0.9745145479310212,5
+rbf(gamma=50.0),r=0.5,Principal Components (kDMD),8,1,5,0.9239322014956379,5
+rbf(gamma=50.0),r=0.5,Principal Components (kDMD),9,1,5,0.9453928356389446,5
+rbf(gamma=0.5),r=0.5,Reduced Rank,0,0,3,0.9678101575537602,5
+rbf(gamma=0.5),r=0.5,Reduced Rank,1,0,4,0.9605636681831965,5
+rbf(gamma=0.5),r=0.5,Reduced Rank,2,0,2,0.9652685320734897,4
+rbf(gamma=0.5),r=0.5,Reduced Rank,3,0,3,0.9372085969921562,5
+rbf(gamma=0.5),r=0.5,Reduced Rank,4,0,4,0.9520217761424914,5
+rbf(gamma=0.5),r=0.5,Reduced Rank,5,0,3,0.9733892099956863,5
+rbf(gamma=0.5),r=0.5,Reduced Rank,6,0,3,0.9826613990810268,5
+rbf(gamma=0.5),r=0.5,Reduced Rank,7,0,3,0.9593305786528056,5
+rbf(gamma=0.5),r=0.5,Reduced Rank,8,0,3,0.936385784342377,5
+rbf(gamma=0.5),r=0.5,Reduced Rank,9,2,3,0.903656455714779,5
+rbf(gamma=1.0),r=0.5,Reduced Rank,0,1,4,0.924014002546961,5
+rbf(gamma=1.0),r=0.5,Reduced Rank,1,1,3,0.9054144607274649,5
+rbf(gamma=1.0),r=0.5,Reduced Rank,2,0,3,0.9622082027278231,5
+rbf(gamma=1.0),r=0.5,Reduced Rank,3,0,3,0.9555703735199192,5
+rbf(gamma=1.0),r=0.5,Reduced Rank,4,0,4,0.9805767748964094,5
+rbf(gamma=1.0),r=0.5,Reduced Rank,5,0,4,0.9507466256697223,5
+rbf(gamma=1.0),r=0.5,Reduced Rank,6,0,3,0.96709873817658,5
+rbf(gamma=1.0),r=0.5,Reduced Rank,7,0,3,0.9812097419031571,5
+rbf(gamma=1.0),r=0.5,Reduced Rank,8,0,5,0.9322322632337419,5
+rbf(gamma=1.0),r=0.5,Reduced Rank,9,2,3,0.8640877820122308,5
+rbf(gamma=2.5),r=0.5,Reduced Rank,0,0,4,0.9526790653715633,5
+rbf(gamma=2.5),r=0.5,Reduced Rank,1,0,4,0.9571297373469272,5
+rbf(gamma=2.5),r=0.5,Reduced Rank,2,0,2,0.9683912429825535,5
+rbf(gamma=2.5),r=0.5,Reduced Rank,3,1,3,0.9248149693984788,5
+rbf(gamma=2.5),r=0.5,Reduced Rank,4,0,4,0.971566427509475,5
+rbf(gamma=2.5),r=0.5,Reduced Rank,5,1,4,0.8942092905440282,5
+rbf(gamma=2.5),r=0.5,Reduced Rank,6,0,4,0.9699604906343339,5
+rbf(gamma=2.5),r=0.5,Reduced Rank,7,0,2,0.9701547523237847,4
+rbf(gamma=2.5),r=0.5,Reduced Rank,8,1,4,0.9233133473610265,5
+rbf(gamma=2.5),r=0.5,Reduced Rank,9,0,4,0.9532420484029511,5
+rbf(gamma=5.0),r=0.5,Reduced Rank,0,0,4,0.9483784433283604,5
+rbf(gamma=5.0),r=0.5,Reduced Rank,1,0,4,0.9603171385869221,5
+rbf(gamma=5.0),r=0.5,Reduced Rank,2,0,4,0.9469154349524306,5
+rbf(gamma=5.0),r=0.5,Reduced Rank,3,1,4,0.9420538290412774,5
+rbf(gamma=5.0),r=0.5,Reduced Rank,4,0,4,0.9593078645265447,5
+rbf(gamma=5.0),r=0.5,Reduced Rank,5,1,3,0.9167616266817076,5
+rbf(gamma=5.0),r=0.5,Reduced Rank,6,0,4,0.9597489169461084,5
+rbf(gamma=5.0),r=0.5,Reduced Rank,7,0,3,0.9676540066984298,5
+rbf(gamma=5.0),r=0.5,Reduced Rank,8,0,4,0.938714046973056,5
+rbf(gamma=5.0),r=0.5,Reduced Rank,9,1,3,0.9323430698163133,5
+rbf(gamma=12.5),r=0.5,Reduced Rank,0,1,4,0.9150735476132781,5
+rbf(gamma=12.5),r=0.5,Reduced Rank,1,0,3,0.9616044843023728,5
+rbf(gamma=12.5),r=0.5,Reduced Rank,2,0,4,0.9733514363413266,5
+rbf(gamma=12.5),r=0.5,Reduced Rank,3,0,5,0.9330609729418339,5
+rbf(gamma=12.5),r=0.5,Reduced Rank,4,0,5,0.9820218964971574,5
+rbf(gamma=12.5),r=0.5,Reduced Rank,5,1,5,0.8782555418239268,5
+rbf(gamma=12.5),r=0.5,Reduced Rank,6,0,3,0.9603635278859725,5
+rbf(gamma=12.5),r=0.5,Reduced Rank,7,0,3,0.9427002924914278,5
+rbf(gamma=12.5),r=0.5,Reduced Rank,8,2,5,0.9111479515785764,5
+rbf(gamma=12.5),r=0.5,Reduced Rank,9,1,4,0.9419065087589568,5
+rbf(gamma=25.0),r=0.5,Reduced Rank,0,1,4,0.9223142492464411,5
+rbf(gamma=25.0),r=0.5,Reduced Rank,1,1,4,0.8795716456040636,5
+rbf(gamma=25.0),r=0.5,Reduced Rank,2,0,5,0.9663029769778984,5
+rbf(gamma=25.0),r=0.5,Reduced Rank,3,1,3,0.9372431134846396,5
+rbf(gamma=25.0),r=0.5,Reduced Rank,4,0,4,0.9774420494671989,4
+rbf(gamma=25.0),r=0.5,Reduced Rank,5,1,3,0.8662437400234901,5
+rbf(gamma=25.0),r=0.5,Reduced Rank,6,0,4,0.9503556471363171,5
+rbf(gamma=25.0),r=0.5,Reduced Rank,7,0,3,0.9812196924988238,5
+rbf(gamma=25.0),r=0.5,Reduced Rank,8,2,4,0.9146503325078138,5
+rbf(gamma=25.0),r=0.5,Reduced Rank,9,0,4,0.9484756049225959,5
+rbf(gamma=50.0),r=0.5,Reduced Rank,0,1,4,0.9474409653912744,5
+rbf(gamma=50.0),r=0.5,Reduced Rank,1,0,4,0.9502005705742032,5
+rbf(gamma=50.0),r=0.5,Reduced Rank,2,0,5,0.9585071171982306,5
+rbf(gamma=50.0),r=0.5,Reduced Rank,3,0,4,0.9291678500540586,5
+rbf(gamma=50.0),r=0.5,Reduced Rank,4,0,5,0.9569314026119099,5
+rbf(gamma=50.0),r=0.5,Reduced Rank,5,1,5,0.8392866986769403,5
+rbf(gamma=50.0),r=0.5,Reduced Rank,6,0,4,0.9659109441378729,5
+rbf(gamma=50.0),r=0.5,Reduced Rank,7,1,4,0.9375945767337092,5
+rbf(gamma=50.0),r=0.5,Reduced Rank,8,2,5,0.8895796471213511,5
+rbf(gamma=50.0),r=0.5,Reduced Rank,9,0,4,0.9339681359215601,5
+rbf(gamma=0.5),r=1.2,Principal Components (kDMD),0,0,4,0.9668787516942929,5
+rbf(gamma=0.5),r=1.2,Principal Components (kDMD),1,0,4,0.952222263688438,5
+rbf(gamma=0.5),r=1.2,Principal Components (kDMD),2,0,4,0.968437645615015,5
+rbf(gamma=0.5),r=1.2,Principal Components (kDMD),3,0,4,0.9521318370977986,5
+rbf(gamma=0.5),r=1.2,Principal Components (kDMD),4,0,4,0.9523585663502012,5
+rbf(gamma=0.5),r=1.2,Principal Components (kDMD),5,1,4,0.9368465098331825,5
+rbf(gamma=0.5),r=1.2,Principal Components (kDMD),6,0,4,0.9576963845257795,5
+rbf(gamma=0.5),r=1.2,Principal Components (kDMD),7,1,4,0.915419162775088,5
+rbf(gamma=0.5),r=1.2,Principal Components (kDMD),8,0,3,0.9624753223663032,5
+rbf(gamma=0.5),r=1.2,Principal Components (kDMD),9,0,4,0.9728097310774008,5
+rbf(gamma=1.0),r=1.2,Principal Components (kDMD),0,0,4,0.966308684193223,5
+rbf(gamma=1.0),r=1.2,Principal Components (kDMD),1,0,4,0.9524205862156555,5
+rbf(gamma=1.0),r=1.2,Principal Components (kDMD),2,0,4,0.9680293239531372,5
+rbf(gamma=1.0),r=1.2,Principal Components (kDMD),3,0,4,0.9519521267450166,5
+rbf(gamma=1.0),r=1.2,Principal Components (kDMD),4,0,4,0.9520274651606278,5
+rbf(gamma=1.0),r=1.2,Principal Components (kDMD),5,1,4,0.9206005597798655,5
+rbf(gamma=1.0),r=1.2,Principal Components (kDMD),6,0,4,0.9532097861298493,5
+rbf(gamma=1.0),r=1.2,Principal Components (kDMD),7,1,4,0.9154305394579254,5
+rbf(gamma=1.0),r=1.2,Principal Components (kDMD),8,0,4,0.9617639873494608,5
+rbf(gamma=1.0),r=1.2,Principal Components (kDMD),9,0,4,0.9712116594402924,5
+rbf(gamma=2.5),r=1.2,Principal Components (kDMD),0,0,4,0.9664370253320028,5
+rbf(gamma=2.5),r=1.2,Principal Components (kDMD),1,0,4,0.9534243778152456,5
+rbf(gamma=2.5),r=1.2,Principal Components (kDMD),2,0,4,0.9683083749894893,5
+rbf(gamma=2.5),r=1.2,Principal Components (kDMD),3,0,4,0.9516614891501687,5
+rbf(gamma=2.5),r=1.2,Principal Components (kDMD),4,0,4,0.9520073588842359,5
+rbf(gamma=2.5),r=1.2,Principal Components (kDMD),5,1,4,0.9190908817358239,5
+rbf(gamma=2.5),r=1.2,Principal Components (kDMD),6,0,4,0.9527929999889168,5
+rbf(gamma=2.5),r=1.2,Principal Components (kDMD),7,1,4,0.915454427091622,5
+rbf(gamma=2.5),r=1.2,Principal Components (kDMD),8,0,4,0.9618386557175606,5
+rbf(gamma=2.5),r=1.2,Principal Components (kDMD),9,0,4,0.9695131091653725,5
+rbf(gamma=5.0),r=1.2,Principal Components (kDMD),0,0,4,0.9667166928864558,5
+rbf(gamma=5.0),r=1.2,Principal Components (kDMD),1,0,4,0.954881175860153,5
+rbf(gamma=5.0),r=1.2,Principal Components (kDMD),2,0,4,0.9686297062978724,5
+rbf(gamma=5.0),r=1.2,Principal Components (kDMD),3,0,4,0.9511709650015708,5
+rbf(gamma=5.0),r=1.2,Principal Components (kDMD),4,0,4,0.952100396366342,5
+rbf(gamma=5.0),r=1.2,Principal Components (kDMD),5,1,4,0.9191317184308551,5
+rbf(gamma=5.0),r=1.2,Principal Components (kDMD),6,0,4,0.9527989058705267,5
+rbf(gamma=5.0),r=1.2,Principal Components (kDMD),7,1,4,0.9154330024327085,5
+rbf(gamma=5.0),r=1.2,Principal Components (kDMD),8,0,5,0.9619289105592385,5
+rbf(gamma=5.0),r=1.2,Principal Components (kDMD),9,0,4,0.9671111379949575,5
+rbf(gamma=12.5),r=1.2,Principal Components (kDMD),0,0,4,0.9675756431472743,5
+rbf(gamma=12.5),r=1.2,Principal Components (kDMD),1,0,4,0.9575702258521457,5
+rbf(gamma=12.5),r=1.2,Principal Components (kDMD),2,0,5,0.9682621843381704,5
+rbf(gamma=12.5),r=1.2,Principal Components (kDMD),3,0,4,0.9496071406691448,5
+rbf(gamma=12.5),r=1.2,Principal Components (kDMD),4,0,4,0.9526171192435277,5
+rbf(gamma=12.5),r=1.2,Principal Components (kDMD),5,1,4,0.9197952490475572,5
+rbf(gamma=12.5),r=1.2,Principal Components (kDMD),6,0,4,0.9528791969981683,5
+rbf(gamma=12.5),r=1.2,Principal Components (kDMD),7,1,4,0.9148043538893461,5
+rbf(gamma=12.5),r=1.2,Principal Components (kDMD),8,0,5,0.9612655187200785,5
+rbf(gamma=12.5),r=1.2,Principal Components (kDMD),9,0,4,0.9615433406104547,5
+rbf(gamma=25.0),r=1.2,Principal Components (kDMD),0,0,4,0.9698974306894296,5
+rbf(gamma=25.0),r=1.2,Principal Components (kDMD),1,0,4,0.9439738899853944,5
+rbf(gamma=25.0),r=1.2,Principal Components (kDMD),2,0,5,0.9613079872107049,5
+rbf(gamma=25.0),r=1.2,Principal Components (kDMD),3,0,4,0.943336212483821,5
+rbf(gamma=25.0),r=1.2,Principal Components (kDMD),4,0,5,0.9536468484813349,5
+rbf(gamma=25.0),r=1.2,Principal Components (kDMD),5,1,4,0.9216227253362408,5
+rbf(gamma=25.0),r=1.2,Principal Components (kDMD),6,0,4,0.953058388890215,5
+rbf(gamma=25.0),r=1.2,Principal Components (kDMD),7,1,5,0.9113719562275405,5
+rbf(gamma=25.0),r=1.2,Principal Components (kDMD),8,0,5,0.9543162871068432,5
+rbf(gamma=25.0),r=1.2,Principal Components (kDMD),9,0,4,0.9548703362492409,5
+rbf(gamma=50.0),r=1.2,Principal Components (kDMD),0,0,5,0.9638094764250724,5
+rbf(gamma=50.0),r=1.2,Principal Components (kDMD),1,0,4,0.9437956646899833,5
+rbf(gamma=50.0),r=1.2,Principal Components (kDMD),2,0,5,0.9618467546726078,5
+rbf(gamma=50.0),r=1.2,Principal Components (kDMD),3,0,5,0.9443046917337592,5
+rbf(gamma=50.0),r=1.2,Principal Components (kDMD),4,0,5,0.9553898902992928,5
+rbf(gamma=50.0),r=1.2,Principal Components (kDMD),5,1,5,0.9251924391489562,5
+rbf(gamma=50.0),r=1.2,Principal Components (kDMD),6,0,4,0.9534245318755398,5
+rbf(gamma=50.0),r=1.2,Principal Components (kDMD),7,1,5,0.9089908101749801,5
+rbf(gamma=50.0),r=1.2,Principal Components (kDMD),8,0,5,0.9416583227782247,5
+rbf(gamma=50.0),r=1.2,Principal Components (kDMD),9,0,4,0.9567107625546191,5
+rbf(gamma=0.5),r=1.2,Reduced Rank,0,0,3,0.9500232355075187,5
+rbf(gamma=0.5),r=1.2,Reduced Rank,1,0,3,0.9370989008451585,5
+rbf(gamma=0.5),r=1.2,Reduced Rank,2,0,3,0.947700440847131,5
+rbf(gamma=0.5),r=1.2,Reduced Rank,3,0,2,0.953336897912934,4
+rbf(gamma=0.5),r=1.2,Reduced Rank,4,0,4,0.9573257650888221,5
+rbf(gamma=0.5),r=1.2,Reduced Rank,5,1,4,0.91426704220201,5
+rbf(gamma=0.5),r=1.2,Reduced Rank,6,0,4,0.9456127798471985,5
+rbf(gamma=0.5),r=1.2,Reduced Rank,7,1,3,0.9098055762271492,5
+rbf(gamma=0.5),r=1.2,Reduced Rank,8,0,3,0.9744273562031884,5
+rbf(gamma=0.5),r=1.2,Reduced Rank,9,0,4,0.9642483484248053,5
+rbf(gamma=1.0),r=1.2,Reduced Rank,0,0,4,0.9646246804023147,5
+rbf(gamma=1.0),r=1.2,Reduced Rank,1,0,4,0.9537485953299989,5
+rbf(gamma=1.0),r=1.2,Reduced Rank,2,0,3,0.9420342402558723,5
+rbf(gamma=1.0),r=1.2,Reduced Rank,3,1,3,0.9241654040839461,5
+rbf(gamma=1.0),r=1.2,Reduced Rank,4,0,3,0.9591757565124341,5
+rbf(gamma=1.0),r=1.2,Reduced Rank,5,0,3,0.94490251179329,5
+rbf(gamma=1.0),r=1.2,Reduced Rank,6,0,4,0.9267918910089361,5
+rbf(gamma=1.0),r=1.2,Reduced Rank,7,0,3,0.9285826194714932,5
+rbf(gamma=1.0),r=1.2,Reduced Rank,8,0,5,0.936013702370581,5
+rbf(gamma=1.0),r=1.2,Reduced Rank,9,0,3,0.9520172153352224,5
+rbf(gamma=2.5),r=1.2,Reduced Rank,0,0,4,0.9586722043211434,5
+rbf(gamma=2.5),r=1.2,Reduced Rank,1,2,3,0.9104211785704854,5
+rbf(gamma=2.5),r=1.2,Reduced Rank,2,0,5,0.9743177051316587,5
+rbf(gamma=2.5),r=1.2,Reduced Rank,3,1,4,0.9245303474369905,5
+rbf(gamma=2.5),r=1.2,Reduced Rank,4,0,4,0.9680538056280085,5
+rbf(gamma=2.5),r=1.2,Reduced Rank,5,0,4,0.9349689160385641,5
+rbf(gamma=2.5),r=1.2,Reduced Rank,6,0,4,0.9598781267106226,5
+rbf(gamma=2.5),r=1.2,Reduced Rank,7,2,4,0.9046812481778544,5
+rbf(gamma=2.5),r=1.2,Reduced Rank,8,0,5,0.9289651484604491,5
+rbf(gamma=2.5),r=1.2,Reduced Rank,9,0,3,0.9416792531910707,5
+rbf(gamma=5.0),r=1.2,Reduced Rank,0,0,4,0.9715375970590525,5
+rbf(gamma=5.0),r=1.2,Reduced Rank,1,0,4,0.951163311378588,5
+rbf(gamma=5.0),r=1.2,Reduced Rank,2,0,3,0.9586144291599815,5
+rbf(gamma=5.0),r=1.2,Reduced Rank,3,0,4,0.9545659277083899,5
+rbf(gamma=5.0),r=1.2,Reduced Rank,4,0,4,0.9420744508593325,5
+rbf(gamma=5.0),r=1.2,Reduced Rank,5,2,3,0.9194782592066014,5
+rbf(gamma=5.0),r=1.2,Reduced Rank,6,0,4,0.9387180701060059,5
+rbf(gamma=5.0),r=1.2,Reduced Rank,7,0,4,0.9260370587531884,5
+rbf(gamma=5.0),r=1.2,Reduced Rank,8,1,3,0.9340407463643421,5
+rbf(gamma=5.0),r=1.2,Reduced Rank,9,0,4,0.9546590574443015,5
+rbf(gamma=12.5),r=1.2,Reduced Rank,0,1,4,0.9214868584072708,5
+rbf(gamma=12.5),r=1.2,Reduced Rank,1,0,4,0.9460023173657275,5
+rbf(gamma=12.5),r=1.2,Reduced Rank,2,0,5,0.9616751682908965,5
+rbf(gamma=12.5),r=1.2,Reduced Rank,3,0,4,0.9456264522116307,5
+rbf(gamma=12.5),r=1.2,Reduced Rank,4,0,5,0.9381184323495337,5
+rbf(gamma=12.5),r=1.2,Reduced Rank,5,0,4,0.9306518876650551,5
+rbf(gamma=12.5),r=1.2,Reduced Rank,6,0,4,0.9497338748723998,5
+rbf(gamma=12.5),r=1.2,Reduced Rank,7,0,4,0.9343598003697815,5
+rbf(gamma=12.5),r=1.2,Reduced Rank,8,0,3,0.9376064066238858,5
+rbf(gamma=12.5),r=1.2,Reduced Rank,9,0,3,0.9468821169375354,5
+rbf(gamma=25.0),r=1.2,Reduced Rank,0,1,4,0.9294062159481099,5
+rbf(gamma=25.0),r=1.2,Reduced Rank,1,0,4,0.9325216413115454,5
+rbf(gamma=25.0),r=1.2,Reduced Rank,2,0,5,0.9431643390379593,5
+rbf(gamma=25.0),r=1.2,Reduced Rank,3,1,4,0.9291014397334842,5
+rbf(gamma=25.0),r=1.2,Reduced Rank,4,0,5,0.9429565936226352,5
+rbf(gamma=25.0),r=1.2,Reduced Rank,5,2,4,0.8980012076662868,5
+rbf(gamma=25.0),r=1.2,Reduced Rank,6,0,4,0.9540320640851228,5
+rbf(gamma=25.0),r=1.2,Reduced Rank,7,0,4,0.9307302526438951,5
+rbf(gamma=25.0),r=1.2,Reduced Rank,8,1,5,0.9390433362381739,5
+rbf(gamma=25.0),r=1.2,Reduced Rank,9,0,4,0.9412764672969562,5
+rbf(gamma=50.0),r=1.2,Reduced Rank,0,1,4,0.943404495892626,5
+rbf(gamma=50.0),r=1.2,Reduced Rank,1,0,4,0.9562797741727931,5
+rbf(gamma=50.0),r=1.2,Reduced Rank,2,0,5,0.9482412018950638,5
+rbf(gamma=50.0),r=1.2,Reduced Rank,3,0,4,0.926929290949026,5
+rbf(gamma=50.0),r=1.2,Reduced Rank,4,0,5,0.9398307967791424,5
+rbf(gamma=50.0),r=1.2,Reduced Rank,5,3,4,0.9082120509138127,5
+rbf(gamma=50.0),r=1.2,Reduced Rank,6,1,4,0.9426555125212506,5
+rbf(gamma=50.0),r=1.2,Reduced Rank,7,0,4,0.9387349301669521,5
+rbf(gamma=50.0),r=1.2,Reduced Rank,8,1,5,0.9440145689359729,5
+rbf(gamma=50.0),r=1.2,Reduced Rank,9,0,4,0.9298740450102185,5
+rbf(gamma=0.5),r=2.5,Principal Components (kDMD),0,1,4,0.9335210136951069,5
+rbf(gamma=0.5),r=2.5,Principal Components (kDMD),1,0,4,0.9647314427699379,5
+rbf(gamma=0.5),r=2.5,Principal Components (kDMD),2,0,4,0.9635823371458825,5
+rbf(gamma=0.5),r=2.5,Principal Components (kDMD),3,0,4,0.952891522535817,5
+rbf(gamma=0.5),r=2.5,Principal Components (kDMD),4,0,4,0.9458276100720178,5
+rbf(gamma=0.5),r=2.5,Principal Components (kDMD),5,0,4,0.9859028263646519,5
+rbf(gamma=0.5),r=2.5,Principal Components (kDMD),6,1,4,0.9173966690654515,5
+rbf(gamma=0.5),r=2.5,Principal Components (kDMD),7,0,4,0.9683905046779282,5
+rbf(gamma=0.5),r=2.5,Principal Components (kDMD),8,0,4,0.9654279467293022,5
+rbf(gamma=0.5),r=2.5,Principal Components (kDMD),9,0,4,0.9500842318541145,5
+rbf(gamma=1.0),r=2.5,Principal Components (kDMD),0,1,4,0.9324671687444432,5
+rbf(gamma=1.0),r=2.5,Principal Components (kDMD),1,0,4,0.9644222203039239,5
+rbf(gamma=1.0),r=2.5,Principal Components (kDMD),2,0,4,0.9544716349837609,5
+rbf(gamma=1.0),r=2.5,Principal Components (kDMD),3,0,4,0.9513525943462543,5
+rbf(gamma=1.0),r=2.5,Principal Components (kDMD),4,0,4,0.9310100433420271,5
+rbf(gamma=1.0),r=2.5,Principal Components (kDMD),5,0,4,0.985078992877909,5
+rbf(gamma=1.0),r=2.5,Principal Components (kDMD),6,1,4,0.916860315480348,5
+rbf(gamma=1.0),r=2.5,Principal Components (kDMD),7,0,4,0.9669753029769995,5
+rbf(gamma=1.0),r=2.5,Principal Components (kDMD),8,0,4,0.9657435453086645,5
+rbf(gamma=1.0),r=2.5,Principal Components (kDMD),9,0,4,0.9484052219244004,5
+rbf(gamma=2.5),r=2.5,Principal Components (kDMD),0,1,4,0.9324423338236919,5
+rbf(gamma=2.5),r=2.5,Principal Components (kDMD),1,0,4,0.9644294290111951,5
+rbf(gamma=2.5),r=2.5,Principal Components (kDMD),2,0,4,0.9533116528431791,5
+rbf(gamma=2.5),r=2.5,Principal Components (kDMD),3,0,4,0.9513006694347347,5
+rbf(gamma=2.5),r=2.5,Principal Components (kDMD),4,0,4,0.9298975367231449,5
+rbf(gamma=2.5),r=2.5,Principal Components (kDMD),5,0,4,0.9835851349318138,5
+rbf(gamma=2.5),r=2.5,Principal Components (kDMD),6,1,4,0.9208943743047057,5
+rbf(gamma=2.5),r=2.5,Principal Components (kDMD),7,0,4,0.9673956573567639,5
+rbf(gamma=2.5),r=2.5,Principal Components (kDMD),8,0,4,0.9654543604340088,5
+rbf(gamma=2.5),r=2.5,Principal Components (kDMD),9,1,4,0.9480218644384564,5
+rbf(gamma=5.0),r=2.5,Principal Components (kDMD),0,1,4,0.9325889843680737,5
+rbf(gamma=5.0),r=2.5,Principal Components (kDMD),1,0,4,0.9645091796391253,5
+rbf(gamma=5.0),r=2.5,Principal Components (kDMD),2,0,4,0.9529153800145059,5
+rbf(gamma=5.0),r=2.5,Principal Components (kDMD),3,0,4,0.9516386992675931,5
+rbf(gamma=5.0),r=2.5,Principal Components (kDMD),4,0,4,0.9306861393636159,5
+rbf(gamma=5.0),r=2.5,Principal Components (kDMD),5,0,4,0.9811961130451096,5
+rbf(gamma=5.0),r=2.5,Principal Components (kDMD),6,0,4,0.9272509128573257,5
+rbf(gamma=5.0),r=2.5,Principal Components (kDMD),7,0,4,0.9683517457450779,5
+rbf(gamma=5.0),r=2.5,Principal Components (kDMD),8,0,4,0.9648297689963243,5
+rbf(gamma=5.0),r=2.5,Principal Components (kDMD),9,1,4,0.9476737449683662,5
+rbf(gamma=12.5),r=2.5,Principal Components (kDMD),0,1,4,0.9330097681371625,5
+rbf(gamma=12.5),r=2.5,Principal Components (kDMD),1,0,5,0.9630306175960497,5
+rbf(gamma=12.5),r=2.5,Principal Components (kDMD),2,0,4,0.9518859371785299,5
+rbf(gamma=12.5),r=2.5,Principal Components (kDMD),3,0,4,0.9526165755565047,5
+rbf(gamma=12.5),r=2.5,Principal Components (kDMD),4,0,4,0.9336253624561032,5
+rbf(gamma=12.5),r=2.5,Principal Components (kDMD),5,0,4,0.9747405291644053,5
+rbf(gamma=12.5),r=2.5,Principal Components (kDMD),6,0,4,0.9422251922924659,5
+rbf(gamma=12.5),r=2.5,Principal Components (kDMD),7,0,4,0.9720240084571079,5
+rbf(gamma=12.5),r=2.5,Principal Components (kDMD),8,0,4,0.96320870876853,5
+rbf(gamma=12.5),r=2.5,Principal Components (kDMD),9,1,4,0.9467238903861214,5
+rbf(gamma=25.0),r=2.5,Principal Components (kDMD),0,1,4,0.9335486790918973,5
+rbf(gamma=25.0),r=2.5,Principal Components (kDMD),1,0,5,0.9571321683818338,5
+rbf(gamma=25.0),r=2.5,Principal Components (kDMD),2,0,4,0.9505539072294458,5
+rbf(gamma=25.0),r=2.5,Principal Components (kDMD),3,0,4,0.9540622430487748,5
+rbf(gamma=25.0),r=2.5,Principal Components (kDMD),4,0,4,0.939305444910559,5
+rbf(gamma=25.0),r=2.5,Principal Components (kDMD),5,0,4,0.9659268957992864,5
+rbf(gamma=25.0),r=2.5,Principal Components (kDMD),6,0,4,0.9498103699318607,5
+rbf(gamma=25.0),r=2.5,Principal Components (kDMD),7,0,4,0.9719114897345079,5
+rbf(gamma=25.0),r=2.5,Principal Components (kDMD),8,0,4,0.9612947303451055,5
+rbf(gamma=25.0),r=2.5,Principal Components (kDMD),9,1,4,0.9451987866331444,5
+rbf(gamma=50.0),r=2.5,Principal Components (kDMD),0,1,4,0.9339308249278452,5
+rbf(gamma=50.0),r=2.5,Principal Components (kDMD),1,0,5,0.949735022910088,5
+rbf(gamma=50.0),r=2.5,Principal Components (kDMD),2,0,4,0.9501312134603733,5
+rbf(gamma=50.0),r=2.5,Principal Components (kDMD),3,0,5,0.9567689550883699,5
+rbf(gamma=50.0),r=2.5,Principal Components (kDMD),4,0,4,0.9498802376693147,5
+rbf(gamma=50.0),r=2.5,Principal Components (kDMD),5,0,4,0.9527019892415401,5
+rbf(gamma=50.0),r=2.5,Principal Components (kDMD),6,0,5,0.9410664493562862,5
+rbf(gamma=50.0),r=2.5,Principal Components (kDMD),7,0,4,0.9663227851948192,5
+rbf(gamma=50.0),r=2.5,Principal Components (kDMD),8,0,5,0.9598860030292804,5
+rbf(gamma=50.0),r=2.5,Principal Components (kDMD),9,1,5,0.9413185730413222,5
+rbf(gamma=0.5),r=2.5,Reduced Rank,0,1,3,0.9302316249107914,5
+rbf(gamma=0.5),r=2.5,Reduced Rank,1,1,4,0.9238922538304273,5
+rbf(gamma=0.5),r=2.5,Reduced Rank,2,0,3,0.9492735670618341,5
+rbf(gamma=0.5),r=2.5,Reduced Rank,3,1,2,0.947951162794405,4
+rbf(gamma=0.5),r=2.5,Reduced Rank,4,0,4,0.9273960899343763,5
+rbf(gamma=0.5),r=2.5,Reduced Rank,5,0,4,0.9748645692131064,5
+rbf(gamma=0.5),r=2.5,Reduced Rank,6,1,3,0.8957600495216593,5
+rbf(gamma=0.5),r=2.5,Reduced Rank,7,0,4,0.9615383275393792,5
+rbf(gamma=0.5),r=2.5,Reduced Rank,8,0,4,0.9486041508772547,5
+rbf(gamma=0.5),r=2.5,Reduced Rank,9,0,4,0.9304432063425885,5
+rbf(gamma=1.0),r=2.5,Reduced Rank,0,1,3,0.9200544181527711,5
+rbf(gamma=1.0),r=2.5,Reduced Rank,1,0,4,0.9567425203955486,5
+rbf(gamma=1.0),r=2.5,Reduced Rank,2,1,2,0.9466180708871401,3
+rbf(gamma=1.0),r=2.5,Reduced Rank,3,1,4,0.8936067615112697,5
+rbf(gamma=1.0),r=2.5,Reduced Rank,4,2,3,0.8947996929438399,5
+rbf(gamma=1.0),r=2.5,Reduced Rank,5,0,4,0.9818318081898464,5
+rbf(gamma=1.0),r=2.5,Reduced Rank,6,0,3,0.9531945194497535,5
+rbf(gamma=1.0),r=2.5,Reduced Rank,7,0,3,0.9427274164940668,5
+rbf(gamma=1.0),r=2.5,Reduced Rank,8,0,3,0.9707613805974556,4
+rbf(gamma=1.0),r=2.5,Reduced Rank,9,1,3,0.9354726343297448,5
+rbf(gamma=2.5),r=2.5,Reduced Rank,0,1,4,0.9333437844880222,5
+rbf(gamma=2.5),r=2.5,Reduced Rank,1,0,5,0.9781363558090685,5
+rbf(gamma=2.5),r=2.5,Reduced Rank,2,2,4,0.9365224969152619,5
+rbf(gamma=2.5),r=2.5,Reduced Rank,3,1,4,0.8920725188375613,5
+rbf(gamma=2.5),r=2.5,Reduced Rank,4,2,3,0.9168255154721304,5
+rbf(gamma=2.5),r=2.5,Reduced Rank,5,0,2,0.9491994047141268,4
+rbf(gamma=2.5),r=2.5,Reduced Rank,6,0,4,0.9271712405939359,5
+rbf(gamma=2.5),r=2.5,Reduced Rank,7,0,4,0.9588595956476461,5
+rbf(gamma=2.5),r=2.5,Reduced Rank,8,0,4,0.9339726031831248,5
+rbf(gamma=2.5),r=2.5,Reduced Rank,9,1,3,0.9274876111424905,5
+rbf(gamma=5.0),r=2.5,Reduced Rank,0,1,3,0.9293079147143288,5
+rbf(gamma=5.0),r=2.5,Reduced Rank,1,0,5,0.9660824598618019,5
+rbf(gamma=5.0),r=2.5,Reduced Rank,2,0,3,0.9684455030785507,5
+rbf(gamma=5.0),r=2.5,Reduced Rank,3,0,4,0.9486256713849514,5
+rbf(gamma=5.0),r=2.5,Reduced Rank,4,1,4,0.9148257072569222,5
+rbf(gamma=5.0),r=2.5,Reduced Rank,5,0,4,0.9738733553528367,5
+rbf(gamma=5.0),r=2.5,Reduced Rank,6,1,3,0.8166023674008214,5
+rbf(gamma=5.0),r=2.5,Reduced Rank,7,2,4,0.9476125352867555,5
+rbf(gamma=5.0),r=2.5,Reduced Rank,8,0,3,0.9578290651839398,5
+rbf(gamma=5.0),r=2.5,Reduced Rank,9,1,4,0.9201252800359174,5
+rbf(gamma=12.5),r=2.5,Reduced Rank,0,1,4,0.9254969903581508,5
+rbf(gamma=12.5),r=2.5,Reduced Rank,1,0,5,0.9433989924547763,5
+rbf(gamma=12.5),r=2.5,Reduced Rank,2,1,4,0.9412208032020499,5
+rbf(gamma=12.5),r=2.5,Reduced Rank,3,2,4,0.9460283580738439,5
+rbf(gamma=12.5),r=2.5,Reduced Rank,4,0,4,0.9344656592850165,5
+rbf(gamma=12.5),r=2.5,Reduced Rank,5,0,4,0.9617349949377713,5
+rbf(gamma=12.5),r=2.5,Reduced Rank,6,1,4,0.79831212372549,5
+rbf(gamma=12.5),r=2.5,Reduced Rank,7,2,4,0.9469277770899819,5
+rbf(gamma=12.5),r=2.5,Reduced Rank,8,0,4,0.9501520858328694,5
+rbf(gamma=12.5),r=2.5,Reduced Rank,9,1,4,0.9407423469206171,5
+rbf(gamma=25.0),r=2.5,Reduced Rank,0,1,4,0.9265682363596356,5
+rbf(gamma=25.0),r=2.5,Reduced Rank,1,1,5,0.9369427896423081,5
+rbf(gamma=25.0),r=2.5,Reduced Rank,2,0,4,0.9406202397225414,5
+rbf(gamma=25.0),r=2.5,Reduced Rank,3,0,4,0.951429944963673,5
+rbf(gamma=25.0),r=2.5,Reduced Rank,4,0,4,0.9314112339026814,5
+rbf(gamma=25.0),r=2.5,Reduced Rank,5,0,4,0.9585363574514787,5
+rbf(gamma=25.0),r=2.5,Reduced Rank,6,1,4,0.8126019971036931,5
+rbf(gamma=25.0),r=2.5,Reduced Rank,7,1,4,0.9406690621034858,5
+rbf(gamma=25.0),r=2.5,Reduced Rank,8,0,5,0.9363620584138962,5
+rbf(gamma=25.0),r=2.5,Reduced Rank,9,1,4,0.9455996323390683,5
+rbf(gamma=50.0),r=2.5,Reduced Rank,0,1,4,0.9080081866337444,5
+rbf(gamma=50.0),r=2.5,Reduced Rank,1,1,5,0.933639774939281,5
+rbf(gamma=50.0),r=2.5,Reduced Rank,2,0,4,0.95380423867081,5
+rbf(gamma=50.0),r=2.5,Reduced Rank,3,0,4,0.9652578843418178,5
+rbf(gamma=50.0),r=2.5,Reduced Rank,4,0,4,0.9443547489269662,5
+rbf(gamma=50.0),r=2.5,Reduced Rank,5,0,4,0.9381146840577089,5
+rbf(gamma=50.0),r=2.5,Reduced Rank,6,1,4,0.8523866247282237,5
+rbf(gamma=50.0),r=2.5,Reduced Rank,7,1,4,0.9377544541012256,5
+rbf(gamma=50.0),r=2.5,Reduced Rank,8,0,5,0.9296839568074513,5
+rbf(gamma=50.0),r=2.5,Reduced Rank,9,0,4,0.9449937065510795,5
+rbf(gamma=0.5),r=3.2,Principal Components (kDMD),0,1,4,0.9072268597462342,5
+rbf(gamma=0.5),r=3.2,Principal Components (kDMD),1,2,4,0.9199652911839362,5
+rbf(gamma=0.5),r=3.2,Principal Components (kDMD),2,1,4,0.9159173089483266,5
+rbf(gamma=0.5),r=3.2,Principal Components (kDMD),3,0,4,0.9585251107521197,5
+rbf(gamma=0.5),r=3.2,Principal Components (kDMD),4,1,4,0.9032556806757619,5
+rbf(gamma=0.5),r=3.2,Principal Components (kDMD),5,0,4,0.9465204417698269,5
+rbf(gamma=0.5),r=3.2,Principal Components (kDMD),6,0,4,0.9300738240664468,5
+rbf(gamma=0.5),r=3.2,Principal Components (kDMD),7,1,4,0.9109768257003833,5
+rbf(gamma=0.5),r=3.2,Principal Components (kDMD),8,0,4,0.9302250271023927,5
+rbf(gamma=0.5),r=3.2,Principal Components (kDMD),9,0,4,0.935547766569585,5
+rbf(gamma=1.0),r=3.2,Principal Components (kDMD),0,1,4,0.9071539003742608,5
+rbf(gamma=1.0),r=3.2,Principal Components (kDMD),1,2,4,0.9195366404125827,5
+rbf(gamma=1.0),r=3.2,Principal Components (kDMD),2,1,4,0.9159168069891829,5
+rbf(gamma=1.0),r=3.2,Principal Components (kDMD),3,0,4,0.9588687193199784,5
+rbf(gamma=1.0),r=3.2,Principal Components (kDMD),4,1,4,0.9031039775356301,5
+rbf(gamma=1.0),r=3.2,Principal Components (kDMD),5,0,4,0.9461407939710941,5
+rbf(gamma=1.0),r=3.2,Principal Components (kDMD),6,0,4,0.9320399728992309,5
+rbf(gamma=1.0),r=3.2,Principal Components (kDMD),7,1,4,0.9115868006192976,5
+rbf(gamma=1.0),r=3.2,Principal Components (kDMD),8,0,4,0.9300131329781306,5
+rbf(gamma=1.0),r=3.2,Principal Components (kDMD),9,0,4,0.934849351186231,5
+rbf(gamma=2.5),r=3.2,Principal Components (kDMD),0,1,4,0.9069532780463844,5
+rbf(gamma=2.5),r=3.2,Principal Components (kDMD),1,2,4,0.9187073634118623,5
+rbf(gamma=2.5),r=3.2,Principal Components (kDMD),2,1,4,0.9160929763244628,5
+rbf(gamma=2.5),r=3.2,Principal Components (kDMD),3,0,4,0.9599678231227842,5
+rbf(gamma=2.5),r=3.2,Principal Components (kDMD),4,1,4,0.902701964125606,5
+rbf(gamma=2.5),r=3.2,Principal Components (kDMD),5,0,4,0.9456694448337066,5
+rbf(gamma=2.5),r=3.2,Principal Components (kDMD),6,0,4,0.9368633777967559,5
+rbf(gamma=2.5),r=3.2,Principal Components (kDMD),7,1,4,0.9133099633354639,5
+rbf(gamma=2.5),r=3.2,Principal Components (kDMD),8,0,4,0.929435341440274,5
+rbf(gamma=2.5),r=3.2,Principal Components (kDMD),9,0,4,0.9324577598530368,5
+rbf(gamma=5.0),r=3.2,Principal Components (kDMD),0,1,4,0.90661151364976,5
+rbf(gamma=5.0),r=3.2,Principal Components (kDMD),1,2,4,0.9180417785185564,5
+rbf(gamma=5.0),r=3.2,Principal Components (kDMD),2,1,4,0.9166890455228385,5
+rbf(gamma=5.0),r=3.2,Principal Components (kDMD),3,0,4,0.9616378667477335,5
+rbf(gamma=5.0),r=3.2,Principal Components (kDMD),4,1,4,0.9021153286772531,5
+rbf(gamma=5.0),r=3.2,Principal Components (kDMD),5,0,4,0.9513250736968208,5
+rbf(gamma=5.0),r=3.2,Principal Components (kDMD),6,0,4,0.9413808884244507,5
+rbf(gamma=5.0),r=3.2,Principal Components (kDMD),7,1,4,0.914900217249787,5
+rbf(gamma=5.0),r=3.2,Principal Components (kDMD),8,0,4,0.9286209509862332,5
+rbf(gamma=5.0),r=3.2,Principal Components (kDMD),9,0,4,0.9286321978701064,5
+rbf(gamma=12.5),r=3.2,Principal Components (kDMD),0,1,4,0.9054223670120136,5
+rbf(gamma=12.5),r=3.2,Principal Components (kDMD),1,2,5,0.9187211927029856,5
+rbf(gamma=12.5),r=3.2,Principal Components (kDMD),2,1,4,0.9198538472512932,5
+rbf(gamma=12.5),r=3.2,Principal Components (kDMD),3,0,5,0.9658310745032638,5
+rbf(gamma=12.5),r=3.2,Principal Components (kDMD),4,1,4,0.9005918301317963,5
+rbf(gamma=12.5),r=3.2,Principal Components (kDMD),5,0,4,0.9451703288410058,5
+rbf(gamma=12.5),r=3.2,Principal Components (kDMD),6,0,4,0.9449995031847811,5
+rbf(gamma=12.5),r=3.2,Principal Components (kDMD),7,1,5,0.9030140425486546,5
+rbf(gamma=12.5),r=3.2,Principal Components (kDMD),8,0,4,0.927118252129811,5
+rbf(gamma=12.5),r=3.2,Principal Components (kDMD),9,1,5,0.9216621313742157,5
+rbf(gamma=25.0),r=3.2,Principal Components (kDMD),0,1,5,0.9044173223995894,5
+rbf(gamma=25.0),r=3.2,Principal Components (kDMD),1,2,5,0.9216142741330773,5
+rbf(gamma=25.0),r=3.2,Principal Components (kDMD),2,0,5,0.9250049015364978,5
+rbf(gamma=25.0),r=3.2,Principal Components (kDMD),3,0,5,0.9696268763584388,5
+rbf(gamma=25.0),r=3.2,Principal Components (kDMD),4,1,5,0.8980898344872273,5
+rbf(gamma=25.0),r=3.2,Principal Components (kDMD),5,0,5,0.9481103590043779,5
+rbf(gamma=25.0),r=3.2,Principal Components (kDMD),6,0,5,0.9482750203860346,5
+rbf(gamma=25.0),r=3.2,Principal Components (kDMD),7,1,5,0.895951379630592,5
+rbf(gamma=25.0),r=3.2,Principal Components (kDMD),8,0,5,0.9268725643443628,5
+rbf(gamma=25.0),r=3.2,Principal Components (kDMD),9,1,5,0.9199420425572163,5
+rbf(gamma=50.0),r=3.2,Principal Components (kDMD),0,1,5,0.9011835994793015,5
+rbf(gamma=50.0),r=3.2,Principal Components (kDMD),1,2,5,0.9230768201637889,5
+rbf(gamma=50.0),r=3.2,Principal Components (kDMD),2,0,5,0.9250973691504566,5
+rbf(gamma=50.0),r=3.2,Principal Components (kDMD),3,0,5,0.9695703238517595,5
+rbf(gamma=50.0),r=3.2,Principal Components (kDMD),4,1,5,0.8931730130701252,5
+rbf(gamma=50.0),r=3.2,Principal Components (kDMD),5,0,5,0.9567720461642882,5
+rbf(gamma=50.0),r=3.2,Principal Components (kDMD),6,0,5,0.9532193899353234,5
+rbf(gamma=50.0),r=3.2,Principal Components (kDMD),7,1,5,0.8989595966497314,5
+rbf(gamma=50.0),r=3.2,Principal Components (kDMD),8,0,5,0.9223101856532379,5
+rbf(gamma=50.0),r=3.2,Principal Components (kDMD),9,1,5,0.9210786792733932,5
+rbf(gamma=0.5),r=3.2,Reduced Rank,0,1,3,0.9100344900626693,5
+rbf(gamma=0.5),r=3.2,Reduced Rank,1,2,4,0.9262749103071689,5
+rbf(gamma=0.5),r=3.2,Reduced Rank,2,1,4,0.918422378396579,5
+rbf(gamma=0.5),r=3.2,Reduced Rank,3,0,4,0.9550752396003779,5
+rbf(gamma=0.5),r=3.2,Reduced Rank,4,2,4,0.8956494538884476,5
+rbf(gamma=0.5),r=3.2,Reduced Rank,5,1,4,0.9396682889286052,5
+rbf(gamma=0.5),r=3.2,Reduced Rank,6,0,4,0.962800996967559,5
+rbf(gamma=0.5),r=3.2,Reduced Rank,7,1,3,0.8835495851028103,5
+rbf(gamma=0.5),r=3.2,Reduced Rank,8,0,3,0.9283152182074108,5
+rbf(gamma=0.5),r=3.2,Reduced Rank,9,0,4,0.9283583291120996,5
+rbf(gamma=1.0),r=3.2,Reduced Rank,0,1,3,0.9095345101314644,5
+rbf(gamma=1.0),r=3.2,Reduced Rank,1,2,4,0.9208756169564405,5
+rbf(gamma=1.0),r=3.2,Reduced Rank,2,1,4,0.9165417486827352,5
+rbf(gamma=1.0),r=3.2,Reduced Rank,3,0,4,0.9510225351205669,5
+rbf(gamma=1.0),r=3.2,Reduced Rank,4,1,4,0.9261119632306298,5
+rbf(gamma=1.0),r=3.2,Reduced Rank,5,0,3,0.9332543006405323,5
+rbf(gamma=1.0),r=3.2,Reduced Rank,6,1,3,0.9067360394467937,5
+rbf(gamma=1.0),r=3.2,Reduced Rank,7,1,4,0.8883524741031934,5
+rbf(gamma=1.0),r=3.2,Reduced Rank,8,0,4,0.9337389499895754,5
+rbf(gamma=1.0),r=3.2,Reduced Rank,9,0,4,0.9373027241448886,5
+rbf(gamma=2.5),r=3.2,Reduced Rank,0,1,4,0.9142225144190191,5
+rbf(gamma=2.5),r=3.2,Reduced Rank,1,2,4,0.9229887956460193,5
+rbf(gamma=2.5),r=3.2,Reduced Rank,2,1,4,0.9212359740419218,5
+rbf(gamma=2.5),r=3.2,Reduced Rank,3,0,4,0.9424433569551934,5
+rbf(gamma=2.5),r=3.2,Reduced Rank,4,2,4,0.9111890184708951,5
+rbf(gamma=2.5),r=3.2,Reduced Rank,5,0,4,0.940365104776602,5
+rbf(gamma=2.5),r=3.2,Reduced Rank,6,1,4,0.8571259270406479,5
+rbf(gamma=2.5),r=3.2,Reduced Rank,7,3,4,0.8574653451454228,5
+rbf(gamma=2.5),r=3.2,Reduced Rank,8,0,4,0.9275141086965115,5
+rbf(gamma=2.5),r=3.2,Reduced Rank,9,0,4,0.9263674577916803,5
+rbf(gamma=5.0),r=3.2,Reduced Rank,0,1,4,0.9176200396480818,5
+rbf(gamma=5.0),r=3.2,Reduced Rank,1,2,4,0.9108304267987403,5
+rbf(gamma=5.0),r=3.2,Reduced Rank,2,1,4,0.9184660677206264,5
+rbf(gamma=5.0),r=3.2,Reduced Rank,3,0,4,0.950486751613968,5
+rbf(gamma=5.0),r=3.2,Reduced Rank,4,1,4,0.9182991131901393,5
+rbf(gamma=5.0),r=3.2,Reduced Rank,5,2,4,0.8134997620724459,5
+rbf(gamma=5.0),r=3.2,Reduced Rank,6,1,4,0.8320113878376636,5
+rbf(gamma=5.0),r=3.2,Reduced Rank,7,1,4,0.8890350802456111,5
+rbf(gamma=5.0),r=3.2,Reduced Rank,8,0,4,0.9417540933615254,5
+rbf(gamma=5.0),r=3.2,Reduced Rank,9,1,4,0.9327968562757862,5
+rbf(gamma=12.5),r=3.2,Reduced Rank,0,1,4,0.9148918495440922,5
+rbf(gamma=12.5),r=3.2,Reduced Rank,1,2,4,0.9072732904402528,5
+rbf(gamma=12.5),r=3.2,Reduced Rank,2,1,4,0.9135331170937402,5
+rbf(gamma=12.5),r=3.2,Reduced Rank,3,0,4,0.953657409279694,5
+rbf(gamma=12.5),r=3.2,Reduced Rank,4,1,4,0.9065615332040435,5
+rbf(gamma=12.5),r=3.2,Reduced Rank,5,0,4,0.9404347159102275,5
+rbf(gamma=12.5),r=3.2,Reduced Rank,6,1,4,0.8160406294620627,5
+rbf(gamma=12.5),r=3.2,Reduced Rank,7,1,4,0.9126088802741882,5
+rbf(gamma=12.5),r=3.2,Reduced Rank,8,2,4,0.9246857493005171,5
+rbf(gamma=12.5),r=3.2,Reduced Rank,9,0,4,0.931053163557731,5
+rbf(gamma=25.0),r=3.2,Reduced Rank,0,0,4,0.935404504971509,5
+rbf(gamma=25.0),r=3.2,Reduced Rank,1,2,4,0.9084020914928541,5
+rbf(gamma=25.0),r=3.2,Reduced Rank,2,1,4,0.9175447160578465,5
+rbf(gamma=25.0),r=3.2,Reduced Rank,3,0,5,0.9523205672937399,5
+rbf(gamma=25.0),r=3.2,Reduced Rank,4,1,4,0.9022598332763151,5
+rbf(gamma=25.0),r=3.2,Reduced Rank,5,1,4,0.9209046043437843,5
+rbf(gamma=25.0),r=3.2,Reduced Rank,6,1,4,0.7999877830884868,5
+rbf(gamma=25.0),r=3.2,Reduced Rank,7,1,5,0.924372738292316,5
+rbf(gamma=25.0),r=3.2,Reduced Rank,8,0,4,0.9289281452446142,5
+rbf(gamma=25.0),r=3.2,Reduced Rank,9,0,4,0.9339568800031837,5
+rbf(gamma=50.0),r=3.2,Reduced Rank,0,1,4,0.9191591011793581,5
+rbf(gamma=50.0),r=3.2,Reduced Rank,1,2,4,0.9156105378183772,5
+rbf(gamma=50.0),r=3.2,Reduced Rank,2,1,4,0.9048645335023777,5
+rbf(gamma=50.0),r=3.2,Reduced Rank,3,0,5,0.9495765162466241,5
+rbf(gamma=50.0),r=3.2,Reduced Rank,4,1,4,0.8991519995839811,5
+rbf(gamma=50.0),r=3.2,Reduced Rank,5,1,4,0.9131270060181127,5
+rbf(gamma=50.0),r=3.2,Reduced Rank,6,1,4,0.8255188403926391,5
+rbf(gamma=50.0),r=3.2,Reduced Rank,7,1,5,0.9126441104467238,5
+rbf(gamma=50.0),r=3.2,Reduced Rank,8,2,4,0.9120768562591004,5
+rbf(gamma=50.0),r=3.2,Reduced Rank,9,2,5,0.9304626893469211,5
+rbf(gamma=0.5),r=4.0,Principal Components (kDMD),0,0,4,0.9611437290848018,5
+rbf(gamma=0.5),r=4.0,Principal Components (kDMD),1,0,4,0.9735514083044596,5
+rbf(gamma=0.5),r=4.0,Principal Components (kDMD),2,0,4,0.970833199530778,5
+rbf(gamma=0.5),r=4.0,Principal Components (kDMD),3,0,4,0.9642032383118015,5
+rbf(gamma=0.5),r=4.0,Principal Components (kDMD),4,0,4,0.957638171397939,5
+rbf(gamma=0.5),r=4.0,Principal Components (kDMD),5,1,4,0.9462472613454868,5
+rbf(gamma=0.5),r=4.0,Principal Components (kDMD),6,0,4,0.9772909540371186,5
+rbf(gamma=0.5),r=4.0,Principal Components (kDMD),7,0,4,0.9751868136102703,5
+rbf(gamma=0.5),r=4.0,Principal Components (kDMD),8,0,4,0.9389360409758576,5
+rbf(gamma=0.5),r=4.0,Principal Components (kDMD),9,1,4,0.9452208193576107,5
+rbf(gamma=1.0),r=4.0,Principal Components (kDMD),0,0,4,0.9616136536768832,5
+rbf(gamma=1.0),r=4.0,Principal Components (kDMD),1,0,4,0.9752114400412466,5
+rbf(gamma=1.0),r=4.0,Principal Components (kDMD),2,0,4,0.9703699963483717,5
+rbf(gamma=1.0),r=4.0,Principal Components (kDMD),3,0,4,0.9636067016219855,5
+rbf(gamma=1.0),r=4.0,Principal Components (kDMD),4,0,4,0.9574098553998694,5
+rbf(gamma=1.0),r=4.0,Principal Components (kDMD),5,1,4,0.945551537565765,5
+rbf(gamma=1.0),r=4.0,Principal Components (kDMD),6,0,4,0.9784777107693171,5
+rbf(gamma=1.0),r=4.0,Principal Components (kDMD),7,0,4,0.9761503137493739,5
+rbf(gamma=1.0),r=4.0,Principal Components (kDMD),8,0,4,0.9387346367941787,5
+rbf(gamma=1.0),r=4.0,Principal Components (kDMD),9,1,4,0.9448523978805375,5
+rbf(gamma=2.5),r=4.0,Principal Components (kDMD),0,0,4,0.9630238284508241,5
+rbf(gamma=2.5),r=4.0,Principal Components (kDMD),1,0,4,0.9825952832074835,5
+rbf(gamma=2.5),r=4.0,Principal Components (kDMD),2,0,4,0.9691904831341146,5
+rbf(gamma=2.5),r=4.0,Principal Components (kDMD),3,0,4,0.9626880010466582,5
+rbf(gamma=2.5),r=4.0,Principal Components (kDMD),4,0,4,0.9569519150906761,5
+rbf(gamma=2.5),r=4.0,Principal Components (kDMD),5,1,4,0.944027012273748,5
+rbf(gamma=2.5),r=4.0,Principal Components (kDMD),6,0,4,0.9798720934873988,5
+rbf(gamma=2.5),r=4.0,Principal Components (kDMD),7,0,4,0.9764688976441689,5
+rbf(gamma=2.5),r=4.0,Principal Components (kDMD),8,0,4,0.9382055547439617,5
+rbf(gamma=2.5),r=4.0,Principal Components (kDMD),9,1,4,0.9442652019402907,5
+rbf(gamma=5.0),r=4.0,Principal Components (kDMD),0,0,4,0.9649716888592398,5
+rbf(gamma=5.0),r=4.0,Principal Components (kDMD),1,0,4,0.9797065125514184,5
+rbf(gamma=5.0),r=4.0,Principal Components (kDMD),2,0,4,0.9679654064498561,5
+rbf(gamma=5.0),r=4.0,Principal Components (kDMD),3,0,4,0.9626793588754505,5
+rbf(gamma=5.0),r=4.0,Principal Components (kDMD),4,0,4,0.9566939064628102,5
+rbf(gamma=5.0),r=4.0,Principal Components (kDMD),5,1,4,0.9426911492399171,5
+rbf(gamma=5.0),r=4.0,Principal Components (kDMD),6,0,4,0.9807485907109397,5
+rbf(gamma=5.0),r=4.0,Principal Components (kDMD),7,0,4,0.9712006041761688,5
+rbf(gamma=5.0),r=4.0,Principal Components (kDMD),8,0,4,0.9374828119109143,5
+rbf(gamma=5.0),r=4.0,Principal Components (kDMD),9,1,4,0.9444238673614821,5
+rbf(gamma=12.5),r=4.0,Principal Components (kDMD),0,0,5,0.9666307306263637,5
+rbf(gamma=12.5),r=4.0,Principal Components (kDMD),1,0,5,0.972277597278913,5
+rbf(gamma=12.5),r=4.0,Principal Components (kDMD),2,0,5,0.9664823842887139,5
+rbf(gamma=12.5),r=4.0,Principal Components (kDMD),3,0,5,0.9642032508950598,5
+rbf(gamma=12.5),r=4.0,Principal Components (kDMD),4,0,5,0.9568495242049839,5
+rbf(gamma=12.5),r=4.0,Principal Components (kDMD),5,1,5,0.9414740496037055,5
+rbf(gamma=12.5),r=4.0,Principal Components (kDMD),6,0,5,0.9799752729812771,5
+rbf(gamma=12.5),r=4.0,Principal Components (kDMD),7,0,5,0.9642193188130161,5
+rbf(gamma=12.5),r=4.0,Principal Components (kDMD),8,0,5,0.9360404101488065,5
+rbf(gamma=12.5),r=4.0,Principal Components (kDMD),9,1,5,0.9467138996288293,5
+rbf(gamma=25.0),r=4.0,Principal Components (kDMD),0,0,5,0.9650890236670437,5
+rbf(gamma=25.0),r=4.0,Principal Components (kDMD),1,0,5,0.9681534944985736,5
+rbf(gamma=25.0),r=4.0,Principal Components (kDMD),2,0,5,0.9647509578214927,5
+rbf(gamma=25.0),r=4.0,Principal Components (kDMD),3,0,5,0.964396242851288,5
+rbf(gamma=25.0),r=4.0,Principal Components (kDMD),4,0,5,0.9561759604654576,5
+rbf(gamma=25.0),r=4.0,Principal Components (kDMD),5,1,5,0.9398204871747722,5
+rbf(gamma=25.0),r=4.0,Principal Components (kDMD),6,0,5,0.9761786246379053,5
+rbf(gamma=25.0),r=4.0,Principal Components (kDMD),7,0,5,0.9604500193001457,5
+rbf(gamma=25.0),r=4.0,Principal Components (kDMD),8,0,5,0.9352024060703323,5
+rbf(gamma=25.0),r=4.0,Principal Components (kDMD),9,0,5,0.947540064446523,5
+rbf(gamma=50.0),r=4.0,Principal Components (kDMD),0,0,5,0.9627240681364295,5
+rbf(gamma=50.0),r=4.0,Principal Components (kDMD),1,0,5,0.9683785178456367,5
+rbf(gamma=50.0),r=4.0,Principal Components (kDMD),2,0,5,0.9628148798508117,5
+rbf(gamma=50.0),r=4.0,Principal Components (kDMD),3,0,5,0.9622580332857517,5
+rbf(gamma=50.0),r=4.0,Principal Components (kDMD),4,0,5,0.954382589902602,5
+rbf(gamma=50.0),r=4.0,Principal Components (kDMD),5,1,5,0.936863034792636,5
+rbf(gamma=50.0),r=4.0,Principal Components (kDMD),6,0,5,0.9729245947005885,5
+rbf(gamma=50.0),r=4.0,Principal Components (kDMD),7,0,5,0.9587923699518399,5
+rbf(gamma=50.0),r=4.0,Principal Components (kDMD),8,0,5,0.9357598319951911,5
+rbf(gamma=50.0),r=4.0,Principal Components (kDMD),9,0,5,0.9456075001188885,5
+rbf(gamma=0.5),r=4.0,Reduced Rank,0,1,4,0.9465053169475828,5
+rbf(gamma=0.5),r=4.0,Reduced Rank,1,0,3,0.9512442239161798,5
+rbf(gamma=0.5),r=4.0,Reduced Rank,2,1,3,0.9375923235891166,5
+rbf(gamma=0.5),r=4.0,Reduced Rank,3,0,4,0.9586792579402815,5
+rbf(gamma=0.5),r=4.0,Reduced Rank,4,1,3,0.9288445247365618,5
+rbf(gamma=0.5),r=4.0,Reduced Rank,5,1,3,0.9459873023130636,5
+rbf(gamma=0.5),r=4.0,Reduced Rank,6,0,3,0.9717622537608362,4
+rbf(gamma=0.5),r=4.0,Reduced Rank,7,0,4,0.957094760462569,5
+rbf(gamma=0.5),r=4.0,Reduced Rank,8,0,4,0.9396344694704589,5
+rbf(gamma=0.5),r=4.0,Reduced Rank,9,1,4,0.9418524158349831,5
+rbf(gamma=1.0),r=4.0,Reduced Rank,0,0,4,0.9602022481785655,5
+rbf(gamma=1.0),r=4.0,Reduced Rank,1,0,4,0.95919529293038,5
+rbf(gamma=1.0),r=4.0,Reduced Rank,2,1,4,0.8814943635434531,5
+rbf(gamma=1.0),r=4.0,Reduced Rank,3,0,4,0.951666526357819,5
+rbf(gamma=1.0),r=4.0,Reduced Rank,4,0,3,0.97385770205803,5
+rbf(gamma=1.0),r=4.0,Reduced Rank,5,1,3,0.9431792766128919,5
+rbf(gamma=1.0),r=4.0,Reduced Rank,6,0,3,0.9623090190647866,5
+rbf(gamma=1.0),r=4.0,Reduced Rank,7,0,4,0.9468752782441557,5
+rbf(gamma=1.0),r=4.0,Reduced Rank,8,0,4,0.9450212452223866,5
+rbf(gamma=1.0),r=4.0,Reduced Rank,9,1,4,0.9183712921217062,5
+rbf(gamma=2.5),r=4.0,Reduced Rank,0,0,4,0.9606617030719432,5
+rbf(gamma=2.5),r=4.0,Reduced Rank,1,0,4,0.9621990224412735,5
+rbf(gamma=2.5),r=4.0,Reduced Rank,2,0,4,0.9545422846350535,5
+rbf(gamma=2.5),r=4.0,Reduced Rank,3,0,4,0.9458483020645349,5
+rbf(gamma=2.5),r=4.0,Reduced Rank,4,0,4,0.9588524471577246,5
+rbf(gamma=2.5),r=4.0,Reduced Rank,5,0,4,0.9543669551378016,5
+rbf(gamma=2.5),r=4.0,Reduced Rank,6,0,4,0.933118102961045,5
+rbf(gamma=2.5),r=4.0,Reduced Rank,7,0,4,0.9518603001358815,5
+rbf(gamma=2.5),r=4.0,Reduced Rank,8,0,4,0.9375791659621499,5
+rbf(gamma=2.5),r=4.0,Reduced Rank,9,1,4,0.9384922924589489,5
+rbf(gamma=5.0),r=4.0,Reduced Rank,0,0,4,0.9533100007583237,5
+rbf(gamma=5.0),r=4.0,Reduced Rank,1,0,4,0.9650867871708391,5
+rbf(gamma=5.0),r=4.0,Reduced Rank,2,0,4,0.9748360057377956,5
+rbf(gamma=5.0),r=4.0,Reduced Rank,3,0,4,0.9511189994416369,5
+rbf(gamma=5.0),r=4.0,Reduced Rank,4,1,4,0.9346094578807099,5
+rbf(gamma=5.0),r=4.0,Reduced Rank,5,0,4,0.9399550026287907,5
+rbf(gamma=5.0),r=4.0,Reduced Rank,6,0,4,0.9453706202144342,5
+rbf(gamma=5.0),r=4.0,Reduced Rank,7,0,4,0.9774392870580036,5
+rbf(gamma=5.0),r=4.0,Reduced Rank,8,0,4,0.9383994401489997,5
+rbf(gamma=5.0),r=4.0,Reduced Rank,9,0,4,0.9543634468042836,5
+rbf(gamma=12.5),r=4.0,Reduced Rank,0,0,4,0.9489761375651872,5
+rbf(gamma=12.5),r=4.0,Reduced Rank,1,0,4,0.9465479672071382,5
+rbf(gamma=12.5),r=4.0,Reduced Rank,2,0,4,0.9488741370228511,5
+rbf(gamma=12.5),r=4.0,Reduced Rank,3,0,4,0.9349717352016165,5
+rbf(gamma=12.5),r=4.0,Reduced Rank,4,0,4,0.9584525376596376,5
+rbf(gamma=12.5),r=4.0,Reduced Rank,5,0,4,0.9542611775030743,5
+rbf(gamma=12.5),r=4.0,Reduced Rank,6,0,4,0.9503564741573944,5
+rbf(gamma=12.5),r=4.0,Reduced Rank,7,0,4,0.9693681660843659,5
+rbf(gamma=12.5),r=4.0,Reduced Rank,8,0,4,0.9280466298823832,5
+rbf(gamma=12.5),r=4.0,Reduced Rank,9,1,4,0.9372733332873973,5
+rbf(gamma=25.0),r=4.0,Reduced Rank,0,1,4,0.946913433861992,5
+rbf(gamma=25.0),r=4.0,Reduced Rank,1,0,4,0.9538224713447188,5
+rbf(gamma=25.0),r=4.0,Reduced Rank,2,0,4,0.9626734453229526,5
+rbf(gamma=25.0),r=4.0,Reduced Rank,3,0,4,0.9347022166536896,5
+rbf(gamma=25.0),r=4.0,Reduced Rank,4,0,4,0.95126355488696,5
+rbf(gamma=25.0),r=4.0,Reduced Rank,5,1,4,0.9441634603899861,5
+rbf(gamma=25.0),r=4.0,Reduced Rank,6,0,4,0.943854593573529,5
+rbf(gamma=25.0),r=4.0,Reduced Rank,7,0,4,0.9509961835664671,5
+rbf(gamma=25.0),r=4.0,Reduced Rank,8,0,4,0.9311274783112329,5
+rbf(gamma=25.0),r=4.0,Reduced Rank,9,1,4,0.9229255454663556,5
+rbf(gamma=50.0),r=4.0,Reduced Rank,0,1,4,0.9415243552672959,5
+rbf(gamma=50.0),r=4.0,Reduced Rank,1,0,4,0.9575521842105321,5
+rbf(gamma=50.0),r=4.0,Reduced Rank,2,0,4,0.9597971071356889,5
+rbf(gamma=50.0),r=4.0,Reduced Rank,3,0,4,0.950809980906147,5
+rbf(gamma=50.0),r=4.0,Reduced Rank,4,0,4,0.9537192292576309,5
+rbf(gamma=50.0),r=4.0,Reduced Rank,5,1,4,0.9321129977564944,5
+rbf(gamma=50.0),r=4.0,Reduced Rank,6,1,4,0.9337236827413,5
+rbf(gamma=50.0),r=4.0,Reduced Rank,7,0,4,0.9282186890541716,5
+rbf(gamma=50.0),r=4.0,Reduced Rank,8,0,4,0.9397693120113548,5
+rbf(gamma=50.0),r=4.0,Reduced Rank,9,1,5,0.8859364315489703,5

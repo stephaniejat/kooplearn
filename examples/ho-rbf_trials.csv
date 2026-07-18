@@ -1,0 +1,601 @@
+kind,kernel,method,trial,spurious_ref_count,spurious_residual_count,spectral_gap,rank
+damping=0.0,rbf(gamma=0.14578369797848945),Principal Components (kDMD),0,0,4,1.7165225907334047e-09,5
+damping=0.0,rbf(gamma=0.2915673959569789),Principal Components (kDMD),0,0,4,9.058775951586995e-10,5
+damping=0.0,rbf(gamma=0.5831347919139578),Principal Components (kDMD),0,0,4,5.022711135893587e-10,5
+damping=0.0,rbf(gamma=1.1662695838279156),Principal Components (kDMD),0,0,4,3.146001237297469e-10,5
+damping=0.0,rbf(gamma=2.332539167655831),Principal Components (kDMD),0,0,4,2.902442730601251e-10,5
+damping=0.0,rbf(gamma=0.09812764136261426),Principal Components (kDMD),1,0,4,1.7165212584657752e-09,5
+damping=0.0,rbf(gamma=0.19625528272522852),Principal Components (kDMD),1,0,4,9.058807037831684e-10,5
+damping=0.0,rbf(gamma=0.39251056545045704),Principal Components (kDMD),1,0,4,5.022692262102169e-10,5
+damping=0.0,rbf(gamma=0.7850211309009141),Principal Components (kDMD),1,0,4,3.1460145599737643e-10,5
+damping=0.0,rbf(gamma=1.5700422618018282),Principal Components (kDMD),1,0,4,2.902442730601251e-10,5
+damping=0.0,rbf(gamma=0.24705892477432867),Principal Components (kDMD),2,0,4,1.7165225907334047e-09,5
+damping=0.0,rbf(gamma=0.49411784954865734),Principal Components (kDMD),2,0,4,9.058801486716561e-10,5
+damping=0.0,rbf(gamma=0.9882356990973147),Principal Components (kDMD),2,0,4,5.022705584778464e-10,5
+damping=0.0,rbf(gamma=1.9764713981946294),Principal Components (kDMD),2,0,4,3.146017890642838e-10,5
+damping=0.0,rbf(gamma=3.9529427963892587),Principal Components (kDMD),2,0,4,2.9024305181479804e-10,5
+damping=0.0,rbf(gamma=0.0836829669704253),Principal Components (kDMD),3,0,4,1.716523589934127e-09,5
+damping=0.0,rbf(gamma=0.1673659339408506),Principal Components (kDMD),3,0,4,9.058802596939586e-10,5
+damping=0.0,rbf(gamma=0.3347318678817012),Principal Components (kDMD),3,0,4,5.022694482548218e-10,5
+damping=0.0,rbf(gamma=0.6694637357634023),Principal Components (kDMD),3,0,4,3.146015670196789e-10,5
+damping=0.0,rbf(gamma=1.3389274715268047),Principal Components (kDMD),3,0,4,2.902424967032857e-10,5
+damping=0.0,rbf(gamma=0.2045200124460037),Principal Components (kDMD),4,0,4,1.7165209253988678e-09,5
+damping=0.0,rbf(gamma=0.4090400248920074),Principal Components (kDMD),4,0,4,9.058787053817241e-10,5
+damping=0.0,rbf(gamma=0.8180800497840148),Principal Components (kDMD),4,0,4,5.022697813217292e-10,5
+damping=0.0,rbf(gamma=1.6361600995680297),Principal Components (kDMD),4,0,4,3.1460056781895673e-10,5
+damping=0.0,rbf(gamma=3.2723201991360593),Principal Components (kDMD),4,0,4,2.902428297701931e-10,5
+damping=0.0,rbf(gamma=0.1881243695391665),Principal Components (kDMD),5,0,4,1.7165238119787318e-09,5
+damping=0.0,rbf(gamma=0.376248739078333),Principal Components (kDMD),5,0,4,9.058801486716561e-10,5
+damping=0.0,rbf(gamma=0.752497478156666),Principal Components (kDMD),5,0,4,5.022712246116612e-10,5
+damping=0.0,rbf(gamma=1.504994956313332),Principal Components (kDMD),5,0,4,3.146010119081666e-10,5
+damping=0.0,rbf(gamma=3.009989912626664),Principal Components (kDMD),5,0,4,2.9024216363637834e-10,5
+damping=0.0,rbf(gamma=0.08623356893909025),Principal Components (kDMD),6,0,4,1.716523367889522e-09,5
+damping=0.0,rbf(gamma=0.1724671378781805),Principal Components (kDMD),6,0,4,9.058801486716561e-10,5
+damping=0.0,rbf(gamma=0.344934275756361),Principal Components (kDMD),6,0,4,5.022698923440316e-10,5
+damping=0.0,rbf(gamma=0.689868551512722),Principal Components (kDMD),6,0,4,3.146001237297469e-10,5
+damping=0.0,rbf(gamma=1.379737103025444),Principal Components (kDMD),6,0,4,2.902431628371005e-10,5
+damping=0.0,rbf(gamma=1.1879097510518069),Principal Components (kDMD),7,0,4,1.7165234789118244e-09,5
+damping=0.0,rbf(gamma=2.3758195021036137),Principal Components (kDMD),7,0,4,9.058807037831684e-10,5
+damping=0.0,rbf(gamma=4.751639004207227),Principal Components (kDMD),7,0,4,5.022696702994267e-10,5
+damping=0.0,rbf(gamma=9.503278008414455),Principal Components (kDMD),7,0,4,3.1459990168514196e-10,5
+damping=0.0,rbf(gamma=19.00655601682891),Principal Components (kDMD),7,0,4,2.902433848817054e-10,5
+damping=0.0,rbf(gamma=0.13670195302100357),Principal Components (kDMD),8,0,4,1.7165234789118244e-09,5
+damping=0.0,rbf(gamma=0.27340390604200715),Principal Components (kDMD),8,0,4,9.058778172033044e-10,5
+damping=0.0,rbf(gamma=0.5468078120840143),Principal Components (kDMD),8,0,4,5.022701143886366e-10,5
+damping=0.0,rbf(gamma=1.0936156241680286),Principal Components (kDMD),8,0,4,3.1460056781895673e-10,5
+damping=0.0,rbf(gamma=2.187231248336057),Principal Components (kDMD),8,0,4,2.902434959040079e-10,5
+damping=0.0,rbf(gamma=0.11006797819035541),Principal Components (kDMD),9,0,4,1.7165234789118244e-09,5
+damping=0.0,rbf(gamma=0.22013595638071082),Principal Components (kDMD),9,0,4,9.05878927426329e-10,5
+damping=0.0,rbf(gamma=0.44027191276142164),Principal Components (kDMD),9,0,4,5.022703364332415e-10,5
+damping=0.0,rbf(gamma=0.8805438255228433),Principal Components (kDMD),9,0,4,3.1459990168514196e-10,5
+damping=0.0,rbf(gamma=1.7610876510456865),Principal Components (kDMD),9,0,4,2.902440510155202e-10,5
+damping=0.0,rbf(gamma=0.14578369797848945),Reduced Rank,0,0,4,1.7165244781125466e-09,5
+damping=0.0,rbf(gamma=0.2915673959569789),Reduced Rank,0,0,4,9.058794825378413e-10,5
+damping=0.0,rbf(gamma=0.5831347919139578),Reduced Rank,0,0,4,5.022727789238957e-10,5
+damping=0.0,rbf(gamma=1.1662695838279156),Reduced Rank,0,0,4,3.1460223315349367e-10,5
+damping=0.0,rbf(gamma=2.332539167655831),Reduced Rank,0,0,4,2.9024749270689654e-10,5
+damping=0.0,rbf(gamma=0.09812764136261426),Reduced Rank,1,0,4,1.716523367889522e-09,5
+damping=0.0,rbf(gamma=0.19625528272522852),Reduced Rank,1,0,4,9.058765959579773e-10,5
+damping=0.0,rbf(gamma=0.39251056545045704),Reduced Rank,1,0,4,5.022724458569883e-10,5
+damping=0.0,rbf(gamma=0.7850211309009141),Reduced Rank,1,0,4,3.146036764434257e-10,5
+damping=0.0,rbf(gamma=1.5700422618018282),Reduced Rank,1,0,4,2.902451612385448e-10,5
+damping=0.0,rbf(gamma=0.24705892477432867),Reduced Rank,2,0,4,1.7165240340233368e-09,5
+damping=0.0,rbf(gamma=0.49411784954865734),Reduced Rank,2,0,4,9.058769290248847e-10,5
+damping=0.0,rbf(gamma=0.9882356990973147),Reduced Rank,2,0,4,5.022721127900809e-10,5
+damping=0.0,rbf(gamma=1.9764713981946294),Reduced Rank,2,0,4,3.1460345439882076e-10,5
+damping=0.0,rbf(gamma=3.9529427963892587),Reduced Rank,2,0,4,2.9024416203782266e-10,5
+damping=0.0,rbf(gamma=0.0836829669704253),Reduced Rank,3,0,4,1.716523589934127e-09,5
+damping=0.0,rbf(gamma=0.1673659339408506),Reduced Rank,3,0,4,9.058782612925143e-10,5
+damping=0.0,rbf(gamma=0.3347318678817012),Reduced Rank,3,0,4,5.022703364332415e-10,5
+damping=0.0,rbf(gamma=0.6694637357634023),Reduced Rank,3,0,4,3.146012339527715e-10,5
+damping=0.0,rbf(gamma=1.3389274715268047),Reduced Rank,3,0,4,2.902428297701931e-10,5
+damping=0.0,rbf(gamma=0.2045200124460037),Reduced Rank,4,0,4,1.7165230348226146e-09,5
+damping=0.0,rbf(gamma=0.4090400248920074),Reduced Rank,4,0,4,9.058781502702118e-10,5
+damping=0.0,rbf(gamma=0.8180800497840148),Reduced Rank,4,0,4,5.022712246116612e-10,5
+damping=0.0,rbf(gamma=1.6361600995680297),Reduced Rank,4,0,4,3.146001237297469e-10,5
+damping=0.0,rbf(gamma=3.2723201991360593),Reduced Rank,4,0,4,2.9024660452847684e-10,5
+damping=0.0,rbf(gamma=0.1881243695391665),Reduced Rank,5,0,4,1.7165222576664974e-09,5
+damping=0.0,rbf(gamma=0.376248739078333),Reduced Rank,5,0,4,9.058767069802798e-10,5
+damping=0.0,rbf(gamma=0.752497478156666),Reduced Rank,5,0,4,5.02273111990803e-10,5
+damping=0.0,rbf(gamma=1.504994956313332),Reduced Rank,5,0,4,3.1460145599737643e-10,5
+damping=0.0,rbf(gamma=3.009989912626664),Reduced Rank,5,0,4,2.9024505021624236e-10,5
+damping=0.0,rbf(gamma=0.08623356893909025),Reduced Rank,6,0,4,1.716523589934127e-09,5
+damping=0.0,rbf(gamma=0.1724671378781805),Reduced Rank,6,0,4,9.058763739133724e-10,5
+damping=0.0,rbf(gamma=0.344934275756361),Reduced Rank,6,0,4,5.022698923440316e-10,5
+damping=0.0,rbf(gamma=0.689868551512722),Reduced Rank,6,0,4,3.146017890642838e-10,5
+damping=0.0,rbf(gamma=1.379737103025444),Reduced Rank,6,0,4,2.902451612385448e-10,5
+damping=0.0,rbf(gamma=1.1879097510518069),Reduced Rank,7,0,4,1.7165232568672195e-09,5
+damping=0.0,rbf(gamma=2.3758195021036137),Reduced Rank,7,0,4,9.058792604932364e-10,5
+damping=0.0,rbf(gamma=4.751639004207227),Reduced Rank,7,0,4,5.022732230131055e-10,5
+damping=0.0,rbf(gamma=9.503278008414455),Reduced Rank,7,0,4,3.146006788412592e-10,5
+damping=0.0,rbf(gamma=19.00655601682891),Reduced Rank,7,0,4,2.9024393999321774e-10,5
+damping=0.0,rbf(gamma=0.13670195302100357),Reduced Rank,8,0,4,1.7165223686887998e-09,5
+damping=0.0,rbf(gamma=0.27340390604200715),Reduced Rank,8,0,4,9.058770400471872e-10,5
+damping=0.0,rbf(gamma=0.5468078120840143),Reduced Rank,8,0,4,5.022708915447538e-10,5
+damping=0.0,rbf(gamma=1.0936156241680286),Reduced Rank,8,0,4,3.1460256622040106e-10,5
+damping=0.0,rbf(gamma=2.187231248336057),Reduced Rank,8,0,4,2.902433848817054e-10,5
+damping=0.0,rbf(gamma=0.11006797819035541),Reduced Rank,9,0,4,1.7165221466441949e-09,5
+damping=0.0,rbf(gamma=0.22013595638071082),Reduced Rank,9,0,4,9.058781502702118e-10,5
+damping=0.0,rbf(gamma=0.44027191276142164),Reduced Rank,9,0,4,5.022711135893587e-10,5
+damping=0.0,rbf(gamma=0.8805438255228433),Reduced Rank,9,0,4,3.1460167804198136e-10,5
+damping=0.0,rbf(gamma=1.7610876510456865),Reduced Rank,9,0,4,2.902446061270325e-10,5
+damping=0.1,rbf(gamma=1.8354123637856548),Principal Components (kDMD),0,0,4,0.0014977355680764193,5
+damping=0.1,rbf(gamma=3.6708247275713095),Principal Components (kDMD),0,0,4,0.0008076652972082154,5
+damping=0.1,rbf(gamma=7.341649455142619),Principal Components (kDMD),0,0,2,0.0004285858586180469,5
+damping=0.1,rbf(gamma=14.683298910285238),Principal Components (kDMD),0,0,2,0.0003780111174700451,5
+damping=0.1,rbf(gamma=29.366597820570476),Principal Components (kDMD),0,0,2,0.0004318960022988705,5
+damping=0.1,rbf(gamma=1.1920728140808245),Principal Components (kDMD),1,0,2,0.001042161336301417,5
+damping=0.1,rbf(gamma=2.384145628161649),Principal Components (kDMD),1,0,2,0.0006975163564495457,5
+damping=0.1,rbf(gamma=4.768291256323298),Principal Components (kDMD),1,0,2,0.00041607132456844553,5
+damping=0.1,rbf(gamma=9.536582512646596),Principal Components (kDMD),1,0,2,0.00037335775901037316,5
+damping=0.1,rbf(gamma=19.073165025293193),Principal Components (kDMD),1,0,2,0.0004252613111432879,5
+damping=0.1,rbf(gamma=2.855561198226759),Principal Components (kDMD),2,0,4,0.0010823680194536056,5
+damping=0.1,rbf(gamma=5.711122396453518),Principal Components (kDMD),2,0,4,0.0007395585920629832,5
+damping=0.1,rbf(gamma=11.422244792907035),Principal Components (kDMD),2,0,2,0.0004602242010204316,5
+damping=0.1,rbf(gamma=22.84448958581407),Principal Components (kDMD),2,0,2,0.00038348863647375,5
+damping=0.1,rbf(gamma=45.68897917162814),Principal Components (kDMD),2,0,2,0.00043032540815590714,5
+damping=0.1,rbf(gamma=0.9886738174827918),Principal Components (kDMD),3,0,2,0.0010583667534270758,5
+damping=0.1,rbf(gamma=1.9773476349655836),Principal Components (kDMD),3,0,2,0.0007223974767025521,5
+damping=0.1,rbf(gamma=3.9546952699311673),Principal Components (kDMD),3,0,2,0.00044681367071019995,5
+damping=0.1,rbf(gamma=7.9093905398623345),Principal Components (kDMD),3,0,2,0.00037854841445805754,5
+damping=0.1,rbf(gamma=15.818781079724669),Principal Components (kDMD),3,0,2,0.00042684770779355397,5
+damping=0.1,rbf(gamma=2.8964298312568943),Principal Components (kDMD),4,0,2,0.000883749094924835,5
+damping=0.1,rbf(gamma=5.792859662513789),Principal Components (kDMD),4,0,2,0.0005705717851515191,5
+damping=0.1,rbf(gamma=11.585719325027577),Principal Components (kDMD),4,0,2,0.00035383687038825773,5
+damping=0.1,rbf(gamma=23.171438650055155),Principal Components (kDMD),4,0,2,0.00036160625894132714,5
+damping=0.1,rbf(gamma=46.34287730011031),Principal Components (kDMD),4,0,2,0.0004221380717575052,5
+damping=0.1,rbf(gamma=2.2750839390640882),Principal Components (kDMD),5,0,2,0.001045249792617109,5
+damping=0.1,rbf(gamma=4.5501678781281765),Principal Components (kDMD),5,0,2,0.0007025205558257586,5
+damping=0.1,rbf(gamma=9.100335756256353),Principal Components (kDMD),5,0,2,0.00042282466364651494,5
+damping=0.1,rbf(gamma=18.200671512512706),Principal Components (kDMD),5,0,2,0.0003742114598501711,5
+damping=0.1,rbf(gamma=36.40134302502541),Principal Components (kDMD),5,0,2,0.0004254272249315516,5
+damping=0.1,rbf(gamma=0.9971739545270134),Principal Components (kDMD),6,0,4,0.0010791077624978662,5
+damping=0.1,rbf(gamma=1.9943479090540268),Principal Components (kDMD),6,0,4,0.0007385190755979654,5
+damping=0.1,rbf(gamma=3.9886958181080536),Principal Components (kDMD),6,0,2,0.00046004180458247834,5
+damping=0.1,rbf(gamma=7.977391636216107),Principal Components (kDMD),6,0,2,0.00038332223755754846,5
+damping=0.1,rbf(gamma=15.954783272432215),Principal Components (kDMD),6,0,2,0.0004301002319948566,5
+damping=0.1,rbf(gamma=16.605626355338007),Principal Components (kDMD),7,0,2,0.0008758751825052036,5
+damping=0.1,rbf(gamma=33.211252710676014),Principal Components (kDMD),7,0,2,0.0005659282212382433,5
+damping=0.1,rbf(gamma=66.42250542135203),Principal Components (kDMD),7,0,2,0.0003412686761334882,5
+damping=0.1,rbf(gamma=132.84501084270406),Principal Components (kDMD),7,0,2,0.00036065068460722216,5
+damping=0.1,rbf(gamma=265.6900216854081),Principal Components (kDMD),7,0,2,0.00042191112582479207,5
+damping=0.1,rbf(gamma=1.6130860277634524),Principal Components (kDMD),8,0,4,0.0012065524096663838,5
+damping=0.1,rbf(gamma=3.226172055526905),Principal Components (kDMD),8,0,4,0.0007617804495018143,5
+damping=0.1,rbf(gamma=6.45234411105381),Principal Components (kDMD),8,0,2,0.00045180284763346457,5
+damping=0.1,rbf(gamma=12.90468822210762),Principal Components (kDMD),8,0,2,0.00038241561418894676,5
+damping=0.1,rbf(gamma=25.80937644421524),Principal Components (kDMD),8,0,2,0.0004322082218901624,5
+damping=0.1,rbf(gamma=1.3756382953680228),Principal Components (kDMD),9,0,4,0.0014672204851736703,5
+damping=0.1,rbf(gamma=2.7512765907360457),Principal Components (kDMD),9,0,4,0.0008035890808241186,5
+damping=0.1,rbf(gamma=5.502553181472091),Principal Components (kDMD),9,0,2,0.00043117322442676187,5
+damping=0.1,rbf(gamma=11.005106362944183),Principal Components (kDMD),9,0,2,0.00037845107740031025,5
+damping=0.1,rbf(gamma=22.010212725888366),Principal Components (kDMD),9,0,2,0.00043203602238883754,5
+damping=0.1,rbf(gamma=1.8354123637856548),Reduced Rank,0,0,4,0.0015154259316439989,5
+damping=0.1,rbf(gamma=3.6708247275713095),Reduced Rank,0,0,4,0.0008123857190374117,5
+damping=0.1,rbf(gamma=7.341649455142619),Reduced Rank,0,0,2,0.0004282679369198572,5
+damping=0.1,rbf(gamma=14.683298910285238),Reduced Rank,0,0,2,0.0003776630449399132,5
+damping=0.1,rbf(gamma=29.366597820570476),Reduced Rank,0,0,2,0.00043139804542158267,5
+damping=0.1,rbf(gamma=1.1920728140808245),Reduced Rank,1,0,2,0.001045718663978179,5
+damping=0.1,rbf(gamma=2.384145628161649),Reduced Rank,1,0,2,0.0007026870346930059,5
+damping=0.1,rbf(gamma=4.768291256323298),Reduced Rank,1,0,2,0.0004219745894830096,5
+damping=0.1,rbf(gamma=9.536582512646596),Reduced Rank,1,0,2,0.0003739398208575384,5
+damping=0.1,rbf(gamma=19.073165025293193),Reduced Rank,1,0,2,0.00042511359896280076,5
+damping=0.1,rbf(gamma=2.855561198226759),Reduced Rank,2,0,4,0.0010862685750111511,5
+damping=0.1,rbf(gamma=5.711122396453518),Reduced Rank,2,0,4,0.0007419123779868197,5
+damping=0.1,rbf(gamma=11.422244792907035),Reduced Rank,2,0,2,0.0004611878700168104,5
+damping=0.1,rbf(gamma=22.84448958581407),Reduced Rank,2,0,2,0.00038349862482278674,5
+damping=0.1,rbf(gamma=45.68897917162814),Reduced Rank,2,0,2,0.0004300687119513924,5
+damping=0.1,rbf(gamma=0.9886738174827918),Reduced Rank,3,0,2,0.001060924936598373,5
+damping=0.1,rbf(gamma=1.9773476349655836),Reduced Rank,3,0,2,0.0007254995597094638,5
+damping=0.1,rbf(gamma=3.9546952699311673),Reduced Rank,3,0,2,0.00044926571196302056,5
+damping=0.1,rbf(gamma=7.9093905398623345),Reduced Rank,3,0,2,0.0003788737637808737,5
+damping=0.1,rbf(gamma=15.818781079724669),Reduced Rank,3,0,2,0.00042668393921196923,5
+damping=0.1,rbf(gamma=2.8964298312568943),Reduced Rank,4,0,2,0.0,5
+damping=0.1,rbf(gamma=5.792859662513789),Reduced Rank,4,0,2,0.0005720064974739092,5
+damping=0.1,rbf(gamma=11.585719325027577),Reduced Rank,4,0,2,0.0003528148042631907,5
+damping=0.1,rbf(gamma=23.171438650055155),Reduced Rank,4,0,2,0.0003612652958462359,5
+damping=0.1,rbf(gamma=46.34287730011031),Reduced Rank,4,0,2,0.0004218072704926801,5
+damping=0.1,rbf(gamma=2.2750839390640882),Reduced Rank,5,0,2,0.0010485557027521963,5
+damping=0.1,rbf(gamma=4.5501678781281765),Reduced Rank,5,0,2,0.0007071990263951555,5
+damping=0.1,rbf(gamma=9.100335756256353),Reduced Rank,5,0,2,0.0004278338663104009,5
+damping=0.1,rbf(gamma=18.200671512512706),Reduced Rank,5,0,2,0.0003747441806989382,5
+damping=0.1,rbf(gamma=36.40134302502541),Reduced Rank,5,0,2,0.00042527872283892876,5
+damping=0.1,rbf(gamma=0.9971739545270134),Reduced Rank,6,0,4,0.0010826728873972735,5
+damping=0.1,rbf(gamma=1.9943479090540268),Reduced Rank,6,0,4,0.0007408624794408292,5
+damping=0.1,rbf(gamma=3.9886958181080536),Reduced Rank,6,0,2,0.00046108691741497676,5
+damping=0.1,rbf(gamma=7.977391636216107),Reduced Rank,6,0,2,0.0003833584709402871,5
+damping=0.1,rbf(gamma=15.954783272432215),Reduced Rank,6,0,2,0.0004298533482796074,5
+damping=0.1,rbf(gamma=16.605626355338007),Reduced Rank,7,0,2,0.0008837974943252114,5
+damping=0.1,rbf(gamma=33.211252710676014),Reduced Rank,7,0,2,0.000565443411950528,5
+damping=0.1,rbf(gamma=66.42250542135203),Reduced Rank,7,0,2,0.00033904948494400955,5
+damping=0.1,rbf(gamma=132.84501084270406),Reduced Rank,7,0,2,0.00036033157205972444,5
+damping=0.1,rbf(gamma=265.6900216854081),Reduced Rank,7,0,2,0.0004216220842909735,5
+damping=0.1,rbf(gamma=1.6130860277634524),Reduced Rank,8,0,4,0.001219378019360784,5
+damping=0.1,rbf(gamma=3.226172055526905),Reduced Rank,8,0,4,0.0007656236458579713,5
+damping=0.1,rbf(gamma=6.45234411105381),Reduced Rank,8,0,2,0.0004519350671432498,5
+damping=0.1,rbf(gamma=12.90468822210762),Reduced Rank,8,0,2,0.0003821467554789848,5
+damping=0.1,rbf(gamma=25.80937644421524),Reduced Rank,8,0,2,0.0004318168885621976,5
+damping=0.1,rbf(gamma=1.3756382953680228),Reduced Rank,9,0,4,0.0014849052588228329,5
+damping=0.1,rbf(gamma=2.7512765907360457),Reduced Rank,9,0,4,0.0008084075747962771,5
+damping=0.1,rbf(gamma=5.502553181472091),Reduced Rank,9,0,2,0.00043088284665293575,5
+damping=0.1,rbf(gamma=11.005106362944183),Reduced Rank,9,0,2,0.0003781010958576747,5
+damping=0.1,rbf(gamma=22.010212725888366),Reduced Rank,9,0,2,0.00043154606464845813,5
+damping=0.3,rbf(gamma=1.786417571425086),Principal Components (kDMD),0,0,0,0.0013830455595408297,5
+damping=0.3,rbf(gamma=3.572835142850172),Principal Components (kDMD),0,0,0,0.0011372329303329654,5
+damping=0.3,rbf(gamma=7.145670285700344),Principal Components (kDMD),0,0,2,0.000796353993602672,5
+damping=0.3,rbf(gamma=14.291340571400688),Principal Components (kDMD),0,0,2,0.000551572768925146,5
+damping=0.3,rbf(gamma=28.582681142801377),Principal Components (kDMD),0,0,2,0.0005096279545964144,5
+damping=0.3,rbf(gamma=1.2903867840698169),Principal Components (kDMD),1,0,2,0.0011993004719241807,5
+damping=0.3,rbf(gamma=2.5807735681396338),Principal Components (kDMD),1,0,0,0.000933936844402905,5
+damping=0.3,rbf(gamma=5.1615471362792675),Principal Components (kDMD),1,0,2,0.0005847244606631552,5
+damping=0.3,rbf(gamma=10.323094272558535),Principal Components (kDMD),1,0,2,0.0004673938212017559,5
+damping=0.3,rbf(gamma=20.64618854511707),Principal Components (kDMD),1,0,2,0.0005391803287206898,5
+damping=0.3,rbf(gamma=2.597085452675595),Principal Components (kDMD),2,0,0,0.001177833581709753,5
+damping=0.3,rbf(gamma=5.19417090535119),Principal Components (kDMD),2,0,0,0.0009222410972060668,5
+damping=0.3,rbf(gamma=10.38834181070238),Principal Components (kDMD),2,0,0,0.0006355569020398688,5
+damping=0.3,rbf(gamma=20.77668362140476),Principal Components (kDMD),2,0,2,0.0004739960178677949,5
+damping=0.3,rbf(gamma=41.55336724280952),Principal Components (kDMD),2,0,2,0.0005235690833411688,5
+damping=0.3,rbf(gamma=0.9907725176108307),Principal Components (kDMD),3,0,0,0.0011576844486876903,5
+damping=0.3,rbf(gamma=1.9815450352216615),Principal Components (kDMD),3,0,0,0.0008794967041572122,5
+damping=0.3,rbf(gamma=3.963090070443323),Principal Components (kDMD),3,0,0,0.0005860705610071237,5
+damping=0.3,rbf(gamma=7.926180140886646),Principal Components (kDMD),3,0,2,0.00046542489255252395,5
+damping=0.3,rbf(gamma=15.852360281773292),Principal Components (kDMD),3,0,2,0.0005329023836353475,5
+damping=0.3,rbf(gamma=3.1975260341675518),Principal Components (kDMD),4,0,2,0.0013571861684184006,5
+damping=0.3,rbf(gamma=6.3950520683351035),Principal Components (kDMD),4,0,2,0.001103234093739358,5
+damping=0.3,rbf(gamma=12.790104136670207),Principal Components (kDMD),4,0,2,0.0008202354118203026,5
+damping=0.3,rbf(gamma=25.580208273340414),Principal Components (kDMD),4,0,0,0.0004170250891066818,5
+damping=0.3,rbf(gamma=51.16041654668083),Principal Components (kDMD),4,0,2,0.0005171901754836838,5
+damping=0.3,rbf(gamma=2.4484950955387124),Principal Components (kDMD),5,0,0,0.0011896376796480812,5
+damping=0.3,rbf(gamma=4.896990191077425),Principal Components (kDMD),5,0,0,0.0009211908961054283,5
+damping=0.3,rbf(gamma=9.79398038215485),Principal Components (kDMD),5,0,2,0.0005817973108730445,5
+damping=0.3,rbf(gamma=19.5879607643097),Principal Components (kDMD),5,0,2,0.0004672019377075509,5
+damping=0.3,rbf(gamma=39.1759215286194),Principal Components (kDMD),5,0,2,0.0005389233201120724,5
+damping=0.3,rbf(gamma=0.9109306601309962),Principal Components (kDMD),6,0,0,0.001171526701903125,5
+damping=0.3,rbf(gamma=1.8218613202619924),Principal Components (kDMD),6,0,0,0.0009147062578374054,5
+damping=0.3,rbf(gamma=3.643722640523985),Principal Components (kDMD),6,0,0,0.0006300404632852974,5
+damping=0.3,rbf(gamma=7.28744528104797),Principal Components (kDMD),6,0,2,0.000472678967511464,5
+damping=0.3,rbf(gamma=14.57489056209594),Principal Components (kDMD),6,0,2,0.0005241560573392423,5
+damping=0.3,rbf(gamma=18.40194763954507),Principal Components (kDMD),7,0,2,0.0013274373228844283,5
+damping=0.3,rbf(gamma=36.80389527909014),Principal Components (kDMD),7,0,2,0.0010664862466626124,5
+damping=0.3,rbf(gamma=73.60779055818028),Principal Components (kDMD),7,0,2,0.0007816647834197887,5
+damping=0.3,rbf(gamma=147.21558111636057),Principal Components (kDMD),7,0,2,0.0004643274282722931,5
+damping=0.3,rbf(gamma=294.43116223272114),Principal Components (kDMD),7,0,2,0.000517324207792047,5
+damping=0.3,rbf(gamma=1.4526588916646825),Principal Components (kDMD),8,0,0,0.0012812754679779603,5
+damping=0.3,rbf(gamma=2.905317783329365),Principal Components (kDMD),8,0,0,0.001037520725602592,5
+damping=0.3,rbf(gamma=5.81063556665873),Principal Components (kDMD),8,0,2,0.0007178236094660395,5
+damping=0.3,rbf(gamma=11.62127113331746),Principal Components (kDMD),8,0,2,0.0005019006111682822,5
+damping=0.3,rbf(gamma=23.24254226663492),Principal Components (kDMD),8,0,2,0.0005164434942336316,5
+damping=0.3,rbf(gamma=1.3246412743262528),Principal Components (kDMD),9,0,0,0.0013746518828324783,5
+damping=0.3,rbf(gamma=2.6492825486525056),Principal Components (kDMD),9,0,0,0.001129850481256467,5
+damping=0.3,rbf(gamma=5.298565097305011),Principal Components (kDMD),9,0,2,0.0007895453520944118,5
+damping=0.3,rbf(gamma=10.597130194610022),Principal Components (kDMD),9,0,2,0.0005458665949146235,5
+damping=0.3,rbf(gamma=21.194260389220045),Principal Components (kDMD),9,0,2,0.0005096242162853093,5
+damping=0.3,rbf(gamma=1.786417571425086),Reduced Rank,0,0,0,0.00138511438652833,5
+damping=0.3,rbf(gamma=3.572835142850172),Reduced Rank,0,0,0,0.0011397188726012253,5
+damping=0.3,rbf(gamma=7.145670285700344),Reduced Rank,0,0,2,0.0007988627925683556,5
+damping=0.3,rbf(gamma=14.291340571400688),Reduced Rank,0,0,2,0.0005531042222247651,5
+damping=0.3,rbf(gamma=28.582681142801377),Reduced Rank,0,0,2,0.000509548900180623,5
+damping=0.3,rbf(gamma=1.2903867840698169),Reduced Rank,1,0,2,0.001197830403288469,5
+damping=0.3,rbf(gamma=2.5807735681396338),Reduced Rank,1,0,0,0.000931937226553603,5
+damping=0.3,rbf(gamma=5.1615471362792675),Reduced Rank,1,0,2,0.0005851908927464455,5
+damping=0.3,rbf(gamma=10.323094272558535),Reduced Rank,1,0,2,0.0004671399188300729,5
+damping=0.3,rbf(gamma=20.64618854511707),Reduced Rank,1,0,2,0.0005387120830708803,5
+damping=0.3,rbf(gamma=2.597085452675595),Reduced Rank,2,0,0,0.0011802689452665716,5
+damping=0.3,rbf(gamma=5.19417090535119),Reduced Rank,2,0,0,0.0009252062408844353,5
+damping=0.3,rbf(gamma=10.38834181070238),Reduced Rank,2,0,0,0.0006379131230660473,5
+damping=0.3,rbf(gamma=20.77668362140476),Reduced Rank,2,0,2,0.0004744537792077397,5
+damping=0.3,rbf(gamma=41.55336724280952),Reduced Rank,2,0,2,0.0005231472370075263,5
+damping=0.3,rbf(gamma=0.9907725176108307),Reduced Rank,3,0,0,0.0011572052159148916,5
+damping=0.3,rbf(gamma=1.9815450352216615),Reduced Rank,3,0,0,0.0008795210420254884,5
+damping=0.3,rbf(gamma=3.963090070443323),Reduced Rank,3,0,0,0.0005872094651863113,5
+damping=0.3,rbf(gamma=7.926180140886646),Reduced Rank,3,0,2,0.0004653738647291128,5
+damping=0.3,rbf(gamma=15.852360281773292),Reduced Rank,3,0,2,0.000532440702995185,5
+damping=0.3,rbf(gamma=3.1975260341675518),Reduced Rank,4,0,2,0.0013573256964193314,5
+damping=0.3,rbf(gamma=6.3950520683351035),Reduced Rank,4,0,2,0.0011035254055263843,5
+damping=0.3,rbf(gamma=12.790104136670207),Reduced Rank,4,0,2,0.0008203653464317062,5
+damping=0.3,rbf(gamma=25.580208273340414),Reduced Rank,4,0,0,0.00040745972735090064,5
+damping=0.3,rbf(gamma=51.16041654668083),Reduced Rank,4,0,2,0.0005166782707812789,5
+damping=0.3,rbf(gamma=2.4484950955387124),Reduced Rank,5,0,0,0.0011884843745094686,5
+damping=0.3,rbf(gamma=4.896990191077425),Reduced Rank,5,0,0,0.0009193520622085005,5
+damping=0.3,rbf(gamma=9.79398038215485),Reduced Rank,5,0,2,0.0005823393896504658,5
+damping=0.3,rbf(gamma=19.5879607643097),Reduced Rank,5,0,2,0.0004669620825751286,5
+damping=0.3,rbf(gamma=39.1759215286194),Reduced Rank,5,0,2,0.0005384560190937471,5
+damping=0.3,rbf(gamma=0.9109306601309962),Reduced Rank,6,0,0,0.0011738514717890558,5
+damping=0.3,rbf(gamma=1.8218613202619924),Reduced Rank,6,0,0,0.0009175675024947205,5
+damping=0.3,rbf(gamma=3.643722640523985),Reduced Rank,6,0,0,0.0006323279917842539,5
+damping=0.3,rbf(gamma=7.28744528104797),Reduced Rank,6,0,2,0.0004730925589351287,5
+damping=0.3,rbf(gamma=14.57489056209594),Reduced Rank,6,0,2,0.0005237288731019252,5
+damping=0.3,rbf(gamma=18.40194763954507),Reduced Rank,7,0,2,0.0013277917703314879,5
+damping=0.3,rbf(gamma=36.80389527909014),Reduced Rank,7,0,2,0.0010670675490954684,5
+damping=0.3,rbf(gamma=73.60779055818028),Reduced Rank,7,0,2,0.0007820712424877474,5
+damping=0.3,rbf(gamma=147.21558111636057),Reduced Rank,7,0,2,0.0004651600307752357,5
+damping=0.3,rbf(gamma=294.43116223272114),Reduced Rank,7,0,2,0.0005168336291969666,5
+damping=0.3,rbf(gamma=1.4526588916646825),Reduced Rank,8,0,0,0.0012839912466728887,5
+damping=0.3,rbf(gamma=2.905317783329365),Reduced Rank,8,0,0,0.0010407837867515424,5
+damping=0.3,rbf(gamma=5.81063556665873),Reduced Rank,8,0,2,0.0007205830590463203,5
+damping=0.3,rbf(gamma=11.62127113331746),Reduced Rank,8,0,2,0.0005029478559406275,5
+damping=0.3,rbf(gamma=23.24254226663492),Reduced Rank,8,0,2,0.000515948622127893,5
+damping=0.3,rbf(gamma=1.3246412743262528),Reduced Rank,9,0,0,0.0013768088150859503,5
+damping=0.3,rbf(gamma=2.6492825486525056),Reduced Rank,9,0,0,0.0011324348931689432,5
+damping=0.3,rbf(gamma=5.298565097305011),Reduced Rank,9,0,2,0.0007920948863507915,5
+damping=0.3,rbf(gamma=10.597130194610022),Reduced Rank,9,0,2,0.0005473652757435055,5
+damping=0.3,rbf(gamma=21.194260389220045),Reduced Rank,9,0,2,0.000509492682404078,5
+damping=0.5,rbf(gamma=1.557731392641986),Principal Components (kDMD),0,0,0,0.0015413415867204794,5
+damping=0.5,rbf(gamma=3.115462785283972),Principal Components (kDMD),0,0,0,0.0014523531137139445,5
+damping=0.5,rbf(gamma=6.230925570567944),Principal Components (kDMD),0,0,0,0.0012555468242522183,5
+damping=0.5,rbf(gamma=12.461851141135888),Principal Components (kDMD),0,0,0,0.0008785732651317435,5
+damping=0.5,rbf(gamma=24.923702282271776),Principal Components (kDMD),0,0,0,0.0005175661365711681,5
+damping=0.5,rbf(gamma=0.8549954868355646),Principal Components (kDMD),1,0,0,0.0012547322674748562,5
+damping=0.5,rbf(gamma=1.7099909736711292),Principal Components (kDMD),1,0,0,0.0010507036240686718,5
+damping=0.5,rbf(gamma=3.4199819473422584),Principal Components (kDMD),1,0,0,0.0008231799984260713,5
+damping=0.5,rbf(gamma=6.839963894684517),Principal Components (kDMD),1,0,0,0.0005993575437035492,5
+damping=0.5,rbf(gamma=13.679927789369033),Principal Components (kDMD),1,0,0,0.0004101495317226922,5
+damping=0.5,rbf(gamma=1.750634267453919),Principal Components (kDMD),2,0,0,0.001381705524157728,5
+damping=0.5,rbf(gamma=3.501268534907838),Principal Components (kDMD),2,0,0,0.0012317816674762838,5
+damping=0.5,rbf(gamma=7.002537069815676),Principal Components (kDMD),2,0,0,0.0010154750544731916,5
+damping=0.5,rbf(gamma=14.005074139631352),Principal Components (kDMD),2,0,2,0.000726129518293317,5
+damping=0.5,rbf(gamma=28.010148279262705),Principal Components (kDMD),2,0,0,0.00045514662390833127,5
+damping=0.5,rbf(gamma=0.6519508668051496),Principal Components (kDMD),3,0,0,0.0012967897961398966,5
+damping=0.5,rbf(gamma=1.3039017336102992),Principal Components (kDMD),3,0,0,0.0011091019889635234,5
+damping=0.5,rbf(gamma=2.6078034672205983),Principal Components (kDMD),3,0,0,0.0008824693093962832,5
+damping=0.5,rbf(gamma=5.215606934441197),Principal Components (kDMD),3,0,0,0.0006387171188593221,5
+damping=0.5,rbf(gamma=10.431213868882393),Principal Components (kDMD),3,0,0,0.00042490246855930724,5
+damping=0.5,rbf(gamma=4.999502844521571),Principal Components (kDMD),4,0,0,0.0012284033855691767,5
+damping=0.5,rbf(gamma=9.999005689043141),Principal Components (kDMD),4,0,0,0.0010417594767628824,5
+damping=0.5,rbf(gamma=19.998011378086282),Principal Components (kDMD),4,0,0,0.0007960052785244143,5
+damping=0.5,rbf(gamma=39.996022756172565),Principal Components (kDMD),4,0,0,0.0005493644206550075,5
+damping=0.5,rbf(gamma=79.99204551234513),Principal Components (kDMD),4,0,0,0.0003578288349734837,5
+damping=0.5,rbf(gamma=1.6110329670551957),Principal Components (kDMD),5,0,0,0.0012602481000383303,5
+damping=0.5,rbf(gamma=3.2220659341103914),Principal Components (kDMD),5,0,0,0.0010581614202662681,5
+damping=0.5,rbf(gamma=6.444131868220783),Principal Components (kDMD),5,0,0,0.0008305045667162947,5
+damping=0.5,rbf(gamma=12.888263736441566),Principal Components (kDMD),5,0,0,0.0006042748511516649,5
+damping=0.5,rbf(gamma=25.77652747288313),Principal Components (kDMD),5,0,0,0.0004120760335455387,5
+damping=0.5,rbf(gamma=0.611930111905428),Principal Components (kDMD),6,0,0,0.001374587653768966,5
+damping=0.5,rbf(gamma=1.223860223810856),Principal Components (kDMD),6,0,0,0.001221378515169902,5
+damping=0.5,rbf(gamma=2.447720447621712),Principal Components (kDMD),6,0,0,0.0010039377457256027,5
+damping=0.5,rbf(gamma=4.895440895243424),Principal Components (kDMD),6,0,2,0.000718638446583264,5
+damping=0.5,rbf(gamma=9.790881790486848),Principal Components (kDMD),6,0,0,0.0004526085576921357,5
+damping=0.5,rbf(gamma=24.73563527682092),Principal Components (kDMD),7,0,0,0.0012184971232039876,5
+damping=0.5,rbf(gamma=49.47127055364184),Principal Components (kDMD),7,0,0,0.0010450604106851946,5
+damping=0.5,rbf(gamma=98.94254110728367),Principal Components (kDMD),7,0,0,0.0008081916463259509,5
+damping=0.5,rbf(gamma=197.88508221456735),Principal Components (kDMD),7,0,0,0.0005520526023694572,5
+damping=0.5,rbf(gamma=395.7701644291347),Principal Components (kDMD),7,0,0,0.00036048436219537905,5
+damping=0.5,rbf(gamma=1.0623563298995193),Principal Components (kDMD),8,0,0,0.001475908758093114,5
+damping=0.5,rbf(gamma=2.1247126597990387),Principal Components (kDMD),8,0,0,0.0013717186240737034,5
+damping=0.5,rbf(gamma=4.249425319598077),Principal Components (kDMD),8,0,0,0.0011732328697608985,5
+damping=0.5,rbf(gamma=8.498850639196155),Principal Components (kDMD),8,0,2,0.0008244543088655742,5
+damping=0.5,rbf(gamma=16.99770127839231),Principal Components (kDMD),8,0,0,0.0004890141571245454,5
+damping=0.5,rbf(gamma=1.129233297912541),Principal Components (kDMD),9,0,0,0.0015392610435648324,5
+damping=0.5,rbf(gamma=2.258466595825082),Principal Components (kDMD),9,0,0,0.0014539167249353335,5
+damping=0.5,rbf(gamma=4.516933191650164),Principal Components (kDMD),9,0,0,0.0012594736570912257,5
+damping=0.5,rbf(gamma=9.033866383300328),Principal Components (kDMD),9,0,0,0.0008789561349245023,5
+damping=0.5,rbf(gamma=18.067732766600656),Principal Components (kDMD),9,0,0,0.0005154444376030964,5
+damping=0.5,rbf(gamma=1.557731392641986),Reduced Rank,0,0,0,0.0015417999780796832,5
+damping=0.5,rbf(gamma=3.115462785283972),Reduced Rank,0,0,0,0.0014528125898032318,5
+damping=0.5,rbf(gamma=6.230925570567944),Reduced Rank,0,0,0,0.001256656780143195,5
+damping=0.5,rbf(gamma=12.461851141135888),Reduced Rank,0,0,0,0.000881044318192914,5
+damping=0.5,rbf(gamma=24.923702282271776),Reduced Rank,0,0,0,0.0005193576267119582,5
+damping=0.5,rbf(gamma=0.8549954868355646),Reduced Rank,1,0,0,0.0012564716481071603,5
+damping=0.5,rbf(gamma=1.7099909736711292),Reduced Rank,1,0,0,0.0010529642726518906,5
+damping=0.5,rbf(gamma=3.4199819473422584),Reduced Rank,1,0,0,0.0008254355833194893,5
+damping=0.5,rbf(gamma=6.839963894684517),Reduced Rank,1,0,0,0.0006011528222954476,5
+damping=0.5,rbf(gamma=13.679927789369033),Reduced Rank,1,0,0,0.00041110436124347505,5
+damping=0.5,rbf(gamma=1.750634267453919),Reduced Rank,2,0,0,0.0013835420488563788,5
+damping=0.5,rbf(gamma=3.501268534907838),Reduced Rank,2,0,0,0.0012344877775170016,5
+damping=0.5,rbf(gamma=7.002537069815676),Reduced Rank,2,0,0,0.001018756697065304,5
+damping=0.5,rbf(gamma=14.005074139631352),Reduced Rank,2,0,2,0.0007289738746991681,5
+damping=0.5,rbf(gamma=28.010148279262705),Reduced Rank,2,0,0,0.0004566063982949231,5
+damping=0.5,rbf(gamma=0.6519508668051496),Reduced Rank,3,0,0,0.0012986110503209192,5
+damping=0.5,rbf(gamma=1.3039017336102992),Reduced Rank,3,0,0,0.0011116152325391093,5
+damping=0.5,rbf(gamma=2.6078034672205983),Reduced Rank,3,0,0,0.0008851799580650299,5
+damping=0.5,rbf(gamma=5.215606934441197),Reduced Rank,3,0,0,0.0006409015247949013,5
+damping=0.5,rbf(gamma=10.431213868882393),Reduced Rank,3,0,0,0.00042602806121294634,5
+damping=0.5,rbf(gamma=4.999502844521571),Reduced Rank,4,0,0,0.0012287875494664258,5
+damping=0.5,rbf(gamma=9.999005689043141),Reduced Rank,4,0,0,0.0010425756502447925,5
+damping=0.5,rbf(gamma=19.998011378086282),Reduced Rank,4,0,0,0.0007969882122067506,5
+damping=0.5,rbf(gamma=39.996022756172565),Reduced Rank,4,0,0,0.0005500310885281356,5
+damping=0.5,rbf(gamma=79.99204551234513),Reduced Rank,4,0,0,0.00035823097125886605,5
+damping=0.5,rbf(gamma=1.6110329670551957),Reduced Rank,5,0,0,0.0012620030255361403,5
+damping=0.5,rbf(gamma=3.2220659341103914),Reduced Rank,5,0,0,0.0010604663006053006,5
+damping=0.5,rbf(gamma=6.444131868220783),Reduced Rank,5,0,0,0.0008328311359289131,5
+damping=0.5,rbf(gamma=12.888263736441566),Reduced Rank,5,0,0,0.0006061235340636406,5
+damping=0.5,rbf(gamma=25.77652747288313),Reduced Rank,5,0,0,0.0004130531832987616,5
+damping=0.5,rbf(gamma=0.611930111905428),Reduced Rank,6,0,0,0.0013764306734944665,5
+damping=0.5,rbf(gamma=1.223860223810856),Reduced Rank,6,0,0,0.0012240804369314517,5
+damping=0.5,rbf(gamma=2.447720447621712),Reduced Rank,6,0,0,0.0010071847350480168,5
+damping=0.5,rbf(gamma=4.895440895243424),Reduced Rank,6,0,2,0.000721435803376802,5
+damping=0.5,rbf(gamma=9.790881790486848),Reduced Rank,6,0,0,0.00045404186913511335,5
+damping=0.5,rbf(gamma=24.73563527682092),Reduced Rank,7,0,0,0.001218626165169101,5
+damping=0.5,rbf(gamma=49.47127055364184),Reduced Rank,7,0,0,0.001045521773731184,5
+damping=0.5,rbf(gamma=98.94254110728367),Reduced Rank,7,0,0,0.0008090817891283075,5
+damping=0.5,rbf(gamma=197.88508221456735),Reduced Rank,7,0,0,0.0005527809931182848,5
+damping=0.5,rbf(gamma=395.7701644291347),Reduced Rank,7,0,0,0.00036092012834432197,5
+damping=0.5,rbf(gamma=1.0623563298995193),Reduced Rank,8,0,0,0.0014774126509674579,5
+damping=0.5,rbf(gamma=2.1247126597990387),Reduced Rank,8,0,0,0.0013741055305297456,5
+damping=0.5,rbf(gamma=4.249425319598077),Reduced Rank,8,0,0,0.0011765790393795106,5
+damping=0.5,rbf(gamma=8.498850639196155),Reduced Rank,8,0,2,0.0008276918889461582,5
+damping=0.5,rbf(gamma=16.99770127839231),Reduced Rank,8,0,0,0.0004907673478039554,5
+damping=0.5,rbf(gamma=1.129233297912541),Reduced Rank,9,0,0,0.0015398659243468504,5
+damping=0.5,rbf(gamma=2.258466595825082),Reduced Rank,9,0,0,0.0014546659648756455,5
+damping=0.5,rbf(gamma=4.516933191650164),Reduced Rank,9,0,0,0.0012609641861714982,5
+damping=0.5,rbf(gamma=9.033866383300328),Reduced Rank,9,0,0,0.0008815906258906603,5
+damping=0.5,rbf(gamma=18.067732766600656),Reduced Rank,9,0,0,0.0005172530731412106,5
+damping=1.0,rbf(gamma=2.956205933008021),Principal Components (kDMD),0,0,0,0.000908465208089626,5
+damping=1.0,rbf(gamma=5.912411866016042),Principal Components (kDMD),0,0,0,0.0007166777810638791,5
+damping=1.0,rbf(gamma=11.824823732032083),Principal Components (kDMD),0,0,0,0.0005324974889561185,5
+damping=1.0,rbf(gamma=23.649647464064167),Principal Components (kDMD),0,0,0,0.0003501695527176052,5
+damping=1.0,rbf(gamma=47.29929492812833),Principal Components (kDMD),0,0,0,0.00019886856911988104,5
+damping=1.0,rbf(gamma=3.406710247932346),Principal Components (kDMD),1,0,2,0.001029395531467192,5
+damping=1.0,rbf(gamma=6.813420495864692),Principal Components (kDMD),1,0,2,0.000828813794725658,5
+damping=1.0,rbf(gamma=13.626840991729384),Principal Components (kDMD),1,0,2,0.0005368975992634528,5
+damping=1.0,rbf(gamma=27.25368198345877),Principal Components (kDMD),1,0,2,0.0002856828765989139,5
+damping=1.0,rbf(gamma=54.50736396691754),Principal Components (kDMD),1,0,2,0.00016893830818864863,5
+damping=1.0,rbf(gamma=4.7869638433423765),Principal Components (kDMD),2,0,0,0.0005701641511541844,5
+damping=1.0,rbf(gamma=9.573927686684753),Principal Components (kDMD),2,0,0,0.00042982311750383584,5
+damping=1.0,rbf(gamma=19.147855373369506),Principal Components (kDMD),2,0,0,0.00030360314880339967,5
+damping=1.0,rbf(gamma=38.29571074673901),Principal Components (kDMD),2,0,0,0.00019956525818409787,5
+damping=1.0,rbf(gamma=76.59142149347802),Principal Components (kDMD),2,0,0,0.00013436239709885278,5
+damping=1.0,rbf(gamma=2.2314983102489743),Principal Components (kDMD),3,0,2,0.0008554323963656518,5
+damping=1.0,rbf(gamma=4.4629966204979485),Principal Components (kDMD),3,0,2,0.0007147452533721177,5
+damping=1.0,rbf(gamma=8.925993240995897),Principal Components (kDMD),3,0,2,0.0004859555355891665,5
+damping=1.0,rbf(gamma=17.851986481991794),Principal Components (kDMD),3,0,0,0.00026289434935522493,5
+damping=1.0,rbf(gamma=35.70397296398359),Principal Components (kDMD),3,0,0,0.0001500981202726681,5
+damping=1.0,rbf(gamma=14.640372595199155),Principal Components (kDMD),4,0,2,0.0021405748153491277,5
+damping=1.0,rbf(gamma=29.28074519039831),Principal Components (kDMD),4,0,2,0.0014568752343022684,5
+damping=1.0,rbf(gamma=58.56149038079662),Principal Components (kDMD),4,0,2,0.0008554229505485234,5
+damping=1.0,rbf(gamma=117.12298076159324),Principal Components (kDMD),4,0,2,0.000481819786411708,5
+damping=1.0,rbf(gamma=234.24596152318648),Principal Components (kDMD),4,0,2,0.0003345521792177397,5
+damping=1.0,rbf(gamma=6.277463727907437),Principal Components (kDMD),5,0,2,0.001010873155950054,5
+damping=1.0,rbf(gamma=12.554927455814873),Principal Components (kDMD),5,0,2,0.0008186565713843574,5
+damping=1.0,rbf(gamma=25.109854911629746),Principal Components (kDMD),5,0,2,0.0005333085541477933,5
+damping=1.0,rbf(gamma=50.21970982325949),Principal Components (kDMD),5,0,2,0.000283452061282885,5
+damping=1.0,rbf(gamma=100.43941964651899),Principal Components (kDMD),5,0,2,0.0001658784310973882,5
+damping=1.0,rbf(gamma=1.7003579275896454),Principal Components (kDMD),6,0,0,0.0005788735186490479,5
+damping=1.0,rbf(gamma=3.400715855179291),Principal Components (kDMD),6,0,0,0.0004434638833038518,5
+damping=1.0,rbf(gamma=6.801431710358582),Principal Components (kDMD),6,0,0,0.0003151527483326033,5
+damping=1.0,rbf(gamma=13.602863420717163),Principal Components (kDMD),6,0,0,0.0002036347359468671,5
+damping=1.0,rbf(gamma=27.205726841434327),Principal Components (kDMD),6,0,0,0.00013483750096887626,5
+damping=1.0,rbf(gamma=102.12615028463873),Principal Components (kDMD),7,0,2,0.002068968781249403,5
+damping=1.0,rbf(gamma=204.25230056927745),Principal Components (kDMD),7,0,2,0.0013656296740152118,5
+damping=1.0,rbf(gamma=408.5046011385549),Principal Components (kDMD),7,0,2,0.0007686722269772961,5
+damping=1.0,rbf(gamma=817.0092022771098),Principal Components (kDMD),7,0,2,0.0004335497153529211,5
+damping=1.0,rbf(gamma=1634.0184045542196),Principal Components (kDMD),7,0,2,0.0003403000635355813,5
+damping=1.0,rbf(gamma=2.404468258162183),Principal Components (kDMD),8,0,0,0.0006393397774351328,5
+damping=1.0,rbf(gamma=4.808936516324366),Principal Components (kDMD),8,0,0,0.00045763409132904,5
+damping=1.0,rbf(gamma=9.617873032648731),Principal Components (kDMD),8,0,0,0.000306129109173936,5
+damping=1.0,rbf(gamma=19.235746065297462),Principal Components (kDMD),8,0,0,0.00020513482240658298,5
+damping=1.0,rbf(gamma=38.471492130594925),Principal Components (kDMD),8,0,0,0.0001439187038059231,5
+damping=1.0,rbf(gamma=2.1813181784190117),Principal Components (kDMD),9,0,0,0.0008749227570368223,5
+damping=1.0,rbf(gamma=4.362636356838023),Principal Components (kDMD),9,0,0,0.0006844868355480038,5
+damping=1.0,rbf(gamma=8.725272713676047),Principal Components (kDMD),9,0,0,0.0005049778819783413,5
+damping=1.0,rbf(gamma=17.450545427352093),Principal Components (kDMD),9,0,0,0.00033306732224536173,5
+damping=1.0,rbf(gamma=34.90109085470419),Principal Components (kDMD),9,0,0,0.00019213887920144224,5
+damping=1.0,rbf(gamma=2.956205933008021),Reduced Rank,0,0,0,0.0009107403716025475,5
+damping=1.0,rbf(gamma=5.912411866016042),Reduced Rank,0,0,0,0.0007188588360708126,5
+damping=1.0,rbf(gamma=11.824823732032083),Reduced Rank,0,0,0,0.0005343760821979737,5
+damping=1.0,rbf(gamma=23.649647464064167),Reduced Rank,0,0,0,0.0003514287562865759,5
+damping=1.0,rbf(gamma=47.29929492812833),Reduced Rank,0,0,0,0.00019946400045034451,5
+damping=1.0,rbf(gamma=3.406710247932346),Reduced Rank,1,0,2,0.0010279541150129967,5
+damping=1.0,rbf(gamma=6.813420495864692),Reduced Rank,1,0,2,0.0008285570967819789,5
+damping=1.0,rbf(gamma=13.626840991729384),Reduced Rank,1,0,2,0.0005374047014564676,5
+damping=1.0,rbf(gamma=27.25368198345877),Reduced Rank,1,0,2,0.00028597038450683954,5
+damping=1.0,rbf(gamma=54.50736396691754),Reduced Rank,1,0,2,0.0001688199483491637,5
+damping=1.0,rbf(gamma=4.7869638433423765),Reduced Rank,2,0,0,0.000569695302899853,5
+damping=1.0,rbf(gamma=9.573927686684753),Reduced Rank,2,0,0,0.0004287470874888566,5
+damping=1.0,rbf(gamma=19.147855373369506),Reduced Rank,2,0,0,0.00030265622323766284,5
+damping=1.0,rbf(gamma=38.29571074673901),Reduced Rank,2,0,0,0.0001993321484288213,5
+damping=1.0,rbf(gamma=76.59142149347802),Reduced Rank,2,0,0,0.0001344213547413986,5
+damping=1.0,rbf(gamma=2.2314983102489743),Reduced Rank,3,0,2,0.0008524069074571372,5
+damping=1.0,rbf(gamma=4.4629966204979485),Reduced Rank,3,0,2,0.0007127516059025618,5
+damping=1.0,rbf(gamma=8.925993240995897),Reduced Rank,3,0,2,0.00048534080116835465,5
+damping=1.0,rbf(gamma=17.851986481991794),Reduced Rank,3,0,0,0.00026286028963196095,5
+damping=1.0,rbf(gamma=35.70397296398359),Reduced Rank,3,0,0,0.00015003462075147134,5
+damping=1.0,rbf(gamma=14.640372595199155),Reduced Rank,4,0,2,0.0021451185252088223,5
+damping=1.0,rbf(gamma=29.28074519039831),Reduced Rank,4,0,2,0.0014616138385207256,5
+damping=1.0,rbf(gamma=58.56149038079662),Reduced Rank,4,0,2,0.0008588197469843184,5
+damping=1.0,rbf(gamma=117.12298076159324),Reduced Rank,4,0,2,0.0004835544067683939,5
+damping=1.0,rbf(gamma=234.24596152318648),Reduced Rank,4,0,2,0.0003348954502346846,5
+damping=1.0,rbf(gamma=6.277463727907437),Reduced Rank,5,0,2,0.0010091797853309936,5
+damping=1.0,rbf(gamma=12.554927455814873),Reduced Rank,5,0,2,0.0008181718157370677,5
+damping=1.0,rbf(gamma=25.109854911629746),Reduced Rank,5,0,2,0.0005336866220290171,5
+damping=1.0,rbf(gamma=50.21970982325949),Reduced Rank,5,0,2,0.00028370809777444883,5
+damping=1.0,rbf(gamma=100.43941964651899),Reduced Rank,5,0,2,0.0001657664671594894,5
+damping=1.0,rbf(gamma=1.7003579275896454),Reduced Rank,6,0,0,0.0005780744983036046,5
+damping=1.0,rbf(gamma=3.400715855179291),Reduced Rank,6,0,0,0.0004420748469016189,5
+damping=1.0,rbf(gamma=6.801431710358582),Reduced Rank,6,0,0,0.0003140462689700252,5
+damping=1.0,rbf(gamma=13.602863420717163),Reduced Rank,6,0,0,0.00020336701854506423,5
+damping=1.0,rbf(gamma=27.205726841434327),Reduced Rank,6,0,0,0.00013488433761432717,5
+damping=1.0,rbf(gamma=102.12615028463873),Reduced Rank,7,0,2,0.0020733741893412816,5
+damping=1.0,rbf(gamma=204.25230056927745),Reduced Rank,7,0,2,0.0013709750954874478,5
+damping=1.0,rbf(gamma=408.5046011385549),Reduced Rank,7,0,2,0.0007721941940930233,5
+damping=1.0,rbf(gamma=817.0092022771098),Reduced Rank,7,0,2,0.00043508519784951627,5
+damping=1.0,rbf(gamma=1634.0184045542196),Reduced Rank,7,0,2,0.0003403138286690588,5
+damping=1.0,rbf(gamma=2.404468258162183),Reduced Rank,8,0,0,0.0006412136162801119,5
+damping=1.0,rbf(gamma=4.808936516324366),Reduced Rank,8,0,0,0.00045933582215440527,5
+damping=1.0,rbf(gamma=9.617873032648731),Reduced Rank,8,0,0,0.00030746478022547485,5
+damping=1.0,rbf(gamma=19.235746065297462),Reduced Rank,8,0,0,0.0002058947437590941,5
+damping=1.0,rbf(gamma=38.471492130594925),Reduced Rank,8,0,0,0.00014425412549345928,5
+damping=1.0,rbf(gamma=2.1813181784190117),Reduced Rank,9,0,0,0.0008771765958246469,5
+damping=1.0,rbf(gamma=4.362636356838023),Reduced Rank,9,0,0,0.0006866553298506828,5
+damping=1.0,rbf(gamma=8.725272713676047),Reduced Rank,9,0,0,0.0005068925233655541,5
+damping=1.0,rbf(gamma=17.450545427352093),Reduced Rank,9,0,0,0.00033439226425158175,5
+damping=1.0,rbf(gamma=34.90109085470419),Reduced Rank,9,0,0,0.0001927534430801181,5
+damping=1.5,rbf(gamma=8.752400396482342),Principal Components (kDMD),0,0,0,0.00035843839377303066,5
+damping=1.5,rbf(gamma=17.504800792964684),Principal Components (kDMD),0,0,0,0.0002651890282173719,5
+damping=1.5,rbf(gamma=35.00960158592937),Principal Components (kDMD),0,0,5,0.00018622815690128025,5
+damping=1.5,rbf(gamma=70.01920317185873),Principal Components (kDMD),0,0,5,0.00013055035886555544,5
+damping=1.5,rbf(gamma=140.03840634371747),Principal Components (kDMD),0,0,5,9.21744237436517e-05,5
+damping=1.5,rbf(gamma=9.322058661385642),Principal Components (kDMD),1,0,2,0.0011349223650721774,5
+damping=1.5,rbf(gamma=18.644117322771283),Principal Components (kDMD),1,0,2,0.0007913037939357714,5
+damping=1.5,rbf(gamma=37.288234645542566),Principal Components (kDMD),1,0,2,0.00044267813357445895,5
+damping=1.5,rbf(gamma=74.57646929108513),Principal Components (kDMD),1,0,2,0.0002951595150249009,5
+damping=1.5,rbf(gamma=149.15293858217026),Principal Components (kDMD),1,0,2,0.0002455355467128051,5
+damping=1.5,rbf(gamma=13.629699450123645),Principal Components (kDMD),2,0,2,0.0010276856531258316,5
+damping=1.5,rbf(gamma=27.25939890024729),Principal Components (kDMD),2,0,2,0.0008153094575152897,5
+damping=1.5,rbf(gamma=54.51879780049458),Principal Components (kDMD),2,0,2,0.0005026807971363345,5
+damping=1.5,rbf(gamma=109.03759560098916),Principal Components (kDMD),2,0,5,0.0002578642765516115,5
+damping=1.5,rbf(gamma=218.07519120197833),Principal Components (kDMD),2,0,5,0.00014951500984183852,5
+damping=1.5,rbf(gamma=6.341997445703443),Principal Components (kDMD),3,0,2,0.0011487609631514184,5
+damping=1.5,rbf(gamma=12.683994891406886),Principal Components (kDMD),3,0,2,0.0008130906070594746,5
+damping=1.5,rbf(gamma=25.367989782813773),Principal Components (kDMD),3,0,2,0.0004705051425017981,5
+damping=1.5,rbf(gamma=50.735979565627545),Principal Components (kDMD),3,0,2,0.0002786088633897066,5
+damping=1.5,rbf(gamma=101.47195913125509),Principal Components (kDMD),3,0,2,0.00020715557160588816,5
+damping=1.5,rbf(gamma=20.58628114789985),Principal Components (kDMD),4,0,0,0.001809217911643346,5
+damping=1.5,rbf(gamma=41.1725622957997),Principal Components (kDMD),4,0,0,0.0012267912438331807,5
+damping=1.5,rbf(gamma=82.3451245915994),Principal Components (kDMD),4,0,0,0.0006918196846592561,5
+damping=1.5,rbf(gamma=164.6902491831988),Principal Components (kDMD),4,0,0,0.00037416177064941714,5
+damping=1.5,rbf(gamma=329.3804983663976),Principal Components (kDMD),4,0,0,0.00027910411239928656,5
+damping=1.5,rbf(gamma=17.34552218433549),Principal Components (kDMD),5,0,2,0.0011323892119288193,5
+damping=1.5,rbf(gamma=34.69104436867098),Principal Components (kDMD),5,0,2,0.0007875691915602001,5
+damping=1.5,rbf(gamma=69.38208873734196),Principal Components (kDMD),5,0,2,0.00044420305907166835,5
+damping=1.5,rbf(gamma=138.76417747468392),Principal Components (kDMD),5,0,2,0.0002927014253142346,5
+damping=1.5,rbf(gamma=277.52835494936784),Principal Components (kDMD),5,0,2,0.00023968553395126158,5
+damping=1.5,rbf(gamma=4.843023728355041),Principal Components (kDMD),6,0,2,0.0010531084502297672,5
+damping=1.5,rbf(gamma=9.686047456710082),Principal Components (kDMD),6,0,2,0.0008262066284169256,5
+damping=1.5,rbf(gamma=19.372094913420163),Principal Components (kDMD),6,0,2,0.0005049116601170134,5
+damping=1.5,rbf(gamma=38.744189826840326),Principal Components (kDMD),6,0,3,0.00025998024488638194,5
+damping=1.5,rbf(gamma=77.48837965368065),Principal Components (kDMD),6,0,5,0.00015377662304549844,5
+damping=1.5,rbf(gamma=129.93341614092543),Principal Components (kDMD),7,0,2,0.001956847051931998,5
+damping=1.5,rbf(gamma=259.86683228185086),Principal Components (kDMD),7,0,2,0.0012272389706613485,5
+damping=1.5,rbf(gamma=519.7336645637017),Principal Components (kDMD),7,0,2,0.0006633549806768224,5
+damping=1.5,rbf(gamma=1039.4673291274034),Principal Components (kDMD),7,0,0,0.00036860037733288387,5
+damping=1.5,rbf(gamma=2078.934658254807),Principal Components (kDMD),7,0,0,0.0003090960124549902,5
+damping=1.5,rbf(gamma=6.870289295450894),Principal Components (kDMD),8,0,0,0.0004556344136683599,5
+damping=1.5,rbf(gamma=13.740578590901787),Principal Components (kDMD),8,0,2,0.00040303399942165363,5
+damping=1.5,rbf(gamma=27.481157181803574),Principal Components (kDMD),8,0,2,0.0003050851790805664,5
+damping=1.5,rbf(gamma=54.96231436360715),Principal Components (kDMD),8,0,5,0.00018170965924824145,5
+damping=1.5,rbf(gamma=109.9246287272143),Principal Components (kDMD),8,0,5,0.00010294748356542982,5
+damping=1.5,rbf(gamma=6.420408375919353),Principal Components (kDMD),9,0,0,0.000333813808764849,5
+damping=1.5,rbf(gamma=12.840816751838705),Principal Components (kDMD),9,0,0,0.00024069374005375455,5
+damping=1.5,rbf(gamma=25.68163350367741),Principal Components (kDMD),9,0,3,0.0001666163365275919,5
+damping=1.5,rbf(gamma=51.36326700735482),Principal Components (kDMD),9,0,5,0.00011971486252559949,5
+damping=1.5,rbf(gamma=102.72653401470964),Principal Components (kDMD),9,0,5,8.859774299341261e-05,5
+damping=1.5,rbf(gamma=8.752400396482342),Reduced Rank,0,0,0,0.00035969771730359756,5
+damping=1.5,rbf(gamma=17.504800792964684),Reduced Rank,0,0,0,0.000266448396700647,5
+damping=1.5,rbf(gamma=35.00960158592937),Reduced Rank,0,0,5,0.00018727349610070387,5
+damping=1.5,rbf(gamma=70.01920317185873),Reduced Rank,0,0,5,0.00013117110323745962,5
+damping=1.5,rbf(gamma=140.03840634371747),Reduced Rank,0,0,5,9.241211085209144e-05,5
+damping=1.5,rbf(gamma=9.322058661385642),Reduced Rank,1,0,2,0.0011361781810649285,5
+damping=1.5,rbf(gamma=18.644117322771283),Reduced Rank,1,0,2,0.0007929566096711582,5
+damping=1.5,rbf(gamma=37.288234645542566),Reduced Rank,1,0,2,0.00044419630368586205,5
+damping=1.5,rbf(gamma=74.57646929108513),Reduced Rank,1,0,2,0.0002952684190873356,5
+damping=1.5,rbf(gamma=149.15293858217026),Reduced Rank,1,0,2,0.00024537112031364217,5
+damping=1.5,rbf(gamma=13.629699450123645),Reduced Rank,2,0,2,0.0010254382225435288,5
+damping=1.5,rbf(gamma=27.25939890024729),Reduced Rank,2,0,2,0.0008149187011643466,5
+damping=1.5,rbf(gamma=54.51879780049458),Reduced Rank,2,0,2,0.0005032700411530255,5
+damping=1.5,rbf(gamma=109.03759560098916),Reduced Rank,2,0,5,0.0002581195404771641,5
+damping=1.5,rbf(gamma=218.07519120197833),Reduced Rank,2,0,5,0.0001493277386075409,5
+damping=1.5,rbf(gamma=6.341997445703443),Reduced Rank,3,0,2,0.0011500601817718836,5
+damping=1.5,rbf(gamma=12.683994891406886),Reduced Rank,3,0,2,0.0008151429847520486,5
+damping=1.5,rbf(gamma=25.367989782813773),Reduced Rank,3,0,2,0.0004720778076305887,5
+damping=1.5,rbf(gamma=50.735979565627545),Reduced Rank,3,0,2,0.0002788380154779002,5
+damping=1.5,rbf(gamma=101.47195913125509),Reduced Rank,3,0,2,0.00020697642230871338,5
+damping=1.5,rbf(gamma=20.58628114789985),Reduced Rank,4,0,0,0.001811594097992919,5
+damping=1.5,rbf(gamma=41.1725622957997),Reduced Rank,4,0,0,0.0012304057924030776,5
+damping=1.5,rbf(gamma=82.3451245915994),Reduced Rank,4,0,0,0.0006945968707423589,5
+damping=1.5,rbf(gamma=164.6902491831988),Reduced Rank,4,0,0,0.0003754097582203686,5
+damping=1.5,rbf(gamma=329.3804983663976),Reduced Rank,4,0,0,0.00027911026375293524,5
+damping=1.5,rbf(gamma=17.34552218433549),Reduced Rank,5,0,2,0.0011338455883048715,5
+damping=1.5,rbf(gamma=34.69104436867098),Reduced Rank,5,0,2,0.0007893484827533603,5
+damping=1.5,rbf(gamma=69.38208873734196),Reduced Rank,5,0,2,0.0004457383897740197,5
+damping=1.5,rbf(gamma=138.76417747468392),Reduced Rank,5,0,2,0.0002928208467714022,5
+damping=1.5,rbf(gamma=277.52835494936784),Reduced Rank,5,0,2,0.00023951844384617615,5
+damping=1.5,rbf(gamma=4.843023728355041),Reduced Rank,6,0,2,0.0010512530623058014,5
+damping=1.5,rbf(gamma=9.686047456710082),Reduced Rank,6,0,2,0.0008261312464007409,5
+damping=1.5,rbf(gamma=19.372094913420163),Reduced Rank,6,0,2,0.0005056541968782025,5
+damping=1.5,rbf(gamma=38.744189826840326),Reduced Rank,6,0,3,0.00026026509447141244,5
+damping=1.5,rbf(gamma=77.48837965368065),Reduced Rank,6,0,5,0.00015358644696616963,5
+damping=1.5,rbf(gamma=129.93341614092543),Reduced Rank,7,0,2,0.0019618951478924673,5
+damping=1.5,rbf(gamma=259.86683228185086),Reduced Rank,7,0,2,0.0012321777453589977,5
+damping=1.5,rbf(gamma=519.7336645637017),Reduced Rank,7,0,2,0.000666527615260537,5
+damping=1.5,rbf(gamma=1039.4673291274034),Reduced Rank,7,0,0,0.0003697866402059269,5
+damping=1.5,rbf(gamma=2078.934658254807),Reduced Rank,7,0,0,0.00030901935155536187,5
+damping=1.5,rbf(gamma=6.870289295450894),Reduced Rank,8,0,0,0.0004523375807097274,5
+damping=1.5,rbf(gamma=13.740578590901787),Reduced Rank,8,0,2,0.0003997991619861807,5
+damping=1.5,rbf(gamma=27.481157181803574),Reduced Rank,8,0,2,0.00030320794571447873,5
+damping=1.5,rbf(gamma=54.96231436360715),Reduced Rank,8,0,5,0.00018116828193281975,5
+damping=1.5,rbf(gamma=109.9246287272143),Reduced Rank,8,0,5,0.00010283310660219591,5
+damping=1.5,rbf(gamma=6.420408375919353),Reduced Rank,9,0,0,0.0003349302236829166,5
+damping=1.5,rbf(gamma=12.840816751838705),Reduced Rank,9,0,0,0.00024175608750220956,5
+damping=1.5,rbf(gamma=25.68163350367741),Reduced Rank,9,0,3,0.00016741319613733374,5
+damping=1.5,rbf(gamma=51.36326700735482),Reduced Rank,9,0,5,0.00012013322887605149,5
+damping=1.5,rbf(gamma=102.72653401470964),Reduced Rank,9,0,5,8.876569520666067e-05,5
