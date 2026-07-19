@@ -1,0 +1,5 @@
+kernel,kind,method,bias_gap_corr
+delta,cycle_12,Principal Components (kDMD),-0.011280029031466828
+delta,cycle_12,Reduced Rank,0.15594485383538678
+delta,path_12,Principal Components (kDMD),-0.7733223860298751
+delta,path_12,Reduced Rank,0.2495627043490535
