@@ -1,0 +1,55 @@
+kind,kernel,method,trial,data_seed,spurious_ref_count,spurious_residual_count,spectral_gap,rank
+A=rev,encoder(d=4),SSL+Ridge (PCR),0,0,0,3,0.03678030271943633,3
+A=rev,encoder(d=4),SSL+Ridge (RRR),0,0,0,3,0.036233076955193066,3
+A=rev,encoder(d=4),SSL+CCA,0,0,0,3,0.03122395642903497,3
+A=rev,encoder(d=4),SSL+Ridge (PCR),1,1,0,3,0.01585061170232349,3
+A=rev,encoder(d=4),SSL+Ridge (RRR),1,1,0,3,0.01607037106996656,3
+A=rev,encoder(d=4),SSL+CCA,1,1,0,3,0.017807775260633485,3
+A=rev,encoder(d=4),SSL+Ridge (PCR),2,2,0,3,0.015202081343989593,3
+A=rev,encoder(d=4),SSL+Ridge (RRR),2,2,0,3,0.015174108781181084,3
+A=rev,encoder(d=4),SSL+CCA,2,2,0,3,0.015332742957250178,3
+A=rev,encoder(d=8),SSL+Ridge (PCR),0,0,0,3,0.01793491313534923,3
+A=rev,encoder(d=8),SSL+Ridge (RRR),0,0,0,3,0.019228408331748992,3
+A=rev,encoder(d=8),SSL+CCA,0,0,0,2,0.02863895899054547,3
+A=rev,encoder(d=8),SSL+Ridge (PCR),1,1,0,3,0.017748955288657386,3
+A=rev,encoder(d=8),SSL+Ridge (RRR),1,1,0,3,0.017757655037736852,3
+A=rev,encoder(d=8),SSL+CCA,1,1,0,2,0.017808314231600897,3
+A=rev,encoder(d=8),SSL+Ridge (PCR),2,2,0,3,0.008941945647815253,3
+A=rev,encoder(d=8),SSL+Ridge (RRR),2,2,0,3,0.009292224370295976,3
+A=rev,encoder(d=8),SSL+CCA,2,2,0,3,0.013358583063595053,3
+A=rev,encoder(d=16),SSL+Ridge (PCR),0,0,0,3,0.016486878122758286,3
+A=rev,encoder(d=16),SSL+Ridge (RRR),0,0,0,3,0.018580217547089273,3
+A=rev,encoder(d=16),SSL+CCA,0,0,0,2,0.028020908572606085,3
+A=rev,encoder(d=16),SSL+Ridge (PCR),1,1,0,3,0.019053961807561137,3
+A=rev,encoder(d=16),SSL+Ridge (RRR),1,1,0,3,0.01871816198292875,3
+A=rev,encoder(d=16),SSL+CCA,1,1,0,2,0.016869155638054023,3
+A=rev,encoder(d=16),SSL+Ridge (PCR),2,2,0,3,0.01320354175378835,3
+A=rev,encoder(d=16),SSL+Ridge (RRR),2,2,0,3,0.013144436710756158,3
+A=rev,encoder(d=16),SSL+CCA,2,2,0,2,0.01318091366246632,3
+A=rot,encoder(d=4),SSL+Ridge (PCR),0,0,0,3,0.033949051111267226,3
+A=rot,encoder(d=4),SSL+Ridge (RRR),0,0,0,3,0.03379133091347519,3
+A=rot,encoder(d=4),SSL+CCA,0,0,0,3,0.028276335022815013,3
+A=rot,encoder(d=4),SSL+Ridge (PCR),1,1,0,3,0.02668108684902737,3
+A=rot,encoder(d=4),SSL+Ridge (RRR),1,1,0,3,0.027678660356684315,3
+A=rot,encoder(d=4),SSL+CCA,1,1,0,3,0.032869728658027175,3
+A=rot,encoder(d=4),SSL+Ridge (PCR),2,2,0,3,0.023147432675751256,3
+A=rot,encoder(d=4),SSL+Ridge (RRR),2,2,0,3,0.023573793449259917,3
+A=rot,encoder(d=4),SSL+CCA,2,2,0,3,0.0344654605243182,3
+A=rot,encoder(d=8),SSL+Ridge (PCR),0,0,0,3,0.014384197766194595,3
+A=rot,encoder(d=8),SSL+Ridge (RRR),0,0,0,3,0.01648329056094322,3
+A=rot,encoder(d=8),SSL+CCA,0,0,0,3,0.028190740341833664,3
+A=rot,encoder(d=8),SSL+Ridge (PCR),1,1,0,3,0.004885839437851591,3
+A=rot,encoder(d=8),SSL+Ridge (RRR),1,1,0,3,0.006231605989898359,3
+A=rot,encoder(d=8),SSL+CCA,1,1,0,3,0.02543476990933924,3
+A=rot,encoder(d=8),SSL+Ridge (PCR),2,2,0,3,0.022023143012446456,3
+A=rot,encoder(d=8),SSL+Ridge (RRR),2,2,0,3,0.02276502037306094,3
+A=rot,encoder(d=8),SSL+CCA,2,2,0,2,0.024030413821943486,3
+A=rot,encoder(d=16),SSL+Ridge (PCR),0,0,0,3,0.01806675784633227,3
+A=rot,encoder(d=16),SSL+Ridge (RRR),0,0,0,3,0.01973284567681899,3
+A=rot,encoder(d=16),SSL+CCA,0,0,0,2,0.027442178627553937,3
+A=rot,encoder(d=16),SSL+Ridge (PCR),1,1,0,3,0.02933787085875883,3
+A=rot,encoder(d=16),SSL+Ridge (RRR),1,1,0,3,0.02965494915253042,3
+A=rot,encoder(d=16),SSL+CCA,1,1,0,2,0.026071270756211518,3
+A=rot,encoder(d=16),SSL+Ridge (PCR),2,2,0,3,0.020056659181078795,3
+A=rot,encoder(d=16),SSL+Ridge (RRR),2,2,0,3,0.020386566147325813,3
+A=rot,encoder(d=16),SSL+CCA,2,2,0,2,0.021713170142367177,3

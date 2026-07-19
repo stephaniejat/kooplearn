@@ -1,0 +1,28 @@
+kernel,kind,method,bias_gap_corr
+encoder(d=16),omega=0.5,SSL+CCA,0.2579928334217746
+encoder(d=16),omega=0.5,SSL+Ridge (PCR),-0.2204353222756374
+encoder(d=16),omega=0.5,SSL+Ridge (RRR),-0.5565946099776355
+encoder(d=16),omega=1.5,SSL+CCA,0.2884243423333785
+encoder(d=16),omega=1.5,SSL+Ridge (PCR),-0.7039463552270289
+encoder(d=16),omega=1.5,SSL+Ridge (RRR),-0.7192970128146683
+encoder(d=16),omega=3.0,SSL+CCA,-0.2924947558982535
+encoder(d=16),omega=3.0,SSL+Ridge (PCR),-0.4594494276296167
+encoder(d=16),omega=3.0,SSL+Ridge (RRR),-0.38732207591498247
+encoder(d=4),omega=0.5,SSL+CCA,0.28661483185197145
+encoder(d=4),omega=0.5,SSL+Ridge (PCR),-0.7164729582048965
+encoder(d=4),omega=0.5,SSL+Ridge (RRR),-0.5675014568404645
+encoder(d=4),omega=1.5,SSL+CCA,-0.27504499140511085
+encoder(d=4),omega=1.5,SSL+Ridge (PCR),-0.3083242646553461
+encoder(d=4),omega=1.5,SSL+Ridge (RRR),-0.24846498827027136
+encoder(d=4),omega=3.0,SSL+CCA,-0.29204595694621766
+encoder(d=4),omega=3.0,SSL+Ridge (PCR),0.13626314613207308
+encoder(d=4),omega=3.0,SSL+Ridge (RRR),0.10818091207342909
+encoder(d=8),omega=0.5,SSL+CCA,-0.2672903274806282
+encoder(d=8),omega=0.5,SSL+Ridge (PCR),-0.5275106999865184
+encoder(d=8),omega=0.5,SSL+Ridge (RRR),-0.6119219512568603
+encoder(d=8),omega=1.5,SSL+CCA,0.31159835555416787
+encoder(d=8),omega=1.5,SSL+Ridge (PCR),-0.9438689160881756
+encoder(d=8),omega=1.5,SSL+Ridge (RRR),-0.6782307449557109
+encoder(d=8),omega=3.0,SSL+CCA,0.5344904656058675
+encoder(d=8),omega=3.0,SSL+Ridge (PCR),0.14198739676594868
+encoder(d=8),omega=3.0,SSL+Ridge (RRR),0.31434849851183827

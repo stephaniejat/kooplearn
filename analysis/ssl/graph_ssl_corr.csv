@@ -1,0 +1,19 @@
+kernel,kind,method,bias_gap_corr
+encoder(d=16),cycle_12,SSL+CCA,0.31877762875711435
+encoder(d=16),cycle_12,SSL+Ridge (PCR),-0.04648795144471104
+encoder(d=16),cycle_12,SSL+Ridge (RRR),0.08552636392531729
+encoder(d=16),path_12,SSL+CCA,-0.021336212185558333
+encoder(d=16),path_12,SSL+Ridge (PCR),0.2260303451639729
+encoder(d=16),path_12,SSL+Ridge (RRR),0.26656228678145344
+encoder(d=4),cycle_12,SSL+CCA,-0.432773517068524
+encoder(d=4),cycle_12,SSL+Ridge (PCR),0.1736440522302409
+encoder(d=4),cycle_12,SSL+Ridge (RRR),0.524152255235045
+encoder(d=4),path_12,SSL+CCA,-0.35665598316642627
+encoder(d=4),path_12,SSL+Ridge (PCR),0.19556165855533914
+encoder(d=4),path_12,SSL+Ridge (RRR),0.06168021199108106
+encoder(d=8),cycle_12,SSL+CCA,-0.18992539923633586
+encoder(d=8),cycle_12,SSL+Ridge (PCR),0.20144618977842538
+encoder(d=8),cycle_12,SSL+Ridge (RRR),0.020389625232688155
+encoder(d=8),path_12,SSL+CCA,0.32170554864616974
+encoder(d=8),path_12,SSL+Ridge (PCR),0.09798596468272104
+encoder(d=8),path_12,SSL+Ridge (RRR),0.3504670589757561

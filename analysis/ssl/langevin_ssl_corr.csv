@@ -1,0 +1,10 @@
+kernel,kind,method,bias_gap_corr
+encoder(d=16),all,SSL+CCA,-0.14958113899771674
+encoder(d=16),all,SSL+Ridge (PCR),-0.5816457282678837
+encoder(d=16),all,SSL+Ridge (RRR),-0.3923047568632588
+encoder(d=4),all,SSL+CCA,0.45551796286881474
+encoder(d=4),all,SSL+Ridge (PCR),-0.5274093818540887
+encoder(d=4),all,SSL+Ridge (RRR),-0.3357481383269696
+encoder(d=8),all,SSL+CCA,0.24991372611472903
+encoder(d=8),all,SSL+Ridge (PCR),-0.37980724156005347
+encoder(d=8),all,SSL+Ridge (RRR),-0.10093690275065152
