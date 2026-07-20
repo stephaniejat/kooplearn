@@ -1,0 +1,7 @@
+metric,median_spearman,n_pools
+Spectral gap (raw),-0.18426326360256035,12
+Koopman gap,-0.23810059901277775,12
+Old gap (uncorrected),0.5027312749543945,12
+Corrected gap (LB),0.46625078275742393,12
+Corrected gap (SB),0.46134475220290216,12
+Both gaps combined,0.4920154670649714,12
