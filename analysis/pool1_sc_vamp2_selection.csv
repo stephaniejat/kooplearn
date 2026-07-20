@@ -1,0 +1,17 @@
+pool,median_spearman,n_pools
+"RBF bandwidth
+(within-family)",0.5513085234093638,28
+"Resolvent-beta
+(within-family)",0.809090909090909,2
+"Diffusion-tau
+(within-family)",-0.9405594405594406,2
+"Hermite kind
+(within-family)",0.5000000000000001,10
+"Poly degree
+(within-family)",0.30000000000000004,10
+"Pooled cross-family
+(SC)",0.10840075056138299,12
+"Pooled cross-family
+(VAMP-2)",-0.2994601649921542,12
+"SSL encoder selection
+(SC)",0.75,12

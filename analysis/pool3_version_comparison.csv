@@ -1,0 +1,6 @@
+version,median_spearman,n_pools
+v1 (original),0.150828331332533,68
+v2 (family),-0.07596638655462185,80
+"v3 (family, +SC/VAMP2)",0.010588235294117648,80
+v2 (pooled),0.0737252072048552,12
+"v3 (pooled, +SC/VAMP2)",0.2081500814054728,12
