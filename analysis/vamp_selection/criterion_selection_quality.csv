@@ -1,0 +1,199 @@
+system,kind,criterion,truth,n,spearman,top1_ok,rel_regret
+duffing,omega=0.5,sc,spectral bias (s-hat),58,-0.7108315145579124,False,
+duffing,omega=0.5,sc,spurious count,58,-0.6745932626336991,False,4.0
+duffing,omega=0.5,sc,unified score,58,-0.5419114706696607,False,
+duffing,omega=0.5,vamp2,spectral bias (s-hat),58,-0.7913308316056135,False,
+duffing,omega=0.5,vamp2,spurious count,58,-0.5813703821901768,False,3.0
+duffing,omega=0.5,vamp2,unified score,58,-0.603328411753405,False,
+duffing,omega=0.8,sc,spectral bias (s-hat),58,-0.6844371994373564,False,
+duffing,omega=0.8,sc,spurious count,58,-0.6719469761690576,False,4.0
+duffing,omega=0.8,sc,unified score,58,-0.5496631701990218,False,
+duffing,omega=0.8,vamp2,spectral bias (s-hat),58,-0.6448655635857743,False,
+duffing,omega=0.8,vamp2,spurious count,58,-0.528684785426571,False,2.8
+duffing,omega=0.8,vamp2,unified score,58,-0.5302694723808288,False,
+duffing,omega=1.0,sc,spectral bias (s-hat),58,-0.7532223842969873,False,
+duffing,omega=1.0,sc,spurious count,58,-0.15139718068691319,False,0.3999999999999999
+duffing,omega=1.0,sc,unified score,58,-0.18287243532560216,False,
+duffing,omega=1.0,vamp2,spectral bias (s-hat),58,-0.8249119415670385,False,
+duffing,omega=1.0,vamp2,spurious count,58,-0.2534129758415556,False,3.0
+duffing,omega=1.0,vamp2,unified score,58,-0.23507697989460935,False,
+duffing,omega=1.2,sc,spectral bias (s-hat),58,-0.7327344893432689,False,
+duffing,omega=1.2,sc,spurious count,58,-0.18648922671126977,False,3.0
+duffing,omega=1.2,sc,unified score,58,-0.3638069457688641,False,
+duffing,omega=1.2,vamp2,spectral bias (s-hat),58,-0.7540338094256827,False,
+duffing,omega=1.2,vamp2,spurious count,58,-0.5095807948096016,False,3.0
+duffing,omega=1.2,vamp2,unified score,58,-0.44742144367535885,False,
+duffing,omega=1.5,sc,spectral bias (s-hat),58,-0.8149321699984272,False,
+duffing,omega=1.5,sc,spurious count,58,-0.4354871831960206,False,7.0
+duffing,omega=1.5,sc,unified score,58,-0.45036759051339637,False,
+duffing,omega=1.5,vamp2,spectral bias (s-hat),58,-0.733998861817926,False,
+duffing,omega=1.5,vamp2,spurious count,58,-0.42091638373199075,False,7.0
+duffing,omega=1.5,vamp2,unified score,58,-0.4525417216230498,False,
+duffing,omega=2.0,sc,spectral bias (s-hat),58,-0.8633525103244823,False,
+duffing,omega=2.0,sc,spurious count,58,-0.6364469248386121,False,4.0
+duffing,omega=2.0,sc,unified score,58,-0.5692269832969332,False,
+duffing,omega=2.0,vamp2,spectral bias (s-hat),58,-0.4866868684336975,False,
+duffing,omega=2.0,vamp2,spurious count,58,-0.4118610489818769,False,2.8
+duffing,omega=2.0,vamp2,unified score,58,-0.4826578487027157,False,
+duffing,omega=3.0,sc,spectral bias (s-hat),58,-0.9563171027421051,False,
+duffing,omega=3.0,sc,spurious count,58,-0.6653249826559691,False,4.0
+duffing,omega=3.0,sc,unified score,58,-0.6554184994924483,False,
+duffing,omega=3.0,vamp2,spectral bias (s-hat),58,-0.49044821208278,False,
+duffing,omega=3.0,vamp2,spurious count,58,-0.2941860141680332,False,2.8
+duffing,omega=3.0,vamp2,unified score,58,-0.38835399427850753,False,
+graph,cycle_12,sc,true eigenvalue error,24,-0.15130434782608695,False,6.479850010862737
+graph,cycle_12,sc,spectral bias (s-hat),24,0.05913043478260869,False,5909.118292935467
+graph,cycle_12,sc,spurious count,24,-0.22762716761165086,False,1.4374999999999998
+graph,cycle_12,sc,unified score,24,0.08956521739130434,False,
+graph,cycle_12,vamp2,true eigenvalue error,24,-0.48260869565217385,False,9.44971831272151
+graph,cycle_12,vamp2,spectral bias (s-hat),24,0.37043478260869556,False,3730.1458542054847
+graph,cycle_12,vamp2,spurious count,24,0.631005763261374,False,0.4999999999999999
+graph,cycle_12,vamp2,unified score,24,0.4721739130434783,False,
+graph,path_12,sc,true eigenvalue error,24,-0.06869565217391303,False,5.637182538568002
+graph,path_12,sc,spectral bias (s-hat),24,0.07217391304347825,False,613.3802812873726
+graph,path_12,sc,spurious count,24,-0.44891409364758017,False,2.8
+graph,path_12,sc,unified score,24,-0.025217391304347827,False,
+graph,path_12,vamp2,true eigenvalue error,24,-0.5843478260869565,False,10.671418853223768
+graph,path_12,vamp2,spectral bias (s-hat),24,0.40782608695652167,False,352.8827390869763
+graph,path_12,vamp2,spurious count,24,0.7127239993300868,True,0.0
+graph,path_12,vamp2,unified score,24,0.43652173913043474,False,
+ho,damping=0.0,sc,true eigenvalue error,58,0.6362965315532135,True,4.0622470087600645e-07
+ho,damping=0.0,sc,spectral bias (s-hat),58,-0.6781934611374458,False,
+ho,damping=0.0,sc,spurious count,58,-0.27082716550253527,False,3.0
+ho,damping=0.0,sc,unified score,58,-0.47676028176812574,False,
+ho,damping=0.0,vamp2,true eigenvalue error,58,0.09625060029374981,True,4.2212467093250897e-07
+ho,damping=0.0,vamp2,spectral bias (s-hat),58,-0.08316027584428862,False,
+ho,damping=0.0,vamp2,spurious count,58,-0.4659613240594294,False,3.0
+ho,damping=0.0,vamp2,unified score,58,0.42665764343604173,False,
+ho,damping=0.1,sc,true eigenvalue error,58,0.5788243255713803,False,6.1049372243755275
+ho,damping=0.1,sc,spectral bias (s-hat),58,0.6958193633005333,True,
+ho,damping=0.1,sc,spurious count,58,-0.3115940082046691,True,0.0
+ho,damping=0.1,sc,unified score,58,0.7833215417269065,False,
+ho,damping=0.1,vamp2,true eigenvalue error,58,-0.28579777907656345,False,0.49639305385847754
+ho,damping=0.1,vamp2,spectral bias (s-hat),58,-0.6733011364144643,False,
+ho,damping=0.1,vamp2,spurious count,58,0.133459570970641,False,8.0
+ho,damping=0.1,vamp2,unified score,58,-0.773293549478606,False,
+ho,damping=0.3,sc,true eigenvalue error,58,0.06487434248977207,False,0.10748778430779002
+ho,damping=0.3,sc,spectral bias (s-hat),58,0.6395520626984769,False,
+ho,damping=0.3,sc,spurious count,58,0.32564312151116515,False,
+ho,damping=0.3,sc,unified score,58,0.6071241809960319,False,
+ho,damping=0.3,vamp2,true eigenvalue error,58,0.306961149220216,False,0.10748778430779002
+ho,damping=0.3,vamp2,spectral bias (s-hat),58,-0.5992493302501891,False,
+ho,damping=0.3,vamp2,spurious count,58,-0.7284924695802526,False,
+ho,damping=0.3,vamp2,unified score,58,-0.7252453166815344,False,
+ho,damping=0.5,sc,true eigenvalue error,58,0.510166415454182,True,3.863942124044345e-05
+ho,damping=0.5,sc,spectral bias (s-hat),58,0.2688899859526981,False,
+ho,damping=0.5,sc,spurious count,58,0.0880286418170669,True,
+ho,damping=0.5,sc,unified score,58,0.5556307484081332,False,
+ho,damping=0.5,vamp2,true eigenvalue error,58,-0.29791749976929466,True,3.863942124044345e-05
+ho,damping=0.5,vamp2,spectral bias (s-hat),58,-0.6218926974883111,False,
+ho,damping=0.5,vamp2,spurious count,58,0.16034370890582478,True,
+ho,damping=0.5,vamp2,unified score,58,-0.5854071180288536,False,
+ho,damping=1.0,sc,true eigenvalue error,58,0.15192715863299394,True,0.013642368104391296
+ho,damping=1.0,sc,spectral bias (s-hat),58,0.14170563790596424,False,
+ho,damping=1.0,sc,spurious count,58,0.29730921964699064,False,
+ho,damping=1.0,sc,unified score,58,0.39985850072287676,False,
+ho,damping=1.0,vamp2,true eigenvalue error,58,-0.30100283021501395,True,0.013642368104391296
+ho,damping=1.0,vamp2,spectral bias (s-hat),58,-0.6204965742461779,False,
+ho,damping=1.0,vamp2,spurious count,58,-0.2577745521395657,False,
+ho,damping=1.0,vamp2,unified score,58,-0.6492863298260909,False,
+ho,damping=1.5,sc,true eigenvalue error,58,0.3596850103048387,True,0.009430573026728081
+ho,damping=1.5,sc,spectral bias (s-hat),58,0.37844243152826407,False,
+ho,damping=1.5,sc,spurious count,58,0.030875831194256582,False,
+ho,damping=1.5,sc,unified score,58,0.5242548217416716,False,
+ho,damping=1.5,vamp2,true eigenvalue error,58,-0.39475829403134277,True,0.009430573026728081
+ho,damping=1.5,vamp2,spectral bias (s-hat),58,-0.592242744198786,False,
+ho,damping=1.5,vamp2,spurious count,58,-0.18805295475416636,False,
+ho,damping=1.5,vamp2,unified score,58,-0.5026992940902519,False,
+langevin,all,sc,true eigenvalue error,58,0.47030053216032486,True,0.09108778772351953
+langevin,all,sc,spectral bias (s-hat),58,-0.5434652928066626,False,
+langevin,all,sc,spurious count,58,-0.05313954345078985,False,1.3452380952380953
+langevin,all,sc,unified score,58,-0.2846288720046756,False,
+langevin,all,vamp2,true eigenvalue error,58,0.23547687530662578,True,0.09136676384854903
+langevin,all,vamp2,spectral bias (s-hat),58,-0.776892168758707,True,
+langevin,all,vamp2,spurious count,58,-0.21516739849817174,False,0.5000000000000001
+langevin,all,vamp2,unified score,58,-0.5433040590026943,False,
+linear,A=rev,sc,true eigenvalue error,58,-0.46341013257867053,False,1.2933204556684281
+linear,A=rev,sc,spectral bias (s-hat),58,-0.6654874347354186,False,
+linear,A=rev,sc,spurious count,58,-0.017907206738346608,False,1.2
+linear,A=rev,sc,unified score,58,-0.6578793564858963,False,
+linear,A=rev,vamp2,true eigenvalue error,58,-0.3582700175336061,False,3.5303066342632556
+linear,A=rev,vamp2,spectral bias (s-hat),58,-0.8835327792278445,False,
+linear,A=rev,vamp2,spurious count,58,-0.5362926212871024,False,2.3333333333333335
+linear,A=rev,vamp2,unified score,58,-0.6608323848780339,False,
+linear,A=rot,sc,true eigenvalue error,58,-0.49915408040850234,False,43.9508509246775
+linear,A=rot,sc,spectral bias (s-hat),58,-0.6808687372532253,False,
+linear,A=rot,sc,spurious count,58,-0.09282384910954004,False,1.1818181818181817
+linear,A=rot,sc,unified score,58,-0.6054631025254547,False,
+linear,A=rot,vamp2,true eigenvalue error,58,-0.27570826540342674,False,7.64667194321436
+linear,A=rot,vamp2,spectral bias (s-hat),58,-0.7811548296693239,False,
+linear,A=rot,vamp2,spurious count,58,-0.4724318290500471,False,3.545454545454545
+linear,A=rot,vamp2,unified score,58,-0.6060783167738165,False,
+logistic,r=0.0,sc,spectral bias (s-hat),15,0.49753460900819774,True,
+logistic,r=0.0,sc,spurious count,15,0.10136680599583951,False,2.9999999999999996
+logistic,r=0.0,sc,unified score,15,0.13456769897886198,False,
+logistic,r=0.0,vamp2,spectral bias (s-hat),15,-0.8356029971804347,False,
+logistic,r=0.0,vamp2,spurious count,15,-0.7077575204352365,False,4.857142857142857
+logistic,r=0.0,vamp2,unified score,15,-0.04364357804719848,False,
+logistic,r=0.5,sc,spectral bias (s-hat),15,0.49753460900819774,True,
+logistic,r=0.5,sc,spurious count,15,0.1861013604867859,False,1.9
+logistic,r=0.5,sc,unified score,15,0.2727723627949905,False,
+logistic,r=0.5,vamp2,spectral bias (s-hat),15,-0.6803892089000996,True,
+logistic,r=0.5,vamp2,spurious count,15,-0.6432241197407358,False,1.9
+logistic,r=0.5,vamp2,unified score,15,-0.2982311166558563,False,
+logistic,r=1.2,sc,spectral bias (s-hat),15,0.2531848417709166,False,
+logistic,r=1.2,sc,spurious count,15,-0.03974980515251739,False,2.888888888888889
+logistic,r=1.2,sc,unified score,15,0.370970413401187,False,
+logistic,r=1.2,vamp2,spectral bias (s-hat),15,-0.8409353673105444,False,
+logistic,r=1.2,vamp2,spurious count,15,-0.6956215901690542,False,3.7777777777777777
+logistic,r=1.2,vamp2,unified score,15,-0.3382377298657882,False,
+logistic,r=2.5,sc,spectral bias (s-hat),15,-0.20007579426341102,True,
+logistic,r=2.5,sc,spurious count,15,-0.5198860868250312,False,2.1818181818181817
+logistic,r=2.5,sc,unified score,15,0.5237229365663817,False,
+logistic,r=2.5,vamp2,spectral bias (s-hat),15,-0.814987639017931,False,
+logistic,r=2.5,vamp2,spurious count,15,-0.7365052896687944,False,2.818181818181818
+logistic,r=2.5,vamp2,unified score,15,0.05091750772173156,False,
+logistic,r=3.2,sc,spectral bias (s-hat),15,0.11574164195241902,False,
+logistic,r=3.2,sc,spurious count,15,0.07783522603251962,False,2.7
+logistic,r=3.2,sc,unified score,15,0.5309968662409148,False,
+logistic,r=3.2,vamp2,spectral bias (s-hat),15,-0.8210422725999723,False,
+logistic,r=3.2,vamp2,spurious count,15,-0.8199850556449159,False,2.8
+logistic,r=3.2,vamp2,unified score,15,-0.2982311166558563,False,
+logistic,r=4.0,sc,spectral bias (s-hat),15,0.2640356207039559,True,
+logistic,r=4.0,sc,spurious count,15,0.19657820241165552,False,2.8
+logistic,r=4.0,sc,unified score,15,0.5128120420545821,False,
+logistic,r=4.0,vamp2,spectral bias (s-hat),15,-0.7631714516237629,False,
+logistic,r=4.0,vamp2,spurious count,15,-0.7499094388296489,False,2.9
+logistic,r=4.0,vamp2,unified score,15,-0.16366341767699427,False,
+ou,all,sc,true eigenvalue error,58,-0.4819896028792027,False,7.967089392021896
+ou,all,sc,spectral bias (s-hat),58,-0.7607063836002761,False,
+ou,all,sc,spurious count,58,-0.3415363154179788,False,0.6862745098039216
+ou,all,sc,unified score,58,-0.6828570549693931,False,
+ou,all,vamp2,true eigenvalue error,58,-0.45732654541915163,False,5.998016648188419
+ou,all,vamp2,spectral bias (s-hat),58,-0.8770132531325532,False,
+ou,all,vamp2,spurious count,58,-0.13248677789150362,True,0.0
+ou,all,vamp2,unified score,58,-0.6935109279931911,False,
+rot,omega=0.0,sc,spectral bias (s-hat),58,-0.5717230145868699,False,
+rot,omega=0.0,sc,spurious count,58,-0.4653503248182703,False,1.4705882352941178
+rot,omega=0.0,sc,unified score,58,-0.722661416838414,False,
+rot,omega=0.0,vamp2,spectral bias (s-hat),58,-0.7113852414485534,False,
+rot,omega=0.0,vamp2,spurious count,58,-0.4747214070908586,False,1.9411764705882353
+rot,omega=0.0,vamp2,unified score,58,-0.6297025439109171,False,
+rot,omega=0.5,sc,spectral bias (s-hat),58,-0.6547820481830252,False,
+rot,omega=0.5,sc,spurious count,58,-0.3335038436285488,False,1.5294117647058822
+rot,omega=0.5,sc,unified score,58,-0.7321357162631887,False,
+rot,omega=0.5,vamp2,spectral bias (s-hat),58,-0.7639277708493806,False,
+rot,omega=0.5,vamp2,spurious count,58,-0.5488900325730016,False,1.9411764705882353
+rot,omega=0.5,vamp2,unified score,58,-0.6925774400935126,False,
+rot,omega=1.0,sc,spectral bias (s-hat),58,-0.5495124137511572,False,
+rot,omega=1.0,sc,spurious count,58,-0.23374357466179038,False,1.9285714285714286
+rot,omega=1.0,sc,unified score,58,-0.6749823125903597,False,
+rot,omega=1.0,vamp2,spectral bias (s-hat),58,-0.7149031739726424,False,
+rot,omega=1.0,vamp2,spurious count,58,-0.41579462097371256,False,2.5714285714285716
+rot,omega=1.0,vamp2,unified score,58,-0.6771767384715951,False,
+rot,omega=2.0,sc,spectral bias (s-hat),58,-0.6171286196194348,False,
+rot,omega=2.0,sc,spurious count,58,-0.13021546243621984,False,1.5555555555555554
+rot,omega=2.0,sc,unified score,58,-0.7307207234919562,False,
+rot,omega=2.0,vamp2,spectral bias (s-hat),58,-0.713169472540619,False,
+rot,omega=2.0,vamp2,spurious count,58,-0.5474564650091324,False,1.777777777777778
+rot,omega=2.0,vamp2,unified score,58,-0.7022978252176322,False,

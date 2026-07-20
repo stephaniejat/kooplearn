@@ -1,0 +1,43 @@
+system,kind,method,truth,n,spearman,top1_ok,rel_regret
+duffing,omega=0.5,SSL+CCA,agg_bias_mean,3,1.0,True,0.0
+duffing,omega=0.5,SSL+CCA,mean_spurious_residual_count,3,0.0,False,0.19999999999999996
+duffing,omega=0.5,SSL+Ridge (PCR),agg_bias_mean,3,0.5,True,0.0
+duffing,omega=0.5,SSL+Ridge (PCR),mean_spurious_residual_count,3,1.0,True,0.0
+duffing,omega=0.5,SSL+Ridge (RRR),agg_bias_mean,3,0.5,True,0.0
+duffing,omega=0.5,SSL+Ridge (RRR),mean_spurious_residual_count,3,0.8660254037844387,True,0.0
+duffing,omega=1.5,SSL+CCA,agg_bias_mean,3,1.0,True,0.0
+duffing,omega=1.5,SSL+CCA,mean_spurious_residual_count,3,-0.5,False,1.0
+duffing,omega=1.5,SSL+Ridge (PCR),agg_bias_mean,3,0.5,True,0.0
+duffing,omega=1.5,SSL+Ridge (PCR),mean_spurious_residual_count,3,0.8660254037844387,True,0.0
+duffing,omega=1.5,SSL+Ridge (RRR),agg_bias_mean,3,0.5,True,0.0
+duffing,omega=1.5,SSL+Ridge (RRR),mean_spurious_residual_count,3,0.8660254037844387,True,0.0
+duffing,omega=3.0,SSL+CCA,agg_bias_mean,3,-0.5,False,0.17905092417882984
+duffing,omega=3.0,SSL+CCA,mean_spurious_residual_count,3,-0.8660254037844387,False,0.5000000000000001
+duffing,omega=3.0,SSL+Ridge (PCR),agg_bias_mean,3,1.0,True,0.0
+duffing,omega=3.0,SSL+Ridge (PCR),mean_spurious_residual_count,3,0.8660254037844387,True,0.0
+duffing,omega=3.0,SSL+Ridge (RRR),agg_bias_mean,3,1.0,True,0.0
+duffing,omega=3.0,SSL+Ridge (RRR),mean_spurious_residual_count,3,0.8660254037844387,True,0.0
+graph,cycle_12,SSL+CCA,agg_bias_mean,3,0.5,True,0.0
+graph,cycle_12,SSL+CCA,mean_spurious_residual_count,3,0.0,False,1.0
+graph,cycle_12,SSL+Ridge (PCR),agg_bias_mean,3,0.5,True,0.0
+graph,cycle_12,SSL+Ridge (RRR),agg_bias_mean,3,0.5,True,0.0
+graph,path_12,SSL+CCA,agg_bias_mean,3,1.0,True,0.0
+graph,path_12,SSL+CCA,mean_spurious_residual_count,3,-1.0,False,1.6666666666666665
+graph,path_12,SSL+Ridge (PCR),agg_bias_mean,3,1.0,True,0.0
+graph,path_12,SSL+Ridge (PCR),mean_spurious_residual_count,3,-0.8660254037844387,False,0.33333333333333326
+graph,path_12,SSL+Ridge (RRR),agg_bias_mean,3,1.0,True,0.0
+graph,path_12,SSL+Ridge (RRR),mean_spurious_residual_count,3,-1.0,False,0.33333333333333326
+langevin,all,SSL+CCA,agg_bias_mean,3,-0.5,False,5.328315903487246
+langevin,all,SSL+CCA,mean_spurious_residual_count,3,0.8660254037844387,True,0.0
+langevin,all,SSL+Ridge (PCR),agg_bias_mean,3,-1.0,False,14.070512931127167
+langevin,all,SSL+Ridge (PCR),mean_spurious_residual_count,3,1.0,True,0.0
+langevin,all,SSL+Ridge (RRR),agg_bias_mean,3,-1.0,False,1444.3033336573385
+langevin,all,SSL+Ridge (RRR),mean_spurious_residual_count,3,1.0,True,0.0
+linear,A=rev,SSL+CCA,agg_bias_mean,3,-0.5,False,1.107083506721368
+linear,A=rev,SSL+CCA,mean_spurious_residual_count,3,1.0,True,0.0
+linear,A=rev,SSL+Ridge (PCR),agg_bias_mean,3,-1.0,False,81.54006558941677
+linear,A=rev,SSL+Ridge (RRR),agg_bias_mean,3,-1.0,False,47.294292528559495
+linear,A=rot,SSL+CCA,agg_bias_mean,3,-0.5,False,0.6507228891484008
+linear,A=rot,SSL+CCA,mean_spurious_residual_count,3,1.0,True,0.0
+linear,A=rot,SSL+Ridge (PCR),agg_bias_mean,3,-1.0,False,134.7249718453183
+linear,A=rot,SSL+Ridge (RRR),agg_bias_mean,3,-1.0,False,41.28572679212671
