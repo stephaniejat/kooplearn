@@ -1,3 +1,0 @@
-method,has_all_kinds,score_good,score_bad,score_ugly,rank_good,rank_bad,rank_ugly,good_lt_bad,bad_lt_ugly,good_lt_ugly,full_order_correct
-PCR,True,-4.646313034329098,0.32919446055869245,1.9304528599393427,1,3,5,True,True,True,True
-Reduced Rank,True,-1.172265222439513,1.6284780762856281,1.9304528599849493,2,4,6,True,True,True,True
