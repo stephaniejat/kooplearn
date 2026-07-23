@@ -55,7 +55,9 @@ def horizon_mode_terms(lam, sigma, H=H):
     return instab, sens
 
 
-def horizon_terms(modes_df, H=H, mode_weights=MODE_W, group_cols=("kernel", "kind", "method")):
+def horizon_terms(
+    modes_df, H=H, mode_weights=MODE_W, group_cols=("kernel", "kind", "method")
+):
     r"""Aggregate long-horizon terms per candidate from per-mode trial records.
 
     ``modes_df`` is the per-mode metrics table (the same records handed to
@@ -105,10 +107,145 @@ def horizon_terms(modes_df, H=H, mode_weights=MODE_W, group_cols=("kernel", "kin
 
 # ===========================================================================
 # --- SSL selection criteria: spectral-contrastive loss & VAMP-2 ------------
+# ---------------------------------------------------------------------------
+# Two input regimes:
+#
+#   * ENCODER features  phi_X, phi_Y  (shape N x D)  -> use kooplearn's NATIVE
+#     losses `SpectralContrastiveLoss` / `VampLoss`, via `sc_score` / `vamp2_score`
+#     below.  This is the reference implementation used to *train* the encoders.
+#
+#   * KERNEL Gram matrices  K = K(X, Y)  (shape N x N)  -> no explicit finite
+#     features, so the native (feature-space) losses do not apply directly.  The
+#     kernel-space `sc_criterion` / `vamp2_r` below are the Gram-matrix analogues:
+#       - `sc_criterion` is *provably identical* to native SpectralContrastiveLoss
+#         with K = phi(X) phi(Y)^T  (verified to machine precision).
+#       - `vamp2_r` is a bounded, rank-r, canonical-correlation VAMP-2 in kernel
+#         space; it is the natural RKHS counterpart of native VampLoss(p=2), which
+#         instead sums *all* squared singular values of the feature-covariance
+#         whitened operator.
 # ===========================================================================
+
+# ---- native kooplearn losses (soft torch/jax dependency) ------------------
+# The native losses live behind torch/jax extras.  Import them if available and
+# otherwise fall back to numpy reimplementations that reproduce kooplearn's
+# formulas exactly (`_sc_features` verified identical; `_vamp_features` mirrors
+# kooplearn.torch.nn._functional.vamp_loss).
+_KL_BACKEND = None
+try:  # preferred: torch backend
+    from kooplearn.torch.nn import (
+        SpectralContrastiveLoss as _SCLoss,
+        VampLoss as _VampLoss,
+    )
+    import torch as _torch
+
+    _KL_BACKEND = "torch"
+except Exception:  # pragma: no cover - optional deps
+    try:  # jax backend
+        from kooplearn.jax.nn import (
+            SpectralContrastiveLoss as _SCLoss,
+            VampLoss as _VampLoss,
+        )
+        import jax.numpy as _jnp
+
+        _KL_BACKEND = "jax"
+    except Exception:
+        _KL_BACKEND = None
+
+
+def _sc_features(x, y):
+    """numpy reimplementation of kooplearn SpectralContrastiveLoss (lower=better)."""
+    x = np.asarray(x, float)
+    y = np.asarray(y, float)
+    npts, dim = x.shape
+    diag = 2.0 * np.mean(x * y) * dim
+    sq = (x @ y.T) ** 2
+    off = np.mean(np.triu(sq, 1) + np.tril(sq, -1)) * npts / (npts - 1)
+    return float(off - diag)
+
+
+def _covariance(X, Y=None, center=True):
+    """kooplearn-style (cross-)covariance: (X/sqrt(N))^T (Y/sqrt(N)), optionally centered."""
+    n = np.sqrt(X.shape[0])
+    X = np.asarray(X, float) / n
+    if Y is None:
+        if center:
+            X = X - X.mean(0, keepdims=True)
+        return X.T @ X
+    Y = np.asarray(Y, float) / n
+    if center:
+        X = X - X.mean(0, keepdims=True)
+        Y = Y - Y.mean(0, keepdims=True)
+    return X.T @ Y
+
+
+def _vamp_features(x, y, schatten_norm=2, center_covariances=True):
+    """numpy reimplementation of kooplearn VampLoss VAMP-p score (higher=better).
+
+    Returns +score (kooplearn's `vamp_loss` returns the negative, as a loss)."""
+    cx = _covariance(x, center=center_covariances)
+    cy = _covariance(y, center=center_covariances)
+    cxy = _covariance(x, y, center=center_covariances)
+    if schatten_norm == 2:
+        m_x = np.linalg.lstsq(cx, cxy, rcond=None)[0]
+        m_y = np.linalg.lstsq(cy, cxy.T, rcond=None)[0]
+        return float(np.trace(m_x @ m_y))
+    elif schatten_norm == 1:
+
+        def _inv_sqrt(C):
+            w, V = np.linalg.eigh(C)
+            w = np.clip(w, np.finfo(float).eps * C.shape[0], None)
+            return (V / np.sqrt(w)) @ V.T
+
+        A = _inv_sqrt(cx) @ cxy @ _inv_sqrt(cy)
+        return float(np.sum(np.linalg.svd(A, compute_uv=False)))
+    raise NotImplementedError(f"Schatten norm {schatten_norm} not implemented")
+
+
+def sc_score(phi_X, phi_Y):
+    r"""Spectral-contrastive score on ENCODER features (lower = better).
+
+    Thin wrapper over kooplearn's native ``SpectralContrastiveLoss`` when the
+    torch/jax extra is installed; otherwise an exact numpy reimplementation.
+
+    ``phi_X``, ``phi_Y`` are the encoded lagged pairs, shape ``(N, D)``.
+    """
+    if _KL_BACKEND == "torch":
+        return float(
+            _SCLoss()(
+                _torch.as_tensor(np.asarray(phi_X), dtype=_torch.float64),
+                _torch.as_tensor(np.asarray(phi_Y), dtype=_torch.float64),
+            )
+        )
+    if _KL_BACKEND == "jax":
+        return float(_SCLoss()(_jnp.asarray(phi_X), _jnp.asarray(phi_Y)))
+    return _sc_features(phi_X, phi_Y)
+
+
+def vamp2_score(phi_X, phi_Y, *, schatten_norm=2, center_covariances=True):
+    r"""VAMP-p score on ENCODER features (higher = better).
+
+    Thin wrapper over kooplearn's native ``VampLoss`` (returns the *negated*
+    loss, i.e. the score) when torch/jax is installed; otherwise an exact numpy
+    reimplementation.  ``schatten_norm=2`` gives the standard VAMP-2 score.
+    """
+    if _KL_BACKEND == "torch":
+        loss = _VampLoss(
+            schatten_norm=schatten_norm, center_covariances=center_covariances
+        )(
+            _torch.as_tensor(np.asarray(phi_X), dtype=_torch.float64),
+            _torch.as_tensor(np.asarray(phi_Y), dtype=_torch.float64),
+        )
+        return -float(loss)
+    if _KL_BACKEND == "jax":
+        loss = _VampLoss(
+            schatten_norm=schatten_norm, center_covariances=center_covariances
+        )(_jnp.asarray(phi_X), _jnp.asarray(phi_Y))
+        return -float(loss)
+    return _vamp_features(phi_X, phi_Y, schatten_norm, center_covariances)
+
+
 def sc_criterion(K_xy_val):
-    r"""Spectral-contrastive loss from the cross-kernel matrix on lagged
-    validation pairs (lower = better).
+    r"""Spectral-contrastive loss from the cross-kernel Gram matrix (lower = better).
 
     .. math::
 
@@ -116,6 +253,11 @@ def sc_criterion(K_xy_val):
                       - \frac{2}{N}\sum_i K_{ii},
 
     with :math:`K = K(X_\text{val}, Y_\text{val})` the cross-kernel Gram matrix.
+
+    This is exactly kooplearn's native ``SpectralContrastiveLoss`` evaluated with
+    :math:`K = \phi(X)\,\phi(Y)^\top` (verified identical to machine precision) --
+    it is the kernel-space form used when explicit features are unavailable.  For
+    encoder features prefer :func:`sc_score`, which calls the native loss.
     """
     K = np.asarray(K_xy_val, float)
     N = K.shape[0]
@@ -135,6 +277,13 @@ def vamp2_r(K_X, K_Y, K_XY, r=R_VAMP, eps=EPS_WHITEN):
 
     the singular values being the estimated canonical correlations
     (clipped to :math:`[0, 1]`).  ``eps`` ridges the whitening eigenvalues.
+
+    Relation to native ``VampLoss(schatten_norm=2)``: the native score sums *all*
+    squared singular values of the **feature-covariance** whitened operator
+    :math:`(x^\top x)^{\dagger/2} x^\top y (y^\top y)^{\dagger/2}`, uncentered/uncipped.
+    This kernel-space variant is deliberately rank-``r`` (matching modes 1..r) and
+    clipped to canonical correlations, so it is bounded in :math:`[0, r]`.  For
+    encoder features prefer :func:`vamp2_score`, which calls the native loss.
     """
     n = K_X.shape[0]
 
@@ -152,11 +301,14 @@ def vamp2_r(K_X, K_Y, K_XY, r=R_VAMP, eps=EPS_WHITEN):
 def kernel_selection_criteria(
     K_fn, X_tr, Y_tr, X_val, Y_val, *, r=R_VAMP, n_vamp=N_VAMP, eps=EPS_WHITEN
 ):
-    r"""Both SSL criteria for ONE kernel on ONE data draw.
+    r"""Both SSL criteria for ONE **kernel** on ONE data draw (Gram-matrix regime).
 
     ``K_fn(A, B)`` must return the Gram matrix between row-sets ``A`` and ``B``.
     VAMP-2 uses a size-``n_vamp`` subsample of the training pairs (the whitening
     SVD is :math:`O(n^3)`); SC uses the full validation pairs.
+
+    For learned **encoders** (explicit features), use
+    :func:`feature_selection_criteria`, which calls kooplearn's native losses.
 
     Returns ``{"sc": ..., "vamp2": ...}`` -- merge into the trial record so the
     scorer picks them up as per-trial ``sc`` / ``vamp2`` columns.
@@ -165,7 +317,38 @@ def kernel_selection_criteria(
     K_x = K_fn(X_tr[sub], X_tr[sub])
     K_y = K_fn(Y_tr[sub], Y_tr[sub])
     K_xy = K_fn(X_tr[sub], Y_tr[sub])
-    return {"sc": sc_criterion(K_fn(X_val, Y_val)), "vamp2": vamp2_r(K_x, K_y, K_xy, r=r, eps=eps)}
+    return {
+        "sc": sc_criterion(K_fn(X_val, Y_val)),
+        "vamp2": vamp2_r(K_x, K_y, K_xy, r=r, eps=eps),
+    }
+
+
+def feature_selection_criteria(
+    phi_X_tr,
+    phi_Y_tr,
+    phi_X_val,
+    phi_Y_val,
+    *,
+    schatten_norm=2,
+    center_covariances=True,
+):
+    r"""Both SSL criteria for ONE **encoder** on ONE data draw (feature regime).
+
+    ``phi_*`` are encoded lagged pairs, shape ``(N, D)``.  Uses kooplearn's native
+    ``SpectralContrastiveLoss`` / ``VampLoss`` (or the exact numpy fallback).  SC is
+    evaluated on the validation pairs; VAMP-2 on the training pairs.
+
+    Returns ``{"sc": ..., "vamp2": ...}`` for merging into the trial record.
+    """
+    return {
+        "sc": sc_score(phi_X_val, phi_Y_val),
+        "vamp2": vamp2_score(
+            phi_X_tr,
+            phi_Y_tr,
+            schatten_norm=schatten_norm,
+            center_covariances=center_covariances,
+        ),
+    }
 
 
 # ---------------------------------------------------------------------------
@@ -415,7 +598,10 @@ def composite_score(
         trial_spec = {
             "spurious_ref_count": [("mean_spurious_ref_count", "mean")],
             "spurious_residual_count": [("mean_spurious_residual_count", "mean")],
-            "spectral_gap": [("mean_spectral_gap", "mean"), ("std_spectral_gap", "std")],
+            "spectral_gap": [
+                ("mean_spectral_gap", "mean"),
+                ("std_spectral_gap", "std"),
+            ],
             "rank": [("mean_rank", "mean")],
         }
         named_agg = {
@@ -464,18 +650,27 @@ def composite_score(
         if ssrc is not None:
             wa = (
                 summary.groupby(group_cols, as_index=False)
-                .apply(lambda g, c=ssrc: pd.Series({out_name: _wavg(g, c)}), include_groups=False)
+                .apply(
+                    lambda g, c=ssrc: pd.Series({out_name: _wavg(g, c)}),
+                    include_groups=False,
+                )
                 .reset_index(drop=True)
             )
             mode_agg_df = mode_agg_df.merge(wa, on=group_cols, how="left")
 
     # ---- optional: explicit pre-computed per-candidate axes (override) -----
     if extra_metrics is not None:
-        on = [c for c in group_cols if c in extra_metrics.columns and c in mode_agg_df.columns]
+        on = [
+            c
+            for c in group_cols
+            if c in extra_metrics.columns and c in mode_agg_df.columns
+        ]
         if on:
             add = [c for c in extra_metrics.columns if c not in on]
             # drop any placeholder columns we are about to override
-            mode_agg_df = mode_agg_df.drop(columns=[c for c in add if c in mode_agg_df.columns])
+            mode_agg_df = mode_agg_df.drop(
+                columns=[c for c in add if c in mode_agg_df.columns]
+            )
             mode_agg_df = mode_agg_df.merge(extra_metrics, on=on, how="left")
 
     # ---- stage 3: normalise (within pool) + weighted composite ------------
@@ -520,7 +715,10 @@ def composite_score(
     hc = hard_constraints or {}
     _upper = {  # constraint key -> (column, label)
         "max_spurious_ref_count": ("mean_spurious_ref_count", "spurious_ref"),
-        "max_spurious_residual_count": ("mean_spurious_residual_count", "spurious_residual"),
+        "max_spurious_residual_count": (
+            "mean_spurious_residual_count",
+            "spurious_residual",
+        ),
         "max_dist_mean": ("agg_dist_mean", "distortion"),
         "max_bias_mean": ("agg_bias_mean", "bias"),
         "max_trunc_mean": ("agg_trunc_mean", "truncation"),
@@ -530,7 +728,9 @@ def composite_score(
             _mark(pd.to_numeric(df[col], errors="coerce") > hc[key], label)
     if "min_spectral_gap" in hc and "mean_spectral_gap" in df.columns:
         _mark(
-            pd.to_numeric(df["mean_spectral_gap"], errors="coerce") < hc["min_spectral_gap"], "gap"
+            pd.to_numeric(df["mean_spectral_gap"], errors="coerce")
+            < hc["min_spectral_gap"],
+            "gap",
         )
 
     df["admissible"] = admissible
@@ -542,12 +742,18 @@ def composite_score(
     srt = df.sort_values(sort_keys, kind="mergesort")
 
     if pool_cols:
-        df["rank"] = (srt.groupby(pool_cols, dropna=False).cumcount() + 1).reindex(df.index)
+        df["rank"] = (srt.groupby(pool_cols, dropna=False).cumcount() + 1).reindex(
+            df.index
+        )
     else:
-        df["rank"] = pd.Series(np.arange(1, len(df) + 1), index=srt.index).reindex(df.index)
+        df["rank"] = pd.Series(np.arange(1, len(df) + 1), index=srt.index).reindex(
+            df.index
+        )
 
     srt_g = df.sort_values(["_infeasible", "composite_score"], kind="mergesort")
-    df["rank_overall"] = pd.Series(np.arange(1, len(df) + 1), index=srt_g.index).reindex(df.index)
+    df["rank_overall"] = pd.Series(
+        np.arange(1, len(df) + 1), index=srt_g.index
+    ).reindex(df.index)
     df = df.drop(columns="_infeasible")
 
     kernel_scores_df = (
@@ -623,6 +829,10 @@ def run_weight_sensitivity(
             top["scale"] = scale
             top_rows.append(top)
 
-    summary_df = pd.DataFrame(rows).sort_values(["varied_metric", "scale"]).reset_index(drop=True)
+    summary_df = (
+        pd.DataFrame(rows)
+        .sort_values(["varied_metric", "scale"])
+        .reset_index(drop=True)
+    )
     top_df = pd.concat(top_rows, ignore_index=True)
     return summary_df, top_df
