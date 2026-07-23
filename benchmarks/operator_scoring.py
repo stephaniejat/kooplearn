@@ -120,9 +120,18 @@ def horizon_terms(
 #       - `sc_criterion` is *provably identical* to native SpectralContrastiveLoss
 #         with K = phi(X) phi(Y)^T  (verified to machine precision).
 #       - `vamp2_r` is a bounded, rank-r, canonical-correlation VAMP-2 in kernel
-#         space; it is the natural RKHS counterpart of native VampLoss(p=2), which
-#         instead sums *all* squared singular values of the feature-covariance
-#         whitened operator.
+#         space.
+#
+# Definitional symmetry (kernels <-> encoders):
+#   The `vamp2` axis uses the SAME definition in both regimes -- the top-r squared
+#   canonical correlations, clipped to [0, 1] (bounded in [0, r]).  `vamp2_r`
+#   computes it from Gram matrices (RKHS); `vamp2_score` (default r=R_VAMP) computes
+#   it from features via `_vamp2_r_features`.  This fixes the earlier convention
+#   mismatch (kernels rank-r vs encoders full-rank).  NOTE the two are the same
+#   *definition*, not the same *number*: kernels whiten in the (N-dim) RKHS and
+#   encoders in the (D-dim) feature space, so for over-rich kernels the RKHS
+#   estimate saturates -- which is exactly why kernel VAMP-2 is a weak selector.
+#   Native full-rank VampLoss(p) remains available via `vamp2_score(..., r=None)`.
 # ===========================================================================
 
 # ---- native kooplearn losses (soft torch/jax dependency) ------------------
@@ -201,6 +210,31 @@ def _vamp_features(x, y, schatten_norm=2, center_covariances=True):
     raise NotImplementedError(f"Schatten norm {schatten_norm} not implemented")
 
 
+def _vamp2_r_features(x, y, r=R_VAMP, center=False, eps=EPS_WHITEN):
+    r"""Rank-``r`` clipped VAMP-2 on features -- the feature-space twin of the
+    kernel :func:`vamp2_r`.
+
+    Whitened cross-operator :math:`(x^\top x)^{-1/2} x^\top y (y^\top y)^{-1/2}`
+    (feature covariances), top-``r`` squared singular values, clipped to canonical
+    correlations :math:`[0, 1]`.  Uncentered by default, using the **same definition**
+    as the kernel :func:`vamp2_r` (they estimate the same population canonical
+    correlations; numbers coincide only in the well-conditioned limit -- the RKHS
+    version saturates for over-rich kernels).  Bounded in :math:`[0, r]`.
+    """
+    cx = _covariance(x, center=center)
+    cy = _covariance(y, center=center)
+    cxy = _covariance(x, y, center=center)
+
+    def _inv_sqrt(C):
+        w, V = np.linalg.eigh(C)
+        w = np.clip(w, eps, None)
+        return (V / np.sqrt(w)) @ V.T
+
+    A = _inv_sqrt(cx) @ cxy @ _inv_sqrt(cy)
+    s = np.clip(np.linalg.svd(A, compute_uv=False), 0, 1.0 + 1e-6)
+    return float(np.sum(s[:r] ** 2))
+
+
 def sc_score(phi_X, phi_Y):
     r"""Spectral-contrastive score on ENCODER features (lower = better).
 
@@ -221,13 +255,24 @@ def sc_score(phi_X, phi_Y):
     return _sc_features(phi_X, phi_Y)
 
 
-def vamp2_score(phi_X, phi_Y, *, schatten_norm=2, center_covariances=True):
-    r"""VAMP-p score on ENCODER features (higher = better).
+def vamp2_score(phi_X, phi_Y, *, r=R_VAMP, schatten_norm=2, center_covariances=False):
+    r"""VAMP-2 score on ENCODER features (higher = better).
 
-    Thin wrapper over kooplearn's native ``VampLoss`` (returns the *negated*
-    loss, i.e. the score) when torch/jax is installed; otherwise an exact numpy
-    reimplementation.  ``schatten_norm=2`` gives the standard VAMP-2 score.
+    ``r`` : int or None
+        * ``int`` (default ``R_VAMP=3``) -- rank-``r`` clipped VAMP-2, the
+          feature-space twin of the kernel :func:`vamp2_r`.  This is the value
+          used for scoring, so the ``vamp2`` axis is defined **identically** for
+          kernels and encoders (top-``r`` squared canonical correlations,
+          bounded in :math:`[0, r]`).  Uncentered by default, matching the kernel
+          version.
+        * ``None`` -- kooplearn's **native full-rank** ``VampLoss`` (Schatten-``p``,
+          via torch/jax when installed, else an exact numpy fallback).  Use for a
+          textbook full-rank VAMP-``p`` score.
     """
+    if r is not None:
+        # rank-r clipped, definitionally symmetric with the kernel vamp2_r
+        return _vamp2_r_features(phi_X, phi_Y, r=r, center=center_covariances)
+    # r is None -> native full-rank VampLoss
     if _KL_BACKEND == "torch":
         loss = _VampLoss(
             schatten_norm=schatten_norm, center_covariances=center_covariances
@@ -329,25 +374,21 @@ def feature_selection_criteria(
     phi_X_val,
     phi_Y_val,
     *,
-    schatten_norm=2,
-    center_covariances=True,
+    r=R_VAMP,
 ):
     r"""Both SSL criteria for ONE **encoder** on ONE data draw (feature regime).
 
-    ``phi_*`` are encoded lagged pairs, shape ``(N, D)``.  Uses kooplearn's native
-    ``SpectralContrastiveLoss`` / ``VampLoss`` (or the exact numpy fallback).  SC is
-    evaluated on the validation pairs; VAMP-2 on the training pairs.
+    ``phi_*`` are encoded lagged pairs, shape ``(N, D)``.  SC uses kooplearn's
+    native ``SpectralContrastiveLoss`` (or exact fallback) on the validation pairs.
+    VAMP-2 uses the **rank-``r``** score on the training pairs, so the ``vamp2``
+    axis is defined identically to the kernel path (:func:`kernel_selection_criteria`).
+    Pass ``r=None`` for kooplearn's native full-rank ``VampLoss`` instead.
 
     Returns ``{"sc": ..., "vamp2": ...}`` for merging into the trial record.
     """
     return {
         "sc": sc_score(phi_X_val, phi_Y_val),
-        "vamp2": vamp2_score(
-            phi_X_tr,
-            phi_Y_tr,
-            schatten_norm=schatten_norm,
-            center_covariances=center_covariances,
-        ),
+        "vamp2": vamp2_score(phi_X_tr, phi_Y_tr, r=r),
     }
 
 
