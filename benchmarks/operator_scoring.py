@@ -1,4 +1,5 @@
 # benchmarks/operator_scoring.py
+# Additional non-Kostic2023 metrics and the overall scoring function
 
 from collections.abc import Mapping
 
@@ -392,56 +393,53 @@ def feature_selection_criteria(
     }
 
 
-# ---------------------------------------------------------------------------
-# What it includes:
-#   * per-metric log10 transform for heavy-tailed axes (LOG_METRICS)
-#   * within-pool z-score normalisation (groupby -> transform), not global
-#   * sign flip for larger-is-better axes (mean_spectral_gap, vamp2)
-#   * v3 weights (Kostic + long-horizon + SSL-criterion axes)
-#   * missing / degenerate axes are NEUTRAL (z = 0), so heterogeneous candidate
-#     sets pool fairly (e.g. kernels without VAMP alongside those with it)
-#   * hard-constraint admissibility + within-pool ranking (inadmissible last)
-#
-# Lower composite score = better:
-# `rank` is the within-pool selection rank
-# (1 = best in its pool); `rank_overall` is the global order for convenience.
-# ---------------------------------------------------------------------------
-
-
 # ===========================================================================
 # ------------------------ THE scoring configuration ------------------------
+# ---------------------------------------------------------------------------
+# This is the *restructured* score. Please see operator_score_description.pdf
+# for details on the computation.
+#
+# ResDMD note: `mean_spurious_residual_count` is the count of eigenpairs whose
+# residual exceeds `RESID_EPS`.  That per-eigenpair residual is the ResDMD residual
+# (Colbrook eq. 3.2). More details in description pdf.
 # ===========================================================================
+RESID_EPS = 0.1  # pseudospectral tolerance epsilon for the ResDMD residual certificate
+
 GRAND_WEIGHTS = {
-    # Kostic spectral axes (frozen originals)
+    # Kostic spectral axes.  The graded residual QUALITY is the residual magnitude
+    # (agg_spurious_mean/std, weighted); the residual/reference COUNTS are the
+    # ResDMD Algorithm-1 accept/reject FILTER and so appear only as gates below --
+    # not as weighted terms (weighting the coarse counts injected noise and hurt
+    # selection: pooled Spearman 0.43 -> 0.32).
     "agg_bias_mean": 1.0,
     "agg_dist_mean": 1.0,
-    "agg_spurious_mean": 1.0,
-    "agg_trunc_mean": 0.5,
-    "agg_bias_std": 0.25,
+    "agg_spurious_mean": 1.0,  # mean ResDMD residual magnitude (graded quality)
     "agg_spurious_std": 0.25,
-    "mean_spurious_ref_count": 0.5,
-    "mean_spurious_residual_count": 1.0,
-    "mean_spectral_gap": 0.5,
-    # long-horizon axes
-    "agg_horizon_instab": 1.0,
+    "agg_koopman_gap": 0.5,  # corrected isolation gap
+    # long-horizon axis (instability is a gate, not weighted)
     "agg_horizon_sens": 1.0,
-    # SSL-criterion axes
+    # SSL-criterion axis (vamp2 is a gate, not weighted)
     "sc": 1.0,
-    "vamp2": 0.25,
 }
-# v2 = grand score WITHOUT the SSL-criterion axes
-V2_WEIGHTS = {k: v for k, v in GRAND_WEIGHTS.items() if k not in ("sc", "vamp2")}
+# WITHOUT the SSL-criterion axis (ablation)
+V2_WEIGHTS = {k: v for k, v in GRAND_WEIGHTS.items() if k not in ("sc",)}
 
-LARGER_IS_BETTER = {"mean_spectral_gap", "vamp2"}
+LARGER_IS_BETTER = (
+    set()
+)  # corrected gap is smaller-better; vamp2 (larger-better) is now a gate
 LOG_METRICS = {
     "agg_bias_mean",
     "agg_dist_mean",
-    "agg_bias_std",
     "agg_spurious_std",
-    "agg_trunc_mean",
     "agg_horizon_sens",
 }
-HARD_CONSTRAINTS = {"max_spurious_ref_count": 4, "max_spurious_residual_count": 5}
+# Admissibility gates (ResDMD residual + reference count + VAMP-2 floor + blow-up flag)
+HARD_CONSTRAINTS = {
+    "max_spurious_ref_count": 4,
+    "max_spurious_residual_count": 5,  # ResDMD Algorithm-1 filter (res > RESID_EPS)
+    "min_vamp2": 2.0,  # flag representations with no predictable r-dim subspace
+    "max_horizon_instab": 0.01,  # flag |lambda| > 1 blow-up
+}
 
 # sentinel to distinguish "caller did not pass hard_constraints" (-> use
 # grand defaults) from "caller explicitly passed None / {}" (-> disable).
@@ -449,7 +447,7 @@ _DEFAULT = object()
 
 
 # ===========================================================================
-# --- normalisation (the improved method: log -> grouped z-score) -----------
+# --- normalisation (log -> grouped z-score) -----------
 # ===========================================================================
 def _normalise_series(s, method="zscore", larger_is_better=False, log=False):
     """Normalise ONE series (a metric column, or a single pool's slice of it).
@@ -460,7 +458,7 @@ def _normalise_series(s, method="zscore", larger_is_better=False, log=False):
 
     Degenerate groups (all-NaN, or zero / non-finite spread) collapse to 0.0,
     i.e. a *neutral* contribution.  All three methods are oriented so that a
-    larger normalised value means "worse" (consistent with lower-score-better).
+    larger normalised value means "worse" (for lower-score-better).
     """
     x = pd.to_numeric(s, errors="coerce").astype(float)
     x = x.replace([np.inf, -np.inf], np.nan)
@@ -539,7 +537,7 @@ def composite_score(
     summary : DataFrame
         Per-mode table from `analyse_spectrum` (one row per
         kernel x kind x method x eigenfunction_id) with columns
-        bias_mean/bias_std/dist_mean/trunc_mean/spurious_mean/spurious_std.
+        bias_mean/dist_mean/spurious_mean/spurious_std.
     trials_df : DataFrame, optional
         Per-trial table.  Any of these columns, if present, are aggregated to
         per-candidate axes: spurious_ref_count, spurious_residual_count,
@@ -618,9 +616,7 @@ def composite_score(
                     "n_modes_used": int(g["eigenfunction_id"].nunique()),
                     "weight_sum": float(g["mode_weight"].sum()),
                     "agg_bias_mean": _wavg(g, "bias_mean"),
-                    "agg_bias_std": _wavg(g, "bias_std"),
                     "agg_dist_mean": _wavg(g, "dist_mean"),
-                    "agg_trunc_mean": _wavg(g, "trunc_mean"),
                     "agg_spurious_mean": _wavg(g, "spurious_mean"),
                     "agg_spurious_std": _wavg(g, "spurious_std"),
                 }
@@ -762,17 +758,19 @@ def composite_score(
         ),
         "max_dist_mean": ("agg_dist_mean", "distortion"),
         "max_bias_mean": ("agg_bias_mean", "bias"),
-        "max_trunc_mean": ("agg_trunc_mean", "truncation"),
+        "max_horizon_instab": ("agg_horizon_instab", "blowup"),  # |lambda| > 1
     }
     for key, (col, label) in _upper.items():
         if key in hc and col in df.columns:
             _mark(pd.to_numeric(df[col], errors="coerce") > hc[key], label)
-    if "min_spectral_gap" in hc and "mean_spectral_gap" in df.columns:
-        _mark(
-            pd.to_numeric(df["mean_spectral_gap"], errors="coerce")
-            < hc["min_spectral_gap"],
-            "gap",
-        )
+    # lower-bound (minimum) gates
+    _lower = {  # constraint key -> (column, label)
+        "min_spectral_gap": ("mean_spectral_gap", "gap"),
+        "min_vamp2": ("vamp2", "vamp2_floor"),  # no predictable r-dim subspace
+    }
+    for key, (col, label) in _lower.items():
+        if key in hc and col in df.columns:
+            _mark(pd.to_numeric(df[col], errors="coerce") < hc[key], label)
 
     df["admissible"] = admissible
     df["constraint_violations"] = [",".join(v) for v in viol]

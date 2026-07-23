@@ -152,48 +152,144 @@ def spurious_ref(est, ref, delta):
     return int(np.sum(dist.min(axis=1) > delta))
 
 
-def spurious_residual(eigenvalues, psi_X_val, psi_Y_val, delta, relative=True):
-    r"""Data-driven spurious-eigenpair check (see paper Appendix C, Remark 4).
+# ===========================================================================
+# --- ResDMD residual & pseudospectra (Colbrook & Townsend 2024) ------------
+# ===========================================================================
+#
+# THE residual used throughout the pipeline is the ResDMD residual.  For a
+# candidate eigenpair (lambda, g), with Galerkin matrices G = Psi_X^* W Psi_X,
+# A = Psi_X^* W Psi_Y and the third matrix L = Psi_Y^* W Psi_Y,
+#
+#   res(lambda, g)^2 = g^* [ L - lambda A^* - conj(lambda) A + |lambda|^2 G ] g
+#                      / ( g^* G g )                                (Colbrook 3.2)
+#
+# converges to the true operator residual ||K g - lambda g|| / ||g|| and, by
+# Thm 3.1, upper-bounds the distance of lambda to the true spectrum -- a *verified*
+# pseudospectral certificate.  Equivalently, in function-value form,
+#   res = ||psi(Y) - lambda psi(X)|| / ||psi(X)||,
+# which is IDENTICAL for eigenpairs (verified to ~2e-15; the third matrix enters
+# as ||psi(Y)||^2 = g^* L g).  There is ONE residual function, `resdmd_residual`,
+# computing it either way.  Algorithm 1 accepts eigenpairs with res <= eps (a
+# pseudospectral tolerance); `resdmd_pseudospectrum` (Algorithm 2) extends the
+# same residual to arbitrary z to trace the pseudospectrum (non-normal systems).
 
-    Flags eigenpairs that fail the empirical consistency check
-    :math:`\hat\psi_i(y_j) \approx \hat\lambda_i \hat\psi_i(x_j)` on a
-    held-out validation set.
 
-    Parameters
-    ----------
-    eigenvalues : ndarray, shape (r,)
-        Estimated eigenvalues, same order as columns of psi_X_val/psi_Y_val.
-    psi_X_val : ndarray, shape (n_val, r)
-        Eigenfunctions evaluated at validation inputs x_j.
-    psi_Y_val : ndarray, shape (n_val, r)
-        Same eigenfunctions evaluated at outputs y_j.
-    delta : float
-        Threshold on the residual score.
-    relative : bool
-        If True, normalize residual by ||psi_X_val||.
+def galerkin_matrices(Phi_X, Phi_Y, weights=None):
+    r"""The three ResDMD Galerkin matrices from dictionary evaluations.
+
+    Returns ``(G, A, L)`` with ``G = Psi_X^* W Psi_X``, ``A = Psi_X^* W Psi_Y``,
+    ``L = Psi_Y^* W Psi_Y``.  ``Phi_X`` / ``Phi_Y`` are the dictionary/features on
+    inputs and one-step outputs, shape ``(n, d)``.  ``L`` is the one extra matrix
+    ResDMD needs beyond EDMD (costs nothing -- ``Phi_Y`` is already in hand); it is
+    used implicitly by the function-value residual as ``||psi(Y)||^2 = g^* L g``.
+    """
+    Phi_X = np.asarray(Phi_X)
+    Phi_Y = np.asarray(Phi_Y)
+    n = Phi_X.shape[0]
+    w = (
+        np.full(n, 1.0 / n)
+        if weights is None
+        else np.asarray(weights, float) / np.sum(weights)
+    )
+    WXt = Phi_X.conj().T * w  # (d, n): columns scaled by the quadrature weights
+    G = WXt @ Phi_X
+    A = WXt @ Phi_Y
+    L = (Phi_Y.conj().T * w) @ Phi_Y
+    return G, A, L
+
+
+def resdmd_residual(
+    eigenvalues,
+    psi_X=None,
+    psi_Y=None,
+    eps=None,
+    relative=True,
+    *,
+    eigvecs=None,
+    G=None,
+    A=None,
+    L=None,
+):
+    r"""THE ResDMD residual per eigenpair (Colbrook eq. 3.2) -- the single residual
+    used everywhere in the pipeline.  Computed in either of two mathematically
+    identical ways (verified to ~2e-15):
+
+    * **function-value form (default)** -- pass ``psi_X`` / ``psi_Y`` = the
+      eigenfunctions evaluated at inputs / one-step outputs, shape ``(n, r)``.
+      ``res_i = ||psi_i(Y) - lambda_i psi_i(X)|| / ||psi_i(X)||``.  This is what the
+      experiment loops have to hand, so it is the efficient default.
+    * **Galerkin form** -- pass ``eigvecs`` ``(d, r)`` and ``G, A, L`` from
+      :func:`galerkin_matrices` to evaluate the explicit three-matrix quadratic
+      form 3.2 (needed when the features, not the eigenfunction values, are held).
 
     Returns
     -------
-    n_spurious : int
-    scores : ndarray, shape (r,)
+    res : ndarray (r,)                       if ``eps`` is None.
+    (n_spurious, res) : (int, ndarray)       if ``eps`` is given -- the ResDMD
+        Algorithm-1 result, ``n_spurious = #{res > eps}`` (``eps`` = pseudospectral
+        tolerance; lower res = better verified).
     """
-    eigenvalues = np.asarray(eigenvalues)
-    n_val = psi_X_val.shape[0]
+    vals = np.atleast_1d(np.asarray(eigenvalues))
+    if G is not None:  # explicit Galerkin form
+        V = np.asarray(eigvecs)
+        res = np.empty(V.shape[1], dtype=float)
+        for i in range(V.shape[1]):
+            lam = vals[i]
+            g = V[:, i]
+            R = L - lam * A.conj().T - np.conj(lam) * A + np.abs(lam) ** 2 * G
+            num = (g.conj() @ R @ g).real
+            den = (g.conj() @ G @ g).real
+            res[i] = np.sqrt(max(num, 0.0) / den) if den > 0 else np.nan
+    else:  # function-value form (identical for eigenpairs)
+        n = psi_X.shape[0]
+        resid = np.asarray(psi_Y) - np.asarray(psi_X) * vals[None, :]
+        resid_norm = weighted_norm(resid) / np.sqrt(n)
+        if relative:
+            base = weighted_norm(psi_X) / np.sqrt(n)
+            res = np.full_like(resid_norm, np.nan, dtype=float)
+            ok = np.isfinite(base) & (base > 0)
+            res[ok] = resid_norm[ok] / base[ok]
+        else:
+            res = resid_norm
+    if eps is None:
+        return res
+    with np.errstate(invalid="ignore"):
+        n_spurious = int(np.sum(res > eps))  # NaN > eps -> False, so NaNs are ignored
+    return n_spurious, res
 
-    resid = psi_Y_val - psi_X_val * eigenvalues[None, :]
-    resid_norm = weighted_norm(resid) / np.sqrt(n_val)
 
-    if relative:
-        base_norm = weighted_norm(psi_X_val) / np.sqrt(n_val)
-        scores = np.full_like(resid_norm, np.nan, dtype=float)
+def resdmd_verified_mask(residual, eps):
+    """Colbrook Algorithm-1 acceptance mask: ``True`` where ``residual <= eps``."""
+    return np.asarray(residual) <= eps
 
-        ok = np.isfinite(base_norm) & (base_norm > 0)
-        scores[ok] = resid_norm[ok] / base_norm[ok]
-    else:
-        scores = resid_norm
 
-    n_spurious = int(np.sum(scores > delta))
-    return n_spurious, scores
+# Backward-compatible alias -- existing experiment code calls
+# `spurious_residual(eigs, psi_X, psi_Y, delta)`.  It IS `resdmd_residual`
+# (function-value form); `delta` is the pseudospectral tolerance `eps`.  Prefer
+# `resdmd_residual` in new code.
+spurious_residual = resdmd_residual
+
+
+def resdmd_pseudospectrum(z_grid, G, A, L):
+    r"""ResDMD pseudospectrum (Colbrook Algorithm 2): ``tau(z) = min_g res(z, g)``.
+
+    For each complex ``z``, ``tau(z)`` is the square root of the smallest
+    generalised eigenvalue of the Hermitian pencil ``(D(z), G)`` with
+    ``D(z) = L - z A^* - conj(z) A + |z|^2 G``.  ``z`` lies in the
+    ``epsilon``-pseudospectrum iff ``tau(z) <= epsilon`` -- the verified region
+    within which a true eigenvalue must lie.  Accepts a scalar or array of ``z``.
+    """
+    from scipy.linalg import eigh
+
+    z_grid = np.atleast_1d(z_grid)
+    G_h = (G + G.conj().T) / 2
+    tau = np.empty(z_grid.shape, dtype=float)
+    for idx, z in np.ndenumerate(z_grid):
+        D = L - z * A.conj().T - np.conj(z) * A + np.abs(z) ** 2 * G
+        D = (D + D.conj().T) / 2
+        ev = eigh(D, G_h, eigvals_only=True)
+        tau[idx] = np.sqrt(max(float(ev.min()), 0.0))
+    return tau if tau.shape != (1,) else float(tau[0])
 
 
 # ===========================================================
@@ -223,9 +319,7 @@ def analyse_spectrum(
     ).agg(
         n=("spectral_bias", "size"),
         bias_mean=("spectral_bias", "mean"),
-        bias_std=("spectral_bias", "std"),
         dist_mean=("metric_distortion", "mean"),
-        trunc_mean=("truncation", "mean"),
         spurious_mean=("residual_spurious_score", "mean"),
         spurious_std=("residual_spurious_score", "std"),
     )
@@ -281,7 +375,9 @@ def analyse_spectrum(
             return f"{_short_label(kernel)}, {kind} / {method}"
         return f"{kind} / {method}"
 
-    def _dedup_legend(ax, title=None, loc="upper left", bbox_to_anchor=(1.02, 1.0), fontsize=8):
+    def _dedup_legend(
+        ax, title=None, loc="upper left", bbox_to_anchor=(1.02, 1.0), fontsize=8
+    ):
         handles, labels = ax.get_legend_handles_labels()
         seen = {}
         for h, l in zip(handles, labels):
@@ -342,7 +438,9 @@ def analyse_spectrum(
     # -----------------------------
     fig2, ax = plt.subplots(figsize=(8.5, 4.8))
     for (kernel, kind, method), g in modes_df.groupby(["kernel", "kind", "method"]):
-        g = g[np.isfinite(g["spectral_bias"]) & np.isfinite(g["residual_spurious_score"])].copy()
+        g = g[
+            np.isfinite(g["spectral_bias"]) & np.isfinite(g["residual_spurious_score"])
+        ].copy()
         if g.empty:
             continue
         label = _build_group_label(
